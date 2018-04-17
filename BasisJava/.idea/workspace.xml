@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="ovo">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/LogicControl.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/com/Yiran/Arithmetic.java" afterPath="$PROJECT_DIR$/src/com/Yiran/Arithmetic.java" />
     </list>
@@ -26,21 +25,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Arithmetic.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Arithmetic.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Yiran/Arithmetic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+            <state relative-caret-position="391">
+              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogicControl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LogicControl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Yiran/LogicControl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -360,7 +359,7 @@
       <workItem from="1523874513293" duration="980000" />
       <workItem from="1523875592409" duration="799000" />
       <workItem from="1523876493732" duration="4825000" />
-      <workItem from="1523945596957" duration="10080000" />
+      <workItem from="1523945596957" duration="10160000" />
     </task>
     <task id="LOCAL-00001" summary="~">
       <created>1523877373045</created>
@@ -383,11 +382,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523950167501</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="逻辑语句 if while for switch 方法--静态方法 一般方法初识">
+      <created>1523967398068</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1523967398068</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16684000" />
+    <option name="totallyTimeSpent" value="16764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="362" y="124" width="1229" height="877" extended-state="0" />
@@ -432,7 +438,8 @@
     <MESSAGE value="~" />
     <MESSAGE value="哈哈" />
     <MESSAGE value="ovo" />
-    <option name="LAST_COMMIT_MESSAGE" value="ovo" />
+    <MESSAGE value="逻辑语句 if while for switch 方法--静态方法 一般方法初识" />
+    <option name="LAST_COMMIT_MESSAGE" value="逻辑语句 if while for switch 方法--静态方法 一般方法初识" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -496,18 +503,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Arithmetic.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Yiran/LogicControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        <state relative-caret-position="374">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/LogicControl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Arithmetic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
           <folding />
         </state>
       </provider>
