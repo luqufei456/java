@@ -31,9 +31,35 @@ public class Arithmetic {
         * println   ln的意思是换行 java不像python会print自动换行
         * +         可以是运算符 也可以是连接符
         * */
+
+        // 算术运算符 + - * / % ++ --
         int a = 12; // 定义一个变量，再对其赋值， 叫做变量的初始化 也可以只定义，不赋值
-        int b = 13; // 变量只有赋值后才能使用   定义+赋值 = 初始化
+        int b = 5; // 变量只有赋值后才能使用   定义+赋值 = 初始化
         int sum = a + b;
-        System.out.println("a+b 的结果为：" + sum);
+
+        int c = a/b;  // 11
+        double d = a/b; // 11.0  两个整数类型运算，不会将自己转换为double类型 所以得到结果为11
+
+        int e = a%b; // 余数 结果为2
+
+        int f = a++; // 先参与运算，再对自己+1 相当于 int f = a; a = a + 1;
+        int g = ++a; // 先对自己+1，再参与运算 相当于 a = a + 1; int g = a;
+
+        int h =10;
+        h += a;  // 不能在初始化时直接用 +=  -= 等。 意思是  h = h + a
+
+        boolean i = a == b; // a == b 为false 其值赋给i
+        // 若为 i = a != b;  则i的值为true
+
+        boolean j = a>b & a==b; // 两个表达式同时成立才返回true   逻辑与
+        // boolean j = a>b | a==b;  有一个表达式成立就返回true  逻辑或
+        boolean k = !(a<b);  // 条件不成立时返回true  逻辑非
+        boolean l = a>b ^ a==b; // 一个为真 一个为假返回true  都为真 都为假时返回false  逻辑异或
+
+        int z = a>b?a:b; // a>b成立 a赋值给z  否则b赋值给z
+
+        System.out.println("a+b= " + sum);  // 这里的 + 是连接符，并不是运算符
+
+
     }
 }
