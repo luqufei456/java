@@ -21,5 +21,29 @@ public class DataType {
         int a2 = c2;
         System.out.println(a2);
 
+        //int a3 = 56;
+        //short b2 = 23;
+        //byte c3 = a3 + b2;
+        // 看上去值没有超过127，符合 但是计算机是看大空间的int和short进入小空间byte
+        // 损失了精度，所以不可以这么使用， 但是用 byte和short进入int就没问题
+
+        double b3 = 12f + 34.23; // 从低精度到高精度会自动转换，隐式转换
+
+        int a4 = (int)b3; // 高精度转低精度，要使用强制转换
+
+        int a5 = 55;
+        float b4 = a5;
+
+        // float a6 = 55.1F;
+        // int b5 = a6;
+
+        /**
+         * 重点：
+         * int是小数据，float是大数据，小数据到大数据转化不会报错。
+         * 这里我们所说的“大”与“小”,并不是指占用字节的多少,而是指表示值的范围的大小。
+         * 当一个较“小”数据与一个较“大”的数据一起运算时,系统将自动将“小”数据转换成“大”数据，
+         * 由“小”到“大”分别为 (byte，short，char)--int--long--float—double。
+         * */
+
     }
 }
