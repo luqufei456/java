@@ -77,6 +77,8 @@ public class Arithmetic {
 
     }
 
+
+    // 查看变量类型的一种方法： 自己定义静态方法 不过最好使用 name.getClass().toString();
     public static String getType(Object o){
         return o.getClass().toString();
     }
