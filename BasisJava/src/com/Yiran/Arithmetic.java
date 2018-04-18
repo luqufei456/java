@@ -64,9 +64,13 @@ public class Arithmetic {
         short aa = 1;
         aa += 2;
         System.out.println(getType(aa));  //  short类型
+        // aa = aa + 2;  报错 因为这里 2默认为 int类型
+        // 需要明确的是“+=”这个运算符在Java中是一个运算符，而不是两个，
+        // 程序在执行“+=”时，会自动向高精度进行数据类型转换。所以上面的程序在执行时编译器没有报错。
 
-        //aa = aa + 2;  报错 因为这里 2默认为 int类型
+
         Integer xx = 11;
+        // 在对象包装中包装了一个基本类型 int 的值，Integer 类型的对象包含一个 int 类型的字段。
         String bb = "22";
         System.out.println(xx.getClass().toString()); // getClass()是反射 后缀可以查看出其类型
         System.out.println(bb.getClass().toString()); // 没有toString() 返回一个class ,sout不能打印class
