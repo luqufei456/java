@@ -60,6 +60,47 @@ public class Arithmetic {
 
         System.out.println("a+b= " + sum);  // 这里的 + 是连接符，并不是运算符
 
+        // a += b; 和 a = a + b; 的区别
+        short aa = 1;
+        aa += 2;
+        System.out.println(getType(aa));  //  short类型
 
+        //aa = aa + 2;  报错 因为这里 2默认为 int类型
+        Integer xx = 11;
+        String bb = "22";
+        System.out.println(xx.getClass().toString()); // getClass()是反射 后缀可以查看出其类型
+        System.out.println(bb.getClass().toString()); // 没有toString() 返回一个class ,sout不能打印class
+
+    }
+
+    public static String getType(Object o){
+        return o.getClass().toString();
+    }
+    public static String getType(int o){
+        return "int";
+    }
+    public static String getType(byte o){
+        return "byte";
+    }
+    public static String getType(char o){
+        return "char";
+    }
+    public static String getType(double o){
+        return "double";
+    }
+    public static String getType(float o){
+        return "float";
+    }
+    public static String getType(long o){
+        return "long";
+    }
+    public static String getType(boolean o){
+        return "boolean";
+    }
+    public static String getType(short o){
+        return "short";
+    }
+    public static String getType(String o){
+        return "String";
     }
 }
