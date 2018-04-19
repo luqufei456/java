@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="九九乘法表哒！">
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/CirculationWork.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/TestRandom.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/Yiran/LogicControl.java" afterPath="$PROJECT_DIR$/src/com/Yiran/LogicControl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestRandom.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestRandom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Yiran/TestRandom.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -90,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CirculationWork.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CirculationWork.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Yiran/CirculationWork.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -444,7 +442,7 @@
       <workItem from="1523876493732" duration="4825000" />
       <workItem from="1523945596957" duration="11240000" />
       <workItem from="1524010825638" duration="19306000" />
-      <workItem from="1524096931231" duration="21088000" />
+      <workItem from="1524096931231" duration="21124000" />
     </task>
     <task id="LOCAL-00001" summary="~">
       <created>1523877373045</created>
@@ -551,11 +549,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524135427947</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Random猜数字小游戏">
+      <created>1524135460590</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1524135460590</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58238000" />
+    <option name="totallyTimeSpent" value="58274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="600" y="94" width="1229" height="877" extended-state="0" />
@@ -609,7 +614,8 @@
     <MESSAGE value="键盘录入" />
     <MESSAGE value="九九乘法表哒！" />
     <MESSAGE value="循环体完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="循环体完善" />
+    <MESSAGE value="Random猜数字小游戏" />
+    <option name="LAST_COMMIT_MESSAGE" value="Random猜数字小游戏" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -725,14 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/CirculationWork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Yiran/LogicControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -748,6 +746,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Yiran/CirculationWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
