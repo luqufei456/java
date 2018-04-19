@@ -4,10 +4,17 @@ import java.util.Scanner;
 
 public class LogicControl {
     public static void main(String[] args){
-        System.out.print("输入一个数字:");
-        Scanner sc = new Scanner(System.in);
-        int i = sc.nextInt();
-        System.out.println(i);
+        Scanner sc = new Scanner(System.in); // 键盘录入
+        /*int i = sc.nextInt(); // nextLine(); 返回一个字符串
+        System.out.println(i);*/
+        System.out.print("请输入第一个字符串:"); // 输入aa bb cc 最后得到为 aa bb cc
+        String i = sc.nextLine();
+        System.out.print("请输入第二个字符串:"); // 输入aa bb cc 最后得到为 aa
+        String x = sc.next();
+
+        System.out.println(i); // next()遇到空格会停下 而nextLine()遇到换行才会停下
+        System.out.println(x);
+
         /*
          类名 + 定义名 = new 类名();  得到一个对象 然后可以使用方法
          要在主函数中才能使用这种方法
