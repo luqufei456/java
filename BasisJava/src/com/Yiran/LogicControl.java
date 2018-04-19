@@ -26,6 +26,7 @@ public class LogicControl {
         lc.theSwitch();
         lc.theWhile();
         lc.theFor();
+        lc.the99Table();
     }
 
     public void theIf(){
@@ -69,5 +70,19 @@ public class LogicControl {
             }
         }
     }
+
+    public void the99Table(){
+        int i = 1; // 外层控制行数
+        while (i <= 9){
+            int j = 1; //内层控制每行几列 每次都重新定义 所以 每行的j都是从1开始加
+            while (j <= i){
+                System.out.print(j + "*" + i + " = " + j*i + "  ");
+                j++;
+            }
+            System.out.println(); // 换行
+            i++;
+        }
+    }
+
 
 }
