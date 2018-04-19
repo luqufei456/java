@@ -69,8 +69,8 @@
       <file leaf-file-name="LogicControl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Yiran/LogicControl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state relative-caret-position="362">
+              <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -418,7 +418,7 @@
       <workItem from="1523876493732" duration="4825000" />
       <workItem from="1523945596957" duration="11240000" />
       <workItem from="1524010825638" duration="19306000" />
-      <workItem from="1524096931231" duration="9830000" />
+      <workItem from="1524096931231" duration="10073000" />
     </task>
     <task id="LOCAL-00001" summary="~">
       <created>1523877373045</created>
@@ -504,11 +504,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524102971512</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="九九乘法表哒！">
+      <created>1524117684032</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1524117684032</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46980000" />
+    <option name="totallyTimeSpent" value="47223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="566" y="122" width="1229" height="877" extended-state="0" />
@@ -560,7 +567,8 @@
     <MESSAGE value="a+=b 和 a = a + b 的区别" />
     <MESSAGE value="Integer大致了解" />
     <MESSAGE value="键盘录入" />
-    <option name="LAST_COMMIT_MESSAGE" value="键盘录入" />
+    <MESSAGE value="九九乘法表哒！" />
+    <option name="LAST_COMMIT_MESSAGE" value="九九乘法表哒！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -678,8 +686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Yiran/LogicControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="362">
+          <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
           <folding />
         </state>
       </provider>

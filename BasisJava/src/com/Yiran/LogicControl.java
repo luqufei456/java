@@ -76,7 +76,12 @@ public class LogicControl {
         while (i <= 9){
             int j = 1; //内层控制每行几列 每次都重新定义 所以 每行的j都是从1开始加
             while (j <= i){
-                System.out.print(j + "*" + i + " = " + j*i + "  ");
+                if (j == 2 && (i == 3 || i == 4)){
+                    System.out.print(j + "*" + i + " = " + j*i + "   ");
+                }
+                else{
+                    System.out.print(j + "*" + i + " = " + j*i + "  ");
+                }
                 j++;
             }
             System.out.println(); // 换行
