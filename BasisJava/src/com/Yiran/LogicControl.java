@@ -52,19 +52,33 @@ public class LogicControl {
             case 3:
                 System.out.println("switchA的值为3");
                 break;
+            default:
+                System.out.println("switchA的值为其他");
+                break;
+
+                // 如果没有break 则符合条件运行后，接下来的case也会全部执行，也不管条件是否符合
+                // break 打断循环体  continue是终止当前循环体语句 而不是终止整个循环体
         }
     }
 
     public void theWhile(){
-        int whileA = 1;
-        while (whileA < 10){
+        int whileA = 1; // while循环体使用的变量属于全局变量，可以被访问
+        while (whileA < 10){ // 先判断再执行
             whileA++;
         }
         System.out.println("whileA的值为" + whileA);
     }
 
+    public void theDoWhile(){
+        int doWhileA = 1; // while循环体使用的变量属于全局变量，可以被访问
+        do{
+            doWhileA++; // 先执行再判断条件
+        }while (doWhileA < 10);
+        System.out.println("whileA的值为" + doWhileA);
+    }
+
     public void theFor(){
-        for (int forA = 1; forA < 10; forA++){
+        for (int forA = 1; forA < 10; forA++){ // for循环内的变量属于局部变量 在循环体外无法被访问
             if (forA == 9){
                 System.out.println("现在forA的值为" + forA);
             }
