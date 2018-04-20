@@ -35,6 +35,9 @@ public class LogicControl {
         if (ifA > ifB){
            System.out.println("ifA比ifB大，A = " + ifA);
         }
+        else if (ifA == 2 * ifB){ // if与switch不同，只要进入一个分支，别的分支即使条件符合也不会进入
+            System.out.println("ifA = 2 * ifB，A = " + ifA);
+        }
         else{
             System.out.println("ifB比ifA大,B = " + ifB);
         }
