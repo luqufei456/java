@@ -152,4 +152,83 @@ public class JavaSeExam {
         D．Direction direction=2；*/
     }
 
+    public void Test11(){
+        /*
+        如果想要一个类不能被任何类继承的话，需要使用哪个关键字来修饰该类？ D
+        A.  abstract
+            Abstract class指的是用关键字abstract修饰的类，叫做抽象类，是不允许实例化的类，
+            不能直接创建对象，必须要通过子类创建才能使用abstract类的方法。
+        B.  new    new一般用于创建实例对象
+        C.  static
+            如果一个类要被声明为static的，只有一种情况，就是静态内部类。
+            如果在外部类声明为static，程序会编译都不会过。
+            1.静态内部类跟静态方法一样，只能访问静态的成员变量和方法，不能访问非静态的方法和属性，
+            但是普通内部类可以访问任意外部类的成员变量和方法
+            2.静态内部类可以声明普通成员变量和方法，而普通内部类不能声明static成员变量和方法。
+            3.静态内部类可以单独初始化:
+                Inner i = new Outer.Inner();
+            普通内部类初始化：
+                Outer o = new Outer();
+                Inner i = o.new Inner();
+        D.  final
+            当一个类不可能有子类时可用修饰符 final 把它说明为最终类。
+            被定义为 final 的类通常是一些有固定作用、用来完成某种标准功能的类。
+    */
+    }
+
+    public void Test12(){
+        /*
+        为了使得System.out.println()输出对象引用的时候得到有意义的信息
+        我们应该覆盖Object的哪个方法？  B
+        A．equals    用来判断两个对象是否相等
+        B．toString    将对象转成字符串
+        C．hashCode    获得对象的哈希值,可以用来唯一标识对象
+        D．notify    唤醒一个正在等待的线程
+    */
+    }
+
+    public void Test13(){ // 待补充
+        /*
+        现有：
+        public class Pet{}
+        public class Cat extends Pet{}
+        执行代码
+        Cat c=new Cat()；
+        Pet p= (Pet)c；
+        下列哪项是正确的？  C
+        A. Pet p=(Pet)c运行错误
+        B. Pet p=(Pet)c编译错误
+        C. Pet p= (Pet)c正常执行
+        D．以上都不对
+        */
+    }
+
+    public void Test14(){
+        /*
+        下列有关接口的叙述错误的是哪项？
+        A.接口中只能包含抽象方法和常量//默认都是public跟abstract修饰
+            抽象类由abstract关键字来修饰，接口由interface关键字来修饰。抽象类中除了有抽象方法外，
+            也可以有数据成员和非抽象方法；而接口中所有的方法必须都是抽象的，
+            接口中也可以定义数据成员，但必须是常量。
+        B．一个类可以实现多个接口
+            java中 支持多实现 但是不支持多继承
+        C．（非抽象）类实现接口时必须实现其中的方法
+            一个非接口的类实现另一个类 必须实现其所有方法。
+        D．接口不能被继承//可以有子接口
+            一个接口可以继承多个接口
+            interface C extends A, B {}是可以的.
+            一个类可以实现多个接口:
+            class D implements A,B,C{}
+            但是一个类只能继承一个类,不能继承多个类
+            class B extends A{}
+            在继承类的同时,也可以继承接口:
+            class E extends D implements A,B,C{}
+            这也正是选择用接口而不是抽象类的原因
+        */
+    }
+
+    public void Test15(){ // 后面都是类 接口等的问题，待补充
+
+    }
+
 }
