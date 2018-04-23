@@ -9,16 +9,17 @@ public class DataType {
         float e = 23.34F; // 后缀没有f或F时，默认为double类型
         double f = 23.34;
         boolean s = true;
-        char c1 = 'a'; // 2字节，所以能存放汉字，c语言中 char只有一个字节，所以不能存放汉字 单引号，双引号是字符串
+        char c1 = '啊'; // 2字节，所以能存放汉字，c语言中 char只有一个字节，所以不能存放汉字 单引号，双引号是字符串
 
-        int a1 = 12 + c1; // 结果为109  ascii码中 a的值为97 这里能发现 char能直接参加运算
+        int a1 = 12 + c1; // 结果为109
+        // char 为Unicode编码 其中每个char常量都对应了一个十进制数
         System.out.println(a1);
 
         // int a2 = 97;
         // char c2 = a2;  不可以
 
         char c2 = 'a'; // 这里就可以
-        int a2 = c2;
+        int a2 = c2; // 因为 char是 16bit 而int 是32bit 所以这是隐式转换 Unicode码里的数值是十进制数，所以可以转
         System.out.println(a2);
 
         //int a3 = 56;
