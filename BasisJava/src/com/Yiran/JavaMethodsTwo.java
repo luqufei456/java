@@ -80,6 +80,25 @@ public class JavaMethodsTwo {
         *   指向了一个 新的内存空间 相当于 现在2个arr2指向的不是同一个引用类型
         * */
 
+        // 方法操作数组的练习
+        System.out.println("----方法操作数组的练习----");
+        System.out.println("数组遍历");
+        int[] arr3 = {1,3,5,7,9};
+        System.out.print("arr3:");
+        arrayTraversal(arr3);
+
+        System.out.println("数组最值");
+        int [] arr4 = {2,53,213,64,23,4,56,21};
+        int Max = arrayM(arr4,true);
+        System.out.println("arrayMax:"+Max);
+        int min = arrayM(arr4,false);
+        System.out.println("arrayMin:"+min);
+
+        System.out.println("数组求和");
+        int [] arr5 = {2,21,52,256,123,31,68};
+        int sum = arraySum(arr5);
+        System.out.println("arraySum:"+sum);
+
     }
 
     // 求和
@@ -105,7 +124,8 @@ public class JavaMethodsTwo {
         return a == b;
     }
 
-    // 方法中的参数传递  基本类型时
+    // 方法中的参数传递
+    // 基本类型时
     public static void change(int a,int b){
         System.out.println("a:" + a + ",b:" + b);
         a = b;
@@ -134,6 +154,51 @@ public class JavaMethodsTwo {
     public static void arrayChange2(int[] arr2){
         arr2 = new int[] {1,4,3,8,5};
         System.out.println("arr2:"+Arrays.toString(arr2));
+    }
+
+    // 方法操作数组的练习
+    // 数组遍历 相当于实现了 Arrays.toString(arr) 方法
+    public static void arrayTraversal(int[] arr){
+        System.out.print("[");
+        for (int x = 0;x <arr.length;x++){
+            if (x != arr.length-1){ // arr.length-1 就是数组中最后一个元素的索引
+                System.out.print(arr[x]+", ");
+            }
+            else{
+                System.out.println(arr[x]+"]");
+            }
+        }
+    }
+
+    // 数组取最值
+    public static int arrayM(int[] arr,boolean most){
+        if (most){
+            int Max = arr[0]; // 先定义第一个元素为最大值
+            for (int x = 1;x < arr.length;x++){ // 从第二个开始比较
+                if (arr[x] > Max){
+                    Max = arr[x];
+                }
+            }
+            return Max;
+        }
+        else{
+            int Min = arr[0]; // 先定义第一个元素为最大值
+            for (int x = 1;x < arr.length;x++){ // 从第二个开始比较
+                if (arr[x] < Min){
+                    Min = arr[x];
+                }
+            }
+            return Min;
+        }
+    }
+
+    // 数组求和
+    public static int arraySum(int[] arr){
+        int sum = 0; // 初始化
+        for (int x = 0;x < arr.length;x++){
+            sum += arr[x];
+        }
+        return sum;
     }
 
 }
