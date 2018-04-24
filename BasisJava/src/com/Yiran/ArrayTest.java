@@ -8,10 +8,10 @@ public class ArrayTest {
         arrTest.memoryTest3();
         arrTest.memoryTest4();
         arrTest.memoryTest5();
-        arrTest.traverseTest6();
+        arrTest.traversalTest6();
         arrTest.arrayMax7();
         arrTest.twoArray8();
-        arrTest.traverseTwoArray9();*/
+        arrTest.traversalTwoArray9();*/
     }
 
     public void Test1(){
@@ -140,7 +140,7 @@ public class ArrayTest {
         System.out.println(arr2[2]); // 333
     }
 
-    public void traverseTest6(){
+    public void traversalTest6(){
         // 定义数组
         int[] arr = {11,22,33,44,55};
         // 原始做法
@@ -214,7 +214,7 @@ public class ArrayTest {
         System.out.println(arrs[2][0]); // 第3个 一维数组的 第1个 元素  7
     }
 
-    public void traverseTwoArray9(){
+    public void traversalTwoArray9(){
         // 定义二维数组
         int [][] arrs = {{1,2,3},{4,5,6},{7,8,9}};
         /**
