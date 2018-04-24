@@ -32,6 +32,15 @@ public class Arithmetic {
         * +         可以是运算符 也可以是连接符
         * */
 
+        int zero = 10;
+        //             前面的 zero++  zero--这样 并不会等算出sumZero才运行
+        //              碰到下一个 zero-- 之类的 就会运行
+        //              10        10+1-1       10       10-1+1       10
+        int sumZero = (zero++) + (--zero) + (zero--) + (++zero) + (zero++);
+        //              10          10          10          10        10
+        System.out.println(zero); // 10 + 1 = 11
+        System.out.println(sumZero); // 50
+
         // 算术运算符 + - * / % ++ --
         int a = 12; // 定义一个变量，再对其赋值， 叫做变量的初始化 也可以只定义，不赋值
         int b = 5; // 变量只有赋值后才能使用   定义+赋值 = 初始化
