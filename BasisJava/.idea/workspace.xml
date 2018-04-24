@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/JavaMethods.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/JavaMethodsOne.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Arithmetic.java" afterPath="$PROJECT_DIR$/src/com/Yiran/Arithmetic.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,26 +45,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaMethods.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Yiran/JavaMethods.java">
+      <file leaf-file-name="JavaMethodsOne.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Yiran/JavaMethodsOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="294">
+              <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
               <folding>
-                <element signature="e#1589#1590#0" expanded="true" />
-                <element signature="e#1639#1640#0" expanded="true" />
-                <element signature="e#1688#1689#0" expanded="true" />
-                <element signature="e#1751#1752#0" expanded="true" />
+                <element signature="e#1882#1883#0" expanded="true" />
+                <element signature="e#1932#1933#0" expanded="true" />
+                <element signature="e#1981#1982#0" expanded="true" />
+                <element signature="e#2044#2045#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Arithmetic.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Arithmetic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Yiran/Arithmetic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+            <state relative-caret-position="357">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,8 +109,9 @@
         <option value="$PROJECT_DIR$/src/com/Yiran/JavaSeExam.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/ArrayTest.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/DataType.java" />
-        <option value="$PROJECT_DIR$/src/com/Yiran/JavaMethods.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/Arithmetic.java" />
+        <option value="$PROJECT_DIR$/src/com/Yiran/JavaMethods.java" />
+        <option value="$PROJECT_DIR$/src/com/Yiran/JavaMethodsOne.java" />
       </list>
     </option>
   </component>
@@ -122,8 +122,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="594" />
-    <option name="y" value="107" />
+    <option name="x" value="560" />
+    <option name="y" value="95" />
     <option name="width" value="1229" />
     <option name="height" value="877" />
   </component>
@@ -194,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Arithmetic">
+  <component name="RunManager" selected="Application.JavaMethodsOne">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -259,14 +259,14 @@
       <module name="JavaBasis" />
       <envs />
     </configuration>
-    <configuration name="JavaMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaMethodsOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.Yiran.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.Yiran.JavaMethods" />
+      <option name="MAIN_CLASS_NAME" value="com.Yiran.JavaMethodsOne" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -388,12 +388,12 @@
       <item index="1" class="java.lang.String" itemvalue="Application.ArrayTest" />
       <item index="2" class="java.lang.String" itemvalue="Application.Arithmetic" />
       <item index="3" class="java.lang.String" itemvalue="Application.DataType" />
-      <item index="4" class="java.lang.String" itemvalue="Application.JavaMethods" />
+      <item index="4" class="java.lang.String" itemvalue="Application.JavaMethodsOne" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Arithmetic" />
-        <item index="1" class="java.lang.String" itemvalue="Application.JavaMethods" />
+        <item index="0" class="java.lang.String" itemvalue="Application.JavaMethodsOne" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Arithmetic" />
         <item index="2" class="java.lang.String" itemvalue="Application.DataType" />
         <item index="3" class="java.lang.String" itemvalue="Application.ArrayTest" />
         <item index="4" class="java.lang.String" itemvalue="Application.JavaSeExam" />
@@ -423,7 +423,7 @@
       <workItem from="1524271928076" duration="6656000" />
       <workItem from="1524392394709" duration="4972000" />
       <workItem from="1524442599478" duration="25194000" />
-      <workItem from="1524529854997" duration="1129000" />
+      <workItem from="1524529854997" duration="3905000" />
     </task>
     <task id="LOCAL-00001" summary="~">
       <created>1523877373045</created>
@@ -579,11 +579,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524468571198</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="++ --经典案例">
+      <created>1524531588571</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1524531588571</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119905000" />
+    <option name="totallyTimeSpent" value="122681000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -595,7 +602,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="594" y="107" width="1229" height="877" extended-state="0" />
+    <frame x="560" y="95" width="1229" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -607,7 +614,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.502994" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32837838" sideWeight="0.497006" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32837838" sideWeight="0.497006" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -654,7 +661,8 @@
     <MESSAGE value="javaSE考试题11-14" />
     <MESSAGE value="一维、二维数组 与其遍历、取值" />
     <MESSAGE value="char unicode" />
-    <option name="LAST_COMMIT_MESSAGE" value="char unicode" />
+    <MESSAGE value="++ --经典案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="++ --经典案例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -703,15 +711,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/JavaMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Yiran/JavaMethodsOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
           <folding>
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1639#1640#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1751#1752#0" expanded="true" />
+            <element signature="e#1882#1883#0" expanded="true" />
+            <element signature="e#1932#1933#0" expanded="true" />
+            <element signature="e#1981#1982#0" expanded="true" />
+            <element signature="e#2044#2045#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -728,6 +736,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -751,6 +760,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3825">
           <caret line="227" column="5" lean-forward="true" selection-start-line="227" selection-start-column="5" selection-end-line="227" selection-end-column="5" />
+          <folding>
+            <element signature="e#352#353#0" expanded="false" />
+            <element signature="e#409#410#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -766,6 +779,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -789,6 +803,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2550">
           <caret line="152" column="5" lean-forward="true" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
+          <folding>
+            <element signature="e#352#353#0" expanded="false" />
+            <element signature="e#409#410#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -804,6 +822,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -896,6 +915,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
           <caret line="203" column="5" lean-forward="false" selection-start-line="203" selection-start-column="5" selection-end-line="203" selection-end-column="5" />
+          <folding>
+            <element signature="e#352#353#0" expanded="false" />
+            <element signature="e#409#410#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -903,19 +926,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/JavaMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1639#1640#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1751#1752#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -953,9 +964,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Yiran/Arithmetic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        <state relative-caret-position="357">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Yiran/JavaMethodsOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+          <folding>
+            <element signature="e#1882#1883#0" expanded="true" />
+            <element signature="e#1932#1933#0" expanded="true" />
+            <element signature="e#1981#1982#0" expanded="true" />
+            <element signature="e#2044#2045#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
