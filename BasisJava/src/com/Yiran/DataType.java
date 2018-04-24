@@ -30,7 +30,7 @@ public class DataType {
 
         double b3 = 12f + 34.23; // 从低精度到高精度会自动转换，隐式转换
 
-        int a4 = (int)b3; // 高精度转低精度，要使用强制转换
+        int a4 = (int)b3; // 高精度转低精度，要使用强制转换   这里的 精度 只是方便理解  实际上是范围
 
         int a5 = 55;
         float b4 = a5;
