@@ -1,5 +1,7 @@
 package com.Yiran;
 
+import java.util.Arrays;
+
 public class ArrayTest {
     public static void main(String[] args){
         ArrayTest arrTest = new ArrayTest();
@@ -11,7 +13,8 @@ public class ArrayTest {
         arrTest.traversalTest6();
         arrTest.arrayMax7();
         arrTest.twoArray8();
-        arrTest.traversalTwoArray9();*/
+        arrTest.traversalTwoArray9();
+        arrTest.twoArrayTranspose10();*/
     }
 
     public void Test1(){
@@ -215,8 +218,16 @@ public class ArrayTest {
     }
 
     public void traversalTwoArray9(){
-        // 定义二维数组
+        // 定义二维数组 静态定义
         int [][] arrs = {{1,2,3},{4,5,6},{7,8,9}};
+        // 动态定义
+        int [][] arrs2 = new int[5][3];
+        // 可以发现 第一个5定义二维数组中有多少一维数组
+        // 第二个3定义一维数组中有多少元素
+        System.out.println(arrs2.length); // 5
+        System.out.println(arrs2[0].length); // 3
+        System.out.println(arrs2[2].length); // 3
+        System.out.println(arrs2[4].length); // 3
         /**
          * 从上一个例子我们可以看出 arrs[x][y]
          * x 即为二维数组中的 第 x+1 个一维数组
@@ -230,5 +241,44 @@ public class ArrayTest {
             System.out.println(); // 每个一维数组遍历完后换行
         }
     }
+
+    public void twoArrayTranspose10(){
+        /*
+        * 1   2   3
+        * 4   5   6
+        * 7   8   9
+        * 10  11  12
+        *
+        * 转成   就是行变成列 列变成行
+        *
+        * 1   4   7   10
+        * 2   5   8   11
+        * 3   6   9   12
+        * */
+        int arrs1[][] = {{1,2,3},{4,5,6},{7,8,9},{10,11,12}};
+        int arrs2[][] = new int[3][4];
+
+        for (int i = 0;i < arrs1.length;i++){
+            for (int j = 0;j <arrs1[i].length;j++){
+                arrs2[j][i] = arrs1[i][j];
+            }
+        }
+        printTwoArray11(arrs1);
+        printTwoArray11(arrs2);
+    }
+
+    public static void printTwoArray11(int [][] arrs){
+        System.out.print("[");
+        for (int i = 0;i < arrs.length;i++){
+            if (i != arrs.length-1){
+                System.out.print(Arrays.toString(arrs[i])+" ,");
+            }
+            else{
+                System.out.print(Arrays.toString(arrs[i])+"]");
+            }
+        }
+        System.out.println("");
+    }
+
 
 }
