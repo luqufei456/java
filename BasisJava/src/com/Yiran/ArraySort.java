@@ -244,7 +244,7 @@ public class ArraySort {
                 temp[k++] = arr[j++];
             }
         }
-        // 将左边剩余的数移入数组
+        // 将左边剩余的数移入数组  元素放进新数组后 下标才会右移，所以 如果 i<=mid 不成立 说明左边的都移完了
         while (i<=mid){
             temp[k++] = arr[i++];
         }

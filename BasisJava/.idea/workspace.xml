@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/Yiran/JavaSearch.java" afterPath="$PROJECT_DIR$/src/com/Yiran/JavaSearch.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/ArraySort.java" afterPath="$PROJECT_DIR$/src/com/Yiran/ArraySort.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JavaSearch.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JavaSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Yiran/JavaSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            <state relative-caret-position="282">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArraySort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Yiran/ArraySort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="238" column="34" lean-forward="true" selection-start-line="238" selection-start-column="34" selection-end-line="238" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -65,8 +75,8 @@
         <option value="$PROJECT_DIR$/src/com/Yiran/JavaMethodsThree.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/JavaMethodsTwo.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/ArrayTest.java" />
-        <option value="$PROJECT_DIR$/src/com/Yiran/ArraySort.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/JavaSearch.java" />
+        <option value="$PROJECT_DIR$/src/com/Yiran/ArraySort.java" />
       </list>
     </option>
   </component>
@@ -77,8 +87,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
-    <option name="y" value="117" />
+    <option name="x" value="489" />
+    <option name="y" value="120" />
     <option name="width" value="1230" />
     <option name="height" value="877" />
   </component>
@@ -380,7 +390,7 @@
       <workItem from="1524442599478" duration="25194000" />
       <workItem from="1524529854997" duration="24124000" />
       <workItem from="1524616368956" duration="20377000" />
-      <workItem from="1524701984839" duration="20071000" />
+      <workItem from="1524701984839" duration="24597000" />
     </task>
     <task id="LOCAL-00001" summary="~">
       <created>1523877373045</created>
@@ -599,11 +609,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524739312187</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="java实现二分查找">
+      <created>1524740146206</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1524740146206</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183348000" />
+    <option name="totallyTimeSpent" value="187874000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,7 +632,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="117" width="1230" height="877" extended-state="0" />
+    <frame x="489" y="120" width="1230" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -638,7 +655,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -709,19 +726,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3328#3329#0" expanded="true" />
-            <element signature="e#3356#3357#0" expanded="true" />
-            <element signature="e#3404#3405#0" expanded="true" />
-            <element signature="e#3436#3437#0" expanded="true" />
-            <element signature="e#3504#3505#0" expanded="true" />
-            <element signature="e#3533#3534#0" expanded="true" />
-            <element signature="e#3585#3586#0" expanded="true" />
-            <element signature="e#3614#3615#0" expanded="true" />
-            <element signature="e#3662#3663#0" expanded="true" />
-            <element signature="e#3691#3692#0" expanded="true" />
-            <element signature="e#3741#3742#0" expanded="true" />
-            <element signature="e#3770#3771#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3328#3329#0" expanded="false" />
+            <element signature="e#3356#3357#0" expanded="false" />
+            <element signature="e#3404#3405#0" expanded="false" />
+            <element signature="e#3436#3437#0" expanded="false" />
+            <element signature="e#3504#3505#0" expanded="false" />
+            <element signature="e#3533#3534#0" expanded="false" />
+            <element signature="e#3585#3586#0" expanded="false" />
+            <element signature="e#3614#3615#0" expanded="false" />
+            <element signature="e#3662#3663#0" expanded="false" />
+            <element signature="e#3691#3692#0" expanded="false" />
+            <element signature="e#3741#3742#0" expanded="false" />
+            <element signature="e#3770#3771#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -731,10 +748,10 @@
         <state relative-caret-position="1394">
           <caret line="82" column="31" lean-forward="true" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
           <folding>
-            <element signature="e#1882#1883#0" expanded="true" />
-            <element signature="e#1932#1933#0" expanded="true" />
-            <element signature="e#1981#1982#0" expanded="true" />
-            <element signature="e#2044#2045#0" expanded="true" />
+            <element signature="e#1882#1883#0" expanded="false" />
+            <element signature="e#1932#1933#0" expanded="false" />
+            <element signature="e#1981#1982#0" expanded="false" />
+            <element signature="e#2044#2045#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -799,10 +816,10 @@
         <state relative-caret-position="1224">
           <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
           <folding>
-            <element signature="e#1882#1883#0" expanded="true" />
-            <element signature="e#1932#1933#0" expanded="true" />
-            <element signature="e#1981#1982#0" expanded="true" />
-            <element signature="e#2044#2045#0" expanded="true" />
+            <element signature="e#1882#1883#0" expanded="false" />
+            <element signature="e#1932#1933#0" expanded="false" />
+            <element signature="e#1981#1982#0" expanded="false" />
+            <element signature="e#2044#2045#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1014,10 +1031,10 @@
         <state relative-caret-position="1751">
           <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
           <folding>
-            <element signature="e#1882#1883#0" expanded="true" />
-            <element signature="e#1932#1933#0" expanded="true" />
-            <element signature="e#1981#1982#0" expanded="true" />
-            <element signature="e#2044#2045#0" expanded="true" />
+            <element signature="e#1882#1883#0" expanded="false" />
+            <element signature="e#1932#1933#0" expanded="false" />
+            <element signature="e#1981#1982#0" expanded="false" />
+            <element signature="e#2044#2045#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1027,19 +1044,19 @@
         <state relative-caret-position="2669">
           <caret line="170" column="5" lean-forward="false" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3328#3329#0" expanded="true" />
-            <element signature="e#3356#3357#0" expanded="true" />
-            <element signature="e#3404#3405#0" expanded="true" />
-            <element signature="e#3436#3437#0" expanded="true" />
-            <element signature="e#3504#3505#0" expanded="true" />
-            <element signature="e#3533#3534#0" expanded="true" />
-            <element signature="e#3585#3586#0" expanded="true" />
-            <element signature="e#3614#3615#0" expanded="true" />
-            <element signature="e#3662#3663#0" expanded="true" />
-            <element signature="e#3691#3692#0" expanded="true" />
-            <element signature="e#3741#3742#0" expanded="true" />
-            <element signature="e#3770#3771#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3328#3329#0" expanded="false" />
+            <element signature="e#3356#3357#0" expanded="false" />
+            <element signature="e#3404#3405#0" expanded="false" />
+            <element signature="e#3436#3437#0" expanded="false" />
+            <element signature="e#3504#3505#0" expanded="false" />
+            <element signature="e#3533#3534#0" expanded="false" />
+            <element signature="e#3585#3586#0" expanded="false" />
+            <element signature="e#3614#3615#0" expanded="false" />
+            <element signature="e#3662#3663#0" expanded="false" />
+            <element signature="e#3691#3692#0" expanded="false" />
+            <element signature="e#3741#3742#0" expanded="false" />
+            <element signature="e#3770#3771#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1057,14 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/ArraySort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1087,8 +1096,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Yiran/JavaSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        <state relative-caret-position="282">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Yiran/ArraySort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="238" column="34" lean-forward="true" selection-start-line="238" selection-start-column="34" selection-end-line="238" selection-end-column="34" />
           <folding />
         </state>
       </provider>
