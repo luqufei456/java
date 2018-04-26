@@ -4,11 +4,11 @@ public class JavaSearch {
     public static void main(String[] args){
         int[] arr = {1,2,3,4,5,6,7,8};
         JavaSearch test = new JavaSearch();
-        //String text = test.binarySearch(arr,9,0,arr.length-1);
+        //String text = test.binarySearch2(arr,7,0,arr.length-1);
         //System.out.println(text);
     }
 
-    public String binarySearch(int[] arr, int item, int first, int last){
+    public String binarySearch1(int[] arr, int item, int first, int last){
         /**
          二分查找又称折半查找，优点是比较次数少，查找速度快，平均性能好，
          占用系统内存较少；其缺点是要求待查表为有序表，且插入删除困难。
@@ -25,10 +25,26 @@ public class JavaSearch {
                 return "找到了，下标为" + mid;
             }
             else if (item < arr[mid]){
-                return binarySearch(arr,item,mid,last);
+                return binarySearch1(arr,item,mid,last);
             }
             else{
-                return binarySearch(arr,item,first,mid-1);
+                return binarySearch1(arr,item,first,mid-1);
+            }
+        }
+        return "并没有找到";
+    }
+
+    public String binarySearch2(int[] arr, int item, int first, int last){
+        while (first <= last){
+            int mid = (first+last)/2;
+            if (arr[mid] == item){
+                return "找到了，下标为" + mid;
+            }
+            else if (arr[mid] > item){
+                last = mid - 1; // 将后半部分舍弃 把前半段看成一个数组进行折半查找
+            }
+            else{
+                first = mid + 1; // 为什么+1或者-1 因为mid对比过了
             }
         }
         return "并没有找到";
