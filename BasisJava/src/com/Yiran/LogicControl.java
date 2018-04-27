@@ -88,6 +88,7 @@ public class LogicControl {
         }
     }
 
+    // 九九乘法表
     public void the99Table(){
         int i = 1; // 外层控制行数
         while (i <= 9){
