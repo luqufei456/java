@@ -124,6 +124,14 @@ public class JavaMethodsTwo {
         return a == b;
     }
 
+    // 如果参数顺序不同后，其参数的类型顺序也变了以后才算重载。  如果两个参数属于同种类型，顺序变了也没用
+    public static boolean compare(int a,long b){
+        return a == b;
+    }
+    public static boolean compare(long b,int a){
+        return a == b;
+    }
+
     // 方法中的参数传递
     // 基本类型时
     public static void change(int a,int b){

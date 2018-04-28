@@ -67,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaMethodsTwo.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JavaMethodsTwo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Yiran/JavaMethodsTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+            <state relative-caret-position="249">
+              <caret line="144" column="46" lean-forward="true" selection-start-line="144" selection-start-column="46" selection-end-line="144" selection-end-column="46" />
               <folding>
                 <element signature="e#3504#3505#0" expanded="true" />
                 <element signature="e#3533#3534#0" expanded="true" />
@@ -98,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayWork.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayWork.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Yiran/SEwork/ArrayWork.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="277">
@@ -500,7 +500,7 @@
       <workItem from="1524701984839" duration="25254000" />
       <workItem from="1524788754369" duration="1600000" />
       <workItem from="1524791503335" duration="19402000" />
-      <workItem from="1524876346014" duration="16372000" />
+      <workItem from="1524876346014" duration="16412000" />
     </task>
     <task id="LOCAL-00001" summary="~">
       <created>1523877373045</created>
@@ -747,11 +747,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524903049984</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="java 类初试">
+      <created>1524903085804</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1524903085804</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225905000" />
+    <option name="totallyTimeSpent" value="225945000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -802,7 +809,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数据类型转换理解" />
     <MESSAGE value="a+=b 和 a = a + b 的区别" />
     <MESSAGE value="Integer大致了解" />
     <MESSAGE value="键盘录入" />
@@ -827,7 +833,8 @@
     <MESSAGE value="java实现二分查找" />
     <MESSAGE value="完善注释" />
     <MESSAGE value="数组作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组作业" />
+    <MESSAGE value="java 类初试" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 类初试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1164,25 +1171,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/JavaMethodsTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-          <folding>
-            <element signature="e#3504#3505#0" expanded="true" />
-            <element signature="e#3533#3534#0" expanded="true" />
-            <element signature="e#3585#3586#0" expanded="true" />
-            <element signature="e#3614#3615#0" expanded="true" />
-            <element signature="e#3662#3663#0" expanded="true" />
-            <element signature="e#3691#3692#0" expanded="true" />
-            <element signature="e#3741#3742#0" expanded="true" />
-            <element signature="e#3770#3771#0" expanded="true" />
-            <element signature="e#3878#3879#0" expanded="true" />
-            <element signature="e#3907#3908#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/VariableDifference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1212,6 +1200,25 @@
         <state relative-caret-position="277">
           <caret line="128" column="50" lean-forward="true" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Yiran/JavaMethodsTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="144" column="46" lean-forward="true" selection-start-line="144" selection-start-column="46" selection-end-line="144" selection-end-column="46" />
+          <folding>
+            <element signature="e#3504#3505#0" expanded="true" />
+            <element signature="e#3533#3534#0" expanded="true" />
+            <element signature="e#3585#3586#0" expanded="true" />
+            <element signature="e#3614#3615#0" expanded="true" />
+            <element signature="e#3662#3663#0" expanded="true" />
+            <element signature="e#3691#3692#0" expanded="true" />
+            <element signature="e#3741#3742#0" expanded="true" />
+            <element signature="e#3770#3771#0" expanded="true" />
+            <element signature="e#3878#3879#0" expanded="true" />
+            <element signature="e#3907#3908#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
