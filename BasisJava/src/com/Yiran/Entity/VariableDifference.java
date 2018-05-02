@@ -16,4 +16,13 @@ public class VariableDifference {
      *			成员变量： 有默认的初始化值
      *			局部变量： 没有默认的初始化值，必须先定义，赋值，才能使用。
      * */
+    // 成员变量
+    int x;
+
+    public void show(){
+        // 局部变量
+        int y = 0;
+        System.out.println(x);
+        System.out.println(y);
+    }
 }
