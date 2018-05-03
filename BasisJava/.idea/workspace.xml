@@ -4,14 +4,6 @@
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaStatic/StaticMethods.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaStatic/StaticVariable.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/Login.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringConversion1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringConversion2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringDemo1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringDemo2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringDemo3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringGet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringJudgement.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -181,24 +173,6 @@
               <item name="Yiran" type="462c0819:PsiDirectoryNode" />
               <item name="Entity" type="462c0819:PsiDirectoryNode" />
               <item name="JavaStatic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Yiran" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaStatic" type="462c0819:PsiDirectoryNode" />
-              <item name="StaticMethods.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Yiran" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaStatic" type="462c0819:PsiDirectoryNode" />
-              <item name="StaticVariable.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
@@ -482,7 +456,7 @@
       <workItem from="1524791503335" duration="19402000" />
       <workItem from="1524876346014" duration="17256000" />
       <workItem from="1525220457961" duration="25880000" />
-      <workItem from="1525307158286" duration="15967000" />
+      <workItem from="1525307158286" duration="16023000" />
     </task>
     <task id="LOCAL-00001" summary="~">
       <created>1523877373045</created>
@@ -750,11 +724,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525255101728</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="java String 初识">
+      <created>1525341711366</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1525341711366</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268636000" />
+    <option name="totallyTimeSpent" value="268692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -804,7 +785,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="键盘录入" />
     <MESSAGE value="九九乘法表哒！" />
     <MESSAGE value="循环体完善" />
     <MESSAGE value="Random猜数字小游戏" />
@@ -829,7 +809,8 @@
     <MESSAGE value="java 类初试" />
     <MESSAGE value="方法重写 如果参数类型不同，那么顺序不同时也可以完成重写" />
     <MESSAGE value="初识java类" />
-    <option name="LAST_COMMIT_MESSAGE" value="初识java类" />
+    <MESSAGE value="java String 初识" />
+    <option name="LAST_COMMIT_MESSAGE" value="java String 初识" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
