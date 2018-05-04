@@ -1,10 +1,11 @@
 package com.yiran.entity.javaInheritance.superclass;
 
 public class PersonClass {
-    public String name;
+    public String name = "默认名字";
     boolean gender;
-    protected int age ;
+    protected int age;
     private double salary;
+    public String like = "haha";
 
     public PersonClass(){
         System.out.println("人类构造函数执行ing---无参版");

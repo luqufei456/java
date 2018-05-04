@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/subclass/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/superclass/PersonClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/superclass/Student.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/subclass/PolymorphicTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/superclass/PersonClass.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/superclass/PersonClass.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/superclass/Student.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/superclass/Student.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,29 +20,29 @@
       <file leaf-file-name="PersonClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/superclass/PersonClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            <state relative-caret-position="102">
+              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
-                <element signature="e#959#960#0" expanded="true" />
-                <element signature="e#988#989#0" expanded="true" />
-                <element signature="e#1042#1043#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#1114#1115#0" expanded="true" />
-                <element signature="e#1145#1146#0" expanded="true" />
-                <element signature="e#1191#1192#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#1109#1110#0" expanded="true" />
+                <element signature="e#1155#1156#0" expanded="true" />
+                <element signature="e#1186#1187#0" expanded="true" />
+                <element signature="e#1232#1233#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,23 +51,35 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/superclass/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
-                <element signature="e#1318#1319#0" expanded="true" />
-                <element signature="e#1376#1377#0" expanded="true" />
-                <element signature="e#1423#1424#0" expanded="true" />
-                <element signature="e#1476#1477#0" expanded="true" />
+                <element signature="e#1351#1352#0" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
+                <element signature="e#1456#1457#0" expanded="true" />
+                <element signature="e#1509#1510#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PolymorphicTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/subclass/PolymorphicTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/subclass/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            <state relative-caret-position="365">
+              <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
               <folding>
                 <element signature="e#884#885#0" expanded="true" />
                 <element signature="e#942#943#0" expanded="true" />
@@ -104,8 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Yiran/JavaMethodsTwo.java" />
-        <option value="$PROJECT_DIR$/src/com/Yiran/entity/PhoneClassUse.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/entity/VariableDifference.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/SEwork/UndeadRabbit.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/SEwork/ArrayWork.java" />
@@ -152,9 +162,11 @@
         <option value="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/Person.java" />
         <option value="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/superclass/Person.java" />
         <option value="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/superclass/Yiran.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/superclass/Student.java" />
         <option value="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/subclass/Employee.java" />
         <option value="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/superclass/PersonClass.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/superclass/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/subclass/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/subclass/PolymorphicTest.java" />
       </list>
     </option>
   </component>
@@ -165,8 +177,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="317" />
-    <option name="y" value="137" />
+    <option name="x" value="93" />
+    <option name="y" value="156" />
     <option name="width" value="1232" />
     <option name="height" value="879" />
   </component>
@@ -299,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Student">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -345,14 +357,14 @@
       <module name="JavaBasis" />
       <envs />
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PolymorphicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran.entity.javaInheritance.superclass.*" />
+          <option name="PATTERN" value="com.yiran.entity.javaInheritance.subclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yiran.entity.javaInheritance.superclass.Student" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran.entity.javaInheritance.subclass.PolymorphicTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -364,14 +376,14 @@
       <module name="JavaBasis" />
       <envs />
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran.entity.classReturn.*" />
+          <option name="PATTERN" value="com.yiran.entity.javaInheritance.superclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yiran.entity.classReturn.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran.entity.javaInheritance.superclass.Student" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -489,19 +501,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.EmployeeUse" />
-      <item index="2" class="java.lang.String" itemvalue="Application.getPackage" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Student" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Employee" />
+      <item index="0" class="java.lang.String" itemvalue="Application.EmployeeUse" />
+      <item index="1" class="java.lang.String" itemvalue="Application.getPackage" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Student" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Employee" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PolymorphicTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Student" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PolymorphicTest" />
         <item index="1" class="java.lang.String" itemvalue="Application.Employee" />
-        <item index="2" class="java.lang.String" itemvalue="Application.getPackage" />
-        <item index="3" class="java.lang.String" itemvalue="Application.EmployeeUse" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Student" />
+        <item index="3" class="java.lang.String" itemvalue="Application.getPackage" />
+        <item index="4" class="java.lang.String" itemvalue="Application.EmployeeUse" />
       </list>
     </recent_temporary>
   </component>
@@ -536,7 +548,7 @@
       <workItem from="1524876346014" duration="17256000" />
       <workItem from="1525220457961" duration="25880000" />
       <workItem from="1525307158286" duration="24738000" />
-      <workItem from="1525392620403" duration="19934000" />
+      <workItem from="1525392620403" duration="26451000" />
     </task>
     <task id="LOCAL-00001" summary="~">
       <created>1523877373045</created>
@@ -846,11 +858,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525418789201</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="java继承初试">
+      <created>1525432253757</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1525432253757</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297341000" />
+    <option name="totallyTimeSpent" value="303858000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -862,7 +881,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="317" y="137" width="1232" height="879" extended-state="0" />
+    <frame x="93" y="156" width="1232" height="879" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -901,7 +920,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="输出菱形空心菱形" />
     <MESSAGE value="javaSE考试题1-10" />
     <MESSAGE value="javaSE考试题11-14" />
     <MESSAGE value="一维、二维数组 与其遍历、取值" />
@@ -926,7 +944,8 @@
     <MESSAGE value="字符串其他方法" />
     <MESSAGE value="修改包名" />
     <MESSAGE value="封装、导包、访问修饰符" />
-    <option name="LAST_COMMIT_MESSAGE" value="封装、导包、访问修饰符" />
+    <MESSAGE value="java继承初试" />
+    <option name="LAST_COMMIT_MESSAGE" value="java继承初试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -935,13 +954,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/DataType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran/Arithmetic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1349,57 +1361,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/superclass/PersonClass.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/subclass/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        <state relative-caret-position="365">
+          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
           <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/superclass/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
-            <element signature="e#1318#1319#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1476#1477#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/subclass/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/superclass/PersonClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding>
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaInheritance/subclass/PolymorphicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -15,8 +15,8 @@ package com.yiran.entity.javaInheritance.superclass;
  * */
 
 public class Student extends PersonClass {
-    private String play; // 定义新的字段
-
+    public String play; // 定义新的字段
+    public String like = "heihei";
     String thisname = super.name; // 通过super访问父类的属性，不能在静态context中使用
     // 也可以用super访问父类的方法
 
