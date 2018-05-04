@@ -27,7 +27,7 @@ public class StringOther {
         // 创建字符串对象 limit 可选项 限制返回数组中元素的个数
         // 比如n  那么n-1个都是单个 第n个是后面所有的当成一个字符串
         String s4 = "chunjue,yiran,miku,poi,lan";
-        String[] strArray = s4.split(",");
+        String[] strArray = s4.split(",",3);
         for (int x = 0;x < strArray.length;x++){
             System.out.println(strArray[x]);
         }
