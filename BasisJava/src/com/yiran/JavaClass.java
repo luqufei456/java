@@ -52,8 +52,8 @@ public class JavaClass {
 }
 
 // 外部类
-// 相当于继承了主体类的public属性 所以不能再写修饰符
-class Student{ // 相当于继承了主体类的public属性 所以不能再写修饰符
+// 每个.java中只可能存在一个公开类
+class Student{ // 默认访问类型
     /**
      * 成员变量：
      成员变量分为类属性和实例属性两种，定义一个属性时不使用static修饰就是实例属性，使用static修饰就是类属性。

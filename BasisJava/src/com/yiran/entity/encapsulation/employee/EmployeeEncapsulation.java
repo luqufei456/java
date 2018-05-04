@@ -17,7 +17,7 @@ package com.yiran.entity.encapsulation.employee;
 public class EmployeeEncapsulation {
     // 定义成员变量，控制访问级别
     public String name;
-    public int age;
+    int age;
     private double salary;
 
     // 定义构造方法

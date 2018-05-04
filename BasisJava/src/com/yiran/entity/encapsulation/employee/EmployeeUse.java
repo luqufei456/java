@@ -10,6 +10,8 @@ public class EmployeeUse {
         String name = person.name;
         int age = person.age;
         // double salary = person.salary; 无法访问
+
+        // 将 getSalary改为 protected修饰后 一样能使用，因为在同一个包， 然而隔壁pack1包内就无法使用了
         person.getSalary();
         // person.show(); 无法访问
     }
