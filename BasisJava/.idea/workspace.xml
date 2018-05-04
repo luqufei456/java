@@ -2,10 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/Entity/Encapsulation/Employee/EmployeeEncapsulation.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Yiran/Entity/Encapsulation/Employee/EmployeeUse.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity/encapsulation/employee/EmployeeEncapsulation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity/encapsulation/employee/EmployeeUse.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringOther.java" afterPath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringOther.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/Yiran/HelloWorld.class" afterPath="$PROJECT_DIR$/out/production/JavaBasis/com/Yiran/HelloWorld.class" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Arithmetic.java" afterPath="$PROJECT_DIR$/src/com/yiran/Arithmetic.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/ArraySort.java" afterPath="$PROJECT_DIR$/src/com/yiran/ArraySort.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/ArrayTest.java" afterPath="$PROJECT_DIR$/src/com/yiran/ArrayTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/CirculationWork.java" afterPath="$PROJECT_DIR$/src/com/yiran/CirculationWork.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/DataType.java" afterPath="$PROJECT_DIR$/src/com/yiran/DataType.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/ClassParameter/Student.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/classParameter/Student.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/ClassParameter/Teacher.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/classParameter/Teacher.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/ClassParameter/Test.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/classParameter/Test.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/ClassPrivateDefine.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/ClassPrivateDefine.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/ClassPrivateUse.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/ClassPrivateUse.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/ClassReturn/Student.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/classReturn/Student.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/ClassReturn/Teacher.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/classReturn/Teacher.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/ClassReturn/Test.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/classReturn/Test.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/ConstructorDefine.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/ConstructorDefine.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/ConstructorUse.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/ConstructorUse.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/EncapsulationDefine.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/EncapsulationDefine.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/EncapsulationUse.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/EncapsulationUse.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaStatic/StaticMethods.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaStatic/StaticMethods.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaStatic/StaticVariable.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaStatic/StaticVariable.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/Login.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaString/Login.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringConversion1.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaString/StringConversion1.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringConversion2.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaString/StringConversion2.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringDemo1.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaString/StringDemo1.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringDemo2.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaString/StringDemo2.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringDemo3.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaString/StringDemo3.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringDemo4.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaString/StringDemo4.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringGet.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaString/StringGet.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringJudgement.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaString/StringJudgement.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringOther.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaString/StringOther.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringReverse.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaString/StringReverse.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/PhoneClassDefine.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/PhoneClassDefine.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/PhoneClassUse.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/PhoneClassUse.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/StudentClassDefine.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/StudentClassDefine.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/StudentClassUse.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/StudentClassUse.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/Entity/VariableDifference.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/VariableDifference.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/HelloWorld.java" afterPath="$PROJECT_DIR$/src/com/yiran/HelloWorld.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/JavaClass.java" afterPath="$PROJECT_DIR$/src/com/yiran/JavaClass.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/JavaMethodsOne.java" afterPath="$PROJECT_DIR$/src/com/yiran/JavaMethodsOne.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/JavaMethodsTwo.java" afterPath="$PROJECT_DIR$/src/com/yiran/JavaMethodsTwo.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/JavaSeExam.java" afterPath="$PROJECT_DIR$/src/com/yiran/JavaSeExam.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/JavaSearch.java" afterPath="$PROJECT_DIR$/src/com/yiran/JavaSearch.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/LogicControl.java" afterPath="$PROJECT_DIR$/src/com/yiran/LogicControl.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/SEwork/ArrayWork.java" afterPath="$PROJECT_DIR$/src/com/yiran/javaSEwork/ArrayWork.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/TestJava.java" afterPath="$PROJECT_DIR$/src/com/yiran/TestJava.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/Yiran/TestRandom.java" afterPath="$PROJECT_DIR$/src/com/yiran/TestRandom.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,53 +61,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EmployeeEncapsulation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/Encapsulation/Employee/EmployeeEncapsulation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#800#801#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringOther.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringOther.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeeUse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/Encapsulation/Employee/EmployeeUse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StaticMethods.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/JavaStatic/StaticMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,13 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Yiran/JavaMethods.java" />
-        <option value="$PROJECT_DIR$/src/com/Yiran/JavaMethodsOne.java" />
-        <option value="$PROJECT_DIR$/src/com/Yiran/DataType.java" />
-        <option value="$PROJECT_DIR$/src/com/Yiran/JavaMethodsThree.java" />
-        <option value="$PROJECT_DIR$/src/com/Yiran/ArrayTest.java" />
-        <option value="$PROJECT_DIR$/src/com/Yiran/JavaSearch.java" />
-        <option value="$PROJECT_DIR$/src/com/Yiran/ArraySort.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/JavaClassOne.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/JavaClass.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/entity/ClassTest1.java" />
@@ -139,6 +131,13 @@
         <option value="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringOther.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/Entity/Encapsulation/Employee/EmployeeUse.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/Entity/Encapsulation/Employee/EmployeeEncapsulation.java" />
+        <option value="$PROJECT_DIR$/src/com/Yiran/entity/Encapsulation/employee/EmployeeUse.java" />
+        <option value="$PROJECT_DIR$/src/com/Yiran/entity/javaStatic/StaticMethods.java" />
+        <option value="$PROJECT_DIR$/src/com/Yiran/entity/Encapsulation/employee/EmployeeEncapsulation.java" />
+        <option value="$PROJECT_DIR$/src/com/Yiran/entity/Encapsulation/EmployeeEncapsulation.java" />
+        <option value="$PROJECT_DIR$/src/com/Yiran/entity/encapsulation/EmployeeEncapsulation.java" />
+        <option value="$PROJECT_DIR$/src/com/Yiran/entity/encapsulation/employee/EmployeeEncapsulation.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran/entity/encapsulation/employee/EmployeeEncapsulation.java" />
       </list>
     </option>
   </component>
@@ -187,66 +186,72 @@
               <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Yiran" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Yiran" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-              <item name="ClassParameter" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="classParameter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Yiran" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-              <item name="Employee" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="classReturn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Yiran" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaStatic" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="encapsulation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Yiran" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaStatic" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="encapsulation" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="javaStatic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="javaStatic" type="462c0819:PsiDirectoryNode" />
               <item name="StaticMethods.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Yiran" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaString" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Yiran" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaClass.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="javaString" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -276,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringOther">
+  <component name="RunManager" selected="Application.EmployeeUse">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -284,14 +289,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="StringConversion2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.Yiran.Entity.JavaString.*" />
+          <option name="PATTERN" value="com.yiran.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.Yiran.Entity.JavaString.StringConversion2" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran.ArrayTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -303,14 +308,14 @@
       <module name="JavaBasis" />
       <envs />
     </configuration>
-    <configuration name="StringDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.Yiran.Entity.JavaString.*" />
+          <option name="PATTERN" value="com.yiran.entity.encapsulation.employee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.Yiran.Entity.JavaString.StringDemo4" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran.entity.encapsulation.employee.EmployeeUse" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -322,14 +327,14 @@
       <module name="JavaBasis" />
       <envs />
     </configuration>
-    <configuration name="StringOther" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.Yiran.Entity.JavaString.*" />
+          <option name="PATTERN" value="com.yiran.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.Yiran.Entity.JavaString.StringOther" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran.HelloWorld" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -341,14 +346,14 @@
       <module name="JavaBasis" />
       <envs />
     </configuration>
-    <configuration name="StringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.Yiran.Entity.JavaString.*" />
+          <option name="PATTERN" value="com.yiran.entity.classReturn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.Yiran.Entity.JavaString.StringReverse" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran.entity.classReturn.Test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -360,14 +365,14 @@
       <module name="JavaBasis" />
       <envs />
     </configuration>
-    <configuration name="Variable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.Yiran.Entity.JavaStatic.*" />
+          <option name="PATTERN" value="com.yiran.entity.classParameter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.Yiran.Entity.JavaStatic.Variable" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran.entity.classParameter.Test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -466,19 +471,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Variable" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StringConversion2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StringOther" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StringDemo4" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StringReverse" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ArrayTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HelloWorld" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.EmployeeUse" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StringOther" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StringReverse" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StringDemo4" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StringConversion2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Variable" />
+        <item index="0" class="java.lang.String" itemvalue="Application.EmployeeUse" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HelloWorld" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +518,7 @@
       <workItem from="1524876346014" duration="17256000" />
       <workItem from="1525220457961" duration="25880000" />
       <workItem from="1525307158286" duration="24738000" />
-      <workItem from="1525392620403" duration="2203000" />
+      <workItem from="1525392620403" duration="3778000" />
     </task>
     <task id="LOCAL-00001" summary="~">
       <created>1523877373045</created>
@@ -802,11 +807,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525349509819</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="字符串其他方法">
+      <created>1525394853647</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1525394853647</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279610000" />
+    <option name="totallyTimeSpent" value="281185000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -819,22 +831,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="535" y="85" width="1232" height="879" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32749325" sideWeight="0.502994" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32614556" sideWeight="0.497006" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32614556" sideWeight="0.497006" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25255972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24978614" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -845,9 +858,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -857,7 +868,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Random猜数字小游戏" />
     <MESSAGE value="直角、等边、空心等边三角形" />
     <MESSAGE value="输出三角形" />
     <MESSAGE value="输出菱形空心菱形" />
@@ -882,7 +892,8 @@
     <MESSAGE value="java String 初识" />
     <MESSAGE value="java 静态变量和静态方法" />
     <MESSAGE value="字符串学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串学习" />
+    <MESSAGE value="字符串其他方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串其他方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -891,22 +902,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hs_err_pid15064.log" />
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/StudentClassUse.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/StudentClassUse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/TestJava.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/TestJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/JavaSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/JavaSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
@@ -914,72 +924,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/CirculationWork.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/CirculationWork.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2771">
           <caret line="163" column="33" lean-forward="false" selection-start-line="163" selection-start-column="33" selection-end-line="163" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/ArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3706">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/JavaSeExam.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/JavaSeExam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2715">
           <caret line="216" column="25" lean-forward="true" selection-start-line="216" selection-start-column="25" selection-end-line="216" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/TestRandom.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/TestRandom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
           <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/DataType.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/DataType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Arithmetic.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/Arithmetic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/ArraySort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/LogicControl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/LogicControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="95" column="27" lean-forward="true" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/JavaClass.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/JavaClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
@@ -998,21 +985,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/JavaMethodsOne.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/JavaMethodsOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
           <caret line="97" column="31" lean-forward="false" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/PhoneClassUse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/SEwork/ArrayWork.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/javaSEwork/ArrayWork.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
@@ -1020,7 +1000,7 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/ArrayWork.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/JavaMethodsTwo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/JavaMethodsTwo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2244">
           <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
@@ -1039,21 +1019,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/SEwork/ArrayWork.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/javaSEwork/ArrayWork.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="128" column="50" lean-forward="false" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/VariableDifference.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/VariableDifference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/EncapsulationUse.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/EncapsulationUse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
@@ -1062,7 +1042,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/ClassReturn.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/ConstructorUse.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/ConstructorUse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
@@ -1070,37 +1050,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/ClassReturn/Teacher.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/classReturn/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/ClassParameter/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/ClassReturn/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringDemo2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/StringDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
@@ -1108,7 +1066,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringJudgement.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/StringJudgement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
@@ -1116,7 +1074,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/ClassPrivateUse.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/ClassPrivateUse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -1124,7 +1082,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/ClassPrivateDefine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/ClassPrivateDefine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
@@ -1137,7 +1095,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
@@ -1145,7 +1103,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringGet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/StringGet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -1153,7 +1111,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringDemo3.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/StringDemo3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
           <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
@@ -1161,14 +1119,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/ClassReturn/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/classReturn/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/StudentClassDefine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/StudentClassDefine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
@@ -1176,15 +1135,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/PhoneClassDefine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/EncapsulationDefine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/EncapsulationDefine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
@@ -1192,7 +1143,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/ConstructorDefine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/ConstructorDefine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
@@ -1217,7 +1168,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/JavaStatic/StaticVariable.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaStatic/StaticVariable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
@@ -1232,7 +1183,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringConversion1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/StringConversion1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
@@ -1240,7 +1191,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringConversion2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/StringConversion2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
           <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
@@ -1248,15 +1199,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/ClassParameter/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/ClassParameter/Teacher.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/classParameter/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1267,7 +1210,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringDemo4.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/StringDemo4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
@@ -1275,7 +1218,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringReverse.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/StringReverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
@@ -1283,26 +1226,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/JavaStatic/StaticMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/StringOther.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/Encapsulation/Employee/EmployeeUse.java">
+    <entry file="file://$PROJECT_DIR$/JavaBasis.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="102">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/Encapsulation/Employee/EmployeeEncapsulation.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/encapsulation/employee/EmployeeEncapsulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
           <folding>
             <element signature="e#706#707#0" expanded="true" />
             <element signature="e#774#775#0" expanded="true" />
@@ -1312,10 +1255,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringOther.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/classParameter/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaStatic/StaticMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/StringDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/PhoneClassDefine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/PhoneClassUse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/ArraySort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="251" column="9" lean-forward="true" selection-start-line="251" selection-start-column="9" selection-end-line="251" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/ArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/classParameter/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/classReturn/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/encapsulation/employee/EmployeeUse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
