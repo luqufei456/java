@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/arrayList/ArrayListAdd.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/arrayList/ArrayListDelChangeGet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/arrayList/ArrayListDemo1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/arrayList/ArrayListDemo2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/arrayList/ArrayListDemo3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/arrayList/Traverse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/objectArray/ObjectArray.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/objectArray/Student.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/objectArray/StudentDemo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/stuManage/Manage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/stuManage/Student.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,94 +16,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ObjectArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/objectArray/ObjectArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/objectArray/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-              <folding>
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/objectArray/StudentDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/stuManage/Student.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayListDelChangeGet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/arrayList/ArrayListDelChangeGet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#610#618#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
+                <element signature="e#1208#1209#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Traverse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/arrayList/Traverse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-              <folding>
-                <element signature="e#283#291#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayListDemo1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/arrayList/ArrayListDemo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-              <folding>
-                <element signature="e#661#669#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayListDemo3.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/arrayList/ArrayListDemo3.java">
+      <file leaf-file-name="Manage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/stuManage/Manage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="51" column="45" lean-forward="true" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+              <caret line="135" column="43" lean-forward="true" selection-start-line="135" selection-start-column="43" selection-end-line="135" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#554#563#0" expanded="true" />
+                <element signature="e#451#460#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,9 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/Login.java" />
-        <option value="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringGet.java" />
-        <option value="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringDemo3.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringConversion.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringConversion1.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/Entity/JavaStatic/StaticVariable.java" />
@@ -193,6 +134,9 @@
         <option value="$PROJECT_DIR$/src/com/yiran/entity2/arrayList/ArrayListDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran/entity2/arrayList/ArrayListDemo2.java" />
         <option value="$PROJECT_DIR$/src/com/yiran/entity2/arrayList/ArrayListDemo3.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran/entity2/stuManage/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran/entity2/stuManage/manage.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran/entity2/stuManage/Manage.java" />
       </list>
     </option>
   </component>
@@ -203,8 +147,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="571" />
-    <option name="y" value="158" />
+    <option name="x" value="362" />
+    <option name="y" value="85" />
     <option name="width" value="1232" />
     <option name="height" value="879" />
   </component>
@@ -256,7 +200,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="yiran" type="462c0819:PsiDirectoryNode" />
               <item name="entity2" type="462c0819:PsiDirectoryNode" />
-              <item name="arrayList" type="462c0819:PsiDirectoryNode" />
+              <item name="stuManage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -286,32 +230,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayListDemo3">
+  <component name="RunManager" selected="Application.Manage">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="ArrayListDelChangeGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yiran.entity2.arrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yiran.entity2.arrayList.ArrayListDelChangeGet" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaBasis" />
-      <envs />
     </configuration>
     <configuration name="ArrayListDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -359,6 +284,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.yiran.entity2.arrayList.ArrayListDemo3" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaBasis" />
+      <envs />
+    </configuration>
+    <configuration name="Manage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yiran.entity2.stuManage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.yiran.entity2.stuManage.Manage" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -476,19 +420,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ArrayListDelChangeGet" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Traverse" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ArrayListDemo1" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ArrayListDemo2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ArrayListDemo3" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Traverse" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ArrayListDemo1" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ArrayListDemo2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ArrayListDemo3" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Manage" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ArrayListDemo3" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ArrayListDemo2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ArrayListDemo1" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Traverse" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ArrayListDelChangeGet" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Manage" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ArrayListDemo3" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ArrayListDemo2" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ArrayListDemo1" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Traverse" />
       </list>
     </recent_temporary>
   </component>
@@ -525,14 +469,7 @@
       <workItem from="1525307158286" duration="24738000" />
       <workItem from="1525392620403" duration="26604000" />
       <workItem from="1525480632812" duration="10530000" />
-      <workItem from="1525660806395" duration="19138000" />
-    </task>
-    <task id="LOCAL-00001" summary="~">
-      <created>1523877373045</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1523877373045</updated>
+      <workItem from="1525660806395" duration="26342000" />
     </task>
     <task id="LOCAL-00002" summary="哈哈">
       <created>1523877629371</created>
@@ -870,11 +807,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525677289031</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="集合初试">
+      <created>1525690703337</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1525690703338</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333679000" />
+    <option name="totallyTimeSpent" value="340883000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -886,7 +830,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="571" y="158" width="1232" height="879" extended-state="0" />
+    <frame x="362" y="85" width="1232" height="879" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -925,7 +869,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="++ --经典案例" />
     <MESSAGE value="java方法 初步了解" />
     <MESSAGE value="范围 而不是精度" />
     <MESSAGE value="方法重载 方法中参数传递" />
@@ -950,7 +893,8 @@
     <MESSAGE value="StringBuilder初试" />
     <MESSAGE value="String 替换和 是否为空 方法" />
     <MESSAGE value="多态 string方法扩展" />
-    <option name="LAST_COMMIT_MESSAGE" value="多态 string方法扩展" />
+    <MESSAGE value="集合初试" />
+    <option name="LAST_COMMIT_MESSAGE" value="集合初试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -959,20 +903,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/PhoneClassDefine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/PhoneClassUse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran/ArraySort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1302,18 +1232,18 @@
         <state relative-caret-position="102">
           <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="false" />
+            <element signature="e#321#322#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#477#478#0" expanded="false" />
+            <element signature="e#516#517#0" expanded="false" />
+            <element signature="e#548#549#0" expanded="false" />
+            <element signature="e#574#575#0" expanded="false" />
+            <element signature="e#600#601#0" expanded="false" />
+            <element signature="e#634#635#0" expanded="false" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#689#690#0" expanded="false" />
+            <element signature="e#772#773#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1371,7 +1301,7 @@
         <state relative-caret-position="221">
           <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding>
-            <element signature="e#283#291#0" expanded="true" />
+            <element signature="e#283#291#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1381,8 +1311,8 @@
         <state relative-caret-position="374">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#610#618#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#610#618#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1392,7 +1322,7 @@
         <state relative-caret-position="705">
           <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
           <folding>
-            <element signature="e#874#882#0" expanded="true" />
+            <element signature="e#874#882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1410,8 +1340,8 @@
         <state relative-caret-position="297">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#675#684#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#675#684#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1421,18 +1351,58 @@
         <state relative-caret-position="323">
           <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
           <folding>
-            <element signature="e#661#669#0" expanded="true" />
+            <element signature="e#661#669#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/arrayList/ArrayListDemo3.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#554#563#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/stuManage/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/stuManage/Manage.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="51" column="45" lean-forward="true" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+          <caret line="135" column="43" lean-forward="true" selection-start-line="135" selection-start-column="43" selection-end-line="135" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#554#563#0" expanded="true" />
+            <element signature="e#451#460#0" expanded="true" />
           </folding>
         </state>
       </provider>
