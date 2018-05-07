@@ -22,6 +22,8 @@ package com.yiran.entity.javaString.stringBuilder;
  *      public int capacity():返回当前容量 (理论值)
  *      public int length():返回长度(已经存储的字符个数)
  *      public StringBuilder append(任意类型):添加数据，并返回自身对象
+ *      public StringBuilder delete(start,end):删除数据，从什么位置删到什么位置，并返回自身对象
+ *      public StringBuilder insert(offset,Object):插入数据，在什么位置插入什么，并返回自身对象
  *      public StringBuilder reverse():反转功能
  * */
 
