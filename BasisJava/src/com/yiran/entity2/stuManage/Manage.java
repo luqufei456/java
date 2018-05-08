@@ -21,13 +21,14 @@ public class Manage {
     public static void main(String[] args){
         // 创建学生集合对象，用于存储学生数据
         ArrayList<Student> stuArr = new ArrayList<Student>();
-
+        // stuArr.add(1); 报错 因为指定了元素类型为Student
         // 创建Manage对象，用于使用方法
         Manage manage = new Manage();
 
         // 为了让程序能够回到主界面，采取while无限循环
         while (true){
             // 学生管理系统主界面
+            System.out.println();
             System.out.println("--------欢迎来到《依然》牌学生信息管理系统--------");
             System.out.println("1 查看所有学生");
             System.out.println("2 添加学生");
@@ -86,9 +87,27 @@ public class Manage {
     public void addStudent(ArrayList<Student> stuArr){
         Scanner sc  = new Scanner(System.in);
 
-        // 注意，这里接收字符串不能使用 nextLine() 会被略过
-        System.out.print("请输入学号：");
-        long id = sc.nextLong();
+        // id定义在循环内部，会无法被访问到 局部变量
+        long id;
+
+        while (true){
+            // 注意，这里接收字符串不能使用 nextLine() 会被略过
+            System.out.print("请输入学号：");
+            id = sc.nextLong();
+            boolean flag = true;
+            for (int x = 0;x < stuArr.size();x++){
+                Student stu = stuArr.get(x);
+                long thisId = stu.getId();
+                if (thisId == id){
+                    System.out.println("系统中已存在该学号的学生，请重新输入");
+                    flag = false; // 被占用就改为false 如果没被改，后面判断就会退出while循环
+                    break;
+                }
+            }
+            if (flag){
+                break;
+            }
+        }
 
         System.out.print("请输入姓名：");
         String name = sc.next();
@@ -111,8 +130,8 @@ public class Manage {
 
     public void delStudent(ArrayList<Student> stuArr){
         Scanner sc = new Scanner(System.in);
-        System.out.print("请输入想要删除的学生姓名：");
-        String name = sc.nextLine();
+        System.out.print("请输入想要删除的学生学号：");
+        long id = sc.nextLong();
 
         // 因为存的是对象，所以不能使用indexOf方法
         // 首先判断是否有学生
@@ -120,21 +139,27 @@ public class Manage {
             System.out.println("目前本系统中并没有学生信息，请输入学生信息后在进行查询操作");
             return;
         }
+        int re = 0;
         for (int x = 0;x < stuArr.size();x++){
             Student stu = stuArr.get(x);
-            String thisName = stu.getName();
+            long thisId = stu.getId();
             // 字符串使用equals比较
-            if (name.equals(thisName)){
+            if (thisId == id){
                 stuArr.remove(stu);
+                re++;
             }
+        }
+        if (re == 0){
+            System.out.println("系统中并没有符合条件的学生");
+            return;
         }
         System.out.println("系统中所有符合该姓名的学生都已删除");
     }
 
     public void setStudent(ArrayList<Student> stuArr){
         Scanner sc = new Scanner(System.in);
-        System.out.print("请输入想要修改的学生的姓名：");
-        String name = sc.nextLine();
+        System.out.print("请输入想要修改的学生学号：");
+        long id = sc.nextLong();
 
         // 因为存的是对象，所以不能使用indexOf方法
         // 首先判断是否有学生
@@ -142,11 +167,12 @@ public class Manage {
             System.out.println("目前本系统中并没有学生信息，请输入学生信息后在进行查询操作");
             return;
         }
+        int set = 0;
         for (int x = 0;x < stuArr.size();x++){
             Student stu = stuArr.get(x);
-            String thisName = stu.getName();
+            long thisId = stu.getId();
             // 字符串使用equals比较
-            if (name.equals(thisName)){
+            if (thisId == id){
                 // 获得输入值列
                 System.out.print("请输入新学号：");
                 long newId = sc.nextLong();
@@ -170,7 +196,12 @@ public class Manage {
                 stu.setAge(newAge);
                 stu.setGender(newGender);
                 stu.setAddress(newAddress);
+                set++;
             }
+        }
+        if (set == 0){
+            System.out.println("系统中并没有符合条件的学生");
+            return;
         }
         System.out.println("更新数据完成");
     }

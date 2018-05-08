@@ -15,6 +15,8 @@ public class StudentDemo {
         students[1] = chunjue;
         students[2] = baba;
 
+        // students[0].setName("依然");
+
         for (int x = 0;x < students.length;x++){
             Student stu = students[x];
             System.out.println("地址为："+stu);
