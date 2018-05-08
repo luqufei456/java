@@ -23,13 +23,14 @@ public class Manage {
         ArrayList<Student> stuArr = new ArrayList<Student>();
         // stuArr.add(1); 报错 因为指定了元素类型为Student
         // 创建Manage对象，用于使用方法
-        Manage manage = new Manage();
+        Manage manage = new Manage(); // 将该对象放入循环中以后，每次循环都会重新创建对象，比较浪费
+
+        System.out.println("--------欢迎来到《依然》牌学生信息管理系统--------");
 
         // 为了让程序能够回到主界面，采取while无限循环
         while (true){
             // 学生管理系统主界面
             System.out.println();
-            System.out.println("--------欢迎来到《依然》牌学生信息管理系统--------");
             System.out.println("1 查看所有学生");
             System.out.println("2 添加学生");
             System.out.println("3 删除学生");
