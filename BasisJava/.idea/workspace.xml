@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/fileReader/FileReaderDemo1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo4.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran/entity2/stuManage/Manage.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/stuManage/Manage.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/FileWriterDemo1.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo1.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/FileWriterDemo2.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo2.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/FileWriterDemo3.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo3.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,48 +19,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileWriterDemo2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/FileWriterDemo2.java">
+      <file leaf-file-name="FileReaderDemo1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/fileReader/FileReaderDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Manage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/stuManage/Manage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state relative-caret-position="102">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileWriterDemo3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/FileWriterDemo3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileWriterDemo1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/FileWriterDemo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -88,10 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringConversion2.java" />
-        <option value="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringDemo4.java" />
-        <option value="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringReverse.java" />
-        <option value="$PROJECT_DIR$/src/com/Yiran/Entity/JavaString/StringOther.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/Entity/Encapsulation/Employee/EmployeeUse.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/Entity/Encapsulation/Employee/EmployeeEncapsulation.java" />
         <option value="$PROJECT_DIR$/src/com/Yiran/entity/Encapsulation/employee/EmployeeUse.java" />
@@ -139,6 +103,10 @@
         <option value="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/FileWriterDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/FileWriterDemo3.java" />
         <option value="$PROJECT_DIR$/src/com/yiran/entity2/stuManage/Manage.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/FileWriterDemo4.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo1.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo4.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/fileReader/FileReaderDemo1.java" />
       </list>
     </option>
   </component>
@@ -228,6 +196,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="yiran" type="462c0819:PsiDirectoryNode" />
               <item name="entity2" type="462c0819:PsiDirectoryNode" />
+              <item name="javaIO" type="462c0819:PsiDirectoryNode" />
+              <item name="fileWriter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity2" type="462c0819:PsiDirectoryNode" />
               <item name="stuManage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -255,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileWriterDemo3">
+  <component name="RunManager" selected="Application.FileWriterDemo4">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -263,33 +240,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yiran.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yiran.ArrayTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaBasis" />
-      <envs />
-    </configuration>
     <configuration name="FileWriterDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran.entity2.javaIO.*" />
+          <option name="PATTERN" value="com.yiran.entity2.javaIO.fileWriter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yiran.entity2.javaIO.FileWriterDemo1" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran.entity2.javaIO.fileWriter.FileWriterDemo1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -304,11 +262,11 @@
     <configuration name="FileWriterDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran.entity2.javaIO.*" />
+          <option name="PATTERN" value="com.yiran.entity2.javaIO.fileWriter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yiran.entity2.javaIO.FileWriterDemo2" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran.entity2.javaIO.fileWriter.FileWriterDemo2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -323,11 +281,30 @@
     <configuration name="FileWriterDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran.entity2.javaIO.*" />
+          <option name="PATTERN" value="com.yiran.entity2.javaIO.fileWriter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yiran.entity2.javaIO.FileWriterDemo3" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran.entity2.javaIO.fileWriter.FileWriterDemo3" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaBasis" />
+      <envs />
+    </configuration>
+    <configuration name="FileWriterDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yiran.entity2.javaIO.fileWriter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.yiran.entity2.javaIO.fileWriter.FileWriterDemo4" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -446,18 +423,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Manage" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ArrayTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FileWriterDemo1" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FileWriterDemo2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FileWriterDemo3" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FileWriterDemo1" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FileWriterDemo2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FileWriterDemo3" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FileWriterDemo4" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FileWriterDemo3" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FileWriterDemo1" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FileWriterDemo4" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FileWriterDemo3" />
         <item index="2" class="java.lang.String" itemvalue="Application.FileWriterDemo2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Manage" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ArrayTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FileWriterDemo1" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Manage" />
       </list>
     </recent_temporary>
   </component>
@@ -495,14 +472,7 @@
       <workItem from="1525392620403" duration="26604000" />
       <workItem from="1525480632812" duration="10530000" />
       <workItem from="1525660806395" duration="26377000" />
-      <workItem from="1525739353532" duration="15573000" />
-    </task>
-    <task id="LOCAL-00005" summary="简单运算符补充">
-      <created>1523967446037</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1523967446037</updated>
+      <workItem from="1525739353532" duration="17932000" />
     </task>
     <task id="LOCAL-00006" summary="基本数据类型">
       <created>1524016146547</created>
@@ -840,11 +810,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525765383947</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="~">
+      <created>1525765426217</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1525765426222</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="356491000" />
+    <option name="totallyTimeSpent" value="358850000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -895,7 +872,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="~" />
     <MESSAGE value="方法对数组操作" />
     <MESSAGE value="二维数组转置与输出" />
     <MESSAGE value="java实现算法排序" />
@@ -920,7 +896,8 @@
     <MESSAGE value="学生管理系统" />
     <MESSAGE value="完善" />
     <MESSAGE value="输入流初试" />
-    <option name="LAST_COMMIT_MESSAGE" value="输入流初试" />
+    <MESSAGE value="~" />
+    <option name="LAST_COMMIT_MESSAGE" value="~" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -929,20 +906,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/classReturn/Teacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/classReturn/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran/JavaClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1267,40 +1230,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/FileWriterDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/FileWriterDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/FileWriterDemo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/stuManage/Manage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        <state relative-caret-position="304">
+          <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/fileReader/FileReaderDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>

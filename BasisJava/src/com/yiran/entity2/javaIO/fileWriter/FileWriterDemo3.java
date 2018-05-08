@@ -1,4 +1,4 @@
-package com.yiran.entity2.javaIO;
+package com.yiran.entity2.javaIO.fileWriter;
 
 import java.io.FileWriter;
 import java.io.IOException;
