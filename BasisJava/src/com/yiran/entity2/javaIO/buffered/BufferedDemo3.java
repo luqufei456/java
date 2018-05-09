@@ -52,7 +52,7 @@ public class BufferedDemo3 {
         String line;
 
         while ((line = br.readLine()) != null){
-            System.out.println(line);
+            System.out.println(line); // line 中不会自带换行符
         }
 
         // 缓冲流关闭会自动将 输出流、输出流对象关闭，所以不需要手动关闭
