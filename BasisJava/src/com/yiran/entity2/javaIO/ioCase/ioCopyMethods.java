@@ -1,4 +1,4 @@
-package com.yiran.entity2.javaIO;
+package com.yiran.entity2.javaIO.ioCase;
 
 import java.io.*;
 
