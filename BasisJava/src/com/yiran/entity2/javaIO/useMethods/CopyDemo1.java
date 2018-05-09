@@ -35,8 +35,9 @@ public class CopyDemo1 {
             fw.write(str);
         }
 
-        fr.close();
+        // 先打开的后关闭，后打开的先关闭
         fw.close();
+        fr.close();
 
     }
 
