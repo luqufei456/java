@@ -104,17 +104,21 @@ public class ShoppingReceipt {
         // 定义变量，记录 商品总量
         int totalNum = 0;
         // 使用循环得到每种商品的信息 将其输出 加入到总量中
+        int goodsSize = 0;
         for (int i = 0;i < goodsArr.size();i++){
             GoodsClass goods = goodsArr.get(i);
-            System.out.println(goods.getName()+"\t"+goods.getId()+"\t"+goods.getPrice()+"\t"+goods.getNumber()+"\t"+goods.getUnit()+"\t"+goods.getMoney());
+            if (goods.getNumber() != 0){
+                System.out.println(goods.getName()+"\t"+goods.getId()+"\t"+goods.getPrice()+"\t"+goods.getNumber()+"\t"+goods.getUnit()+"\t"+goods.getMoney());
 
-            // 累加商品总量
-            totalNum += goods.getNumber();
+                // 累加商品总量
+                totalNum += goods.getNumber();
+                goodsSize++;
+            }
         }
 
         System.out.println("------------------------------------------");
         // 票脚
-        System.out.println("共"+goodsArr.size()+"种商品");
+        System.out.println("共"+goodsSize+"种商品");
         System.out.println("共"+totalNum+"件商品");
         System.out.println("收您"+payment+"元");
         // 定义找零
