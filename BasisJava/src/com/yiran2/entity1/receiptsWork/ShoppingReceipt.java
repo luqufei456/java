@@ -9,16 +9,17 @@ import java.util.Scanner;
 
 public class ShoppingReceipt {
     // 将集合定义为成员变量，用于存储所有商品对象
-    static ArrayList<GoodsClass> goodsArr = new ArrayList<GoodsClass>();
+    private ArrayList<GoodsClass> goodsArr = new ArrayList<GoodsClass>();
     // 定义实际付款
-    static double payment = 0;
+    private double payment = 0;
     // 定义总金额
-    static double totalMoney = 0.0;
+    private double totalMoney = 0.0;
 
     public static void main(String[] args){
-        // 为集合准备数据
-        initData();
         ShoppingReceipt sr = new ShoppingReceipt();
+
+        // 为集合准备数据
+        sr.initData();
 
         System.out.println("--------欢迎使用超市小票系统--------");
 
@@ -58,7 +59,7 @@ public class ShoppingReceipt {
     }
 
     // 用于创建多个商品对象
-    public static void initData(){
+    public void initData(){
         GoodsClass milk = new GoodsClass("蒙牛优酸乳","10086",2.5,0,"瓶",0);
         GoodsClass bread = new GoodsClass("盼盼法式小面包","10087",5,0,"包",0);
         goodsArr.add(milk);
