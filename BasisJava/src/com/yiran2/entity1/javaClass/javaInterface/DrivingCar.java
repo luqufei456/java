@@ -11,6 +11,13 @@ package com.yiran2.entity1.javaClass.javaInterface;
  *
  * 如果不写 public 或 abstract 在编译时会自动加上
  * 接口中的属性也一样  忘记写修饰符了，编译时会自动加上
+ *
+ * 接口中的属性，默认有这些修饰符，即使什么都不加，也不会报错，但是在编译时会自动加上
+ *
+ * 一个类可以同时实现多个接口
+ *
+ * java类是单继承的。classB Extends classA
+ * java接口可以多继承。Interface3 Extends Interface0, Interface1, interface……
  * */
 
 public interface DrivingCar {
