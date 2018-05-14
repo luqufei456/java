@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="static">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity1/twoModified/staticDemo/Chinese.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity1/twoModified/staticDemo/StaticDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity1/twoModified/staticDemo/StaticDemo2.java" />
+    <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/polymorphism/test2/Good.java" afterPath="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/polymorphism/test2/Good.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/DrivingCar.java" afterPath="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/DrivingCar.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,15 +78,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StaticDemo2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StaticDemo2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/twoModified/staticDemo/StaticDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+            <state relative-caret-position="252">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#496#497#0" expanded="true" />
                 <element signature="e#558#559#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrivingCar.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/DrivingCar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,7 +165,6 @@
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceEmployee.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceWaiter.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceDriver.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/DrivingCar.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceManager.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceTest.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/polymorphism/test1/Animal.java" />
@@ -172,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/twoModified/StaticDemo.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/twoModified/StaticDemo2.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/twoModified/staticDemo/StaticDemo2.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/DrivingCar.java" />
       </list>
     </option>
   </component>
@@ -188,8 +195,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="414" />
-    <option name="y" value="158" />
+    <option name="x" value="635" />
+    <option name="y" value="125" />
     <option name="width" value="1232" />
     <option name="height" value="879" />
   </component>
@@ -251,7 +258,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yiran2" type="462c0819:PsiDirectoryNode" />
               <item name="entity1" type="462c0819:PsiDirectoryNode" />
-              <item name="twoModified" type="462c0819:PsiDirectoryNode" />
+              <item name="javaClass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran2" type="462c0819:PsiDirectoryNode" />
+              <item name="entity1" type="462c0819:PsiDirectoryNode" />
+              <item name="javaClass" type="462c0819:PsiDirectoryNode" />
+              <item name="javaInterface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
@@ -261,7 +278,6 @@
               <item name="yiran2" type="462c0819:PsiDirectoryNode" />
               <item name="entity1" type="462c0819:PsiDirectoryNode" />
               <item name="twoModified" type="462c0819:PsiDirectoryNode" />
-              <item name="staticDemo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -536,14 +552,7 @@
       <workItem from="1525998981851" duration="18209000" />
       <workItem from="1526036857011" duration="5276000" />
       <workItem from="1526207679012" duration="5086000" />
-      <workItem from="1526257855787" duration="8912000" />
-    </task>
-    <task id="LOCAL-00028" summary="方法对数组操作">
-      <created>1524558858707</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1524558858707</updated>
+      <workItem from="1526257855787" duration="12119000" />
     </task>
     <task id="LOCAL-00029" summary="二维数组转置与输出">
       <created>1524643142655</created>
@@ -881,11 +890,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526261929481</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="static">
+      <created>1526268316866</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1526268316866</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="463785000" />
+    <option name="totallyTimeSpent" value="466992000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -897,7 +913,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="414" y="158" width="1232" height="879" extended-state="0" />
+    <frame x="635" y="125" width="1232" height="879" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -962,7 +978,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="StringBuilder初试" />
     <MESSAGE value="String 替换和 是否为空 方法" />
     <MESSAGE value="多态 string方法扩展" />
     <MESSAGE value="集合初试" />
@@ -987,7 +1002,8 @@
     <MESSAGE value="初探接口" />
     <MESSAGE value="初探java多态" />
     <MESSAGE value="多态中的属性，个人理解" />
-    <option name="LAST_COMMIT_MESSAGE" value="多态中的属性，个人理解" />
+    <MESSAGE value="static" />
+    <option name="LAST_COMMIT_MESSAGE" value="static" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1238,6 +1254,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
           <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#222#223#0" expanded="false" />
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#440#441#0" expanded="false" />
+            <element signature="e#511#512#0" expanded="false" />
+            <element signature="e#556#557#0" expanded="false" />
+            <element signature="e#624#625#0" expanded="false" />
+            <element signature="e#668#669#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#788#789#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1255,17 +1283,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/DrivingCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1273,6 +1306,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1357,12 +1391,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/twoModified/staticDemo/StaticDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        <state relative-caret-position="252">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#496#497#0" expanded="true" />
             <element signature="e#558#559#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/DrivingCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

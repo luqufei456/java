@@ -8,6 +8,8 @@ package com.yiran2.entity1.javaClass.javaInterface;
  * 接口中都使用public static final修饰变量 也是常量即无法改变,不可以使用一般的成员变量
  *
  * 接口中只能存在抽象方法
+ *
+ * 如果不写 public 或 abstract 在编译时会自动加上
  * */
 
 public interface DrivingCar {
@@ -16,7 +18,7 @@ public interface DrivingCar {
 
     // 所有的成员方法均为public abstract修饰
     // 抽象方法 理论
-    public abstract void theoryTest();
+    void theoryTest();
 
     // 场地
     public abstract void fieldDrive();
