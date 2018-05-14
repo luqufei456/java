@@ -10,6 +10,7 @@ package com.yiran2.entity1.javaClass.javaInterface;
  * 接口中只能存在抽象方法
  *
  * 如果不写 public 或 abstract 在编译时会自动加上
+ * 接口中的属性也一样  忘记写修饰符了，编译时会自动加上
  * */
 
 public interface DrivingCar {
