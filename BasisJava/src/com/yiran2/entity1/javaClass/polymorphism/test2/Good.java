@@ -16,6 +16,9 @@ package com.yiran2.entity1.javaClass.polymorphism.test2;
  *
  *  方法被重写后，在方法中返回属性，访问的则是子类的属性，相当于调用子类的方法，子类的方法自然访问子类属性
  *
+ *  静态方法: 因为静态方法、属性是随类一起生成，所以调用什么静态方法，和调用者是什么类型有关。多态中的向上转型
+ *  里 自然是用父类的静态方法
+ *
  *  子类中拥有2个name属性，
  * */
 
@@ -25,6 +28,10 @@ public class Good {
     public String getName() {
         System.out.println("Good.getName");
         return name;
+    }
+
+    public static void function(){
+        System.out.println("Good static");
     }
 
 }
@@ -38,10 +45,18 @@ class Better extends Good {
         // 直接输出属性name
         System.out.println("Good.name");
         System.out.println(g.name);
+
+        // 多态中的静态方法
+        System.out.println();
+        g.function();
     }
 
     public String getName() {
         System.out.println("Better.getName");
         return name;
+    }
+
+    public static void function(){
+        System.out.println("Better static");
     }
 }
