@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/ExceptionInheritance1/SubClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/ExceptionInheritance1/SuperClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/ExceptionInheritance2/Demo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/FinallyDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/customException/U18Demo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/customException/U18Exception.java" />
+    <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="修改String中的一">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaString/setNewString/SetNewFileName.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity1/apiDemo/DataDemo.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,34 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RunTimeMoreDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/RunTimeMoreDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuperClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/ExceptionInheritance1/SuperClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SubClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/ExceptionInheritance1/SubClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
+            <state relative-caret-position="561">
               <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -71,13 +43,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/ExceptionInheritance2/Demo.java">
+      <file leaf-file-name="DrivingCar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/DrivingCar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="221">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterfaceDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+              <folding>
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/apiDemo/DataDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SetNewFileName.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/setNewString/SetNewFileName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+              <folding>
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="U18Demo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="U18Demo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/customException/U18Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            <state relative-caret-position="340">
+              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -145,11 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaAbstract/AbstractWaiter.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceEmployee.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceWaiter.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceDriver.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceManager.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceTest.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/polymorphism/test1/Animal.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/polymorphism/test1/Person.java" />
@@ -196,6 +199,11 @@
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/customException/U18Exception.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/FinallyDemo.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/customException/U18Demo.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceDriver.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran2/entity1/apiDemo/DataDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/SetNewFileName.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran/entity/javaString/SetNewFileName.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran/entity/javaString/setNewString/SetNewFileName.java" />
       </list>
     </option>
   </component>
@@ -212,7 +220,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="554" />
+    <option name="x" value="411" />
     <option name="y" value="125" />
     <option name="width" value="1232" />
     <option name="height" value="879" />
@@ -259,6 +267,57 @@
               <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="javaString" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="javaString" type="462c0819:PsiDirectoryNode" />
+              <item name="setNewString" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity2" type="462c0819:PsiDirectoryNode" />
+              <item name="javaIO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yiran2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -268,46 +327,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yiran2" type="462c0819:PsiDirectoryNode" />
               <item name="entity1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yiran2" type="462c0819:PsiDirectoryNode" />
-              <item name="entity1" type="462c0819:PsiDirectoryNode" />
-              <item name="javaException" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yiran2" type="462c0819:PsiDirectoryNode" />
-              <item name="entity1" type="462c0819:PsiDirectoryNode" />
-              <item name="javaException" type="462c0819:PsiDirectoryNode" />
-              <item name="disposal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yiran2" type="462c0819:PsiDirectoryNode" />
-              <item name="entity1" type="462c0819:PsiDirectoryNode" />
-              <item name="javaException" type="462c0819:PsiDirectoryNode" />
-              <item name="disposal" type="462c0819:PsiDirectoryNode" />
-              <item name="customException" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yiran2" type="462c0819:PsiDirectoryNode" />
-              <item name="entity1" type="462c0819:PsiDirectoryNode" />
-              <item name="javaException" type="462c0819:PsiDirectoryNode" />
-              <item name="firstException" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,9 +338,12 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="xpath.settings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -335,7 +357,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FinallyDemo">
+  <component name="RunManager" selected="Application.DataDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -343,14 +365,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="FinallyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DataDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran2.entity1.javaException.disposal.*" />
+          <option name="PATTERN" value="com.yiran2.entity1.apiDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yiran2.entity1.javaException.disposal.FinallyDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran2.entity1.apiDemo.DataDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -362,14 +384,14 @@
       <module name="JavaBasis" />
       <envs />
     </configuration>
-    <configuration name="FirstException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FinallyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran2.entity1.javaException.firstException.*" />
+          <option name="PATTERN" value="com.yiran2.entity1.javaException.disposal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yiran2.entity1.javaException.firstException.FirstException" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran2.entity1.javaException.disposal.FinallyDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -525,19 +547,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FirstException" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TryCatchDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.RunTimeOneDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.RunTimeMoreDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FinallyDemo" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TryCatchDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RunTimeOneDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.RunTimeMoreDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FinallyDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DataDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FinallyDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RunTimeMoreDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RunTimeOneDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TryCatchDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FirstException" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DataDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FinallyDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RunTimeMoreDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RunTimeOneDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TryCatchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -582,14 +604,7 @@
       <workItem from="1526036857011" duration="5276000" />
       <workItem from="1526207679012" duration="5086000" />
       <workItem from="1526257855787" duration="30658000" />
-      <workItem from="1526346116884" duration="6433000" />
-    </task>
-    <task id="LOCAL-00035" summary="数组作业">
-      <created>1524903049983</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1524903049984</updated>
+      <workItem from="1526346116884" duration="23566000" />
     </task>
     <task id="LOCAL-00036" summary="java 类初试">
       <created>1524903085804</created>
@@ -927,11 +942,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526303242545</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="异常进一步学习">
+      <created>1526353347671</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1526353347692</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="491964000" />
+    <option name="totallyTimeSpent" value="509097000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -943,7 +965,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="554" y="125" width="1232" height="879" extended-state="0" />
+    <frame x="411" y="125" width="1232" height="879" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1046,21 +1068,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/inheritance/homework/TheEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaAbstract/AbstractWaiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface.java" />
     <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaAbstract/AbstractTest1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -1120,17 +1127,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,13 +1139,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#205#206#0" expanded="false" />
+            <element signature="e#253#254#0" expanded="false" />
+            <element signature="e#475#476#0" expanded="false" />
+            <element signature="e#545#546#0" expanded="false" />
+            <element signature="e#590#591#0" expanded="false" />
+            <element signature="e#660#661#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
+            <element signature="e#782#783#0" expanded="false" />
+            <element signature="e#823#824#0" expanded="false" />
+            <element signature="e#889#890#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1152,13 +1158,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/DrivingCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,13 +1201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaAbstract/AbstractEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1321,22 +1314,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/RunTimeMoreDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/TryCatchMoreDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1349,41 +1332,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/ExceptionInheritance1/SuperClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/ExceptionInheritance2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/ExceptionInheritance1/SubClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/ExceptionInheritance2/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1410,9 +1363,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/customException/U18Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        <state relative-caret-position="340">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/ExceptionInheritance1/SuperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/RunTimeMoreDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaAbstract/AbstractEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/ExceptionInheritance1/SubClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/DrivingCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaClass/javaInterface/InterfaceDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/stringBuilder/ConversionDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaException/disposal/ExceptionInheritance2/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/apiDemo/DataDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/setNewString/SetNewFileName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1420,6 +1477,76 @@
   <component name="masterDetails">
     <states>
       <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JavaBasis</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
