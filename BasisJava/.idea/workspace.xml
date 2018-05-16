@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity1/wrapperClass/PrimaryDataTypeDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity1/wrapperClass/PrimaryDataTypeDemo2.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/com/yiran/entity/javaString/setNewString/SetNewFileName.java" afterPath="$PROJECT_DIR$/src/com/yiran/entity/javaString/setNewString/SetNewFileName.java" />
     </list>
@@ -32,15 +30,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PrimaryDataTypeDemo2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SetNewFileName.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/setNewString/SetNewFileName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrimaryDataTypeDemo2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/wrapperClass/PrimaryDataTypeDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="374">
+              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#937#946#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrimaryDataTypeDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/wrapperClass/PrimaryDataTypeDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,9 +138,9 @@
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/apiDemo/CalendarDemo.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/apiDemo/MathDemo.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/apiDemo/SystemDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran/entity/javaString/setNewString/SetNewFileName.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/wrapperClass/PrimaryDataTypeDemo.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/wrapperClass/PrimaryDataTypeDemo2.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran/entity/javaString/setNewString/SetNewFileName.java" />
       </list>
     </option>
   </component>
@@ -184,6 +202,40 @@
               <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="javaString" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="javaString" type="462c0819:PsiDirectoryNode" />
+              <item name="setNewString" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yiran2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -193,15 +245,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yiran2" type="462c0819:PsiDirectoryNode" />
               <item name="entity1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yiran2" type="462c0819:PsiDirectoryNode" />
-              <item name="entity1" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapperClass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrimaryDataTypeDemo">
+  <component name="RunManager" selected="Application.SetNewFileName">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -432,8 +475,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PrimaryDataTypeDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SetNewFileName" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SetNewFileName" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PrimaryDataTypeDemo" />
         <item index="2" class="java.lang.String" itemvalue="Application.CalendarDemo" />
         <item index="3" class="java.lang.String" itemvalue="Application.MathDemo" />
         <item index="4" class="java.lang.String" itemvalue="Application.SystemDemo" />
@@ -482,14 +525,7 @@
       <workItem from="1526207679012" duration="5086000" />
       <workItem from="1526257855787" duration="30658000" />
       <workItem from="1526346116884" duration="30158000" />
-      <workItem from="1526429950898" duration="2768000" />
-    </task>
-    <task id="LOCAL-00039" summary="java String 初识">
-      <created>1525341711366</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1525341711366</updated>
+      <workItem from="1526429950898" duration="6006000" />
     </task>
     <task id="LOCAL-00040" summary="java 静态变量和静态方法">
       <created>1525341766848</created>
@@ -827,11 +863,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526430006595</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="包装类 拆箱 装箱">
+      <created>1526434335475</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1526434335475</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="518457000" />
+    <option name="totallyTimeSpent" value="521695000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -908,7 +951,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="总结缓冲流" />
     <MESSAGE value="IO文件版学生信息管理系统" />
     <MESSAGE value="商品小票系统" />
     <MESSAGE value="优化一哈" />
@@ -933,7 +975,8 @@
     <MESSAGE value="API常用类" />
     <MESSAGE value="修改字符串中的某段" />
     <MESSAGE value="包装类 拆箱 装箱" />
-    <option name="LAST_COMMIT_MESSAGE" value="包装类 拆箱 装箱" />
+    <MESSAGE value="String修改某段" />
+    <option name="LAST_COMMIT_MESSAGE" value="String修改某段" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1258,17 +1301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/setNewString/SetNewFileName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="56" column="42" lean-forward="false" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/wrapperClass/PrimaryDataTypeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1279,12 +1311,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/wrapperClass/PrimaryDataTypeDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="374">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#937#946#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity/javaString/setNewString/SetNewFileName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>

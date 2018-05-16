@@ -7,7 +7,7 @@ package com.yiran.entity.javaString.setNewString;
 
 public class SetNewFileName {
     public static void main(String[] args){
-        System.out.println(setFileName("haha"));
+        System.out.println(setNewName1("d:\\source\\images\\myphoto\\冬天小河.jpg","yiran"));
     }
 
     public static String setFileName(String fileName){
@@ -19,7 +19,7 @@ public class SetNewFileName {
         String name = pathArr[pathArr.length-1];
         String[] fileArr = name.split("\\."); // 使用 \ 转义 但是 \在java中也需要转义 所以 \\
 
-        String newName = fileName+"."+fileArr[1];
+        String newName = fileName+"."+fileArr[fileArr.length-1]; // 防止文件名本身中也有"."，这样直接取最后的后缀名
 
         pathArr[pathArr.length-1] = newName;
 
@@ -51,11 +51,22 @@ public class SetNewFileName {
         return sb.toString();
     }
 
-    // 第二种方法
+    // 第二种方法 如果文件名与前面的文件夹名相同 会出问题
     public static String setNewName(String path, String newName){
         String[] pathArr = path.split("\\\\");
         // 并不是将数组赋值给了original 而是将其中匹配到的文件名
         String original = pathArr[pathArr.length-1].split("\\.")[0];
         return path.replace(original,newName);
+    }
+
+    // 第三种方法，更简洁 使用String自带方法
+    public static String setNewName1(String path, String newName){
+        int lastIndex = path.lastIndexOf("\\");
+        String before = path.substring(0,lastIndex+1);
+
+        int last_dian = path.lastIndexOf(".");
+        String end = path.substring(last_dian);
+
+        return before+newName+end;
     }
 }
