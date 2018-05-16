@@ -23,7 +23,7 @@ public class SetNewFileName {
 
         pathArr[pathArr.length-1] = newName;
 
-        String newPath = arrToString(pathArr,"\\\\");
+        String newPath = arrToString(pathArr,"\\");
 
         return newPath;
     }
@@ -49,5 +49,12 @@ public class SetNewFileName {
             }
         }
         return sb.toString();
+    }
+
+    // 第二种方法
+    public static String setNewName(String path, String newName){
+        String[] pathArr = path.split("\\\\");
+        String original = pathArr[pathArr.length-1].split("\\.")[0];
+        return path.replace(original,newName);
     }
 }
