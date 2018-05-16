@@ -54,6 +54,7 @@ public class SetNewFileName {
     // 第二种方法
     public static String setNewName(String path, String newName){
         String[] pathArr = path.split("\\\\");
+        // 并不是将数组赋值给了original 而是将其中匹配到的文件名
         String original = pathArr[pathArr.length-1].split("\\.")[0];
         return path.replace(original,newName);
     }
