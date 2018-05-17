@@ -29,12 +29,18 @@ public class GenericDemo {
         list.add(chs);
 
         // 使用增强for循环遍历
-        for (Object o : list){
-            // 存入的Object类型取出也是Object类型,使用String特有方法必须强转
-            // 而且还很有可能无法转换为指定的类型，从而运行时报错,比如这里就报错了
-            // 如果这里使用泛型，定义为某种类型，就不需要强转
-            String s = (String)o;
-            System.out.println(s.length());
+        try {
+            for (Object o : list){
+                // 存入的Object类型取出也是Object类型,使用String特有方法必须强转
+                // 而且还很有可能无法转换为指定的类型，从而运行时报错,比如这里就报错了
+                // 如果这里使用泛型，定义为某种类型，就不需要强转
+                String s = (String)o;
+                System.out.println(s.length());
+            }
+        } catch (Exception e){
+            e.printStackTrace();
+            System.out.println("哎呀，有的类型不能强转为String~");
         }
+
     }
 }
