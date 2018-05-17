@@ -15,6 +15,9 @@ import java.util.Scanner;
  * 		当希望使用基本数据类型包装类的对象时,可以给于基本数据类型的值.此时会自动由基本类型"装箱"成了引用类型的对象,再使用
  * 		如:
  * 			集合中只能存放引用数据类型,但是可以给于基本类型的值,其自动装箱成对象后,再操作
+ *
+ *
+ * 	int b = Integer.parseInt("1"); // 将字符串转为对应的类型，每个包装类都有这种方法
  * */
 
 public class PrimaryDataTypeDemo2 {
@@ -36,6 +39,7 @@ public class PrimaryDataTypeDemo2 {
 
         // 自动装箱
         Integer i5 = 300;
+        int b = Integer.parseInt("1"); // 将字符串转为包装类的对应基本类型
         ArrayList<Integer> list = new ArrayList<Integer>();
         list.add(i5);
         list.add(10); // 这就是自动转成对象 存入list
