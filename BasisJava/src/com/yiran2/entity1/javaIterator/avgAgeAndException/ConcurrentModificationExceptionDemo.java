@@ -6,6 +6,8 @@ import java.util.Iterator;
 /**
  * 迭代过程中修改产生的并发异常
  *
+ *  注意：迭代时不能进行添加或删除、ye
+ *
  *  使用集合存储多个Person对象,当遇到16岁的人时,就添加一个90岁的人
  *
  *  该例中可能会产生并发修改异常:迭代器所认为的集合状态与集合真正的状态不统一了!就会出现该异常.
@@ -54,6 +56,21 @@ public class ConcurrentModificationExceptionDemo {
             Person thisP = perIterator.next();
             thisP.show();
         }
+
+        // 验证迭代中是否能够修改原集合中的元素
+        System.out.println("-------------------------------------");
+        Iterator<Person> perIter2 = perList.iterator();
+        System.out.print("第一次迭代：");
+        Person p1 = perIter2.next();
+        p1.show();
+
+        // 修改原集合中下标为1的元素，发现迭代器还能运行
+        Person chunchunjue = new Person("蠢蠢觉",21);
+        perList.set(1,chunchunjue);
+
+        System.out.print("修改下标为1的元素，第二次迭代：");
+        Person p2 = perIter2.next();
+        p2.show();
     }
 
 }

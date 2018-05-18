@@ -4,6 +4,8 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 /**
+ * 集合(数据，添加，删除，取值遍历)
+ *
  * 链表的测试类
  *
  *  LinkedList是方便添加删除的List。
@@ -50,7 +52,6 @@ public class LinkedListDemo1 {
         for (String thisStr : list){
             System.out.println(thisStr);
         }
-
 
         System.out.println();
         // 使用首尾的添加与删除动作
