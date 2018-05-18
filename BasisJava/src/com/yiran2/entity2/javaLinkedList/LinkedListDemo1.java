@@ -23,7 +23,11 @@ import java.util.LinkedList;
  *          add 配合pop     相当于实现了队列结构(容器先进先出规则)
  *         offer配合poll    队列结构
  *
- *       LinkList同时支持栈结构与队列结构
+ *       LinkedList同时支持栈结构与队列结构
+ *       LinkedList也拥有下标，可以使用get方法，实现List的都有,
+ *       但是LinkedList的下标并不像ArrayList的那种索引下标
+ *       ArrayList使用get方法，直接一步跳到指定位置获取元素
+ *       而LinkedList会进行遍历，直到达到指定位置
  * */
 
 public class LinkedListDemo1 {

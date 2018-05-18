@@ -1,6 +1,7 @@
 package com.yiran2.entity1.javaIterator.forUp;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * 增强for循环
@@ -13,7 +14,11 @@ import java.util.ArrayList;
  *  		}
  *
  *  增强for循环源代码底层就是迭代器.所以不能在增强for循环的过程当中为集合添加或者删除元素.因为会产生并发修改异常.
- *  所以,增强for循环只用来查看数据,不作数据修改.
+ *  所以,增强for循环只用来查看数据,不作数据增加或修改.
+ *
+ *    1、对于数组，foreach 循环实际上还是用的普通的 for 循环
+ *
+ *    2、对于集合，foreach 循环实际上是用的 iterator 迭代器迭代
  * */
 
 public class ForUp {
