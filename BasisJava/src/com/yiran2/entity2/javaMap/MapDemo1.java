@@ -38,6 +38,21 @@ import java.util.*;
  *  	Entry中的方法如下：
  *  		K getKey()		获取键
  *  		V getValue()	获取值
+ *
+ *
+ *  list<String>类型对象是否可以赋给一个List<Object>类型引用？
+ *  public class Test {
+ *      public static void main(String[] args) {
+ *          List<String> a = null;
+ *          List<Object> bNew = a;
+ *      }
+ *  }
+ *
+ *  这段代码会报编译错误
+ *      1、这里的Object 和 String 仅仅是给编译器做编译的时候检查用的。这里的List<Object> 和List<String>
+ *  并没有什么父子类的关系，仅仅是表示一个用来装Obejct型对像，一个用来装String型对像。
+ *      2、这种转换只能在子类与父类之间转换，虽然Object是String的父类，但是List<Object>和List<String>
+ *  在编译器看来，是两种完全不同的东西，不允许你这样转换。
  * */
 
 public class MapDemo1 {
