@@ -1,4 +1,4 @@
-package com.yiran2.entity2.iO;
+package com.yiran2.entity2.iO.byteStream;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

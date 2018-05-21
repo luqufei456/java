@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/iO/CharStreamDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/iO/CopyFileDemo1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/iO/InputStreamDemo1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/iO/OutputStreamDemo1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/iO/bufferedByteStream/BufferedStreamDemo1.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran2/entity2/iO/CharStreamDemo.java" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/iO/byteStream/CharStreamDemo.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran2/entity2/iO/CopyFileDemo1.java" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/iO/byteStream/CopyFileDemo1.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran2/entity2/iO/InputStreamDemo1.java" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/iO/byteStream/InputStreamDemo1.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran2/entity2/iO/OutputStreamDemo1.java" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/iO/byteStream/OutputStreamDemo1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CharStreamDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/iO/CharStreamDemo.java">
+      <file leaf-file-name="BufferedStreamDemo1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/iO/bufferedByteStream/BufferedStreamDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            <state relative-caret-position="425">
+              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,47 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OutputStreamDemo1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/iO/OutputStreamDemo1.java">
+      <file leaf-file-name="BufferedInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/ruanjian/java/jdk-10/lib/src.zip!/java.base/java/io/BufferedInputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputStreamDemo1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/iO/InputStreamDemo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CopyFileDemo1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/iO/CopyFileDemo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BufferedDemo3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/buffered/BufferedDemo3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+            <state relative-caret-position="178">
+              <caret line="53" column="50" lean-forward="true" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -121,8 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yiran2/entity1/wrapperClass/PrimaryDataTypeDemo2.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaGenerics/GenericsMethods.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaGenerics/MyClassType1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaGenerics/MyClassTypeDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity1/javaGenerics/MyInterType1.java" />
@@ -172,6 +136,8 @@
         <option value="$PROJECT_DIR$/src/com/yiran2/entity2/iO/OutputStreamDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity2/iO/InputStreamDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran2/entity2/iO/CopyFileDemo1.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran2/entity2/iO/byteStream/OutputStreamDemo1.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran2/entity2/iO/bufferedByteStream/BufferedStreamDemo1.java" />
       </list>
     </option>
   </component>
@@ -258,6 +224,16 @@
             <path>
               <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
               <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran2" type="462c0819:PsiDirectoryNode" />
+              <item name="entity2" type="462c0819:PsiDirectoryNode" />
+              <item name="iO" type="462c0819:PsiDirectoryNode" />
+              <item name="byteStream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
               <item name="staticFile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -288,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CopyFileDemo1">
+  <component name="RunManager" selected="Application.BufferedStreamDemo1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -296,14 +272,33 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="CharStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="BufferedStreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran2.entity2.iO.*" />
+          <option name="PATTERN" value="com.yiran2.entity2.iO.bufferedByteStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yiran2.entity2.iO.CharStreamDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran2.entity2.iO.bufferedByteStream.BufferedStreamDemo1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaBasis" />
+      <envs />
+    </configuration>
+    <configuration name="CharStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yiran2.entity2.iO.byteStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.yiran2.entity2.iO.byteStream.CharStreamDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -318,11 +313,11 @@
     <configuration name="CopyFileDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran2.entity2.iO.*" />
+          <option name="PATTERN" value="com.yiran2.entity2.iO.byteStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yiran2.entity2.iO.CopyFileDemo1" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran2.entity2.iO.byteStream.CopyFileDemo1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -337,11 +332,11 @@
     <configuration name="InputStreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran2.entity2.iO.*" />
+          <option name="PATTERN" value="com.yiran2.entity2.iO.byteStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yiran2.entity2.iO.InputStreamDemo1" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran2.entity2.iO.byteStream.InputStreamDemo1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -356,30 +351,11 @@
     <configuration name="OutputStreamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran2.entity2.iO.*" />
+          <option name="PATTERN" value="com.yiran2.entity2.iO.byteStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yiran2.entity2.iO.OutputStreamDemo1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaBasis" />
-      <envs />
-    </configuration>
-    <configuration name="RecursionTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yiran2.entity2.javaRecursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yiran2.entity2.javaRecursion.RecursionTest2" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran2.entity2.iO.byteStream.OutputStreamDemo1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -478,19 +454,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RecursionTest2" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CharStreamDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.InputStreamDemo1" />
-      <item index="3" class="java.lang.String" itemvalue="Application.OutputStreamDemo1" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CopyFileDemo1" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CharStreamDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.InputStreamDemo1" />
+      <item index="2" class="java.lang.String" itemvalue="Application.OutputStreamDemo1" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CopyFileDemo1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BufferedStreamDemo1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CopyFileDemo1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.InputStreamDemo1" />
-        <item index="2" class="java.lang.String" itemvalue="Application.OutputStreamDemo1" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CharStreamDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RecursionTest2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BufferedStreamDemo1" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CopyFileDemo1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.InputStreamDemo1" />
+        <item index="3" class="java.lang.String" itemvalue="Application.OutputStreamDemo1" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CharStreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -542,14 +518,7 @@
       <workItem from="1526655109127" duration="572000" />
       <workItem from="1526692252970" duration="16353000" />
       <workItem from="1526864032863" duration="1710000" />
-      <workItem from="1526868966095" duration="24567000" />
-    </task>
-    <task id="LOCAL-00054" summary="~">
-      <created>1525765426217</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1525765426222</updated>
+      <workItem from="1526868966095" duration="26131000" />
     </task>
     <task id="LOCAL-00055" summary="输出流- writer写入初试">
       <created>1525767816004</created>
@@ -887,11 +856,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526899180468</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="字节流学习与简单复制文件">
+      <created>1526904889775</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1526904889775</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="629027000" />
+    <option name="totallyTimeSpent" value="630591000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -968,7 +944,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="static" />
     <MESSAGE value="接口扩展" />
     <MESSAGE value="final关键字" />
     <MESSAGE value="。" />
@@ -993,7 +968,8 @@
     <MESSAGE value="更新" />
     <MESSAGE value="file类" />
     <MESSAGE value="简单递归" />
-    <option name="LAST_COMMIT_MESSAGE" value="简单递归" />
+    <MESSAGE value="字节流学习与简单复制文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="字节流学习与简单复制文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1006,27 +982,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaGenerics/interType/MyClassInterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaGenerics/classType/MyClassTypeDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaGenerics/generic/GenericDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity1/javaGenerics/goodPlace/GenericDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1362,40 +1317,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/iO/CharStreamDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/iO/byteStream/OutputStreamDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state relative-caret-position="297">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/iO/OutputStreamDemo1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/iO/byteStream/InputStreamDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="178">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/iO/InputStreamDemo1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/iO/byteStream/CharStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        <state relative-caret-position="178">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/iO/CopyFileDemo1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/iO/byteStream/CopyFileDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        <state relative-caret-position="229">
+          <caret line="33" column="58" lean-forward="true" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/java/jdk-10/lib/src.zip!/java.base/java/io/FilterInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="e#1390#1391#0" expanded="false" />
+            <element signature="e#1418#1419#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/java/jdk-10/lib/src.zip!/java.base/java/io/BufferedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="53" column="50" lean-forward="true" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/iO/bufferedByteStream/BufferedStreamDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,6 +1,4 @@
-package com.yiran2.entity2.iO;
-
-import com.yiran2.entity1.javaClass.inheritance.Demo3.SubClass;
+package com.yiran2.entity2.iO.byteStream;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
