@@ -9,10 +9,6 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/fileClass/FileClassDemo5.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/fileClass/FileClassDemo6.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran2/entity2/ArrayOrList/ArrayListToArray.java" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/arrayOrList/ArrayListToArray.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran2/entity2/ArrayOrList/ArrayToList.java" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/arrayOrList/ArrayToList.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran2/entity2/ArrayOrList/ArraysToStringDemo1.java" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/arrayOrList/ArraysToStringDemo1.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran2/entity2/javaMap/MapDemo1.java" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/javaMap/MapDemo1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +48,8 @@
       <file leaf-file-name="FileClassDemo6.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/fileClass/FileClassDemo6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="246">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -540,14 +536,7 @@
       <workItem from="1526655109127" duration="572000" />
       <workItem from="1526692252970" duration="16353000" />
       <workItem from="1526864032863" duration="1710000" />
-      <workItem from="1526868966095" duration="14032000" />
-    </task>
-    <task id="LOCAL-00051" summary="学生管理系统">
-      <created>1525698399971</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1525698399973</updated>
+      <workItem from="1526868966095" duration="14079000" />
     </task>
     <task id="LOCAL-00052" summary="完善">
       <created>1525745839546</created>
@@ -885,11 +874,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526716980310</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="更新">
+      <created>1526890665965</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1526890665967</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="618492000" />
+    <option name="totallyTimeSpent" value="618539000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -966,7 +962,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="初探接口" />
     <MESSAGE value="初探java多态" />
     <MESSAGE value="多态中的属性，个人理解" />
     <MESSAGE value="static" />
@@ -991,7 +986,8 @@
     <MESSAGE value="更新知识点" />
     <MESSAGE value="Collations的一些方法及ArrayList与Array转换" />
     <MESSAGE value="Map斗地主案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="Map斗地主案例" />
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1366,8 +1362,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/fileClass/FileClassDemo6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="246">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding />
         </state>
       </provider>
