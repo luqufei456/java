@@ -1,4 +1,4 @@
-package com.yiran2.entity2.ArrayOrList;
+package com.yiran2.entity2.arrayOrList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
