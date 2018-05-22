@@ -18,10 +18,18 @@ import java.io.File;
 public class FileClassDemo6 {
     public static void main(String[] args){
         // 创建文件对象 可以发现  ./ 代表的是当前项目目录
-        File dir = new File("./");
+        File dir = new File("../");
+        // ..
+        System.out.println(dir.getName());
+        // H:\StudyJava\BasisJava\..
+        // 可以看到，显示还是项目目录下的..目录，但实际上已经是项目目录的父目录
+        System.out.println(dir.getAbsolutePath());
+
+        // 使用另一种构造方法，使相对路径可以达到项目根目录外的一层
+        File dir2 = new File(dir, "java测试");
 
         // 获取该文件夹下的所有file对象
-        File[] files = dir.listFiles();
+        File[] files = dir2.listFiles();
 
         // 使用增强for循环遍历
         for (File thisFile : files){

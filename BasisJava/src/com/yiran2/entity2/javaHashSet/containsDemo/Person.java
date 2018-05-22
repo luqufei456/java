@@ -73,6 +73,7 @@ public class Person {
         int thisHashCode = 0;
 
         //获取name属性的hashCode值 这里定义系数为17
+        // 虽然重写了hashCode方法，但是在这里调用hashCode 使用的是属性的hashCode 而不是Person对象的
         thisHashCode += name.hashCode()*17;
         //获取age数只给你的hashCode值
         thisHashCode += age;

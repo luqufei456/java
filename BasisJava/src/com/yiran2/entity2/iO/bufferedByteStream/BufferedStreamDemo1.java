@@ -1,8 +1,6 @@
 package com.yiran2.entity2.iO.bufferedByteStream;
 
-import java.io.BufferedInputStream;
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
 
 /**
  * 高效字节流
@@ -38,10 +36,12 @@ public class BufferedStreamDemo1 {
         while ((len = bis.read(bytes)) != -1){
             // 读取中文会乱码，因为一个中文占了2个字节 这里使用String的构造方法
             // 使用gbk格式但是，如果1024 和1025这两位为一个汉字，那么还是会出错，
-            // 所以建议用字符流来读取中文
+            // 所以建议用字符流来读取中文 目前出现的问题是因为编码格式，字节乱码
+            // 等以后碰到了再说
             System.out.println(new String(bytes, 0, len,"gbk"));
         }
 
         bis.close();
+
     }
 }
