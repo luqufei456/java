@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/review1/reListMap/ListClassRoom.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/review1/reListMap/ListMapTest1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/review1/reListMap/ListStudent.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran2/entity2/review1/reListMap/ListMapTest1.java" afterPath="$PROJECT_DIR$/src/com/yiran2/entity2/review1/reListMap/ListMapTest1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,18 +35,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ListMapTest1.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListMapTest1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/review1/reListMap/ListMapTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="88" column="25" lean-forward="true" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+            <state relative-caret-position="288">
+              <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1778#1791#0" expanded="true" />
-                <element signature="e#2006#2019#0" expanded="true" />
-                <element signature="e#2085#2098#0" expanded="true" />
-                <element signature="e#2164#2177#0" expanded="true" />
-                <element signature="e#2990#3013#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComputerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ComputerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/review1/reOOP/ComputerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="371">
@@ -329,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ComputerTest">
+  <component name="RunManager" selected="Application.ListMapTest1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -527,9 +520,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ComputerTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StringTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ListMapTest1" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ListMapTest1" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ComputerTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StringTest" />
         <item index="3" class="java.lang.String" itemvalue="Application.RecursionByteCopy" />
         <item index="4" class="java.lang.String" itemvalue="Application.FileUtilsDemo1" />
       </list>
@@ -585,14 +578,7 @@
       <workItem from="1526864032863" duration="1710000" />
       <workItem from="1526868966095" duration="28500000" />
       <workItem from="1526949473780" duration="28800000" />
-      <workItem from="1527034780509" duration="27062000" />
-    </task>
-    <task id="LOCAL-00066" summary="匿名对象和组合的概念">
-      <created>1525938772786</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1525938772786</updated>
+      <workItem from="1527034780509" duration="27261000" />
     </task>
     <task id="LOCAL-00067" summary="匿名对象和组合的概念">
       <created>1525938822486</created>
@@ -930,11 +916,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527070248687</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="集合复习题">
+      <created>1527073983939</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1527073983939</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="688822000" />
+    <option name="totallyTimeSpent" value="689021000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -947,6 +940,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="236" y="98" width="1232" height="915" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277635" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -961,7 +955,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26349613" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26450512" sideWeight="0.49460918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26450512" sideWeight="0.49460918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24978614" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1010,7 +1004,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java正则简介" />
     <MESSAGE value="集合复习与迭代器" />
     <MESSAGE value="初始java泛型" />
     <MESSAGE value="LinkedList java中的栈与队列初识" />
@@ -1035,7 +1028,8 @@
     <MESSAGE value="复习-面向对象习题" />
     <MESSAGE value="复习-StringAPI练习" />
     <MESSAGE value="递归+缓冲字节流复制文件夹" />
-    <option name="LAST_COMMIT_MESSAGE" value="递归+缓冲字节流复制文件夹" />
+    <MESSAGE value="集合复习题" />
+    <option name="LAST_COMMIT_MESSAGE" value="集合复习题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1443,24 +1437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/review1/reListMap/ListClassRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/review1/reListMap/ListStudent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1482,21 +1458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/review1/reListMap/ListMapTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="88" column="25" lean-forward="true" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1778#1791#0" expanded="true" />
-            <element signature="e#2006#2019#0" expanded="true" />
-            <element signature="e#2085#2098#0" expanded="true" />
-            <element signature="e#2164#2177#0" expanded="true" />
-            <element signature="e#2990#3013#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/review1/reAPI/StringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1510,6 +1471,34 @@
         <state relative-caret-position="371">
           <caret line="105" column="13" lean-forward="true" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/review1/reListMap/ListClassRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran2/entity2/review1/reListMap/ListMapTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

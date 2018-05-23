@@ -59,13 +59,13 @@ public class ListMapTest1 {
         ListStudent miku = new ListStudent("Miku", "03班",80.0);
 
         // 将学生对象存入集合
-        ArrayList<ListStudent> students = new ArrayList<ListStudent>();
+        ArrayList<ListStudent> students = new ArrayList<>();
         Collections.addAll(students, yiran, taitai, chengge, chunjue, baba, gel, zhenhong, miku);
 
         // 定义三个ArrayList，用于存储三个班各自的学生，然后能添加到班级对象中
-        ArrayList<ListStudent> class01Students = new ArrayList<ListStudent>();
-        ArrayList<ListStudent> class02Students = new ArrayList<ListStudent>();
-        ArrayList<ListStudent> class03Students = new ArrayList<ListStudent>();
+        ArrayList<ListStudent> class01Students = new ArrayList<>();
+        ArrayList<ListStudent> class02Students = new ArrayList<>();
+        ArrayList<ListStudent> class03Students = new ArrayList<>();
 
         for (ListStudent thisStudent : students){
             if (thisStudent.getClassNumber().equals("01班")){
@@ -87,7 +87,7 @@ public class ListMapTest1 {
         // 将三个班级加到Map集合中
         // 将每个班级以Map<String, ClassRoom>存储到Map集合中
         // 班级中包含每个班级各自的学生
-        HashMap<String, ListClassRoom> classRooms = new HashMap<String, ListClassRoom>();
+        HashMap<String, ListClassRoom> classRooms = new HashMap<>();
         classRooms.put("01班", class01);
         classRooms.put("02班", class02);
         classRooms.put("03班", class03);
@@ -111,7 +111,7 @@ public class ListMapTest1 {
 
         // 遍历求平均分、总分
         // 先定义一个初始平均分、总分为0
-        double avgScore = 0;
+        double avgScore;
         double sumScore = 0;
 
         for (ListStudent thisStudent : students){
