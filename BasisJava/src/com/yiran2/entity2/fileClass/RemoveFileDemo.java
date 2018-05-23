@@ -30,25 +30,23 @@ public class RemoveFileDemo {
         for (File thisFile : files){
             // 如果为文件，则直接删除
             if (thisFile.isFile()){
-                thisFile.delete();
+                System.out.println(thisFile.getName()+"的删除结果："+thisFile.delete());
             }
             // 如果为不为空的文件夹，则递归调用，将其内部删干净
             // 递归完之后，代表内部为空，则可以删除自己
             else if (thisFile.listFiles().length != 0){
                 removeFile(thisFile.getPath());
-                System.out.println(thisFile.getName());
-                thisFile.delete();
+                System.out.println(thisFile.getName()+"的删除结果："+thisFile.delete());
             }
             // 如果为空文件夹，则删除自己，如果没有这一步
             // 会出现文件夹B内部有空文件夹C，B无法被删除
             // 所以这里很重要
             else if(thisFile.listFiles().length == 0){
-                System.out.println(thisFile.getName());
-                thisFile.delete();
+                System.out.println(thisFile.getName()+"的删除结果："+thisFile.delete());
             }
         }
 
         // 最后删除file文件夹本身，此时内部已经为空
-        file.delete();
+        System.out.println("总的的删除结果："+file.delete());
     }
 }
