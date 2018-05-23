@@ -499,14 +499,7 @@
       <workItem from="1526864032863" duration="1710000" />
       <workItem from="1526868966095" duration="28500000" />
       <workItem from="1526949473780" duration="28800000" />
-      <workItem from="1527034780509" duration="16616000" />
-    </task>
-    <task id="LOCAL-00062" summary="IO文件版学生信息管理系统">
-      <created>1525854669801</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1525854669801</updated>
+      <workItem from="1527034780509" duration="16659000" />
     </task>
     <task id="LOCAL-00063" summary="商品小票系统">
       <created>1525921224445</created>
@@ -844,11 +837,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527054518957</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="FileUtils工具类，第三方jar了解">
+      <created>1527061446627</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1527061446627</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="678376000" />
+    <option name="totallyTimeSpent" value="678419000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -924,7 +924,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="API常用类" />
     <MESSAGE value="修改字符串中的某段" />
     <MESSAGE value="包装类 拆箱 装箱" />
     <MESSAGE value="String修改某段" />
@@ -949,7 +948,8 @@
     <MESSAGE value="序列化与反序列化初步学习，and序列化版本号了解" />
     <MESSAGE value="递归删除不为空的文件夹" />
     <MESSAGE value="打印流了解" />
-    <option name="LAST_COMMIT_MESSAGE" value="打印流了解" />
+    <MESSAGE value="FileUtils工具类，第三方jar了解" />
+    <option name="LAST_COMMIT_MESSAGE" value="FileUtils工具类，第三方jar了解" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
