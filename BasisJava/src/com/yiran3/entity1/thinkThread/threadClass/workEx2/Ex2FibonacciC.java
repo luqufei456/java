@@ -15,6 +15,7 @@ public class Ex2FibonacciC implements Runnable{
         return fib(x - 2) + fib(x - 1);
     }
 
+    @Override
     public void run(){
         // 返回n个斐波拉契数字组成的序列
         for (int i = 0;i < n;i++){

@@ -19,6 +19,7 @@ public class Ex4FibonacciA implements Runnable{
         return fib(x - 2) + fib(x - 1);
     }
 
+    @Override
     public void run(){
         for (int i = 0;i < n;i++){
             System.out.print(fib(i)+" ");

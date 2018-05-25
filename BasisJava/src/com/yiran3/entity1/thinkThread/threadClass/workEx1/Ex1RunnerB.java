@@ -5,6 +5,7 @@ public class Ex1RunnerB implements Runnable{
         System.out.println("构造Ex1RunnerB");
     }
 
+    @Override
     public void run(){
         for (int i = 0;i < 3;i++){
             System.out.println("Hi from Ex1RunnerB");
