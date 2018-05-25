@@ -8,18 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/LiftOff.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/LiftOff.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx1/Ex1RunnerA.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx1/Ex1RunnerA.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx1/Ex1RunnerB.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx1/Ex1RunnerB.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx1/Ex1RunnerC.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx1/Ex1RunnerC.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciA.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciA.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciB.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciB.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciC.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciC.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciD.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciD.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciA.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciA.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciB.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciB.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciC.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciC.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciD.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciD.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/TaskWithResult.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/TaskWithResult.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/workEx5/Ex5Fibonacci.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/workEx5/Ex5Fibonacci.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,32 +36,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Ex2FibonacciD.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciD.java">
+      <file leaf-file-name="TaskWithResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/TaskWithResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="306">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicThreads.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/BasicThreads.java">
+      <file leaf-file-name="CallableDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/CallableDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-              <folding />
+            <state relative-caret-position="493">
+              <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoreBasicThreads.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/MoreBasicThreads.java">
+      <file leaf-file-name="Ex5Fibonacci.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/workEx5/Ex5Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding />
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,7 +132,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ex4FibonacciD.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Ex4FibonacciD.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciD.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -212,9 +208,7 @@
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/workEx4/Ex4FibonacciD.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/MoreBasicThreads.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/SingleThreadExecutor.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/TaskWithResult.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/CallableDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/workEx5/Ex5Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/workEx5/Ex5.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/LiftOff.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx1/Ex1RunnerA.java" />
@@ -228,6 +222,8 @@
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciB.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciC.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciD.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/TaskWithResult.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/workEx5/Ex5Fibonacci.java" />
       </list>
     </option>
   </component>
@@ -317,7 +313,7 @@
               <item name="yiran3" type="462c0819:PsiDirectoryNode" />
               <item name="entity1" type="462c0819:PsiDirectoryNode" />
               <item name="thinkThread" type="462c0819:PsiDirectoryNode" />
-              <item name="useExecutor" type="462c0819:PsiDirectoryNode" />
+              <item name="callableReturn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
@@ -327,8 +323,8 @@
               <item name="yiran3" type="462c0819:PsiDirectoryNode" />
               <item name="entity1" type="462c0819:PsiDirectoryNode" />
               <item name="thinkThread" type="462c0819:PsiDirectoryNode" />
-              <item name="useExecutor" type="462c0819:PsiDirectoryNode" />
-              <item name="workEx4" type="462c0819:PsiDirectoryNode" />
+              <item name="callableReturn" type="462c0819:PsiDirectoryNode" />
+              <item name="workEx5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -618,14 +614,7 @@
       <workItem from="1526949473780" duration="28800000" />
       <workItem from="1527034780509" duration="33111000" />
       <workItem from="1527121646165" duration="30650000" />
-      <workItem from="1527208417505" duration="317000" />
-    </task>
-    <task id="LOCAL-00071" summary="简单作业">
-      <created>1526017915100</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1526017915100</updated>
+      <workItem from="1527208417505" duration="445000" />
     </task>
     <task id="LOCAL-00072" summary="...">
       <created>1526019742853</created>
@@ -963,11 +952,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527165577708</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="添加重写注释">
+      <created>1527208762120</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1527208762120</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="725838000" />
+    <option name="totallyTimeSpent" value="725966000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1044,7 +1040,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HashSet初识、重写hashcode、equals" />
     <MESSAGE value="Map 也就是python中的字典，初步学习" />
     <MESSAGE value="更新知识点" />
     <MESSAGE value="Collations的一些方法及ArrayList与Array转换" />
@@ -1069,7 +1064,8 @@
     <MESSAGE value="文件夹复制思考题" />
     <MESSAGE value="反序列化到最后会报错，如何使用while循环反序列化" />
     <MESSAGE value="think in java 并发21.2.1--21.2.4 及其习题" />
-    <option name="LAST_COMMIT_MESSAGE" value="think in java 并发21.2.1--21.2.4 及其习题" />
+    <MESSAGE value="添加重写注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加重写注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1285,40 +1281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/TaskWithResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="e#447#448#0" expanded="false" />
-            <element signature="e#475#476#0" expanded="false" />
-            <element signature="e#555#556#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/CallableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/workEx5/Ex5Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/workEx5/Ex5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1478,6 +1440,36 @@
         <state relative-caret-position="340">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/CallableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/TaskWithResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/workEx5/Ex5Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
