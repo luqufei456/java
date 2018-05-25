@@ -34,7 +34,7 @@ public class SafeSolutionDemo1 implements Runnable{
         // 车站不停地卖票
         while (true){
             // 将一个完整的动作使用synchronized包裹
-            synchronized (this){
+            synchronized (lock){
                 // 通过sleep的测试可以看出，只要有一个线程进入synchronized块，其余线程就被阻塞了
                 try {
                     Thread.sleep(20);

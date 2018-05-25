@@ -7,12 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeTestDemo1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/TicketSafeDemo1.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo1.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo1.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo2.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo2.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeTestDemo1.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeTestDemo1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SafeSolutionDemo1.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SafeSolutionDemo1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+            <state relative-caret-position="319">
+              <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -72,8 +70,8 @@
       <file leaf-file-name="SafeTestDemo1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeTestDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="217">
+              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding>
                 <element signature="e#264#265#0" expanded="true" />
                 <element signature="e#291#292#0" expanded="true" />
@@ -92,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SafeSolutionDemo2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SafeSolutionDemo2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -201,8 +199,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="608" />
-    <option name="y" value="88" />
+    <option name="x" value="443" />
+    <option name="y" value="79" />
     <option name="width" value="1232" />
     <option name="height" value="919" />
   </component>
@@ -564,14 +562,7 @@
       <workItem from="1526949473780" duration="28800000" />
       <workItem from="1527034780509" duration="33111000" />
       <workItem from="1527121646165" duration="30650000" />
-      <workItem from="1527208417505" duration="28210000" />
-    </task>
-    <task id="LOCAL-00074" summary="初探接口">
-      <created>1526042113868</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1526042113870</updated>
+      <workItem from="1527208417505" duration="28912000" />
     </task>
     <task id="LOCAL-00075" summary="初探java多态">
       <created>1526212660992</created>
@@ -909,11 +900,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527247230212</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="线程安全解决：同步代码块 同步方法">
+      <created>1527252805026</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1527252805026</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="753731000" />
+    <option name="totallyTimeSpent" value="754433000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -925,7 +923,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="608" y="88" width="1232" height="919" extended-state="0" />
+    <frame x="443" y="79" width="1232" height="919" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -990,7 +988,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新知识点" />
     <MESSAGE value="Collations的一些方法及ArrayList与Array转换" />
     <MESSAGE value="Map斗地主案例" />
     <MESSAGE value="更新" />
@@ -1015,7 +1012,8 @@
     <MESSAGE value="think in java 并发21.2.1--21.2.4 及其习题" />
     <MESSAGE value="添加重写注释" />
     <MESSAGE value="初步了解线程与线程池" />
-    <option name="LAST_COMMIT_MESSAGE" value="初步了解线程与线程池" />
+    <MESSAGE value="线程安全解决：同步代码块 同步方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程安全解决：同步代码块 同步方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1432,18 +1430,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        <state relative-caret-position="323">
+          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeTestDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="217">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
             <element signature="e#264#265#0" expanded="true" />
             <element signature="e#291#292#0" expanded="true" />
@@ -1451,10 +1449,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="319">
+          <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
           <folding />
         </state>
       </provider>

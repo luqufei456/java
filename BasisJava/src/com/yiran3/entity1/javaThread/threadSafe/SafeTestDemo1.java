@@ -9,7 +9,7 @@ package com.yiran3.entity1.javaThread.threadSafe;
 
 public class SafeTestDemo1 {
     public static void main(String[] args){
-        safeTest2();
+        safeTest1();
     }
 
     public static void safeTest1(){

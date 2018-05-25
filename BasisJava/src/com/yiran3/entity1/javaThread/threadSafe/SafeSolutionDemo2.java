@@ -29,6 +29,8 @@ public class SafeSolutionDemo2 implements Runnable{
         while (true){
             if (x % 2 == 0){
                 // 将一个完整动作使用synchronized同步代码块包裹，这里的锁对象为this，而不是lock
+                // 即run()方法使用与sell()方法相同的锁对象，如果锁对象不同，仍然可能一票多卖
+                // 因为不同的锁无法相互阻塞
                 synchronized (this){
                     try {
                         Thread.sleep(20);
