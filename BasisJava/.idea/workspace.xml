@@ -7,18 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockTest1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockThread1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo1/ThreadGetOut.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo1/ThreadPerson1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo1/ThreadPutIn.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo1/WaitNotifyDemo1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo2/NewGetOut.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo2/NewPutIn.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo2/WaitNotifyDemo2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo3/NewGetOut2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo3/NewPutIn2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo3/WaitNotifyDemo3.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockTest2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockThread2.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -95,15 +85,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeadLockThread1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeadLockThread1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockThread1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            <state relative-caret-position="425">
+              <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
               <folding>
                 <element signature="e#317#318#0" expanded="true" />
                 <element signature="e#349#350#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeadLockThread2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockThread2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeadLockTest2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,8 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/MoreBasicThreads.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/SingleThreadExecutor.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/CallableDemo.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/callableReturn/workEx5/Ex5.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/LiftOff.java" />
@@ -201,6 +211,8 @@
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockThread1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockTest1.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockThread2.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockTest2.java" />
       </list>
     </option>
   </component>
@@ -327,7 +339,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeadLockTest1">
+  <component name="RunManager" selected="Application.DeadLockTest2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -354,14 +366,14 @@
       <module name="JavaBasis" />
       <envs />
     </configuration>
-    <configuration name="SafeTestDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DeadLockTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran3.entity1.javaThread.threadSafe.*" />
+          <option name="PATTERN" value="com.yiran3.entity1.javaThread.deadLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.javaThread.threadSafe.SafeTestDemo1" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.javaThread.deadLock.DeadLockTest2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -517,19 +529,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SafeTestDemo1" />
-      <item index="1" class="java.lang.String" itemvalue="Application.WaitNotifyDemo1" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WaitNotifyDemo2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.WaitNotifyDemo3" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DeadLockTest1" />
+      <item index="0" class="java.lang.String" itemvalue="Application.WaitNotifyDemo1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.WaitNotifyDemo2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.WaitNotifyDemo3" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DeadLockTest1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DeadLockTest2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DeadLockTest1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.WaitNotifyDemo3" />
-        <item index="2" class="java.lang.String" itemvalue="Application.WaitNotifyDemo2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.WaitNotifyDemo1" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SafeTestDemo1" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DeadLockTest2" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DeadLockTest1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.WaitNotifyDemo3" />
+        <item index="3" class="java.lang.String" itemvalue="Application.WaitNotifyDemo2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.WaitNotifyDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -586,14 +598,7 @@
       <workItem from="1527034780509" duration="33111000" />
       <workItem from="1527121646165" duration="30650000" />
       <workItem from="1527208417505" duration="28946000" />
-      <workItem from="1527314408472" duration="11170000" />
-    </task>
-    <task id="LOCAL-00077" summary="static">
-      <created>1526268316866</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1526268316866</updated>
+      <workItem from="1527314408472" duration="13714000" />
     </task>
     <task id="LOCAL-00078" summary="接口扩展">
       <created>1526279013804</created>
@@ -931,11 +936,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527316416181</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="多线程等待唤醒及死锁">
+      <created>1527332413282</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1527332413282</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="765637000" />
+    <option name="totallyTimeSpent" value="768181000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -959,7 +971,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24807198" sideWeight="0.5059727" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277635" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29283887" sideWeight="0.49402732" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29283887" sideWeight="0.49402732" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2634271" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1012,7 +1024,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Map斗地主案例" />
     <MESSAGE value="更新" />
     <MESSAGE value="file类" />
     <MESSAGE value="简单递归" />
@@ -1037,7 +1048,8 @@
     <MESSAGE value="初步了解线程与线程池" />
     <MESSAGE value="线程安全解决：同步代码块 同步方法" />
     <MESSAGE value="线程安全解决：同步代码块 同步方法 静态同步方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程安全解决：同步代码块 同步方法 静态同步方法" />
+    <MESSAGE value="多线程等待唤醒及死锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="多线程等待唤醒及死锁" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1050,20 +1062,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/MainThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/ruanjian/java/jdk-10/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -1444,12 +1442,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockThread1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="425">
+          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
           <folding>
             <element signature="e#317#318#0" expanded="true" />
             <element signature="e#349#350#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockThread2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
