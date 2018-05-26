@@ -9,7 +9,7 @@ package com.yiran3.entity1.javaThread.threadSafe;
 
 public class SafeTestDemo1 {
     public static void main(String[] args){
-        safeTest1();
+        safeTest3();
     }
 
     public static void safeTest1(){
@@ -34,6 +34,20 @@ public class SafeTestDemo1 {
         Thread t1 = new Thread(ssd2, "依然");
         Thread t2 = new Thread(ssd2, "蠢觉");
         Thread t3 = new Thread(ssd2, "红白白");
+
+        t1.start();
+        t2.start();
+        t3.start();
+    }
+
+    public static void safeTest3(){
+        // 测试同步方法中  不同同步代码块使用相同锁对象 的同步效果
+        SafeSolutionDemo3 ssd3 = new SafeSolutionDemo3();
+
+        // 创建多个线程进行测试
+        Thread t1 = new Thread(ssd3, "依然");
+        Thread t2 = new Thread(ssd3, "蠢觉");
+        Thread t3 = new Thread(ssd3, "红白白");
 
         t1.start();
         t2.start();
