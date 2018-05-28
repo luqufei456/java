@@ -31,7 +31,7 @@ public class NewPutIn2 implements Runnable{
             // 使用共享对象锁
             synchronized (threadPerson){
                 // 判断标志位
-                while (threadPerson.flag){
+                if (threadPerson.flag){
                     // 如果有数据，就进入等待状态
                     try {
                         // 这里是对 共享对象锁 进行操作

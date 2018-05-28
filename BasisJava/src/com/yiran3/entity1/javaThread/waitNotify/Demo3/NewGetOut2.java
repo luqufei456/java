@@ -28,7 +28,7 @@ public class NewGetOut2 implements Runnable{
             // 使用共享对象作为锁
             synchronized (threadPerson){
                 // 判断标记位
-                while (!threadPerson.flag){
+                if (!threadPerson.flag){
                     // 如果没有数据，就等待生产者生产
                     try {
                         threadPerson.wait();
