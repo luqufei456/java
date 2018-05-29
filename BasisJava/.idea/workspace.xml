@@ -7,19 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="反射初步了解">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/Constructors.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/Fields.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/MethodClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/ReflectTest1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/StudentReflect1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/useReflectDemo1/StudentReflect2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/useReflectDemo1/StudentReflect3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/useReflectDemo1/UseDemo1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/useReflectDemo2/UseDemo2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/junitTest/JunitTest1.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis.iml" afterPath="$PROJECT_DIR$/JavaBasis.iml" />
       <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo1/ServerDemo1.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo1/ServerDemo1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -569,14 +557,7 @@
       <workItem from="1527466550061" duration="9669000" />
       <workItem from="1527491294204" duration="16584000" />
       <workItem from="1527554864530" duration="5353000" />
-      <workItem from="1527562897785" duration="19723000" />
-    </task>
-    <task id="LOCAL-00081" summary="。">
-      <created>1526286336795</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1526286336795</updated>
+      <workItem from="1527562897785" duration="19742000" />
     </task>
     <task id="LOCAL-00082" summary="三种内部类初识">
       <created>1526295661546</created>
@@ -914,7 +895,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527511365507</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="反射初步了解">
+      <created>1527599619640</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1527599619640</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -950,7 +938,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="819541000" />
+    <option name="totallyTimeSpent" value="819560000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">

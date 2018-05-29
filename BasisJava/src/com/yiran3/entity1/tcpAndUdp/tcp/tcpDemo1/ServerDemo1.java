@@ -27,6 +27,7 @@ public class ServerDemo1 {
             ServerSocket serverSocket = new ServerSocket(8088);
 
             // 2.服务器要先通过Socket服务获取Socket，再获取其中的io流
+            // 会一直这里循环，监听是否有客户端连接，有连接后才会往下运行
             Socket socket = serverSocket.accept();
 
             // 3.建立连接后，通过Socket中的IO流(Socket流)进行数据传输
