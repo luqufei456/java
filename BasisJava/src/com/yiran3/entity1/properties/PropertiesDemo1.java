@@ -28,7 +28,8 @@ public class PropertiesDemo1 {
         Properties props = new Properties();
 
         // 2.设置数据
-        // props.put("aa","bb");
+        // props.put("aa","bb"); 使用put可以插入不是String类型的
+        // 但是不建议，因为这个是要保存在流中的。
         props.setProperty("k01", "v01");
         props.setProperty("k02", "v02");
         props.setProperty("k03", "v03");
