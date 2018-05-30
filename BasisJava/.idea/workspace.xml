@@ -6,9 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="反射初步了解">
+    <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="服务器等待客户端连接补充">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo1.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo1/ServerDemo1.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo1/ServerDemo1.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/Fields.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/Fields.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UseDemo2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/useReflectDemo2/UseDemo2.java">
+      <file leaf-file-name="Fields.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/Fields.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="273">
+              <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,13 +48,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UseDemo1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/useReflectDemo1/UseDemo1.java">
+      <file leaf-file-name="PropertiesDemo1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="506">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Properties.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/ruanjian/java/jdk-10/lib/src.zip!/java.base/java/util/Properties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="1342" column="46" lean-forward="false" selection-start-line="1342" selection-start-column="46" selection-end-line="1342" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collections.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/ruanjian/java/jdk-10/lib/src.zip!/java.base/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="1477" column="28" lean-forward="true" selection-start-line="1477" selection-start-column="28" selection-end-line="1477" selection-end-column="28" />
+              <folding>
+                <element signature="e#46727#46728#0" expanded="true" />
+                <element signature="e#46774#46775#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeTestDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo3.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/ThreadPerson1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/ThreadPutIn.java" />
@@ -137,13 +160,14 @@
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/ReflectTest3.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/ReflectTest1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/MethodClass.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/Fields.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/StudentReflect1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/Main.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/useReflectDemo1/StudentReflect2.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/useReflectDemo1/StudentReflect3.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/useReflectDemo1/UseDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/useReflectDemo2/UseDemo2.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/Fields.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo1.java" />
       </list>
     </option>
   </component>
@@ -160,7 +184,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="447" />
+    <option name="x" value="241" />
     <option name="y" value="100" />
     <option name="width" value="1232" />
     <option name="height" value="919" />
@@ -181,10 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,13 +255,15 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yiran3" type="462c0819:PsiDirectoryNode" />
               <item name="entity1" type="462c0819:PsiDirectoryNode" />
-              <item name="javaReflect" type="462c0819:PsiDirectoryNode" />
-              <item name="useReflectDemo1" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UseDemo2">
+  <component name="RunManager" selected="JUnit.PropertiesDemo1.test01">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -310,31 +333,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="Constructors.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yiran3.entity1.javaReflect.ReflectTest1" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JavaBasis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.yiran3.entity1.javaReflect" />
-      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.javaReflect.Constructors" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="Fields.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -398,6 +396,31 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.yiran3.entity1.javaReflect" />
       <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.javaReflect.MethodClass" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PropertiesDemo1.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yiran3.entity1.properties.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JavaBasis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yiran3.entity1.properties" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.properties.PropertiesDemo1" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -484,19 +507,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Constructors.test02" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MethodClass.test01" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Fields.test01" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Main.test01" />
-      <item index="4" class="java.lang.String" itemvalue="Application.UseDemo2" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MethodClass.test01" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Fields.test01" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Main.test01" />
+      <item index="3" class="java.lang.String" itemvalue="Application.UseDemo2" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PropertiesDemo1.test01" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.UseDemo2" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Main.test01" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Fields.test01" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MethodClass.test01" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Constructors.test02" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PropertiesDemo1.test01" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Fields.test01" />
+        <item index="2" class="java.lang.String" itemvalue="Application.UseDemo2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Main.test01" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MethodClass.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -557,14 +580,8 @@
       <workItem from="1527466550061" duration="9669000" />
       <workItem from="1527491294204" duration="16584000" />
       <workItem from="1527554864530" duration="5353000" />
-      <workItem from="1527562897785" duration="19742000" />
-    </task>
-    <task id="LOCAL-00082" summary="三种内部类初识">
-      <created>1526295661546</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1526295661547</updated>
+      <workItem from="1527562897785" duration="19925000" />
+      <workItem from="1527640574469" duration="5366000" />
     </task>
     <task id="LOCAL-00083" summary="try-catch处理异常的几种方式">
       <created>1526303242545</created>
@@ -902,24 +919,31 @@
       <option name="project" value="LOCAL" />
       <updated>1527599619640</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="服务器等待客户端连接补充">
+      <created>1527599658933</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1527599658934</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Constructors_test02 - 2018.05.29 at 20h 22m 51s.xml">
-      <configuration name="Constructors.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Fields_test01 - 2018.05.29 at 20h 40m 56s.xml">
+    <history-entry file="Fields_test01 - 2018.05.30 at 09h 55m 30s.xml">
       <configuration name="Fields.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main_test01 - 2018.05.29 at 20h 49m 17s.xml">
-      <configuration name="Main.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Main_test01 - 2018.05.29 at 20h 49m 48s.xml">
-      <configuration name="Main.test01" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MethodClass_test01 - 2018.05.29 at 20h 23m 21s.xml">
       <configuration name="MethodClass.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PropertiesDemo1_test01 - 2018.05.30 at 10h 15m 15s.xml">
+      <configuration name="PropertiesDemo1.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PropertiesDemo1_test01 - 2018.05.30 at 10h 19m 56s.xml">
+      <configuration name="PropertiesDemo1.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PropertiesDemo1_test01 - 2018.05.30 at 10h 22m 40s.xml">
+      <configuration name="PropertiesDemo1.test01" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ReflectTest2_test02 - 2018.05.29 at 19h 33m 04s.xml">
       <configuration name="ReflectTest2.test02" configurationId="JUnit" />
@@ -938,7 +962,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="819560000" />
+    <option name="totallyTimeSpent" value="825109000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -950,7 +974,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="447" y="100" width="1232" height="919" extended-state="0" />
+    <frame x="241" y="100" width="1232" height="919" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -966,7 +990,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2634271" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21075085" sideWeight="0.49460918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21416382" sideWeight="0.49460918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24978614" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1015,7 +1039,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="字节流学习与简单复制文件" />
     <MESSAGE value="高效字节流-&gt;缓冲字节流" />
     <MESSAGE value="缓冲流 编码表" />
     <MESSAGE value="转换流" />
@@ -1040,7 +1063,8 @@
     <MESSAGE value=".." />
     <MESSAGE value="tcp udp初步了解~" />
     <MESSAGE value="反射初步了解" />
-    <option name="LAST_COMMIT_MESSAGE" value="反射初步了解" />
+    <MESSAGE value="服务器等待客户端连接补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="服务器等待客户端连接补充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1053,16 +1077,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo2/WaitNotifyDemo1.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo2/ThreadGetOut.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo2/ThreadPutIn.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo1/ThreadPutIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo2/WaitNotifyDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
@@ -1229,9 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1239,9 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1249,9 +1257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1259,9 +1264,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1269,9 +1271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="46" column="52" lean-forward="false" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1279,9 +1278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1289,23 +1285,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/yiran3/entity1/junitTest/JunitTest1Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/yiran3/entity1/junitTest/JunitTest1Test.java" />
     <entry file="file://$PROJECT_DIR$/.idea/artifacts/JavaBasis_jar.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,7 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1321,19 +1307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
           <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#696#697#0" expanded="false" />
-            <element signature="e#742#743#0" expanded="false" />
-            <element signature="e#779#780#0" expanded="false" />
-            <element signature="e#825#826#0" expanded="false" />
-            <element signature="e#882#883#0" expanded="false" />
-            <element signature="e#943#944#0" expanded="false" />
-            <element signature="e#998#999#0" expanded="false" />
-            <element signature="e#1059#1060#0" expanded="false" />
-            <element signature="e#1096#1097#0" expanded="false" />
-            <element signature="e#1142#1143#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1341,7 +1314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
           <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1350,24 +1322,6 @@
         <state relative-caret-position="187">
           <caret line="1896" column="28" lean-forward="false" selection-start-line="1896" selection-start-column="28" selection-end-line="1896" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/ReflectTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-517">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/Constructors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1385,40 +1339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-          <folding>
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1481#1482#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/Fields.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1436,10 +1356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1447,27 +1363,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/useReflectDemo2/UseDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/useReflectDemo1/UseDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="512">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/ReflectTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/Constructors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaReflect/Fields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/java/jdk-10/lib/src.zip!/java.base/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/java/jdk-10/lib/src.zip!/java.base/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="1342" column="46" lean-forward="false" selection-start-line="1342" selection-start-column="46" selection-end-line="1342" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/java/jdk-10/lib/src.zip!/java.base/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="1477" column="28" lean-forward="true" selection-start-line="1477" selection-start-column="28" selection-end-line="1477" selection-end-column="28" />
+          <folding>
+            <element signature="e#46727#46728#0" expanded="true" />
+            <element signature="e#46774#46775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

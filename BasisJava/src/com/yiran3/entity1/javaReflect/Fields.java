@@ -71,6 +71,7 @@ public class Fields {
             f.setAccessible(true); // 暴力反射，解除私有绑定
             f.set(obj, "依然");
             System.out.println("验证："+stu);
+            System.out.println("f.get(obj)："+f.get(obj));
         } catch (Exception e){
             e.printStackTrace();
         }
