@@ -67,6 +67,7 @@ public class ConfigTest01 {
             String sId = props.getProperty("id");
             String name = props.getProperty("name");
             // 将String转为Integer 再转为int, 自动拆箱
+            // 一般用 Integer.parseInt()
             int id = Integer.valueOf(sId);
 
             // 4.通过得到的构造方法创建对象实例

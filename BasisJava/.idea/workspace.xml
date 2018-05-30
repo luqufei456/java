@@ -7,13 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ConfigTest01.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ProStudent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ProTeacher.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsUser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo1/MyBeanUtils1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo1/MyBeanUtilsTest1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo2/MyBeanUtils2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo2/MyBeanUtilsTest2.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo1.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo1.java" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis.iml" afterPath="$PROJECT_DIR$/JavaBasis.iml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ConfigTest01.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ConfigTest01.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,37 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProStudent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ProStudent.java">
+      <file leaf-file-name="MyBeanUtils1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo1/MyBeanUtils1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding>
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProTeacher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ProTeacher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-              <folding>
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigTest01.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ConfigTest01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+            <state relative-caret-position="187">
+              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertiesDemo2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo2.java">
+      <file leaf-file-name="MyBeanUtilsTest1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo1/MyBeanUtilsTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+            <state relative-caret-position="204">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,11 +67,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertiesDemo3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo3.java">
+      <file leaf-file-name="MyBeanUtils2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo2/MyBeanUtils2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+            <state relative-caret-position="164">
+              <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyBeanUtilsTest2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo2/MyBeanUtilsTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,6 +113,7 @@
       <find>DatagramSocket</find>
       <find>getConstructors</find>
       <find>entrySet</find>
+      <find>populate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,14 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo1/WaitNotifyDemo1.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo2/ThreadPutIn.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo2/WaitNotifyDemo2.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo2/NewGetOut.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo2/NewPutIn.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo1/ThreadPerson1.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo3/WaitNotifyDemo3.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockThread1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockTest1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockThread2.java" />
@@ -188,6 +170,14 @@
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ProStudent.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ProTeacher.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ConfigTest01.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemoTest1.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsUser.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo1.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo2.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo2/MyBeanUtilsTest2.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo2/MyBeanUtils2.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo1/MyBeanUtils1.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo1/MyBeanUtilsTest1.java" />
       </list>
     </option>
   </component>
@@ -204,8 +194,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="472" />
-    <option name="y" value="101" />
+    <option name="x" value="443" />
+    <option name="y" value="131" />
     <option name="width" value="1232" />
     <option name="height" value="919" />
   </component>
@@ -259,25 +249,6 @@
               <item name="yiran3" type="462c0819:PsiDirectoryNode" />
               <item name="entity1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yiran3" type="462c0819:PsiDirectoryNode" />
-              <item name="entity1" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yiran3" type="462c0819:PsiDirectoryNode" />
-              <item name="entity1" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-              <item name="testDemo1" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -288,7 +259,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jaxen-1.1-beta-6.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -314,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConfigTest01.test02">
+  <component name="RunManager" selected="JUnit.MyBeanUtilsTest2.test01">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -336,18 +307,18 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="ConfigTest01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BeanUtilsDemo1.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran3.entity1.properties.testDemo1.*" />
+          <option name="PATTERN" value="com.yiran3.entity1.beanUtils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="JavaBasis" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.yiran3.entity1.properties.testDemo1" />
-      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.properties.testDemo1.ConfigTest01" />
+      <option name="PACKAGE_NAME" value="com.yiran3.entity1.beanUtils" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.beanUtils.BeanUtilsDemo1" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -361,18 +332,18 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ConfigTest01.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BeanUtilsDemo1.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran3.entity1.properties.testDemo1.*" />
+          <option name="PATTERN" value="com.yiran3.entity1.beanUtils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="JavaBasis" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.yiran3.entity1.properties.testDemo1" />
-      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.properties.testDemo1.ConfigTest01" />
+      <option name="PACKAGE_NAME" value="com.yiran3.entity1.beanUtils" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.beanUtils.BeanUtilsDemo1" />
       <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -386,18 +357,18 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PropertiesDemo1.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BeanUtilsDemo2.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran3.entity1.properties.*" />
+          <option name="PATTERN" value="com.yiran3.entity1.beanUtils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="JavaBasis" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.yiran3.entity1.properties" />
-      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.properties.PropertiesDemo1" />
+      <option name="PACKAGE_NAME" value="com.yiran3.entity1.beanUtils" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.beanUtils.BeanUtilsDemo2" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -411,19 +382,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PropertiesDemo2.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyBeanUtilsTest1.testDemo02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran3.entity1.properties.*" />
+          <option name="PATTERN" value="com.yiran3.entity1.beanUtils.customizedDemo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="JavaBasis" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.yiran3.entity1.properties" />
-      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.properties.PropertiesDemo2" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="com.yiran3.entity1.beanUtils.customizedDemo1" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.beanUtils.customizedDemo1.MyBeanUtilsTest1" />
+      <option name="METHOD_NAME" value="testDemo02" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -436,19 +407,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PropertiesDemo3.Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyBeanUtilsTest2.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yiran3.entity1.properties.*" />
+          <option name="PATTERN" value="com.yiran3.entity1.beanUtils.customizedDemo2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="JavaBasis" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.yiran3.entity1.properties" />
-      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.properties.PropertiesDemo3" />
-      <option name="METHOD_NAME" value="Test01" />
+      <option name="PACKAGE_NAME" value="com.yiran3.entity1.beanUtils.customizedDemo2" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.beanUtils.customizedDemo2.MyBeanUtilsTest2" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -534,19 +505,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PropertiesDemo1.test01" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PropertiesDemo2.test01" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PropertiesDemo3.Test01" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ConfigTest01.test01" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ConfigTest01.test02" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BeanUtilsDemo1.test01" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BeanUtilsDemo1.test02" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BeanUtilsDemo2.test01" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MyBeanUtilsTest1.testDemo02" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MyBeanUtilsTest2.test01" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ConfigTest01.test02" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ConfigTest01.test01" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PropertiesDemo3.Test01" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PropertiesDemo2.test01" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PropertiesDemo1.test01" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyBeanUtilsTest2.test01" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MyBeanUtilsTest1.testDemo02" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BeanUtilsDemo2.test01" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BeanUtilsDemo1.test02" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BeanUtilsDemo1.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -608,14 +579,7 @@
       <workItem from="1527491294204" duration="16584000" />
       <workItem from="1527554864530" duration="5353000" />
       <workItem from="1527562897785" duration="19925000" />
-      <workItem from="1527640574469" duration="11649000" />
-    </task>
-    <task id="LOCAL-00084" summary="异常进一步学习">
-      <created>1526353347671</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1526353347692</updated>
+      <workItem from="1527640574469" duration="21854000" />
     </task>
     <task id="LOCAL-00085" summary="修改String中的一段">
       <created>1526383711139</created>
@@ -953,43 +917,50 @@
       <option name="project" value="LOCAL" />
       <updated>1527647821909</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="Properties加深印象">
+      <created>1527662023217</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1527662023217</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConfigTest01_test01 - 2018.05.30 at 14h 21m 22s.xml">
-      <configuration name="ConfigTest01.test01" configurationId="JUnit" />
+    <history-entry file="BeanUtilsDemo2_test01 - 2018.05.30 at 16h 15m 13s.xml">
+      <configuration name="BeanUtilsDemo2.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigTest01_test02 - 2018.05.30 at 14h 31m 03s.xml">
-      <configuration name="ConfigTest01.test02" configurationId="JUnit" />
+    <history-entry file="BeanUtilsDemo2_test01 - 2018.05.30 at 16h 15m 44s.xml">
+      <configuration name="BeanUtilsDemo2.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigTest01_test02 - 2018.05.30 at 14h 31m 34s.xml">
-      <configuration name="ConfigTest01.test02" configurationId="JUnit" />
+    <history-entry file="BeanUtilsDemo2_test01 - 2018.05.30 at 16h 20m 08s.xml">
+      <configuration name="BeanUtilsDemo2.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertiesDemo1_test01 - 2018.05.30 at 10h 19m 56s.xml">
-      <configuration name="PropertiesDemo1.test01" configurationId="JUnit" />
+    <history-entry file="BeanUtilsDemo2_test01 - 2018.05.30 at 16h 31m 55s.xml">
+      <configuration name="BeanUtilsDemo2.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertiesDemo1_test01 - 2018.05.30 at 10h 22m 40s.xml">
-      <configuration name="PropertiesDemo1.test01" configurationId="JUnit" />
+    <history-entry file="BeanUtilsDemo2_test01 - 2018.05.30 at 16h 32m 42s.xml">
+      <configuration name="BeanUtilsDemo2.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertiesDemo2_test01 - 2018.05.30 at 10h 52m 30s.xml">
-      <configuration name="PropertiesDemo2.test01" configurationId="JUnit" />
+    <history-entry file="BeanUtilsDemoTest1_test01 - 2018.05.30 at 15h 40m 44s.xml">
+      <configuration name="BeanUtilsDemoTest1.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertiesDemo2_test01 - 2018.05.30 at 10h 58m 18s.xml">
-      <configuration name="PropertiesDemo2.test01" configurationId="JUnit" />
+    <history-entry file="BeanUtilsDemoTest1_test02 - 2018.05.30 at 15h 49m 52s.xml">
+      <configuration name="BeanUtilsDemoTest1.test02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertiesDemo2_test01 - 2018.05.30 at 11h 15m 42s.xml">
-      <configuration name="PropertiesDemo2.test01" configurationId="JUnit" />
+    <history-entry file="BeanUtilsDemoTest1_test02 - 2018.05.30 at 15h 50m 36s.xml">
+      <configuration name="BeanUtilsDemoTest1.test02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertiesDemo3_Test01 - 2018.05.30 at 11h 18m 13s.xml">
-      <configuration name="PropertiesDemo3.Test01" configurationId="JUnit" />
+    <history-entry file="MyBeanUtilsTest1_testDemo02 - 2018.05.30 at 17h 44m 08s.xml">
+      <configuration name="MyBeanUtilsTest1.testDemo02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertiesDemo3_Test01 - 2018.05.30 at 11h 18m 31s.xml">
-      <configuration name="PropertiesDemo3.Test01" configurationId="JUnit" />
+    <history-entry file="MyBeanUtilsTest2_test01 - 2018.05.30 at 18h 07m 33s.xml">
+      <configuration name="MyBeanUtilsTest2.test01" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="831392000" />
+    <option name="totallyTimeSpent" value="841597000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1001,8 +972,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="472" y="101" width="1232" height="919" extended-state="0" />
-    <editor active="true" />
+    <frame x="443" y="131" width="1232" height="919" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736573" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1013,7 +983,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24807198" sideWeight="0.5059727" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736573" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24936062" sideWeight="0.49402732" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24808185" sideWeight="0.49402732" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2634271" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1066,8 +1036,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="缓冲流 编码表" />
-    <MESSAGE value="转换流" />
     <MESSAGE value="序列化与反序列化初步学习，and序列化版本号了解" />
     <MESSAGE value="递归删除不为空的文件夹" />
     <MESSAGE value="打印流了解" />
@@ -1091,7 +1059,9 @@
     <MESSAGE value="反射初步了解" />
     <MESSAGE value="服务器等待客户端连接补充" />
     <MESSAGE value="Properties一般方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="Properties一般方法" />
+    <MESSAGE value="Properties加深印象" />
+    <MESSAGE value="BeanUtils工具类初步使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="BeanUtils工具类初步使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1104,56 +1074,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockThread2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/deadLock/DeadLockTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo1/WaitNotifyDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadPool/ThreadPoolDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo2/NewGetOut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/eadas.java" />
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo3/NewPutIn2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
@@ -1462,34 +1382,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/ruanjian/java/jdk-10/lib/src.zip!/java.base/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="1355" column="37" lean-forward="true" selection-start-line="1355" selection-start-column="37" selection-end-line="1355" selection-end-column="37" />
-          <folding>
-            <element signature="e#53056#53057#0" expanded="false" />
-            <element signature="e#53104#53105#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-310">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ProStudent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="false" />
+            <element signature="e#387#388#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1499,18 +1398,18 @@
         <state relative-caret-position="51">
           <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding>
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="false" />
+            <element signature="e#387#388#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo3.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ConfigTest01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        <state relative-caret-position="741">
+          <caret line="67" column="52" lean-forward="true" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1520,15 +1419,131 @@
         <state relative-caret-position="129">
           <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/java/jdk-10/lib/src.zip!/java.base/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="217" column="31" lean-forward="false" selection-start-line="217" selection-start-column="31" selection-end-line="217" selection-end-column="31" />
+          <folding>
+            <element signature="e#7781#7782#0" expanded="true" />
+            <element signature="e#7819#7820#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ConfigTest01.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+        <state relative-caret-position="402">
+          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/commons-beanutils-1.8.3.jar!/org/apache/commons/beanutils/BeanUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo2/MyBeanUtils2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo1/MyBeanUtils1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo2/MyBeanUtilsTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo1/MyBeanUtilsTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
