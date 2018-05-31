@@ -27,8 +27,8 @@ public class BeanUtilsDemo2 {
             map.put("userName", new String[]{"yiran", "chunjue"});
             map.put("password", new String[]{"123456"});
             map.put("hobbies", new String[]{"敲代码","早上敲代码","晚上敲代码"});
-            // 如果类型不相同，则不会被填充进去
-            map.put("int",new String[]{"1","2"});
+            // 如果类型不相同，也会被自动转为其他基本数据类型
+            map.put("age",new String[]{"1","2"});
 
             // 2.将使用populate进行填充
             BeanUtilsUser user = new BeanUtilsUser();

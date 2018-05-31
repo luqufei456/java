@@ -7,15 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/XMLTest01.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/XMLTest02.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/XMLTest03.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/XMLTest04.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/dtdDemo1/DTDTest01.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/dtdDemo1/bean01.dtd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/schemaDemo1/SchemaTest01.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/schemaDemo1/bean-schema.xsd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/dom4jDemo1/Dom4jTest1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/dom4jDemo1/bean-dom4jTest1.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/XMLTest01.xml" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/xmlDemo1/XMLTest01.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/XMLTest02.xml" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/xmlDemo1/XMLTest02.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/XMLTest03.xml" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/xmlDemo1/XMLTest03.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/XMLTest04.xml" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/xmlDemo1/XMLTest04.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo2.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,56 +41,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="XMLTest04.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/XMLTest04.xml">
+      <file leaf-file-name="bean-dom4jTest1.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/dom4jDemo1/bean-dom4jTest1.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dom4jTest1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/dom4jDemo1/Dom4jTest1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
-                <element signature="e#187#191#0" expanded="true" />
-                <element signature="e#194#198#0" expanded="true" />
-                <element signature="e#201#206#0" expanded="true" />
-                <element signature="e#209#215#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bean01.dtd" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/dtdDemo1/bean01.dtd">
+      <file leaf-file-name="BeanUtilsDemo2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DTDTest01.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/dtdDemo1/DTDTest01.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bean-schema.xsd" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/schemaDemo1/bean-schema.xsd">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SchemaTest01.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/schemaDemo1/SchemaTest01.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="272">
+              <caret line="28" column="66" lean-forward="false" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -102,8 +78,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -135,8 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/udp/UdpSend1.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/udp/UdpSend2.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/udp/udpDemo2/UdpSend2.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/udp/udpDemo1/UdpReceive1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/udp/udpDemo2/UdpReceive2.java" />
@@ -169,7 +143,6 @@
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ConfigTest01.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemoTest1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsUser.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo2.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo2/MyBeanUtilsTest2.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo2/MyBeanUtils2.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo1/MyBeanUtils1.java" />
@@ -186,6 +159,9 @@
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/schemaDemo1/bean-schema.xsd" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/schemaDemo1/SchemaTest01.xml" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/dom4jDemo1/bean-dom4jTest1.xml" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo2.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/dom4jDemo1/Dom4jTest1.java" />
       </list>
     </option>
   </component>
@@ -223,7 +199,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,17 +252,7 @@
               <item name="yiran3" type="462c0819:PsiDirectoryNode" />
               <item name="entity1" type="462c0819:PsiDirectoryNode" />
               <item name="basicXML1" type="462c0819:PsiDirectoryNode" />
-              <item name="dtdDemo1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yiran3" type="462c0819:PsiDirectoryNode" />
-              <item name="entity1" type="462c0819:PsiDirectoryNode" />
-              <item name="basicXML1" type="462c0819:PsiDirectoryNode" />
-              <item name="schemaDemo1" type="462c0819:PsiDirectoryNode" />
+              <item name="dom4jDemo1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
@@ -295,13 +263,21 @@
               <item name="entity1" type="462c0819:PsiDirectoryNode" />
               <item name="beanUtils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran3" type="462c0819:PsiDirectoryNode" />
+              <item name="entity1" type="462c0819:PsiDirectoryNode" />
+              <item name="beanUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="customizedDemo2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,12 +291,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\StudyJava\BasisJava\src\com\yiran3\entity1\basicXML1\schemaDemo1" />
-      <recent name="H:\StudyJava\BasisJava\src\com\yiran3\entity1\basicXML1\dtdDemo1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\StudyJava\BasisJava\src\com\yiran3\entity1\javaThread\waitNotify\Demo2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\StudyJava\BasisJava\src\com\yiran3\entity1\basicXML1\xmlDemo1" />
+      <recent name="H:\StudyJava\BasisJava\src\com\yiran3\entity1\basicXML1\schemaDemo1" />
+      <recent name="H:\StudyJava\BasisJava\src\com\yiran3\entity1\basicXML1\dtdDemo1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,13 +312,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyBeanUtilsTest2.test01">
+  <component name="RunManager" selected="JUnit.BeanUtilsDemo2.test01">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="Dom4jTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yiran3.entity1.basicXML1.dom4jDemo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.basicXML1.dom4jDemo1.Dom4jTest1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaBasis" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -356,31 +352,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="BeanUtilsDemo1.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yiran3.entity1.beanUtils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JavaBasis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.yiran3.entity1.beanUtils" />
-      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity1.beanUtils.BeanUtilsDemo1" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="BeanUtilsDemo1.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -555,19 +526,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BeanUtilsDemo1.test01" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BeanUtilsDemo1.test02" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BeanUtilsDemo2.test01" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MyBeanUtilsTest1.testDemo02" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MyBeanUtilsTest2.test01" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BeanUtilsDemo1.test02" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BeanUtilsDemo2.test01" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MyBeanUtilsTest1.testDemo02" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MyBeanUtilsTest2.test01" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Dom4jTest1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MyBeanUtilsTest2.test01" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MyBeanUtilsTest1.testDemo02" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BeanUtilsDemo2.test01" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BeanUtilsDemo1.test02" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BeanUtilsDemo1.test01" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BeanUtilsDemo2.test01" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Dom4jTest1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MyBeanUtilsTest2.test01" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MyBeanUtilsTest1.testDemo02" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BeanUtilsDemo1.test02" />
       </list>
     </recent_temporary>
   </component>
@@ -629,14 +600,8 @@
       <workItem from="1527491294204" duration="16584000" />
       <workItem from="1527554864530" duration="5353000" />
       <workItem from="1527562897785" duration="19925000" />
-      <workItem from="1527640574469" duration="31094000" />
-    </task>
-    <task id="LOCAL-00086" summary="API常用类">
-      <created>1526388908112</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1526388908113</updated>
+      <workItem from="1527640574469" duration="31130000" />
+      <workItem from="1527725135919" duration="4755000" />
     </task>
     <task id="LOCAL-00087" summary="修改字符串中的某段">
       <created>1526430006595</created>
@@ -974,13 +939,17 @@
       <option name="project" value="LOCAL" />
       <updated>1527675907507</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="xml的两种约束与xml了解">
+      <created>1527686272959</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1527686272959</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BeanUtilsDemo2_test01 - 2018.05.30 at 16h 15m 13s.xml">
-      <configuration name="BeanUtilsDemo2.test01" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BeanUtilsDemo2_test01 - 2018.05.30 at 16h 15m 44s.xml">
       <configuration name="BeanUtilsDemo2.test01" configurationId="JUnit" />
     </history-entry>
@@ -991,6 +960,9 @@
       <configuration name="BeanUtilsDemo2.test01" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BeanUtilsDemo2_test01 - 2018.05.30 at 16h 32m 42s.xml">
+      <configuration name="BeanUtilsDemo2.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanUtilsDemo2_test01 - 2018.05.31 at 09h 05m 06s.xml">
       <configuration name="BeanUtilsDemo2.test01" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BeanUtilsDemoTest1_test01 - 2018.05.30 at 15h 40m 44s.xml">
@@ -1010,7 +982,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="850837000" />
+    <option name="totallyTimeSpent" value="855628000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1033,25 +1005,25 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24807198" sideWeight="0.5059727" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24808185" sideWeight="0.49402732" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736573" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24808185" sideWeight="0.49402732" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2634271" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21416382" sideWeight="0.49460918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21757679" sideWeight="0.49460918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24978614" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2662116" sideWeight="0.5053908" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2662116" sideWeight="0.5053908" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1087,7 +1059,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="序列化与反序列化初步学习，and序列化版本号了解" />
     <MESSAGE value="递归删除不为空的文件夹" />
     <MESSAGE value="打印流了解" />
     <MESSAGE value="FileUtils工具类，第三方jar了解" />
@@ -1112,7 +1083,8 @@
     <MESSAGE value="Properties一般方法" />
     <MESSAGE value="Properties加深印象" />
     <MESSAGE value="BeanUtils工具类初步使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="BeanUtils工具类初步使用" />
+    <MESSAGE value="xml的两种约束与xml了解" />
+    <option name="LAST_COMMIT_MESSAGE" value="xml的两种约束与xml了解" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1125,41 +1097,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/udp/udpDemo2/UdpSend2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo1/ClientDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo2/ClientDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo2/ServerDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo3/ClientDemo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo3/ServerDemo3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1207,19 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
           <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#696#697#0" expanded="false" />
-            <element signature="e#742#743#0" expanded="false" />
-            <element signature="e#779#780#0" expanded="false" />
-            <element signature="e#825#826#0" expanded="false" />
-            <element signature="e#882#883#0" expanded="false" />
-            <element signature="e#943#944#0" expanded="false" />
-            <element signature="e#998#999#0" expanded="false" />
-            <element signature="e#1059#1060#0" expanded="false" />
-            <element signature="e#1096#1097#0" expanded="false" />
-            <element signature="e#1142#1143#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1234,7 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="1896" column="28" lean-forward="false" selection-start-line="1896" selection-start-column="28" selection-end-line="1896" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,9 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1252,30 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-          <folding>
-            <element signature="e#498#499#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#570#571#0" expanded="false" />
-            <element signature="e#595#596#0" expanded="false" />
-            <element signature="e#628#629#0" expanded="false" />
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#687#688#0" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-            <element signature="e#754#755#0" expanded="false" />
-            <element signature="e#786#787#0" expanded="false" />
-            <element signature="e#838#839#0" expanded="false" />
-            <element signature="e#866#867#0" expanded="false" />
-            <element signature="e#931#932#0" expanded="false" />
-            <element signature="e#998#999#0" expanded="false" />
-            <element signature="e#1044#1045#0" expanded="false" />
-            <element signature="e#1116#1117#0" expanded="false" />
-            <element signature="e#1144#1145#0" expanded="false" />
-            <element signature="e#1201#1202#0" expanded="false" />
-            <element signature="e#1219#1220#0" expanded="false" />
-            <element signature="e#1275#1276#0" expanded="false" />
-            <element signature="e#1481#1482#0" expanded="false" />
-            <element signature="e#1544#1545#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1283,9 +1179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1307,9 +1200,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1317,9 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1327,7 +1214,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1335,9 +1221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1345,9 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1355,7 +1235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1363,10 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="1477" column="28" lean-forward="true" selection-start-line="1477" selection-start-column="28" selection-end-line="1477" selection-end-column="28" />
-          <folding>
-            <element signature="e#46727#46728#0" expanded="false" />
-            <element signature="e#46774#46775#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1374,10 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#326#327#0" expanded="false" />
-            <element signature="e#387#388#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1385,10 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding>
-            <element signature="e#326#327#0" expanded="false" />
-            <element signature="e#387#388#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1396,9 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="67" column="52" lean-forward="true" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1406,9 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1416,9 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1426,10 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="217" column="31" lean-forward="false" selection-start-line="217" selection-start-column="31" selection-end-line="217" selection-end-column="31" />
-          <folding>
-            <element signature="e#7781#7782#0" expanded="true" />
-            <element signature="e#7819#7820#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1437,7 +1291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1445,36 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1482,9 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1492,16 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo2/MyBeanUtils2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1518,60 +1328,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/XMLDemo1.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/XMLDemo1.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="64" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/XMLTest01.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="630">
+          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/XMLTest03.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/XMLTest02.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/XMLTest04.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/xmlDemo1/XMLTest04.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#187#191#0" expanded="true" />
-            <element signature="e#194#198#0" expanded="true" />
-            <element signature="e#201#206#0" expanded="true" />
-            <element signature="e#209#215#0" expanded="true" />
+            <element signature="e#187#191#0" expanded="false" />
+            <element signature="e#194#198#0" expanded="false" />
+            <element signature="e#201#206#0" expanded="false" />
+            <element signature="e#209#215#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1587,33 +1363,115 @@
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/dtdDemo1/DTDTest01.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/schemaDemo1/bean-schema.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        <state relative-caret-position="137">
+          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/xmlDemo1/XMLTest01.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/xmlDemo1/XMLTest02.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/xmlDemo1/XMLTest03.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/schemaDemo1/SchemaTest01.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/dom4jDemo1/bean-dom4jTest1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/dom4j-1.6.1.jar!/org/dom4j/io/SAXReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="134" column="41" lean-forward="false" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/dom4j-1.6.1.jar!/org/dom4j/Element.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="112" column="18" lean-forward="false" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/dom4j-1.6.1.jar!/org/dom4j/Document.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/customizedDemo2/MyBeanUtils2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/dom4jDemo1/Dom4jTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="66" lean-forward="false" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
           <folding />
         </state>
       </provider>
