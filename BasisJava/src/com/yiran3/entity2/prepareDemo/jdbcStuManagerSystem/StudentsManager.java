@@ -1,5 +1,8 @@
 package com.yiran3.entity2.prepareDemo.jdbcStuManagerSystem;
 
+/**
+ * 学生管理系统的管理方法类
+ * */
 
 import java.sql.*;
 
