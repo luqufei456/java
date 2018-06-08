@@ -6,10 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="c3p0了解">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity2/c3p0Demo/C3P0Demo1.java" />
+    <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/c3p0-config.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis.iml" afterPath="$PROJECT_DIR$/JavaBasis.iml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/PrepareDemo2.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/PrepareDemo2.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/StudentsManager.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/StudentsManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="C3P0Demo1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="C3P0Demo1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/c3p0Demo/C3P0Demo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="-8">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,10 +49,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="c3p0-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="StudentsMangerList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/listStuManagerSystem/StudentsMangerList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="477">
               <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -63,8 +74,50 @@
       <file leaf-file-name="ListStudent1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/listStuManagerSystem/ListStudent1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="544">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrepareDemo2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/PrepareDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="156" column="0" lean-forward="true" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+              <folding>
+                <marker date="1528428275867" expanded="true" signature="582:619" ph="insert into category... " />
+                <marker date="1528428275867" expanded="true" signature="1823:1866" ph="update category... " />
+                <marker date="1528428275867" expanded="true" signature="3097:3131" ph="delete from category... " />
+                <marker date="1528428275867" expanded="true" signature="4330:4352" ph="select * fro... category" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentsManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/StudentsManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="116" column="19" lean-forward="true" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
+              <folding>
+                <marker date="1528435890756" expanded="true" signature="717:754" ph="insert into students... " />
+                <marker date="1528435890756" expanded="true" signature="1567:1589" ph="select * fro... students" />
+                <marker date="1528435890756" expanded="true" signature="2703:2739" ph="select * fro... students" />
+                <marker date="1528435890756" expanded="true" signature="4531:4574" ph="update students... " />
+                <marker date="1528435890756" expanded="true" signature="5291:5325" ph="delete from students... " />
+                <marker date="1528435890756" expanded="true" signature="6039:6088" ph="select * fro... students" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JdbcStudentsManagerSystem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/JdbcStudentsManagerSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -108,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo2.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ProStudent.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/properties/testDemo1/ProTeacher.java" />
@@ -151,14 +203,15 @@
         <option value="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/JdbcStudentsManagerSystem.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/JdbcStudent.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/JdbcStudentsManagerSystem.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/StudentsManager.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/PrepareDemo2.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/listStuManagerSystem/ListStudent.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/PrepareDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/listStuManagerSystem/ListStudent1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/listStuManagerSystem/StudentsMangerList.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/listStuManagerSystem/ListStudentsManagerSystem.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity2/c3p0Demo/C3P0Demo1.java" />
+        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/PrepareDemo2.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/StudentsManager.java" />
       </list>
     </option>
   </component>
@@ -175,8 +228,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="420" />
-    <option name="y" value="84" />
+    <option name="x" value="261" />
+    <option name="y" value="66" />
     <option name="width" value="1232" />
     <option name="height" value="919" />
   </component>
@@ -198,7 +251,6 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,15 +291,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yiran3" type="462c0819:PsiDirectoryNode" />
               <item name="entity2" type="462c0819:PsiDirectoryNode" />
-              <item name="c3p0Demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yiran3" type="462c0819:PsiDirectoryNode" />
-              <item name="entity2" type="462c0819:PsiDirectoryNode" />
               <item name="prepareDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -258,7 +301,7 @@
               <item name="yiran3" type="462c0819:PsiDirectoryNode" />
               <item name="entity2" type="462c0819:PsiDirectoryNode" />
               <item name="prepareDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="listStuManagerSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbcStuManagerSystem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
@@ -268,6 +311,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -303,7 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.C3P0Demo1.test01">
+  <component name="RunManager" selected="Application.JdbcStudentsManagerSystem">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -519,10 +563,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.C3P0Demo1.test01" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ListStudentsManagerSystem" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PrepareDemo1.test02" />
-        <item index="3" class="java.lang.String" itemvalue="Application.JdbcStudentsManagerSystem" />
+        <item index="0" class="java.lang.String" itemvalue="Application.JdbcStudentsManagerSystem" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.C3P0Demo1.test01" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ListStudentsManagerSystem" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PrepareDemo1.test02" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.PrepareDemo2.test04" />
       </list>
     </recent_temporary>
@@ -589,14 +633,8 @@
       <workItem from="1527725135919" duration="15293000" />
       <workItem from="1527756611770" duration="738000" />
       <workItem from="1528272981021" duration="10163000" />
-      <workItem from="1528332187391" duration="25532000" />
-    </task>
-    <task id="LOCAL-00093" summary="LinkedList java中的栈与队列初识">
-      <created>1526560785620</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1526560785621</updated>
+      <workItem from="1528332187391" duration="25583000" />
+      <workItem from="1528417492607" duration="4246000" />
     </task>
     <task id="LOCAL-00094" summary="知识补充">
       <created>1526608266592</created>
@@ -934,7 +972,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528363872252</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="c3p0了解">
+      <created>1528377548550</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1528377548556</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -970,7 +1015,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="902599000" />
+    <option name="totallyTimeSpent" value="906896000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -982,7 +1027,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="420" y="84" width="1232" height="919" extended-state="0" />
+    <frame x="261" y="66" width="1232" height="919" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -994,13 +1039,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.48464164" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736573" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5153584" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32608697" sideWeight="0.5153584" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2634271" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2278157" sideWeight="0.49460918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2320819" sideWeight="0.49460918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24978614" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1012,6 +1056,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1047,7 +1092,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="集合复习题" />
     <MESSAGE value="~" />
     <MESSAGE value="文件夹复制思考题" />
     <MESSAGE value="反序列化到最后会报错，如何使用while循环反序列化" />
@@ -1072,7 +1116,8 @@
     <MESSAGE value="PrepareStatement了解，jdbc学生管理系统案例" />
     <MESSAGE value="List的学生管理系统，有排序分页" />
     <MESSAGE value="c3p0了解" />
-    <option name="LAST_COMMIT_MESSAGE" value="c3p0了解" />
+    <MESSAGE value="jdbc ResultSetMetaData 元数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbc ResultSetMetaData 元数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1085,20 +1130,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/properties/PropertiesDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/commons-beanutils-1.8.3.jar!/org/apache/commons/beanutils/BeanUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -1307,7 +1338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
           <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1315,10 +1345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1528277518729" expanded="true" signature="756:778" ph="select * fro... category" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1326,9 +1352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1336,9 +1359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1346,10 +1366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1528289315080" expanded="true" signature="941:963" ph="select * fro... category" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1357,24 +1373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1528290085859" expanded="true" signature="706:728" ph="select * fro... category" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/PrepareDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1528357622814" expanded="true" signature="582:619" ph="insert into category... " />
-            <marker date="1528357622814" expanded="true" signature="1823:1866" ph="update category... " />
-            <marker date="1528357622814" expanded="true" signature="3097:3131" ph="delete from category... " />
-            <marker date="1528357622814" expanded="true" signature="4330:4352" ph="select * fro... category" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1382,7 +1380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1422,29 +1419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/StudentsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="256" column="0" lean-forward="true" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
-          <folding>
-            <marker date="1528357622759" expanded="true" signature="717:754" ph="insert into students... " />
-            <marker date="1528357622759" expanded="true" signature="1567:1589" ph="select * fro... students" />
-            <marker date="1528357622759" expanded="true" signature="2703:2739" ph="select * fro... students" />
-            <marker date="1528357622759" expanded="true" signature="4009:4052" ph="update students... " />
-            <marker date="1528357622759" expanded="true" signature="4769:4803" ph="delete from students... " />
-            <marker date="1528357622759" expanded="true" signature="5517:5566" ph="select * fro... students" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/JdbcStudentsManagerSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="74" column="24" lean-forward="true" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/listStuManagerSystem/ListStudentsManagerSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -1457,7 +1431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="207" column="29" lean-forward="false" selection-start-line="207" selection-start-column="29" selection-end-line="207" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1465,7 +1438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
           <caret line="493" column="29" lean-forward="false" selection-start-line="493" selection-start-column="29" selection-end-line="493" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1473,14 +1445,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="237" column="25" lean-forward="false" selection-start-line="237" selection-start-column="25" selection-end-line="237" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/listStuManagerSystem/StudentsMangerList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="477">
           <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/c3p0Demo/C3P0Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1489,18 +1478,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/listStuManagerSystem/ListStudent1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="544">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/c3p0Demo/C3P0Demo1.java">
+    <entry file="jar://C:/ruanjian/java/jdk-10/lib/src.zip!/java.sql/java/sql/ResultSetMetaData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="252">
+          <caret line="221" column="8" lean-forward="false" selection-start-line="221" selection-start-column="8" selection-end-line="221" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/PrepareDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="156" column="0" lean-forward="true" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1528428275867" expanded="true" signature="582:619" ph="insert into category... " />
+            <marker date="1528428275867" expanded="true" signature="1823:1866" ph="update category... " />
+            <marker date="1528428275867" expanded="true" signature="3097:3131" ph="delete from category... " />
+            <marker date="1528428275867" expanded="true" signature="4330:4352" ph="select * fro... category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/JdbcStudentsManagerSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/StudentsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="116" column="19" lean-forward="true" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
+          <folding>
+            <marker date="1528435890756" expanded="true" signature="717:754" ph="insert into students... " />
+            <marker date="1528435890756" expanded="true" signature="1567:1589" ph="select * fro... students" />
+            <marker date="1528435890756" expanded="true" signature="2703:2739" ph="select * fro... students" />
+            <marker date="1528435890756" expanded="true" signature="4531:4574" ph="update students... " />
+            <marker date="1528435890756" expanded="true" signature="5291:5325" ph="delete from students... " />
+            <marker date="1528435890756" expanded="true" signature="6039:6088" ph="select * fro... students" />
           </folding>
         </state>
       </provider>

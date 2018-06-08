@@ -154,6 +154,17 @@ public class PrepareDemo2 {
             pst = conn.prepareStatement(sql);
             // 4.执行，接收返回结果
             rs = pst.executeQuery();
+
+            // 获得结果集的元数据
+            ResultSetMetaData rsmd = rs.getMetaData();
+            // 获得第一列的列名
+            String columnName = rsmd.getColumnName(1);
+            // 获得列总数
+            int count = rsmd.getColumnCount();
+            // 获取第一列类型号
+            int type = rsmd.getColumnType(1);
+            // 获取第一列类型名
+            String type1 = rsmd.getColumnTypeName(1);
             // 5.迭代接收结果
             while (rs.next()){
                 Integer cid = rs.getInt("cid");

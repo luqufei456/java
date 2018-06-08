@@ -101,6 +101,18 @@ public class StudentsManager {
             pst.setString(1, sno);
             // 发送并接收返回值
             rs = pst.executeQuery();
+
+            // 获得结果集的元数据
+            //ResultSetMetaData rsmd = rs.getMetaData();
+            // 获得第一列的列名 // sno
+            //System.out.println("getColumnName(1)："+rsmd.getColumnName(1));
+            // 获得列总数 // 4
+            //System.out.println("getColumnCount()："+rsmd.getColumnCount());
+            // 获取第一列类型号 // 12
+            //System.out.println("getColumnType(1)："+rsmd.getColumnType(1));
+            // 获取第一列类型名 // VARCHAR
+            //System.out.println("getColumnTypeName(1)："+rsmd.getColumnTypeName(1));
+
             int len = 0;
             // 迭代取值
             while (rs.next()){
