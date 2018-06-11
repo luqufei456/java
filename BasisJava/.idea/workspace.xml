@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/JdbcConnection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/SqlHelper.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/ScalarHandlerDemo.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/ScalarHandlerDemo.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/StudentsManager.java" afterPath="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/StudentsManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentsManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StudentsManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/StudentsManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="272">
+              <caret line="118" column="19" lean-forward="true" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
               <folding>
                 <marker date="1528682278640" expanded="true" signature="979:1016" ph="insert into students... " />
                 <marker date="1528682278640" expanded="true" signature="1829:1851" ph="select * fro... students" />
@@ -71,6 +69,18 @@
                 <marker date="1528682278640" expanded="true" signature="4793:4836" ph="update students... " />
                 <marker date="1528682278640" expanded="true" signature="5553:5587" ph="delete from students... " />
                 <marker date="1528682278640" expanded="true" signature="6301:6350" ph="select * fro... students" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqlHelper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/SqlHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/dom4jDemo1/bean-dom4jTest1.xml" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/beanUtils/BeanUtilsDemo2.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/dom4jDemo1/Dom4jTest1.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/xmlCaseTest1/XMLUser1.java" />
@@ -177,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/ScalarHandlerDemo.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/JdbcConnection.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/StudentsManager.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/SqlHelper.java" />
       </list>
     </option>
   </component>
@@ -247,6 +257,25 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yiran3" type="462c0819:PsiDirectoryNode" />
               <item name="entity2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran3" type="462c0819:PsiDirectoryNode" />
+              <item name="entity2" type="462c0819:PsiDirectoryNode" />
+              <item name="dbUtilsDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran3" type="462c0819:PsiDirectoryNode" />
+              <item name="entity2" type="462c0819:PsiDirectoryNode" />
+              <item name="dbUtilsDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="queryDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
@@ -613,14 +642,7 @@
       <workItem from="1528332187391" duration="25583000" />
       <workItem from="1528417492607" duration="23050000" />
       <workItem from="1528508627419" duration="10372000" />
-      <workItem from="1528676617208" duration="1771000" />
-    </task>
-    <task id="LOCAL-00099" summary="Map斗地主案例">
-      <created>1526716980310</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1526716980310</updated>
+      <workItem from="1528676617208" duration="5449000" />
     </task>
     <task id="LOCAL-00100" summary="更新">
       <created>1526890665965</created>
@@ -958,7 +980,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528513818273</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="补充，还有单例模式的简单介绍">
+      <created>1528682726494</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1528682726495</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -994,7 +1023,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="937843000" />
+    <option name="totallyTimeSpent" value="941521000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1109,13 +1138,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/xmlCaseTest1/BeanFactoryCase1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/basicXML1/xmlCaseTest1/BeanConfigCase1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1387,16 +1409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/BeanHandlerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/BeanListHandlerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -1495,10 +1507,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/BeanHandlerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/StudentsManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="272">
+          <caret line="118" column="19" lean-forward="true" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
           <folding>
             <marker date="1528682278640" expanded="true" signature="979:1016" ph="insert into students... " />
             <marker date="1528682278640" expanded="true" signature="1829:1851" ph="select * fro... students" />
@@ -1506,6 +1526,16 @@
             <marker date="1528682278640" expanded="true" signature="4793:4836" ph="update students... " />
             <marker date="1528682278640" expanded="true" signature="5553:5587" ph="delete from students... " />
             <marker date="1528682278640" expanded="true" signature="6301:6350" ph="select * fro... students" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/SqlHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
