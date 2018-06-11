@@ -10,7 +10,7 @@ import javax.sql.DataSource;
 /**
  * ScalarHandler处理方式
  *     处理单值查询结果,执行的select语句后,结果集只有1个
- *     返回类型为数字，int还是long可以自己在new ScalarHandler<>()中定义
+ *     返回类型可自定义，int还是long等可以自己在new ScalarHandler<>()中定义
  * */
 
 public class ScalarHandlerDemo {

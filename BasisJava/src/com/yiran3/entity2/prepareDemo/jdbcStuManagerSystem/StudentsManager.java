@@ -2,6 +2,14 @@ package com.yiran3.entity2.prepareDemo.jdbcStuManagerSystem;
 
 /**
  * 学生管理系统的管理方法类
+ *
+ * JdbcConnection 使用这个类的数据库连接可以保证
+ * 多个管理系统同时使用一个数据库连接，不考虑并发时可以这样用
+ * 称为单例模式
+ *
+ * 增删改方法，可以总和起来定义一个方法，传入sql Object[]来获取返回值
+ *
+ * 查方法，也可以这样，中间会使用MetaData的一些方法，查询有几个字段，每个字段叫什么等
  * */
 
 import java.sql.*;
@@ -12,7 +20,9 @@ public class StudentsManager {
     private ResultSet rs = null;
 
     public StudentsManager(){
-        // 注册驱动，连接数据库
+        // 注册驱动，连接数据库，如果将注册驱动，
+        // 连接数据库使多个管理系统，只使用一个数据库连接conn
+        // 保证内存中只存在一个conn对象，被称为单例模式
         try {
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(
