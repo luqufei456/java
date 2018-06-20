@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery加载</title>
+    <script type="text/javascript" src="/c"></script>
+    <script type="text/javascript">
+        //alert($); 检测是否正确加载
+        //原生js onload要等页面渲染完
+        window.onload = function(){
+
+            var oDiv = document.getElementById('div');
+            alert(oDiv.innerHTML);
+        }
+
+        /* 我们发现先输出 这是一个div元素jQuery
+        // jQuery完整写法
+        //  而ready不用等渲染 直接就可以启动
+        $(document).ready(function(){
+            var $div = $('#div');
+            alert($div.html()+'jQuery');
+        }); */
+
+        // 简写
+        $(function(){
+            var $div = $('#div');
+            alert($div.html()+'jQuery');
+        });
+    </script>
+</head>
+<body>
+<div id="div">这是一个div元素</div>
+</body>
+</html>
