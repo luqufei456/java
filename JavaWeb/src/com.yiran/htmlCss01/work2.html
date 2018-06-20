@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>课后练习2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        a{
+            color: deeppink;
+        }
+
+        body{
+            background-color: aliceblue;
+        }
+
+        .header{
+            height: 60px;
+            font: 30px/60px 'Microsoft YaHei';
+            text-align: center;
+            color: #333;
+            background-color: lightcyan;
+        }
+
+        .content{
+            width: 400px;
+            padding: 10px;
+            border: 1px silver solid;
+            margin: auto;
+            background: url("images/timg2.jpg");
+        }
+
+        .search{
+            width: 280px;
+            height: 30px;
+        }
+
+        .btn{
+            width: 100px;
+            height: 34px;
+            background-color: aquamarine;
+            border: 1px springgreen solid;
+            color: #333;
+        }
+
+        .title{
+            color: deepskyblue;
+            margin-top: 20px;
+            padding-left: 30px;
+        }
+
+        .images1{
+            /* 如果图片大于设置宽高，则会按比例缩小 */
+            width: 400px;
+            margin: 10px 0 10px 0;
+        }
+
+        p{
+            color: #333;
+            padding: 15px;
+        }
+    </style>
+
+    <script>
+        function searchValue() {
+            var v = document.getElementsByClassName("search");
+            var html = "https://www.baidu.com/s?wd="+v.value;
+            alert(html);
+            window.location.href="https://www.baidu.com/s?wd="+v.value;
+        }
+    </script>
+</head>
+<body>
+    <h3 class="header">依然の网站</h3>
+    <div class="content">
+        <form action="https://www.baidu.com/s">
+            <input type="text" name="wd" class="search" />
+            <button class="btn" type="submit">百度一下</button>
+        </form>
+        <h3 class="title">| About Us |</h3>
+        <img src="images/timg1.jpg" class="images1" alt="图片1" />
+        <p>我王境泽就是饿死！</p>
+        <p>死外边，从这跳下去！</p>
+        <p>也不会吃你们一点东西！</p>
+        <p>真香~</p>
+        <p>2014 06 02期 变形记</p>
+        <a href="https://www.baidu.com">百度</a>
+        <a href="https://www.taobao.com">淘宝</a>
+    </div>
+</body>
+</html>
