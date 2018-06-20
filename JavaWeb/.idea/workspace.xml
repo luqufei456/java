@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8153b826-4244-4cf9-80f8-41cc8b4d937f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../BasisJava/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BasisJava/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -90,8 +89,8 @@
       <file leaf-file-name="06css.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlDemo/06css.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="340">
+              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -351,7 +350,7 @@
       <workItem from="1529463532399" duration="2286000" />
       <workItem from="1529470880264" duration="108000" />
       <workItem from="1529471012679" duration="354000" />
-      <workItem from="1529471384945" duration="141000" />
+      <workItem from="1529471384945" duration="150000" />
     </task>
     <task id="LOCAL-00001" summary="简单html和css+盒子模型">
       <created>1529471057390</created>
@@ -360,11 +359,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529471057390</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="简单html和css+盒子模型">
+      <created>1529471531759</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1529471531759</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9794000" />
+    <option name="totallyTimeSpent" value="9803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="390" y="57" width="1232" height="919" extended-state="0" />
@@ -808,8 +814,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlDemo/06css.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="340">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding />
         </state>
       </provider>
