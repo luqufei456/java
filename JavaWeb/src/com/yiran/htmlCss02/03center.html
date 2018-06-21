@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>水平居中</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 0 auto;
+            /* 默认display: block; */
+        }
+
+        a{
+            background-color: yellow;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            /* a标签中文字水平居中 */
+            text-align: center;
+            /* a标签中文字垂直居中 */
+            line-height: 100px;
+            /* 去下划线 */
+            text-decoration: none;
+            display: block;
+            /* 默认display: inline; */
+        }
+
+        button{
+            background-color: pink;
+            width: 100px;
+            height: 100px;
+            /* 内联块元素也无法用margin水平居中，因为其不是独占一行 */
+            margin: 0 auto;
+            /* 默认display: inline-block; */
+        }
+    </style>
+</head>
+<body>
+    <div>div</div>
+
+    <a href="">a标签</a>
+
+    <button>按钮</button>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>选择器优先级</title>
+    <style>
+        /*
+         CSS权重指的是样式的优先级，有两条或多条样式作用于一个元素，权重高的那条样式对元素起作用,权重相同的，后写的样式会覆盖前面写的样式。
+
+         权重的等级
+
+         可以把样式的应用方式分为几个等级，按照等级来计算权重
+
+         1、!important，加在样式属性值后，权重值为 10000
+         2、内联样式，如：style=””，权重值为1000
+         3、ID选择器，如：#content，权重值为100
+         4、类，伪类和属性选择器，如： content、:hover 权重值为10
+         5、标签选择器和伪元素选择器，如：div、p、:before 权重值为1
+         6、通用选择器（*）、子选择器（>）、相邻选择器（+）、同胞选择器（~）、权重值为0
+         */
+
+        /* 这里id选择器权重最高，为100，所以颜色为绿色
+           权重相同时，后面的会覆盖前面的
+         */
+        p{
+            color: red;
+        }
+
+        .one{
+            color: yellow;
+        }
+
+        #two{
+            color: green;
+        }
+
+        /* 这里可以看到，两个id选择器相同，后面的覆盖了前面的 */
+        #two{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <p class="one" id="two">hello world</p>
+</body>
+</html>

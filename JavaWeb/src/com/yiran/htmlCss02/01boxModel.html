@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>盒子模型传参</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /* margin: 100px;
+               只传一个参数，四个方向都发生改变
+             */
+            /*margin: 100px;*/
+
+            /* margin: 100px 200px;
+               只传2个参数，第一个参数为上下，第二个参数为左右
+            */
+            /*margin: 100px 200px;*/
+
+            /* margin: 100px 200px 300px;
+               传三个参数 则 第一个为 上，第二个为左右，第三个为下
+             */
+            /*margin: 100px 200px 300px;*/
+
+            /* margin: 100px 200px 300px 400px;
+               传4个参数，则按照顺时针方向，依次为 上 右 下 左
+             */
+            margin: 100px 200px 300px 400px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

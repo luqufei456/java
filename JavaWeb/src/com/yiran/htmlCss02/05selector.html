@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>选择器补充讲解</title>
+    <style>
+        /* 分组选择器
+           代表这些元素都使用这个属性
+         */
+        div,p,h1{
+            color: pink;
+        }
+
+        /* 后代选择器
+           class为parent的元素的后代p使用这个属性
+         */
+        .parent p{
+            color: deepskyblue;
+        }
+
+        /* 兄弟选择器-1
+           选中class为parent2的元素后的第一个p元素，
+           而不是该元素和这个p元素都使用该属性
+         */
+        .parent2+p{
+            color: red;
+        }
+
+        /* 兄弟选择器-2
+            可选中紧接在另一元素后的所有该元素，且二者有相同父元素。
+        */
+        .parent3~p{
+            color: blue;
+        }
+
+        /* 伪类选择器 */
+        /* focus 聚焦，鼠标点击输入框后，输入框背景变为红色 */
+        /* hover 鼠标放上去，不需要点击就会变色 */
+        .input1:focus{
+            background-color: red;
+        }
+
+        /* 伪元素选择器 */
+        /* 用选择器生成一个元素，内容为 "前面"
+           设置display为块元素，所以独占一行
+           这个元素具有一切元素的特征，可以设置宽高等
+         */
+        /* before 在 .fake_class 的这个元素的前面 */
+        /* after 在 .fake_class 这个元素的后面 */
+        .fake_class:before{
+            content: "前面";
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            background-color: deepskyblue;
+            color: #333;
+            display: block;
+        }
+
+        /* 属性选择器 */
+        /* 选择属性为 one 的p元素 */
+        p[class=one]{
+            width: 100px;
+            height: 100px;
+            background-color: deeppink;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div>div</div>
+    <p>hello world</p>
+    <h1>h1</h1>
+
+    <div class="parent">
+        <p>hello my friend</p>
+    </div>
+
+    <div class="parent2">hello my sister</div>
+    <p>p1</p>
+    <p>p2</p>
+    <p>p3</p>
+
+    <div class="parent3">hello my sisters</div>
+    <p>p1</p>
+    <p>p2</p>
+    <p>p3</p>
+
+    <input class="input1" type="text" />
+
+    <div class="fake_class">hello world</div>
+
+    <p class="one"> hello property</p>
+</body>
+</html>

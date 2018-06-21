@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>html标签分类</title>
+    <style>
+
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-top: 100px;
+        }
+
+        a{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin-top: 100px;
+            margin-left: 50px;
+            padding: 100px;
+        }
+
+        button{
+            width: 100px;
+            height: 100px;
+            padding: 50px 0 0 50px;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 块元素
+         特点：
+         1.独占一行
+         2.能设置width，height
+         3.盒子模型--可以设置margin、padding
+     -->
+    <div>div</div>
+    <p>p</p>
+    <h1>h1</h1>
+    <ul>
+        <li>li</li>
+    </ul>
+    <dl>
+        <dt>dt</dt>
+        <dd>dd</dd>
+    </dl>
+
+
+    <!-- 内联元素
+         特点：
+         1.并排显示
+         2.不能设置width，height
+         3.盒子模型--不能设置margin-top、margin-bottom，可以设置padding
+         并且，padding不会影响内联块元素的高度，但是会影响其背景高度
+         也就是说  与padding-top、padding-bottom有关
+         也就造成了，设置背景色后，padding导致隐藏上方的其他元素 --- 下方的会覆盖其背景色
+         但是padding-left、padding-right 不会导致这种情况，而相当于是设置的内联块元素的宽度
+         甚至会出现超出父元素范围的情况，这时候需要 overflow: hidden;
+     -->
+    <a href="">a</a> <span>span</span> <strong>strong</strong> <i>i</i> <em>em</em>
+
+    <!-- br 换行标签 -->
+    <br />
+    <br />
+
+    <!-- 内联块标签
+         特点：
+         1.并排显示
+         2.能够设置width，height
+         3.能够设置 margin、padding，但是高度的改变会影响同行内联元素
+    -->
+    <img src="images/logo2.png" alt=""> <button>按钮</button> <input type="text" />
+</body>
+</html>

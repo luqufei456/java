@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css背景</title>
+    <style>
+        .one{
+            width: 100px;
+            height: 100px;
+            /* background-color 背景颜色 */
+            background-color: #eee;
+            /* background-image 背景图片 */
+            background-image: url("images/icon1.png");
+            /* background-repeat 设置图片重复几次
+               no-repeat 不重复
+               repeat-x x轴上重复
+               repeat-y y轴上重复
+               repeat 重复，默认值
+               inherit 指定background-repea属性设置应该从父元素继承
+             */
+            background-repeat: no-repeat;
+            /* background-position: x y; 设置图片位置
+               background-position-x   x方向偏移量
+               background-position-y   y方向偏移量
+             */
+            background-position-x: 30px;
+            background-position-y: 30px;
+            /* 第一个参数为水平方向  第二个为垂直方向，不同于margin等 */
+            background-position: center center;
+        }
+
+        /* 背景吸附 */
+        .two{
+            /* 子元素不给width，它会继承父元素的宽度
+               只发生在块元素之间
+             */
+            /* width: 100%; */
+            height: 468px;
+            background-color: #eee;
+            background-image: url("images/banner.jpg");
+            /* background-attachment:scroll|fixed
+               默认值为scroll
+               fixed背景图片不会随鼠标的滚动而滚动，相当于固定定位
+               而且如果设置为平铺重复的话，鼠标滚动可以看到整张图都是页面的背景
+               可以翻到更多的地方
+             */
+            background-attachment: fixed;
+        }
+
+        .three{
+            height: 800px;
+            background-color: pink;
+        }
+
+        /* 背景大小 */
+        .four{
+            width: 800px;
+            height: 400px;
+            background-image: url("images/down.jpg");
+            background-repeat: no-repeat;
+            background-color: red;
+            /* background-size: x y;
+               注意，如果不是等比大小，容易造成图片拉伸 慎用
+             */
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="one"></div>
+
+    <div class="two"></div>
+
+    <div class="three"></div>
+
+    <div class="four"></div>
+</body>
+</html>
