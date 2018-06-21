@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8153b826-4244-4cf9-80f8-41cc8b4d937f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss02/01boxModel.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss02/02htmlTag.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss02/03center.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss02/04center.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss02/05selector.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss02/06selectingPriority.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss02/07cssBackground.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss02/08cssSprite.html" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss02/work1.html" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss02/work2.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran/htmlCss01/07center.html" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss01/07center.html" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran/htmlCss01/Test01.html" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss01/Test01.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +31,8 @@
       <file leaf-file-name="work1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/work1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="117" column="38" lean-forward="false" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -375,7 +365,7 @@
       <workItem from="1529470880264" duration="108000" />
       <workItem from="1529471012679" duration="354000" />
       <workItem from="1529471384945" duration="150000" />
-      <workItem from="1529540285788" duration="22691000" />
+      <workItem from="1529540285788" duration="25610000" />
     </task>
     <task id="LOCAL-00001" summary="简单html和css+盒子模型">
       <created>1529471057390</created>
@@ -412,11 +402,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529482449129</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="html+css第二天内容">
+      <created>1529570442830</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1529570442831</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51520000" />
+    <option name="totallyTimeSpent" value="54439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="460" y="112" width="1232" height="919" extended-state="0" />
@@ -463,7 +460,9 @@
     <MESSAGE value="简单html和css+盒子模型" />
     <MESSAGE value="背景图 水军居中 0 0 0 0 上右下左顺时针" />
     <MESSAGE value="作业1和作业2" />
-    <option name="LAST_COMMIT_MESSAGE" value="作业1和作业2" />
+    <MESSAGE value="html+css第二天内容" />
+    <MESSAGE value="作业1、2" />
+    <option name="LAST_COMMIT_MESSAGE" value="作业1、2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -560,6 +559,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -567,6 +567,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -644,8 +652,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/work1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="117" column="38" lean-forward="false" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
           <folding />
         </state>
       </provider>

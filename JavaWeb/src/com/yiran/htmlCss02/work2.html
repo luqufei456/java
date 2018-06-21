@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>家具医生</title>
+    <style>
+        div,body,ul,ol,dl,dt,dd,li,h1,h2,h3,h4,h5,h6,p,form,input,table,tr,td,select,textarea{margin:0; padding:0;}
+
+        .header{
+            height: 60px;
+            background-color: RGB(26,190,191);
+        }
+
+        .header img{
+            /* 内联块元素将其转为块元素再居中 */
+            display: block;
+            margin: 0 auto;
+            /* 块元素垂直居中 */
+            position: relative;
+            top: 8px;
+        }
+
+        .container{
+            background-color: RGB(245,245,245);
+        }
+
+        .center{
+            width: 720px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .title1{
+            padding-top: 20px;
+            font: 24px/30px 'Microsoft Yahei';
+            color: RGB(80,80,80);
+        }
+
+        .title2{
+            font: 12px/36px 'Microsoft YaHei';
+            color: RGB(153,153,153);
+        }
+
+        .images1{
+            margin-top: 20px;
+        }
+
+        .container .center p{
+            font: 16px/32px 'Microsoft YaHei';
+            color: RGB(104,104,104);
+        }
+
+        .paragraph3,.paragraph5{
+            /* 段落起始空 2个字符大小的位置 */
+            text-indent: 2em;
+        }
+
+        .paragraph1,.paragraph5{
+            margin-top: 2em;
+        }
+
+        .paragraph5{
+            /* 防止margin超出父级元素范围，使用padding */
+            padding-bottom: 2em;
+        }
+
+        .center_table{
+            width: 720px;
+            margin: 0 auto;
+        }
+
+        .furniture_data{
+            width: 720px;
+            height: 420px;
+            /* 这里的颜色会影响表格内边线的颜色
+               但是边框大小是由 table中的border决定的
+               实线虚线也不会影响表格内的边框
+            */
+            border: 1px #333 solid;
+            /* 边框合并，制作1px的边线 */
+            border-collapse: collapse;
+            font-family: 'Microsoft YaHei';
+        }
+
+        .furniture_data th{
+            background-color: RGB(255,130,1);
+            color: white;
+        }
+
+        /* 通过th th设置border可以控制整个表格的边框 */
+        .furniture_data th,td{
+            border: 1px #333 solid;
+            text-align: center;
+        }
+
+        /* 选择tr中的第一个td进行加粗 */
+        /* css3新增选择器
+           .furniture_data tr td:first-child
+           匹配父元素中的第一个td元素
+         */
+        .furniture_data tr td:first-child{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="images/logo.png" alt="logo" />
+    </div>
+
+    <div class="container">
+        <div class="center">
+            <h2 class="title1">
+                温馨法式风 生活家实木复合地板评测
+            </h2>
+            <h5 class="title2">
+                2018-06-21 13:24:20&nbsp;&nbsp;来源：PCHOUSE&nbsp;&nbsp;作者：YIRAN
+            </h5>
+            <img class="images1" src="images/02.png" alt="图1" />
+
+            <p class="paragraph1">
+                生活家普罗旺斯系列，秋色塞尔多层实木复合地板，集合巴洛克式的自由与法式的浪漫，配合木材纹理与木材特质，色泽柔和、纹理温馨，适合用于法式风格、欧式简约风格、地中海风格的室内地板搭配。
+            </p>
+            <p class="paragraph2">
+                生活家秋色塞尔实木复合地板
+            </p>
+            <p class="paragraph3">
+                生活家为一家致力于满足全球消费者居家木制品需求的企业，此次推出的生活家年代系列黄金麦田多层实木复合地板，为生活家三大品牌下的生活家，巴洛克的系列产品之一，品牌以纯手工制作，独有风格与精致做工为产品特点。
+            </p>
+            <p class="paragraph4">
+                生活家秋色塞尔实木复合地板
+            </p>
+            <p class="paragraph5">
+                在本次评测中，小编将从外观拼接、板材细节、承重性、耐磨性、抗污性、防火阻燃性等方面对生活家秋色塞尔实木复合地板进行评测，为消费者提供实用的购买依据。
+            </p>
+        </div>
+
+        <div class="center_table">
+            <table class="furniture_data" border="1" cellspacing="0">
+                <tr>
+                    <!-- 占了2个格子 单元格水平合并 -->
+                    <th colspan="2">生活家秋色塞尔实木复合地板基本信息</th>
+                </tr>
+                <tr>
+                    <td width="17%">品牌</td>
+                    <td>生活家</td>
+                </tr>
+                <tr>
+                    <td>系列</td>
+                    <td>普罗旺斯系列</td>
+                </tr>
+                <tr>
+                    <td>名称</td>
+                    <td>桦木-秋色塞尔</td>
+                </tr>
+                <tr>
+                    <td>规格</td>
+                    <td>1210*165*14.6mm</td>
+                </tr>
+                <tr>
+                    <td>产品类别</td>
+                    <td>多层实木复合</td>
+                </tr>
+                <tr>
+                    <td>主要工艺</td>
+                    <td>平面仿古，手工倒角，手工擦色</td>
+                </tr>
+                <tr>
+                    <td>评测方法</td>
+                    <td>外观纹理、拼接效果、承重性、耐磨性、抗污性、防火燃阻、防水防潮</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

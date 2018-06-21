@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>关于远大</title>
+    <style>
+        body,ul,ol,dl,dt,dd,li,h1,h2,h3,h4,h5,h6,p,form,input,table,tr,td,select,textarea{margin:0; padding:0;}
+
+        a{
+            text-decoration: none;
+        }
+
+        .header{
+            height: 60px;
+        }
+
+        .header img{
+            /* 内联块元素将其转为块元素再居中 */
+            display: block;
+            margin: 0 auto;
+            /* 块元素垂直居中 */
+            position: relative;
+            top: 4px;
+        }
+
+        .nav{
+            height: 60px;
+            background-color: RGB(162,220,249);
+        }
+
+        .nav .nav-wrap a h2{
+            display: block;
+            width: 130px;
+            color: white;
+            line-height: 60px;
+            text-align: center;
+            background-color: RGB(0,174,240);
+        }
+
+        .nav .nav-wrap,.container img{
+            height: 400px;
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .container img{
+            display: block;
+        }
+
+        .container{
+            background-color: RGB(241,241,241);
+        }
+
+        .container p{
+            width: 1200px;
+            margin: 0 auto;
+            /* 1em = font-size
+               也代表每行间隔一个文字大小
+               相当于没有间距
+               1.5em相当于加了0.5em的间距
+             */
+            line-height: 1.5em;
+        }
+
+        .p1{
+            padding: 20px 0 0 0;
+        }
+
+        .p2{
+            padding: 10px 0 0 0;
+        }
+
+        .p3{
+            padding: 10px 0 175px 0;
+        }
+
+        .footer{
+            background-color: RGB(162,219,249);
+            height: 60px;
+        }
+
+        .footer_div{
+            padding: 15px 0 0 0 ;
+        }
+
+        .footer .footer_p{
+            font-size: 12px;
+            color: #6e6e6e;
+            text-align: center;
+        }
+
+        .footer a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="images/logo2.png" alt="" />
+    </div>
+    <div class="nav">
+        <div class="nav-wrap">
+            <a href=""><h2>关于远大</h2></a>
+        </div>
+    </div>
+    <div class="container">
+        <img src="images/about.jpg" alt="图片" />
+        <p class="p1">
+            &nbsp;&nbsp;广东远大石油化工有限公司是广东省一家民营股份制企业成立于2000年5月16日 ，位处于交通非常便利的黄江镇袁屋围工业区。占地面积23000平方米,储存槽罐21个,总储存量5000立方米。公司拥有一支技术力量雄厚的专业团队，为了不断加强和完善企业内部管理，我司已通过了IS09001 : 2008质里管理体系认证。公司奉承“信营第一， 客户至上，质量与价格兼优”的宗旨为原则。
+        </p>
+        <p class="p2">
+            &nbsp;&nbsp;本公司主要经营危险化学产品储存、批发、零售、运输等业务。经营产品主要有:甲基苯、二甲苯、三甲苯、四甲苯、甲醇、乙醇、丙醇、2-丙醇、2-甲基-1-丙醇、丙酮、2-丁酮、环已酮、乙酸乙酯、乙酸丁酯、乙酸异丙酯、二氯甲烷、  三氯甲烷、三氯乙烷、正已烷、三氯乙烯、四氣乙烯、2-丁氧基乙酸、天那水、鬆香油、4-甲基-2-戊酮、N,N-二甲基甲酰胺、二甲氧基甲烷、快干助焊剂、石脑油、石油醚、苯、粗苯、甲基叔丁基醚、苯乙烯、1-戊醇、乙二醇乙醚、二异丁基(甲)酮、2-羟基异丁酸乙酯、鬆香水、丙烯酸漆稀释剂等40多种产品。
+        </p>
+        <p class="p2">
+            &nbsp;&nbsp;我们诚挚的希望能与各位新老顾客合作，携手并进，共创辉煌明天！欢迎贵公司亲临我司指导，寻求贵公司能给予我司大力支持和紧密合作！
+        </p>
+        <p class="p3">
+            &nbsp;&nbsp;广东远大石油化工有限公司是广东省一家民营股份制企业成立于2000年5月16日，位处于交通非常便利的黄江镇袁屋围工业区。占地面积23000平方米，储存槽罐21个，总储存量5000立方公司拥有一支技术力量雄厚的专业团队，为了不断加强和完善企业内部管理,我司已通过了IS09001 : 2008质量管理体系认证。公司奉承“信营第一，客户至上，质量与价格兼优”的宗旨为原则。
+        </p>
+    </div>
+    <div class="footer">
+        <div class="footer_div">
+            <a href="#">
+                <p class="footer_p">
+                    版权所有：远大石化有限公司&nbsp;&nbsp;技术支持：依然 浙ICP备09065118
+                </p>
+            </a>
+            <a href="#">
+                <p class="footer_p" style="margin-top: 5px">
+                    COPYRIGHT © 1998 – 2018 YIRAN. ALL RIGHTS RESERVED.
+                </p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
