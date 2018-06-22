@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>浮动</title>
+    <style>
+        .parent{
+            width: 200px;
+            background-color: red;
+        }
+
+        .child{
+            width: 100px;
+            height: 50px;
+            background-color: yellow;
+            /* 设置浮动后，发现父元素不见了，高度坍塌了
+               这是因为浮动之后，.child脱离文档流，父元素无法继承子元素的高度
+             */
+            float: left;
+        }
+
+        .child2{
+            /* 可以看到，孩子1没有浮动的时候，孩子1在上，孩子2在下
+               孩子1浮动后，孩子2挤上去了，如果孩子2不想受到孩子1浮动的影响
+               则可以使用clear:both;清除浮动的影响
+             */
+            clear: both;
+            width: 150px;
+            height: 150px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child"></div>
+        <div class="child2"></div>
+    </div>
+</body>
+</html>

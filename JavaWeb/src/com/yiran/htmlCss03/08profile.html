@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>轮廓</title>
+    <style>
+        .one{
+            /* 轮廓不会增加盒子的宽度，其余用法与border相同 */
+            width: 100px;
+            height: 100px;
+            outline: 1px #333 solid;
+        }
+
+        .two{
+            /* input框不使用outline则点击不会变色 */
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="one"></div>
+
+    <input class="two" type="text">
+</body>
+</html>

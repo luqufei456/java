@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8153b826-4244-4cf9-80f8-41cc8b4d937f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss02/work1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss02/work2.html" />
+    <list default="true" id="8153b826-4244-4cf9-80f8-41cc8b4d937f" name="Default" comment="javaWeb day03学习">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/01cssText.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/02cssFont.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/03cssA.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/04cssList.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/05cssBorder.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/06cssTable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/07cssTable2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/08profile.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/09opacity.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/10nav.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/11boxSizing.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/12float.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/13float2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/14nav.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/15position.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/16positionTest.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/17search.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/18position2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/19z-index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/work.html" />
+      <change beforePath="$PROJECT_DIR$/../BasisJava/.idea/misc.xml" afterPath="$PROJECT_DIR$/../BasisJava/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../BasisJava/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BasisJava/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../BasisJava/JavaBasis.iml" afterPath="$PROJECT_DIR$/../BasisJava/JavaBasis.iml" />
+      <change beforePath="$PROJECT_DIR$/../BasisJava/out/production/JavaBasis/com/Yiran/HelloWorld.class" afterPath="$PROJECT_DIR$/../BasisJava/out/production/JavaBasis/com/Yiran/HelloWorld.class" />
+      <change beforePath="$PROJECT_DIR$/../BasisJava/src/com/yiran3/javaSEexam/ExamTest01.java" afterPath="$PROJECT_DIR$/../BasisJava/src/com/yiran3/javaSEexam/ExamTest01.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/htmlCss02/work2.html" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss02/work2.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,52 +52,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="work1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/work1.html">
+      <file leaf-file-name="work2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/work2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="117" column="38" lean-forward="false" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
+            <state relative-caret-position="2176">
+              <caret line="128" column="16" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05selector.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/05selector.html">
+      <file leaf-file-name="work.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/work.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="5270">
+              <caret line="310" column="10" lean-forward="false" selection-start-line="310" selection-start-column="10" selection-end-line="310" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#5;n#ul#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#1;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="06selectingPriority.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/06selectingPriority.html">
+      <file leaf-file-name="ExamTest01.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../BasisJava/src/com/yiran3/javaSEexam/ExamTest01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="07cssBackground.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/07cssBackground.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="08cssSprite.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/08cssSprite.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="448">
+              <caret line="316" column="9" lean-forward="true" selection-start-line="316" selection-start-column="9" selection-end-line="316" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,6 +106,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>center</find>
+      <find>input</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -99,9 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com.yiran/01.html" />
-        <option value="$PROJECT_DIR$/src/com.yiran/02Test.html" />
-        <option value="$PROJECT_DIR$/src/com.yiran/01Test.html" />
         <option value="$PROJECT_DIR$/src/com.yiran/htmlDemo/01.html" />
         <option value="$PROJECT_DIR$/src/com.yiran/htmlDemo/01Test.html" />
         <option value="$PROJECT_DIR$/src/com.yiran/htmlDemo/02Test.html" />
@@ -125,12 +146,34 @@
         <option value="$PROJECT_DIR$/src/com/yiran/htmlCss02/02htmlTag.html" />
         <option value="$PROJECT_DIR$/src/com/yiran/htmlCss02/03center.html" />
         <option value="$PROJECT_DIR$/src/com/yiran/htmlCss02/04center.html" />
-        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss02/work2.html" />
         <option value="$PROJECT_DIR$/src/com/yiran/htmlCss02/05selector.html" />
         <option value="$PROJECT_DIR$/src/com/yiran/htmlCss02/06selectingPriority.html" />
         <option value="$PROJECT_DIR$/src/com/yiran/htmlCss02/07cssBackground.html" />
         <option value="$PROJECT_DIR$/src/com/yiran/htmlCss02/08cssSprite.html" />
         <option value="$PROJECT_DIR$/src/com/yiran/htmlCss02/work1.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/01.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss02/work2.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/01cssText.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/03cssA.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/02cssFont.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/04cssList.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/05cssBorder.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/06cssTable.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/07cssTable2.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/08profile.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/09opacity.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/10nav.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/11.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/11boxSizing.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/12float.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/13float2.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/14nav.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/15position.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/16positionTest.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/17search.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/18position2.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/19z-index.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/work.html" />
       </list>
     </option>
   </component>
@@ -147,10 +190,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="460" />
-    <option name="y" value="112" />
+    <option name="x" value="427" />
+    <option name="y" value="86" />
     <option name="width" value="1232" />
-    <option name="height" value="919" />
+    <option name="height" value="923" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -168,6 +211,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,16 +244,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yiran" type="462c0819:PsiDirectoryNode" />
-              <item name="htmlCss02" type="462c0819:PsiDirectoryNode" />
+              <item name="htmlCss03" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.work1.html">
+  <component name="RunManager" selected="JavaScript Debug.work.html">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -278,11 +321,11 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="05selector.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb/com/yiran/htmlCss02/05selector.html" />
-    <configuration name="06selectingPriority.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb/com/yiran/htmlCss02/06selectingPriority.html" />
-    <configuration name="07cssBackground.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb/com/yiran/htmlCss02/07cssBackground.html" />
-    <configuration name="08cssSprite.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb/com/yiran/htmlCss02/08cssSprite.html" />
-    <configuration name="work1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb/com/yiran/htmlCss02/work1.html" />
+    <configuration name="16positionTest.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb/com/yiran/htmlCss03/16positionTest.html" />
+    <configuration name="17search.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb/com/yiran/htmlCss03/17search.html" />
+    <configuration name="18position2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb/com/yiran/htmlCss03/18position2.html" />
+    <configuration name="19z-index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb/com/yiran/htmlCss03/19z-index.html" />
+    <configuration name="work.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb/com/yiran/htmlCss03/work.html" />
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -324,19 +367,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.05selector.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.06selectingPriority.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.07cssBackground.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.08cssSprite.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.work1.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.16positionTest.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.17search.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.18position2.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.19z-index.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.work.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.work1.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.08cssSprite.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.07cssBackground.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.06selectingPriority.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.05selector.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.work.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.19z-index.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.18position2.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.17search.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.16positionTest.html" />
       </list>
     </recent_temporary>
   </component>
@@ -366,6 +409,9 @@
       <workItem from="1529471012679" duration="354000" />
       <workItem from="1529471384945" duration="150000" />
       <workItem from="1529540285788" duration="25610000" />
+      <workItem from="1529585493973" duration="235000" />
+      <workItem from="1529626456509" duration="35496000" />
+      <workItem from="1529672304739" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="简单html和css+盒子模型">
       <created>1529471057390</created>
@@ -413,10 +459,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54439000" />
+    <option name="totallyTimeSpent" value="90172000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="460" y="112" width="1232" height="919" extended-state="0" />
+    <frame x="427" y="86" width="1232" height="923" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -428,10 +474,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.49658704" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.49658704" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29522184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3105802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -443,6 +489,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32951653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -462,7 +509,8 @@
     <MESSAGE value="作业1和作业2" />
     <MESSAGE value="html+css第二天内容" />
     <MESSAGE value="作业1、2" />
-    <option name="LAST_COMMIT_MESSAGE" value="作业1、2" />
+    <MESSAGE value="javaWeb day03学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="javaWeb day03学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -473,28 +521,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/01Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/01Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/02Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/03Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/04css.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/01Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/02Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/03Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/01Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/01Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/02Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/01Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/01Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/02Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/01Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/01.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/02Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/01Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/01Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlDemo/06css.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlDemo/images/06css.html" />
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/05css.html" />
     <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/04css.html" />
     <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/03Test.html" />
     <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/02Test.html" />
@@ -544,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -559,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,14 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,23 +598,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-560">
           <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/work2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="104" column="30" lean-forward="false" selection-start-line="104" selection-start-column="30" selection-end-line="104" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/06selectingPriority.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="816">
+          <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -606,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="36" column="15" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,23 +626,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/05selector.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="1224">
+          <caret line="72" column="7" lean-forward="false" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/07cssBackground.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
-          <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-          <folding />
+          <caret line="80" column="7" lean-forward="false" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -646,15 +647,192 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/work1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="117" column="38" lean-forward="false" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
+        <state relative-caret-position="2091">
+          <caret line="123" column="24" lean-forward="false" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/01cssText.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/02cssFont.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/04cssList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/05cssBorder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/06cssTable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/07cssTable2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/03cssA.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/10nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/work2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="128" column="16" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/08profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/09opacity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/11boxSizing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/12float.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/13float2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/14nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="45" column="10" lean-forward="true" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/16positionTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/17search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/15position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/19z-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/18position2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/web/01HTML_CSS/DAY03/课后作业/demo/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5270">
+          <caret line="310" column="10" lean-forward="false" selection-start-line="310" selection-start-column="10" selection-end-line="310" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#5;n#ul#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasisJava/src/com/yiran3/javaSEexam/ExamTest01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="316" column="9" lean-forward="true" selection-start-line="316" selection-start-column="9" selection-end-line="316" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

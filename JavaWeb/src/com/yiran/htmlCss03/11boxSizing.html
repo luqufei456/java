@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>盒子尺寸</title>
+    <style>
+        /*
+           当盒子模型的
+           box-sizing: border-box;
+           默认为content-box
+           设置border，padding，它的宽高不会发生改变
+         */
+        .one{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            box-sizing: border-box;
+            border-right: 5px #333 solid;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="one"></div>
+</body>
+</html>

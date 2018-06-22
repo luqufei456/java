@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>定位</title>
+    <style>
+        .parent{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            /* 相对定位--即元素原先正常存在的位置
+               元素所占据的文档流的位置不变，
+               元素本身相对文档流的位置进行偏移
+             */
+            position: relative;
+            left: 200px;
+            top: 200px;
+        }
+
+        .child{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            /* 绝对定位--相对于设置了定位的父级元素定位
+               相对于上一个设置了相对或者绝对或者固定定位的父级元素来进行定位，
+               如果找不到，则相对于body元素进行定位
+             */
+            position: absolute;
+            left: 50px;
+            top: 50px;
+        }
+
+        /* 可以发现，.parent元素相对定位移动后，自己原先的文档流依然存在，元素占据的文档流不变
+           甚至2个div看上去在同一行，这是因为相对定位的元素文档流不变，自身偏移不会影响其他元素
+           的文档流
+         */
+        .content{
+            width: 100px;
+            height: 100px;
+            background-color: #333333;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+    <div class="content"></div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>固定定位</title>
+    <style>
+        .one{
+            /* 固定定位，相对于浏览器定位
+               元素脱离文档流，不占据文档流的位置，可以理解为漂浮在文档流的上方
+               相对于浏览器窗口进行定位
+             */
+            position: fixed;
+            right: 20px;
+            bottom: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: darkturquoise;
+        }
+    </style>
+</head>
+<body>
+    <div class="one"></div>
+</body>
+</html>

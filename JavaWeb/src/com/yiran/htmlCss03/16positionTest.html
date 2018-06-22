@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>锤子手机</title>
+    <style>
+        *{margin: 0;padding: 0;}
+
+        html{
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .phone img{
+            width: 618px;
+            height: 128px;
+            position: absolute;
+            /*top: 50%;*/
+            /*left: 50%;*/
+            /*margin-top: -64px;*/
+            /*margin-left: -309px;*/
+
+            /* 另一种方法 不需要计算margin */
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="phone">
+        <img src="images/phone.png" alt="">
+    </div>
+</body>
+</html>

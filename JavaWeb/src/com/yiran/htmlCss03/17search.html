@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>利用定位制作搜索框</title>
+    <style>
+        .search{
+            position: relative;
+            width: 250px;
+            height: 40px;
+        }
+
+        .bth{
+            position: absolute;
+            width: 23px;
+            height: 22px;
+            top: 50%;
+            margin-top: -11px;
+            right: 10px;
+            border: none;
+
+            background: url("images/icon4.png");
+        }
+
+        .search input{
+            width: 250px;
+            height: 40px;
+            padding-left: 10px;
+            background-color: #eee;
+            border: none;
+            outline: none;
+            /* 设置边框的椭圆度 */
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="search">
+        <!-- placeholder的值为input框中提示的值 -->
+        <input class="" type="text" placeholder="搜索" />
+        <button class="bth"></button>
+    </div>
+</body>
+</html>
