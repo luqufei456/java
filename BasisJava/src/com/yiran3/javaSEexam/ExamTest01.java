@@ -254,4 +254,77 @@ public class ExamTest01 {
         intValue()  parseInt()都是返回int类型
          */
     }
+
+    @Test
+    public void test13(){
+        /**
+         class Q {
+         public static void main(String argv[]){
+         int[] arr = new int[3];
+         System.out.println(arr[0]);
+         }
+         }
+         定义了有三个元素，但是没有对其中元素进行赋值，所以初始值为0
+         */
+    }
+
+    @Test
+    public void test14(){
+        /**
+        class AE {
+            public int number = 10;
+            public void showNum(){
+                System.out.println(this.number);
+            }
+
+            public static void main(String[] args){
+                AE al = new DE();
+                al.showNum();
+                System.out.println(al.number);
+
+            }
+        }
+
+        class DE extends AE{
+            public int number = 5;
+            public void showNum(){
+                System.out.println(this.number);
+            }
+        }
+         向上转型后，成员变量看左边，运行也看左边 所以al.number=10
+         成员方法看左边，运行看右边，所以 al.showNum=5
+         答案为 5  10
+         */
+    }
+
+    @Test
+    public void test15(){
+        /**
+        interface A{void x();}
+        class B implements A{public void x(){} public void y(){}}
+        class C extends B{public void x(){}}
+            java.util.List<A> list = new java.util.ArrayList<A>();
+            list.add(new B());
+            list.add(new C());
+            for(A a : list){
+                a.x();
+                a.y();
+            }
+         向上转型，运行看左，A接口中没有定义y方法，a.y()会报错
+         */
+    }
+
+    @Test
+    public void test16(){
+        String s1 = new String("hello");
+        String s2 = new String("hello");
+        System.out.println(s1==s2); // false
+        System.out.println(s1.hashCode()==s2.hashCode()); // true
+        /** String重写了hashcode()方法，hashcode由内容决定 */
+    }
+
+    @Test
+    public void test17(){
+
+    }
 }
