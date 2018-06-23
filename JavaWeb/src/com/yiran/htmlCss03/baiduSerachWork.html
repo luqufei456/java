@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>百度搜索框</title>
+    <style>
+        *{margin: 0;padding: 0}
+
+        .search{
+            width: 638px;
+            height: 40px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        .search-input{
+            width: 480px;
+            height: 20px;
+            padding: 9px 7px;
+            padding-right: 48px;
+            font: 16px Arial;
+            border: 1px solid #b8b8b8;
+            border-bottom: 1px #ccc solid;
+            border-right: 0;
+            /* 设置元素垂直对齐方式 */
+            vertical-align: top;
+            /* 点击不会变色 */
+            outline: none;
+            box-shadow: none;
+            float: left;
+        }
+
+        .search-click{
+            width: 102px;
+            height: 38px;
+            line-height: 38px;
+            border: 0;
+            background: none;
+            background-color: #38f;
+            font-size: 16px;
+            color: white;
+            box-shadow: none;
+            font-weight: normal;
+            margin-top: 1px;
+        }
+
+        .search-input:focus{
+            border: 1px solid #38f;
+            border-right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="search">
+        <input type="text" class="search-input" autocomplete="off" />
+        <input type="submit" class="search-click" value="百度一下" />
+    </div>
+</body>
+</html>

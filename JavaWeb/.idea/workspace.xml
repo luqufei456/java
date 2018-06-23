@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8153b826-4244-4cf9-80f8-41cc8b4d937f" name="Default" comment="javaWeb day03学习">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/01cssText.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/02cssFont.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/03cssA.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/04cssList.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/05cssBorder.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/06cssTable.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/07cssTable2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/08profile.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/09opacity.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/10nav.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/11boxSizing.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/12float.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/13float2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/14nav.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/15position.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/16positionTest.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/17search.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/18position2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/19z-index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/baiduSerachWork.html" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/work.html" />
-      <change beforePath="$PROJECT_DIR$/../BasisJava/.idea/misc.xml" afterPath="$PROJECT_DIR$/../BasisJava/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/../BasisJava/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BasisJava/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../BasisJava/JavaBasis.iml" afterPath="$PROJECT_DIR$/../BasisJava/JavaBasis.iml" />
-      <change beforePath="$PROJECT_DIR$/../BasisJava/out/production/JavaBasis/com/Yiran/HelloWorld.class" afterPath="$PROJECT_DIR$/../BasisJava/out/production/JavaBasis/com/Yiran/HelloWorld.class" />
-      <change beforePath="$PROJECT_DIR$/../BasisJava/src/com/yiran3/javaSEexam/ExamTest01.java" afterPath="$PROJECT_DIR$/../BasisJava/src/com/yiran3/javaSEexam/ExamTest01.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran/htmlCss02/work2.html" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss02/work2.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +31,7 @@
       <file leaf-file-name="work2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/work2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2176">
+            <state relative-caret-position="-179">
               <caret line="128" column="16" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
               <folding />
             </state>
@@ -65,8 +41,8 @@
       <file leaf-file-name="work.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/work.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5270">
-              <caret line="310" column="10" lean-forward="false" selection-start-line="310" selection-start-column="10" selection-end-line="310" selection-end-column="10" />
+            <state relative-caret-position="589">
+              <caret line="668" column="7" lean-forward="true" selection-start-line="668" selection-start-column="7" selection-end-line="668" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -74,24 +50,23 @@
                 <element signature="n#style#0;n#li#0;n#ul#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#5;n#ul#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#8;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#8;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#1;n#div#8;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExamTest01.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../BasisJava/src/com/yiran3/javaSEexam/ExamTest01.java">
+      <file leaf-file-name="baiduSerachWork.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/baiduSerachWork.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="316" column="9" lean-forward="true" selection-start-line="316" selection-start-column="9" selection-end-line="316" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="399">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com.yiran/htmlDemo/01.html" />
         <option value="$PROJECT_DIR$/src/com.yiran/htmlDemo/01Test.html" />
         <option value="$PROJECT_DIR$/src/com.yiran/htmlDemo/02Test.html" />
         <option value="$PROJECT_DIR$/src/com.yiran/htmlDemo/03Test.html" />
@@ -174,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/18position2.html" />
         <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/19z-index.html" />
         <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/work.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran/htmlCss03/baiduSerachWork.html" />
       </list>
     </option>
   </component>
@@ -190,8 +165,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="427" />
-    <option name="y" value="86" />
+    <option name="x" value="139" />
+    <option name="y" value="80" />
     <option name="width" value="1232" />
     <option name="height" value="923" />
   </component>
@@ -212,6 +187,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -251,7 +227,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.work.html">
+  <component name="RunManager" selected="JavaScript Debug.baiduSerachWork.html">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -321,10 +296,10 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="16positionTest.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb/com/yiran/htmlCss03/16positionTest.html" />
     <configuration name="17search.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb/com/yiran/htmlCss03/17search.html" />
     <configuration name="18position2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb/com/yiran/htmlCss03/18position2.html" />
     <configuration name="19z-index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb/com/yiran/htmlCss03/19z-index.html" />
+    <configuration name="baiduSerachWork.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb/com/yiran/htmlCss03/baiduSerachWork.html" />
     <configuration name="work.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaWeb/com/yiran/htmlCss03/work.html" />
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -367,19 +342,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.16positionTest.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.17search.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.18position2.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.19z-index.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.work.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.17search.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.18position2.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.19z-index.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.work.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.baiduSerachWork.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.work.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.19z-index.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.18position2.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.17search.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.16positionTest.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.baiduSerachWork.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.work.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.19z-index.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.18position2.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.17search.html" />
       </list>
     </recent_temporary>
   </component>
@@ -411,7 +386,8 @@
       <workItem from="1529540285788" duration="25610000" />
       <workItem from="1529585493973" duration="235000" />
       <workItem from="1529626456509" duration="35496000" />
-      <workItem from="1529672304739" duration="2000" />
+      <workItem from="1529672304739" duration="149000" />
+      <workItem from="1529714081716" duration="8466000" />
     </task>
     <task id="LOCAL-00001" summary="简单html和css+盒子模型">
       <created>1529471057390</created>
@@ -455,14 +431,21 @@
       <option name="project" value="LOCAL" />
       <updated>1529570442831</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="javaWeb day03学习">
+      <created>1529672319387</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1529672319387</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90172000" />
+    <option name="totallyTimeSpent" value="98785000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="427" y="86" width="1232" height="923" extended-state="0" />
+    <frame x="139" y="80" width="1232" height="923" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -477,7 +460,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.49658704" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3105802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31569967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -521,7 +504,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/04css.html" />
     <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/03Test.html" />
     <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/02Test.html" />
     <entry file="file://$PROJECT_DIR$/src/com.yiran/htmlCss01/images/centerTest.html" />
@@ -650,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/work1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="123" column="24" lean-forward="false" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/01cssText.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -668,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
           <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,14 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/work2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="128" column="16" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,10 +772,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../BasisJava/src/com/yiran3/javaSEexam/ExamTest01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="306" column="30" lean-forward="false" selection-start-line="306" selection-start-column="30" selection-end-line="306" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/work1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="134" column="16" lean-forward="true" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/work2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="128" column="16" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/work.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5270">
-          <caret line="310" column="10" lean-forward="false" selection-start-line="310" selection-start-column="10" selection-end-line="310" selection-end-column="10" />
+        <state relative-caret-position="589">
+          <caret line="668" column="7" lean-forward="true" selection-start-line="668" selection-start-column="7" selection-end-line="668" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -817,22 +809,21 @@
             <element signature="n#style#0;n#li#0;n#ul#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#5;n#ul#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#11;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#8;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#8;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BasisJava/src/com/yiran3/javaSEexam/ExamTest01.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/baiduSerachWork.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="316" column="9" lean-forward="true" selection-start-line="316" selection-start-column="9" selection-end-line="316" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="399">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
