@@ -34,6 +34,10 @@
             /* 点击不会变色 */
             outline: none;
             box-shadow: none;
+            /* 内联元素不会占据浮动元素的位置，而是紧跟其后
+               如果是内联元素浮动，也不会影响下一个紧邻块元素的位置
+               也就是说，紧邻的块元素不会跟随浮动的内联元素移动
+             */
             float: left;
         }
 
@@ -49,6 +53,7 @@
             box-shadow: none;
             font-weight: normal;
             margin-top: 1px;
+
         }
 
         .search-input:focus{

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8153b826-4244-4cf9-80f8-41cc8b4d937f" name="Default" comment="javaWeb day03学习">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/baiduSerachWork.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/work.html" />
+    <list default="true" id="8153b826-4244-4cf9-80f8-41cc8b4d937f" name="Default" comment="day03 百度搜索框作业，家居网站作业">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/htmlCss03/baiduSerachWork.html" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/baiduSerachWork.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +31,7 @@
       <file leaf-file-name="work2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/work2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-179">
+            <state relative-caret-position="2176">
               <caret line="128" column="16" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
               <folding />
             </state>
@@ -41,8 +41,8 @@
       <file leaf-file-name="work.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/work.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="668" column="7" lean-forward="true" selection-start-line="668" selection-start-column="7" selection-end-line="668" selection-end-column="7" />
+            <state relative-caret-position="11356">
+              <caret line="668" column="7" lean-forward="false" selection-start-line="668" selection-start-column="7" selection-end-line="668" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -64,8 +64,8 @@
       <file leaf-file-name="baiduSerachWork.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/baiduSerachWork.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="412">
+              <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -165,8 +165,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="139" />
-    <option name="y" value="80" />
+    <option name="x" value="492" />
+    <option name="y" value="64" />
     <option name="width" value="1232" />
     <option name="height" value="923" />
   </component>
@@ -186,9 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,18 +223,21 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -387,7 +387,8 @@
       <workItem from="1529585493973" duration="235000" />
       <workItem from="1529626456509" duration="35496000" />
       <workItem from="1529672304739" duration="149000" />
-      <workItem from="1529714081716" duration="8466000" />
+      <workItem from="1529714081716" duration="8788000" />
+      <workItem from="1529732981666" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="简单html和css+盒子模型">
       <created>1529471057390</created>
@@ -438,29 +439,42 @@
       <option name="project" value="LOCAL" />
       <updated>1529672319387</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day03 百度搜索框作业，家居网站作业">
+      <created>1529724031587</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1529724031587</updated>
+    </task>
+    <task id="LOCAL-00009" summary="day03 百度搜索框作业，家居网站作业">
+      <created>1529724194890</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1529724194890</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98785000" />
+    <option name="totallyTimeSpent" value="100024000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="139" y="80" width="1232" height="923" extended-state="0" />
-    <editor active="true" />
+    <frame x="492" y="64" width="1232" height="923" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.50341296" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5068259" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.49658704" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32824427" sideWeight="0.49317408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31569967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3208191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -493,7 +507,8 @@
     <MESSAGE value="html+css第二天内容" />
     <MESSAGE value="作业1、2" />
     <MESSAGE value="javaWeb day03学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="javaWeb day03学习" />
+    <MESSAGE value="day03 百度搜索框作业，家居网站作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="day03 百度搜索框作业，家居网站作业" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -776,9 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="306" column="30" lean-forward="false" selection-start-line="306" selection-start-column="30" selection-end-line="306" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,13 +798,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="134" column="16" lean-forward="true" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss02/work2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
+        <state relative-caret-position="2176">
           <caret line="128" column="16" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
           <folding />
         </state>
@@ -800,8 +811,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/work.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="668" column="7" lean-forward="true" selection-start-line="668" selection-start-column="7" selection-end-line="668" selection-end-column="7" />
+        <state relative-caret-position="11356">
+          <caret line="668" column="7" lean-forward="false" selection-start-line="668" selection-start-column="7" selection-end-line="668" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -821,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran/htmlCss03/baiduSerachWork.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="412">
+          <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
           <folding />
         </state>
       </provider>
