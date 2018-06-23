@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>家具医生-主页</title>
+    <style>
+        *{margin:0; padding:0; text-decoration: none}
+
+        li{list-style: none}
+
+        a{color: #333}
+
+        .clearfix:before{
+            content: '';
+            display: table;
+        }
+
+        body{background-color: RGB(247,247,247);}
+
+        .header{
+            height: 60px;
+            background-color: RGB(26,190,191);
+        }
+
+        .header img{
+            /* 内联块元素将其转为块元素再居中 */
+            display: block;
+            margin: 0 auto;
+            /* 块元素垂直居中 */
+            position: relative;
+            top: 4px;
+        }
+
+        .nav{
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            background-color: RGB(239,239,239);
+        }
+
+        .nav-wrap .start,.nav-wrap .end{
+            /* 相对定位 这里不设置相对定位，则icon的绝对定位不是相对于.start */
+            position: relative;
+            overflow: hidden;
+            height: 40px;
+            line-height: 40px;
+            font-size: 12px;
+        }
+
+        .nav-wrap .start{
+            float: left;
+        }
+
+        .start .icon,.end .icon1{
+            /* 转成内联块元素 就可以有宽高了 */
+            display: inline-block;
+            width: 19px;
+            height: 19px;
+            /* 绝对定位，这样span转为block就可以同行
+               相对于上一个设置了相对或者绝对或者固定定位的父级元素来进行定位，
+               如果找不到，则相对于body
+             */
+            position: absolute;
+            top: 50%;
+            margin-top: -10px;
+        }
+
+        .start .icon{
+            background: url("images/location.png");
+        }
+
+        .nav span:first-of-type{
+            margin-left: 30px;
+        }
+
+        .text a:hover{
+            color: deeppink;
+        }
+
+        .nav-wrap{
+            width: 1000px;
+        }
+
+         ul{
+            display: inline-block;
+        }
+
+         ul li{
+            list-style: none;
+            display: inline-block;
+        }
+
+        .nav-wrap ul li a:hover{
+            color: white;
+            background-color: darkturquoise;
+        }
+
+        .nav-wrap ul li a{
+            display: inline-block;
+            height: 40px;
+            width: 100px;
+            font: 600 18px/40px "Microsoft YaHei";
+        }
+
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .nav-wrap .end{
+            float: right;
+        }
+
+        .end .icon1{
+            background: url("images/adm.png");
+        }
+
+
+
+        .container{
+            width: 1000px;
+            margin-top: 10px;
+        }
+
+        .con-nav{
+            margin: 20px 0;
+        }
+
+        .tab-control{background-color: RGB(235,235,235);overflow: hidden}
+
+        .tab-control ul li{
+            display: inline-block;
+            width: 50px;
+            height: 20px;
+            float: left;
+            text-align: center;
+            margin-left: 25px;
+            position: relative;
+            line-height: 20px;
+        }
+
+        .clicked{border: 1px RGB(255,167,0) solid;background-color: white}
+
+        .type{color: darkturquoise}
+
+        .tab-control a,.tab-control span{
+            /* 由于没有定义a、span的长宽，现在它们和li一样大小 */
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            display: inline-block;
+        }
+
+        .tab-control ul{margin-top: 20px}
+
+        .tab-end:after{
+            content: "";
+            display: block;
+            height: 20px;
+        }
+
+        .con-search{
+            margin: 20px 0;
+            height: 54px;
+            background-color: RGB(235,235,235);
+            position: relative;
+        }
+
+        .con-search li{
+            display: inline-block;
+            text-align: center;
+            margin-right: 13px;
+            font-size: 12px;
+            margin-top: 21px;
+        }
+
+        .con-search ul:first-child{margin-left: 20px}
+
+        .search{
+            width: 250px;
+            height: 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        .search input{
+            border: none;
+            width: 180px;
+            height: 20px;
+        }
+
+        .search button{
+            width: 70px;
+            float: right;
+            border: none;
+            height: 20px;
+            background: white url("images/search.png") no-repeat 12px 3px;
+        }
+
+        .search button span{
+            margin-right: 10px;
+            float: right;
+        }
+
+        .con-search .go-html{
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            width: 265px;
+            height: 20px;
+            background: url("images/wenhao.png") no-repeat 20px 0.5px;
+        }
+
+        .go-html a{
+            line-height: 20px;
+            float: right;
+        }
+
+        .content{
+            height: 800px;
+        }
+
+        .sample{
+            margin-right: 13.3333px;
+            float: left;
+            width: 238px;
+            border:1px solid #ccc;
+            height:340px;
+            background-color: RGB(235,235,235);
+            margin-bottom: 15px;
+        }
+
+        .end_sample{
+            margin-right: 0;
+        }
+
+        .sample_content{
+            width:208px;
+            margin-top: 15px;
+            font-size: 12px;
+        }
+
+        .sample_content p{
+            margin: 10px 0;
+        }
+
+        .sample_name{
+            margin-right: 40px;
+        }
+
+        .level{
+            font: 600 16px/20px 'Microsoft YaHei';
+            color: RGB(24,190,190);
+        }
+
+        .page{
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            position: relative;
+            margin-top: 15px;
+        }
+
+        .page .pageing{
+            border: none;
+            height: 34px;
+            width: 120px;
+            font:16px/34px 'Microsoft YaHei';
+        }
+
+        .page a{
+            display: inline-block;
+            font-size: 18px;
+            width: 20px;
+            height: 32px;
+
+        }
+
+        .page_number li:nth-of-type(2) a{
+            color: darkorange;
+            border-bottom: 1px darkorange solid;
+        }
+
+        .skip{
+            display: inline-block;
+            font: 16px/40px 'Microsoft YaHei';
+        }
+
+        .skip-input{
+            width: 30px;
+            height: 30px;
+            border: 1px #333 solid;
+        }
+
+        .skip-button{
+            border: none;
+            height: 34px;
+            width: 65px;
+            color: white;
+            margin-left: 40px;
+            font: 18px/34px 'Microsoft YaHei';
+            background-color: darkorange;
+        }
+
+
+
+        .weixin-chat li{
+            display: inline-block;
+            /* 设置相对于父元素垂直对齐 */
+            vertical-align: middle;
+            margin-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        .chat-one{
+            font: 20px/20px 'Microsoft YaHei';
+            color: darkturquoise;
+            margin-bottom: 10px;
+        }
+
+
+        .footer{
+            height: 220px;
+            background-color: RGB(81,81,81);
+        }
+
+        .footer-content{
+            width: 1000px;
+            margin: 0 auto;
+            font-size: 14px;
+            color: RGB(235,235,235);
+        }
+
+        .footer-left,.footer-right{
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .footer-right{
+            margin-left: -15px;
+        }
+
+        .footer-left img{
+            display: block;
+            margin: 25px 0 10px 0;
+        }
+
+        .footer-left p{
+            margin: 6px 0 ;
+        }
+
+        .footer-left p:first-of-type{
+            margin-top: 20px;
+            font-weight: 900;
+            color: white;
+        }
+
+        .footer-right a{
+            display: inline-block;
+            font-size: 12px;
+            color: RGB(235,235,235);
+            margin: 10px 35px;
+        }
+
+        .footer-right a img{
+            width: 28px;
+            height: 25px;
+            margin-right: 15px;
+            margin-bottom: -7px;
+        }
+
+        .footer-right .jpg-link a{
+            margin: 7px 0 7px 70px;
+        }
+
+        .footer-top{
+            border-bottom: 1px RGB(235,235,235) solid;
+        }
+
+        .footer-bottom{
+            margin-top: 15px;
+            font-size: 12px;
+            color: RGB(235,235,235);
+            position: relative;
+        }
+
+        .footer-bottom p{
+            display: inline-block;
+        }
+
+        .footer-bottom p:first-of-type{
+            margin-left: 15px;
+        }
+
+        .footer-bottom p:last-of-type{
+            position: absolute;
+            right: 15px;
+        }
+
+        .footer-bottom a{
+            color: RGB(235,235,235);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="images/logo.png" alt="logo" />
+    </div>
+
+    <div class="nav">
+        <div class="nav-wrap center">
+            <div class="start">
+                <a class="icon" href=""></a>
+                <span class="text"><a href="">深圳</a></span>
+                <span class="text"><a href="">切换</a></span>
+            </div>
+
+            <ul class="center">
+                <li><a href="">首页</a></li>
+                <li><a href="">咨询</a></li>
+                <li><a href="">测评</a></li>
+                <li><a href="">商城</a></li>
+            </ul>
+
+            <div class="end">
+                <a class="icon1" href=""></a>
+                <span class="text"><a href="">个人中心</a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container center">
+        <div class="con-nav">
+            <span>
+                <a href="">首页</a>
+            </span>
+            <span>&gt;</span>
+            <span>
+                <a href="">预防装修污染</a>
+            </span>
+            <span>&gt;</span>
+            <span>
+                <a href="">材料库</a>
+            </span>
+        </div>
+
+        <div class="tab-control">
+            <ul>
+                <li style="margin-left: 20px"><span class="type">类别</span></li>
+                <li><a href="">全部</a></li>
+                <li class="clicked"><a href="">地板</a></li>
+                <li><a href="">涂料</a></li>
+                <li><a href="">墙纸</a></li>
+                <li><a href="">瓷砖</a></li>
+                <li><a href="">粘胶剂</a></li>
+                <li><a href="">油漆</a></li>
+                <li><a href="">家具</a></li>
+                <li><a href="">板材</a></li>
+                <li><a href="">饰品</a></li>
+                <li><a href=""><img src="images/indexSelect.png" alt=""></a></li>
+            </ul>
+
+            <br />
+
+            <ul>
+                <li style="margin-left: 20px"><span class="type">类型</span></li>
+                <li><a href="">全部</a></li>
+            </ul>
+
+            <br />
+
+            <ul>
+                <li style="margin-left: 20px"><span class="type">材质</span></li>
+                <li><a href="">全部</a></li>
+                <li class="clicked"><a href="">实木</a></li>
+                <li><a href="">复合</a></li>
+                <li><a href="">强化</a></li>
+                <li><a href="">其他</a></li>
+            </ul>
+
+            <br />
+
+            <ul class="tab-end">
+                <li style="margin-left: 20px"><span class="type">品牌</span></li>
+                <li><a href="">全部</a></li>
+                <li class="clicked"><a href="">圣象</a></li>
+                <li><a href="">大自然</a></li>
+                <li><a href="">生活家</a></li>
+                <li style="width: 64px"><a href="">北美枫情</a></li>
+                <li><a href="">德尔</a></li>
+                <li><a href="">博典</a></li>
+                <li><a href="">船王</a></li>
+            </ul>
+            <br />
+        </div>
+
+        <div class="con-search">
+            <ul>
+                <li>发布时间 <img src="images/downicon.png" alt=""></li>
+                <li>价格 <img src="images/upicon.png" alt=""></li>
+                <li>环保节能 <img src="images/upicon.png" alt=""></li>
+            </ul>
+
+            <div class="search">
+                <input type="text">
+                <button type="submit"><span>搜索</span></button>
+            </div>
+
+            <div class="go-html">
+                <a href="" style="color: darkturquoise">了解家居医生建材环保评级标准</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="sample">
+                <div class="sample_content center" style="color: darkorange">
+                    <img src="images/data_image.png" alt=""/>
+                    <p><span class="sample_name">德尔</span>都市系列3001</p>
+                    <p>木地板 - 复合地板</p>
+                    <p>单价：128元 / m³</p>
+                    <p><span class="level" style="color: darkorange">环保评级：B</span>（可以使用）</p>
+                </div>
+            </div>
+            <div class="sample">
+                <div class="sample_content center">
+                    <img src="images/data_image.png" alt=""/>
+                    <p><span class="sample_name">德尔</span>都市系列3001</p>
+                    <p>木地板 - 复合地板</p>
+                    <p>单价：128元 / m³</p>
+                    <p><span class="level">环保评级：B</span>（可以使用）</p>
+                </div>
+            </div>
+            <div class="sample">
+                <div class="sample_content center">
+                    <img src="images/data_image.png" alt=""/>
+                    <p><span class="sample_name">德尔</span>都市系列3001</p>
+                    <p>木地板 - 复合地板</p>
+                    <p>单价：128元 / m³</p>
+                    <p><span class="level">环保评级：B</span>（可以使用）</p>
+                </div>
+            </div>
+            <div class="sample end_sample">
+                <div class="sample_content center">
+                    <img src="images/data_image.png" alt=""/>
+                    <p><span class="sample_name">德尔</span>都市系列3001</p>
+                    <p>木地板 - 复合地板</p>
+                    <p>单价：128元 / m³</p>
+                    <p><span class="level">环保评级：B</span>（可以使用）</p>
+                </div>
+            </div>
+            <div class="sample">
+                <div class="sample_content center">
+                    <img src="images/data_image.png" alt=""/>
+                    <p><span class="sample_name">德尔</span>都市系列3001</p>
+                    <p>木地板 - 复合地板</p>
+                    <p>单价：128元 / m³</p>
+                    <p><span class="level">环保评级：B</span>（可以使用）</p>
+                </div>
+            </div>
+            <div class="sample">
+                <div class="sample_content center">
+                    <img src="images/data_image.png" alt=""/>
+                    <p><span class="sample_name">德尔</span>都市系列3001</p>
+                    <p>木地板 - 复合地板</p>
+                    <p>单价：128元 / m³</p>
+                    <p><span class="level">环保评级：B</span>（可以使用）</p>
+                </div>
+            </div>
+            <div class="sample">
+                <div class="sample_content center">
+                    <img src="images/data_image.png" alt=""/>
+                    <p><span class="sample_name">德尔</span>都市系列3001</p>
+                    <p>木地板 - 复合地板</p>
+                    <p>单价：128元 / m³</p>
+                    <p><span class="level">环保评级：B</span>（可以使用）</p>
+                </div>
+            </div>
+            <div class="sample end_sample">
+                <div class="sample_content center">
+                    <img src="images/data_image.png" alt=""/>
+                    <p><span class="sample_name">德尔</span>都市系列3001</p>
+                    <p>木地板 - 复合地板</p>
+                    <p>单价：128元 / m³</p>
+                    <p><span class="level">环保评级：B</span>（可以使用）</p>
+                </div>
+            </div>
+
+            <div class="page" style="float: left">
+                <button class="pageing" type="submit" style="margin-right: 30px">上一页</button>
+                <ul class="page_number">
+                    <li><a href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                    <li><a href="">4</a></li>
+                    <li><a href="">5</a></li>
+                </ul>
+                <button class="pageing" type="submit" style="margin: 0 30px">下一页</button>
+
+                <p class="skip">共有10页，去第 <input class="skip-input" type="text" /> 页</p>
+
+                <button class="skip-button">确定</button>
+            </div>
+        </div>
+
+        <div class="weixin-chat">
+            <ul>
+                <li>
+                    <img src="images/small_weixin.png" alt="二维码">
+                </li>
+                <li>
+                    <p class="chat-one">建材检测 需求反馈</p>
+                    <p>亲爱的用户，我们正在不断的完善和更新建材库，</p>
+                    <p>若没有找到您想要的材料信息，请将您想测的建材告诉我们。</p>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-content clearfix">
+            <div class="footer-top">
+                <div class="footer-left">
+                    <img src="images/footerLogo.png" alt="home+">
+                    <p>为室内健康把好每一关</p>
+                    <p>家居医生致力于中国人的家居健康问题，通过专业的技术研究</p>
+                    <p>和测评，倾力协助大众打造绿色、环保的人居生活环境。</p>
+                </div>
+
+                <div class="footer-right">
+                    <ul>
+                        <li style="margin-left: 100px">
+                            <p><a href="">关于我们</a></p>
+                            <p><a href="">联系我们</a></p>
+                            <p><a href="">加入我们</a></p>
+                        </li>
+                        <li>
+                            <p><a href="">版权说明</a></p>
+                            <p><a href="">用户隐私</a></p>
+                            <p><a href="">免责声明</a></p>
+                        </li>
+                        <li class="jpg-link">
+                            <p><a href=""><img src="images/weixin2.png" alt="">官方微信</a></p>
+                            <p><a href=""><img src="images/tianmao.png" alt="">天猫旗舰店</a></p>
+                            <p><a href=""><img src="images/shop.png" alt="">有赞商城</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>深圳建筑科学研究院股份有限公司&nbsp;&nbsp;<a href="">家居医生网</a></p>
+                <p>COPYRIGHT © 1998 – 2018 YIRAN. ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
