@@ -10,11 +10,48 @@ a{
     color: #6e6e6e;
 }
 
+/* 页顶 */
+.nav{
+    height: 98px;
+}
+
+.nav-warp{
+    width: 1130px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav-warp a{
+    display: block;
+    width: 200px;
+    height: 98px;
+    background: url("../images/xiaomiLogo.png");
+}
+
+/* 页中 */
+.content{
+    background: url("../images/banner.png");
+}
+
+.content:before{
+    content: "";
+    display: table;
+}
+
+.content:after{
+    content: "";
+    display: table;
+}
+
 .form{
     width: 400px;
     border: 1px #e0e0e0 solid;
-    margin: 0 auto;
+    margin: 30px auto;
     text-align: center;
+    background-color: white;
+    position: relative;
+    left: 18%;
+
 }
 
 body{
@@ -81,7 +118,7 @@ input{
 }
 
 .other_panel{
-    margin-bottom: 150px;
+    margin-bottom: 125px;
     font-size: 18px;
 }
 
@@ -141,4 +178,20 @@ input{
 
 .footer .weixin:hover{
     background-color: lime;
+}
+
+
+/* 页脚 */
+.page_footer{
+    font-size: 14px;
+    text-align: center;
+}
+
+.page_footer ul{
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.page_footer ul li a{
+    padding: 0 10px;
 }

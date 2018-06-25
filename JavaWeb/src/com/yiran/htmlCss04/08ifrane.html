@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iframe</title>
+    <style>
+        iframe{
+            width: 1900px;
+            height: 1000px;
+            border: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+<!-- 要点：iframe的name属性要与a标签的target一样 -->
+<iframe src="" frameborder="0" name="frame"></iframe>
+<a href="https://www.baidu.com" target="frame">百度</a>
+<a href="https://www.taobao.com" target="frame">淘宝</a>
+</body>
+</html>
