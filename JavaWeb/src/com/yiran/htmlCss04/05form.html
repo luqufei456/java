@@ -1,10 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form表单</title>
 </head>
 <body>
-$END$
+    <form action="http://www.baidu.com">
+        <!-- label的for属性，可以达到效果，点击label框，然后转到id为user的input框 -->
+        <!-- input的name属性，将你输入的值和name属性匹配成一个键值对一样的格式，提交到form表单的action页面 -->
+        <div><label for="user">用户名</label><input type="text" name="user" id="user" /></div>
+        <div><label for="pwd">密码</label><input type="text" name="pwd" id="pwd" /></div>
+
+        <div>性别
+            <!-- 单选框，name必须相同，不然form表单会认为这不是同一类别的选项
+             radio，表示使用单选框
+             -->
+            <label for="male">男生</label>
+            <input type="radio" id="male" name="sex" value="male">
+            <label for="female">女生</label>
+            <input type="radio" id="female" name="sex" value="female">
+        </div>
+            <!-- 复合选框 -->
+        <div>
+            <label>爱好</label>
+            <input type="checkbox" name="like" />篮球
+            <input type="checkbox" name="like" />足球
+            <input type="checkbox" name="like" />乒乓球
+        </div>
+
+            <!-- 下拉框 -->
+        <div>
+            <select name="address" id="">
+                <option value="武汉">武汉</option>
+                <option value="宜昌">宜昌</option>
+                <option value="上海">上海</option>
+            </select>
+        </div>
+
+            <!-- 文本域 -->
+        <textarea></textarea>
+
+        <div><input type="submit">登录</div>
+    </form>
 </body>
 </html>

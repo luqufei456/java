@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8153b826-4244-4cf9-80f8-41cc8b4d937f" name="Default" comment="day03 百度搜索框作业，家居网站作业">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/01cssImport.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/02positionWHextend.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/03margin.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/04marginMerge.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/05form.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/06inputBorder.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/07displayOrVisibility.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/css/01css.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/css/workCss.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/work.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran/htmlCss03/work.html" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss03/work.html" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/htmlCss04/01cssImport.html" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/01cssImport.html" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/htmlCss04/02positionWHextend.html" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/02positionWHextend.html" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/htmlCss04/03margin.html" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/03margin.html" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/htmlCss04/04marginMerge.html" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/04marginMerge.html" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/htmlCss04/05form.html" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/05form.html" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/htmlCss04/06inputBorder.html" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/06inputBorder.html" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/htmlCss04/07displayOrVisibility.html" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/07displayOrVisibility.html" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/htmlCss04/css/01css.css" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/css/01css.css" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/htmlCss04/css/workCss.css" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/css/workCss.css" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran/htmlCss04/work.html" afterPath="$PROJECT_DIR$/src/com/yiran/htmlCss04/work.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -142,8 +141,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
-    <option name="y" value="82" />
+    <option name="x" value="461" />
+    <option name="y" value="87" />
     <option name="width" value="1232" />
     <option name="height" value="923" />
   </component>
@@ -198,6 +197,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yiran" type="462c0819:PsiDirectoryNode" />
+              <item name="htmlCss03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran" type="462c0819:PsiDirectoryNode" />
               <item name="htmlCss04" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,7 +214,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yiran" type="462c0819:PsiDirectoryNode" />
               <item name="htmlCss04" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -375,7 +382,7 @@
       <workItem from="1529672304739" duration="149000" />
       <workItem from="1529714081716" duration="8788000" />
       <workItem from="1529732981666" duration="1216000" />
-      <workItem from="1529886307421" duration="17633000" />
+      <workItem from="1529886307421" duration="17989000" />
     </task>
     <task id="LOCAL-00001" summary="简单html和css+盒子模型">
       <created>1529471057390</created>
@@ -440,22 +447,28 @@
       <option name="project" value="LOCAL" />
       <updated>1529724194890</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="修改">
+      <created>1529913521390</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1529913521391</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117956000" />
+    <option name="totallyTimeSpent" value="118312000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="82" width="1232" height="923" extended-state="0" />
-    <editor active="true" />
+    <frame x="461" y="87" width="1232" height="923" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5102389" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32824427" sideWeight="0.5102389" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -496,7 +509,8 @@
     <MESSAGE value="作业1、2" />
     <MESSAGE value="javaWeb day03学习" />
     <MESSAGE value="day03 百度搜索框作业，家居网站作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="day03 百度搜索框作业，家居网站作业" />
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

@@ -1,0 +1,144 @@
+*{margin: 0;padding: 0;}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: #6e6e6e;
+}
+
+.form{
+    width: 400px;
+    border: 1px #e0e0e0 solid;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body{
+    font-family: arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif;
+    color: #6e6e6e;
+}
+
+fieldset{
+    border: none;
+    width: 380px;
+    margin: 0 auto;
+}
+
+.fieldset{
+    border-top: 1px #e0e0e0 solid;
+}
+
+input{
+    width: 306px;
+    height: 22px;
+    line-height: 22px;
+    padding: 13px 16px 13px 14px;
+    margin-bottom: 14px;
+}
+
+.nav_tabs{
+    padding: 27px 0 24px;
+}
+
+.form .line{
+    font-size: 24px;
+    margin: 0 35px 0 35px;
+    border: 1px solid #e0e0e0;
+}
+
+.form .user-login,.form .code-login{
+    font-size: 24px;
+}
+
+.form .user-login{
+    color: #f56600;
+}
+
+.form .code-login:hover{
+    color: #f56600;
+}
+
+.btns_bg{
+    padding-top: 10px;
+}
+
+.btns_bg input{
+    background-color: #ef5b00;
+    width: 348px;
+    height: 50px;
+    padding: 0;
+    line-height: 50px;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.other_panel{
+    margin-bottom: 150px;
+    font-size: 18px;
+}
+
+.footer a{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #6e6e6e;
+    border-radius: 50%;
+    margin: 15px 17px;
+}
+
+.footer span{
+    position: absolute;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url("../images/icons_type.png");
+    left: 50%;
+    top: 50%;
+    margin-left: -9px;
+    margin-top: -9px;
+}
+
+.footer .qq span:first-child{
+    background-position-x: -19px;
+}
+
+.footer .qq:hover{
+    background-color: #3388ff;
+}
+
+.footer .weibo span:first-child{
+    background-position-x: -38px;
+}
+
+.footer .weibo:hover{
+    background-color: red;
+}
+
+.footer .zhifu span:first-child{
+    width:25px;
+    background-position-x: -57px;
+    margin-left:-12.5px;
+}
+
+.footer .zhifu:hover{
+    background-color: #3388ff;
+}
+
+.footer .weixin span:first-child{
+    width:23px;
+    background-position-x: -84px;
+    margin-left:-11.5px;
+}
+
+.footer .weixin:hover{
+    background-color: lime;
+}

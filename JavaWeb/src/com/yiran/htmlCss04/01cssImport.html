@@ -1,10 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css引入方式</title>
+    <!-- 外部样式表 -->
+    <link rel="stylesheet" href="css/01css.css">
+    <style>
+        /* 内部样式表 */
+        .inner{
+            width: 150px;
+            height: 150px;
+            background-color: pink;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <!-- 内联样式 权重1000，最好不要这样写，权重太大不容易调试 -->
+    <div style="width: 100px;height: 100px;background-color: red">
+        内联样式
+    </div>
+
+    <!-- 内部样式表 -->
+    <div class="inner">
+        内部样式表
+    </div>
+
+    <!-- 外部样式表，请使用该种方法，达成html和css and js的解耦 -->
+    <div class="external">
+        外部样式表
+    </div>
 </body>
 </html>
