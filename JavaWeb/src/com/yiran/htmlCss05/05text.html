@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>文本溢出以省略号结尾</title>
+    <style>
+        p{
+            /* 以省略号结尾 */
+            text-overflow: ellipsis;
+            /* 不设置这个，则会横向扩大宽度 */
+            overflow: hidden;
+            /* 让文本不换行，默认是换行的 */
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <p> 小米商城直营小米公司旗下所有产品，囊括小米手机系列小米Note 3、小米8、小米MIX 2S，红米手机系列红米5 Plus、红米Note 5A，智能硬件，配件及小米生活周边，同时提供小米客户服务及售后支持。小米商城直营小米公司旗下所有产品，囊括小米手机系列小米Note 3、小米8、小米MIX 2S，红米手机系列红米5 Plus、红米Note 5A，智能硬件，配件及小米生活周边，同时提供小米客户服务及售后支持。</p>
+</body>
+</html>

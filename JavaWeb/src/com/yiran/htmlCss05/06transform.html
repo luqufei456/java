@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>盒旋转</title>
+    <style>
+        /*
+         1.旋转
+         transform:rotate(度数deg)
+         2.位移
+         transform:translateX() 水平方向偏移
+         transform:translateY() 垂直方向偏移
+         transform:translate(x,y)
+         3.缩放
+         transform: scale(倍率) 整体缩放
+         transform: scaleX(倍率) 水平缩放
+         transform: scaleY(倍率) 垂直缩放
+         4.倾斜
+         transform: skew(度数) 整体倾斜
+         transform: skewX(度数) X轴倾斜
+         transform: skewY(度数) Y轴倾斜
+         */
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transform: skew(2deg);
+        }
+
+        div:hover{
+            /* 旋转，中间的参数为度数 */
+            transform: rotate(30deg);
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

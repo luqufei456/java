@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>下拉菜单</title>
+    <style>
+        *{margin: 0;padding: 0}
+
+        a{
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            width: 100%;
+        }
+
+        ul{
+            width: 1000px;
+            margin: 0 auto;
+            background-color: pink;
+            list-style: none;
+            line-height: 50px;
+        }
+
+        li{
+            float: left;
+            width: 100px;
+            text-align: center;
+        }
+
+        /* 这里使用before还是会坍塌，要在后面加 */
+        .row:after{
+            content: "";
+            display: table;
+            /* 清除两边浮动
+             这样after元素就能保证在下方，这样能拉开父级的高度
+             */
+            clear: both;
+        }
+
+        a:hover{
+            background-color: red;
+        }
+
+        .menu{
+            position: relative;
+        }
+
+        .menuDrop{
+            position: absolute;
+            width: 100px;
+            background-color: deeppink;
+            display: none;
+        }
+
+        .menu:hover .menuDrop{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <ul class="row">
+        <li class="menu">
+            <a href="">收藏夹</a>
+            <div class="menuDrop">
+                <a href="">收藏宝贝</a>
+                <a href="">收藏店铺</a>
+            </div>
+        </li>
+        <li><a href="">卖家中心</a></li>
+        <li><a href="">联系客服</a></li>
+    </ul>
+</body>
+</html>

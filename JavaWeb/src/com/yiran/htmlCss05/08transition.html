@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>transition</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /* 动画效果-默认为
+             transition:all 0 ease 0;
+             transition: property duration timing-function delay;
+             属性 持续时间 轨迹 延迟
+             */
+            transition: width 1ms;
+        }
+
+        div:hover{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

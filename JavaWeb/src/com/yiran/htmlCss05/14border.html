@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .parent{
+            width: 1000px;
+            overflow: hidden;
+            background-color: pink;
+            border: 1px solid #333;
+        }
+
+        .parent div{
+            /* 指定宽度和高度（最小/最大属性）确定元素边框box。
+             也就是说，对元素指定宽度和高度包括padding和border的指定。
+             内容的宽度和高度减去各自双方该边框和填充的宽度从指定的"宽度"和"高度"属性计算
+             */
+            box-sizing: border-box;
+            width: 25%;
+            height: 300px;
+            float: left;
+            border-right: 1px solid #333;
+        }
+
+        .parent div:last-child{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent center">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
