@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>javascript</title>
+</head>
+<body>
+<script>
+    // 1.输出方式
+    // console 输出
+    // console.log("hello world");
+
+    // 弹窗输出
+    alert("hello world");
+
+
+    // 2.变量的声明
+    // javascript是弱类型语言，声明变量时，不需要声明它的类型
+    var a = 10;
+
+    // 2.1先声明再赋值
+    var b;
+    b = 10;
+
+    // 2.2声明的同时赋值
+    var c = 10;
+
+
+    // 3.声明提前
+    // js在运行的时候将所有声明的变量，集中到作用域的顶部创建，赋值留在原地
+    // ES6不支持声明提前
+    console.log(d);
+    var d = 10;
+
+    /*console.log(d1); ES6 会报错
+    let d1 = 10;*/
+
+    // 3.1js中如果一个变量只声明没有赋值，那么输出undefined
+    var e;
+    console.log(e);
+
+
+    // 4.基本类型
+    // 4.1number
+    var num = 10;
+    var num2 = 10.2;
+
+    // 4.2如何判断一个变量的类型 typeof
+    console.log(typeof num);
+
+    // 4.3 String
+    var str = "hello world";
+    console.log(typeof str);
+
+    // 4.4 boolean
+    var boolean = true;
+    console.log(typeof boolean);
+
+    // 4.5 undefined
+    var un;
+    console.log(typeof un);
+
+
+    // 5.数组
+    // 5.1声明一个数组
+    var list = [1,2,3];
+    // 5.2读取数组的值--通过下标，从0开始和java一样
+    console.log(list[1]);
+    // 5.3获取数组长度 -- length
+    console.log(list.length);
+    // 5.4向数组的尾部添加一个值
+    list[list.length] = 4;
+    console.log(list);
+    console.log(list.length);
+
+
+    // 6.对象
+    // 6.1创建对象
+    var obj = {
+        name:"依然",
+        age:21
+    };
+
+    // 6.2读取对象属性，语法：obj.属性名
+    console.log(obj.name);
+
+    // 6.3给对象添加属性
+    obj.sex = "男";
+    console.log(obj.sex);
+
+
+    // 7.函数
+    // function 函数名(){}
+    // 7.1没有返回值的函数
+    function funcName1() {
+        console.log("没有返回值的函数")
+    }
+
+    // 7.2调用函数
+    funcName1();
+
+    // 7.2有返回值的函数
+    function funcName2() {
+        return 10000;
+    }
+
+    var salary = funcName2();
+    console.log(salary);
+
+
+    // 8.全局变量和局部变量
+    // 全局变量-在函数外声明的变量
+    var var1 = 10;
+    function fn() {
+        // 局部变量-在函数内声明的变量
+        var var2 = 20;
+    }
+    // console.log(var2); 报错
+
+
+    // 9.数据类型的转换
+    // 9.1 number的强制转换
+    // String boolean --> 数字：Number()
+    // true-->1，false-->0
+    // NaN不是一个数字
+    // Number()这个方法只能识别纯数字的字符串
+    var str1 = "10";
+    var boolean1 = true;
+    console.log(typeof Number(str1));
+    console.log(Number(boolean1));
+    console.log(Number(false));
+    console.log(Number("a")); // NaN
+
+    // 9.2自动转换
+    // 算术计算中的自动转换，+ - * / %等
+    // 在算数计算中，js会将参与计算的值先转换为number再进行计算
+    var ja = "10";
+    var jb = true;
+    var jc= ja-jb; // ja被自动转换为10 true被自动转换为1
+    // 底层 var jc = Number(ja) - Number(jb);
+    console.log(jc);
+
+    // 特殊：在 + 运算中，倘若有一边为字符串，则结果为字符串拼接
+    console.log(ja+jb); // "10true"
+
+
+    // 10.比较运算的自动转换
+    // 默认先将所有的类型转为数字类型，再进行比较
+    // 比较运算的结果返回boolean
+    console.log("10">true); // true
+    // 底层 Number("10") > Number(true)
+
+
+    // 11.字符串转number型-parseInt、parsFloat
+    // 只能转数字开头的字符串
+    // parseInt -- 将字符串转为整数，小数点后省略，而不会约等
+    console.log(parseInt("12px")); // 12
+    console.log(parseInt("12.53px")); // 12
+    console.log(parseInt("p33")); // NaN
+
+    // parseFloat -- 将字符串转为浮点型
+    console.log(parseFloat("12px")); // 12
+    console.log(parseFloat("12.53px")); // 12.53
+    console.log(parseFloat("p33")); // NaN
+
+
+    // 12.将任意类型转为字符串类型
+    // 方法一：.toString()
+    var toStr = 10;
+    console.log(toStr.toString());
+    console.log(typeof toStr.toString());
+
+    // 方法二：String()
+    console.log(typeof String(toStr));
+
+
+    // 13.将任意类型转为boolean型
+    // 语法：Boolean()
+    // 在js中只有五种值为false，其他都为true： "",NaN,0,undefined,null
+    var toBlist = [1,2,3];
+    var toBobj = {name:"依然"};
+    console.log(Boolean(toBlist)); // true
+    console.log(Boolean(toBobj)); // true
+    console.log(Boolean("")); // false
+    console.log(Boolean(NaN)); // false
+
+
+    // 14.NaN不等于 不大于 不小于任何值，包括自己
+    // isNaN()，判断一个变量是否为NaN
+
+
+    // 15.++ --
+    // ++在后，先运算，后自增
+    // ++在前，先自增，后运算
+    var a15 = 10;
+    var b15 = a15++ +1;
+    console.log(a15); // 11
+    console.log(b15); // 11
+
+
+    // 16.if判断
+    // 还有switch等，和java一样
+    var a16 = 16;
+    if (a16>=18){
+        alert("可以去网吧了");
+    }
+    else if(a16>=16){
+        alert("在香港可以去网吧");
+    }
+    else{
+        alert("去哪都上不了网吧");
+    }
+
+    // 17.for循环
+    // 还有while循环等
+    var arr17 = [1,2,3,4];
+    // 第一种遍历方式
+    for (var i=0;i<arr17.length;i++){
+        console.log(arr17[i]);
+    }
+
+    // 第二种遍历方式，这里的key并不是数组中的值，而是它们的下标，比较奇怪
+    /*for(var key in arr17){
+        console.log(arr17[key]);
+    }*/
+
+    // 遍历对象
+    // 这里遍历出的key为属性名
+    var obj17 = {name:"依然",age:21};
+    for (var key in obj17){
+        console.log(key);
+        console.log(obj17[key]);
+    }
+
+
+    // 18.块级作用域-- ES6之前没有块级作用域的概念，只要不在内部定义变量，在外面都可以访问
+    for (var i18=0;i18<10;i18++){
+        console.log("hello");
+        var i188 = 100;
+    }
+    console.log(i18); // 18
+    console.log(i188); // 100 这是能访问的
+
+    /*for (let let18=0;let18<10;let18++){
+        console.log("hello");
+    }
+    console.log(let18); // 报错*/
+
+    /*{ let name18="依然"; }
+    console.log(name18); 报错，name18未定义 */
+</script>
+</body>
+</html>

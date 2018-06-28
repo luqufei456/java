@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>通过选择器获取</title>
+</head>
+<body>
+    <div class="one">hello world</div>
+    <div class="one" id="two"></div>
+
+    <script>
+        // 通过选择器获取
+        // querySelector只能获得一个对象
+        var div = document.querySelector("#two");
+        console.log(div); // 只有1个，其中有id为two的标签
+
+        var div1 = document.querySelector(".one");
+        console.log(div1); // 只有一个，是第一个class为one的标签，第二个不会被获取
+
+        // querySelectorAll可以获取多个对象，如果使用id选择器，虽然只有一个对象，但是也是一个集合
+        var divs = document.querySelectorAll("#two");
+        console.log(divs); // 集合，其中有一个标签对象，该标签对象的id为two
+
+        var divs1 = document.querySelectorAll(".one");
+        console.log(divs1); // 集合，其中有2个标签对象，它们的class中都含有one
+    </script>
+</body>
+</html>
