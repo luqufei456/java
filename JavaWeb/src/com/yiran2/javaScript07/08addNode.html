@@ -1,10 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>增加节点</title>
 </head>
 <body>
-$END$
+    <div id="parent">
+        <p id="one">hello world</p>
+    </div>
+    <button id="add">add</button>
+    <script>
+        // 利用js，点击按钮，在div中增加一个p标签，内容为first
+        var add = document.getElementById("add");
+        var parent = document.getElementById("parent");
+
+        var one = document.getElementById("one");
+        add.onclick = function () {
+            /* document.createElement("element")
+            * 创建一个元素节点
+            * document.createTextNode("text")
+            * 创建一个文本节点
+            * node.appendChild();
+            * 添加一个子节点，末尾添加
+            * */
+            var p = document.createElement("p");
+            var text = document.createTextNode("first");
+            p.appendChild(text);
+            console.log(p); // <p>first</p>
+
+            parent.appendChild(p);
+
+            // 在one节点之前添加p节点
+            parent.insertBefore(p,one);
+        }
+    </script>
 </body>
 </html>

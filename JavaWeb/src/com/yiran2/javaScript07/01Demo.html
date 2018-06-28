@@ -1,10 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>如何按按钮，全选多选项</title>
 </head>
 <body>
-$END$
+    <button id="btn">一键全选</button>
+    <input type="checkbox" />篮球
+    <input type="checkbox" />足球
+    <input type="checkbox" />乒乓球
+
+    <script>
+        var btn = document.getElementById("btn");
+        var inputs = document.getElementsByTagName("input");
+        btn.onclick = function () {
+            for(var i = 0;i<inputs.length;i++){
+                /* checked属性可以控制是否选中多选项 */
+                //inputs[i].checked = true;
+                inputs[i].checked = (inputs[i].checked === true)?false:true;
+                // 可以简化为 inputs[i].checked !== true
+            }
+        }
+    </script>
 </body>
 </html>

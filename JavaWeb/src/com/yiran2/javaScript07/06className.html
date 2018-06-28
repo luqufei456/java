@@ -1,10 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>给p标签增加current样式</title>
+    <style>
+        .current{
+            color: red;
+        }
+
+        .aa{
+            background-color: #3388ff;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <p id="p" class="aa">hello world</p>
+    <button id="btn">btn</button>
+    <script>
+        var btn = document.getElementById("btn");
+        var p = document.getElementById("p");
+        // 这种方法给p加了样式以后，class=""之中就变为current了
+        // 如果想多个样式，直接按格式写就行"current aa" 这样
+        btn.onclick = function () {
+            p.className = "current aa";
+        }
+    </script>
 </body>
 </html>

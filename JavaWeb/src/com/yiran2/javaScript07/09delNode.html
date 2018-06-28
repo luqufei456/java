@@ -1,10 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>删除节点</title>
 </head>
 <body>
-$END$
+    <ul id="parent">
+        <li>hello world</li>
+    </ul>
+    <button id="btn">btn</button>
+    <script>
+        /*
+        * 删除节点 语法
+        * parentNode.removeChild(node);
+        * */
+        var btn = document.getElementById("btn");
+        var parent = document.getElementById("parent");
+        var li = document.getElementsByTagName("li")[0];
+        btn.onclick = function () {
+            parent.removeChild(li);
+        }
+    </script>
 </body>
 </html>

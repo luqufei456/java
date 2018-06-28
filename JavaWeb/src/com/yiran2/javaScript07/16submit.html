@@ -1,10 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>submit</title>
 </head>
 <body>
-$END$
+    <form action="">
+        <input type="text" />
+        <button type="submit">提交</button>
+    </form>
+
+    <script>
+        // onsubmit --> 表单被提交时触发，要获取form表单对象
+        // 而不是submit对象
+        var sub = document.getElementsByTagName("form")[0];
+        sub.onsubmit = function () {
+            alert("提交失败");
+        }
+    </script>
 </body>
 </html>

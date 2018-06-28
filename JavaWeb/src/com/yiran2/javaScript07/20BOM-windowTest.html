@@ -1,10 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOM-window的小例子</title>
 </head>
 <body>
-$END$
+    <div>
+        <span id="mi">小米8</span>
+        <button id="btn">btn</button>
+    </div>
+
+    <script>
+        // confirm方法有返回值 确定返回true，取消返回false
+        // var result = window.confirm("是否取消");
+        // alert(result);
+
+        var btn = document.getElementById("btn");
+        var mi = document.getElementById("mi");
+        btn.onclick = function () {
+            var result = window.confirm("你确定不要小米吗？");
+            if (result){
+                mi.style.display = "none";
+            }
+            else{
+                mi.style.display = "inline-block";
+                mi.style.color = "red";
+            }
+        }
+    </script>
 </body>
 </html>

@@ -1,10 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>键盘事件</title>
+    <style>
+        em{
+            color: red;
+        }
+    </style>
 </head>
 <body>
-$END$
+
+    <p>你还可以输入<em id="show">150</em>/150个字</p>
+    <textarea name="" id="txt" cols="30" rows="10"></textarea>
+<script>
+    /*
+    * onkeydown --> 键盘按下时触发
+    * onkeypress --> 在键盘按键按下并释放一个键时触发
+    * onkeyup --> 键盘释放时触发
+    *
+    * event.keyCode --> 键盘每个键对应的键盘码
+    *
+    * */
+    /*document.onkeydown = function (ev) {
+        alert(ev.keyCode);
+    }*/
+
+    var show = document.getElementById("show");
+    var txt = document.getElementById("txt");
+    txt.onkeyup = function () {
+        // 获取内部文本长度
+        var length = txt.value.length;
+        show.innerHTML = 150 - length;
+    }
+</script>
 </body>
 </html>

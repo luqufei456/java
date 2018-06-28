@@ -1,10 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>显示隐藏</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <div id="div" style="display: block"></div>
+    <button id="btn">显示/隐藏</button>
+
+    <script>
+        var btn = document.getElementById("btn");
+        var div = document.getElementById("div");
+        btn.onclick = function () {
+            /* 原生js的这种获取样式的方法，只能获取内联样式，
+            所以第一次进入页面需要点击两次，第一次给div添加了内联样式display: block */
+            var value = div.style.display;
+            alert(value);
+            // div.style.display = (value === "block")?"none":"block";
+            if (value === "block"){
+                div.style.display = "none";
+            }
+            else{
+                div.style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>

@@ -1,10 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sHover</title>
+    <script src="js/sHover.min.js"></script>
+    <style>
+        #item1{
+            overflow: hidden;
+            border:1px solid #333;
+            width:280px;
+            height:180px;
+            color: white;
+        }
+        .sIntro{
+            background: #333;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <div id="item1" class="sHoverItem">
+        <img id="img1" src="images/01.jpg">
+        <span id="intro1" class="sIntro">
+                <h2>h2标题</h2>
+                <p> 段落内容 </p>
+                <button>按钮</button>
+            </span>
+    </div>
+    <script>
+        var a = new sHover("sHoverItem", "sIntro");
+        a.set({
+            slideSpeed: 5,
+            opacityChange: true,
+            opacity: 80
+        });
+    </script>
 </body>
 </html>

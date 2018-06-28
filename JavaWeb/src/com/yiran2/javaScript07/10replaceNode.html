@@ -1,10 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>替换节点</title>
 </head>
 <body>
-$END$
+    <div id="parent">
+        <p id="child">hello world</p>
+    </div>
+    <button id="btn">btn</button>
+    <script>
+        var btn = document.getElementById("btn");
+        var parent = document.getElementById("parent");
+        var child = document.getElementById("child");
+        btn.onclick = function () {
+            var h4 = document.createElement("h4");
+            var text = document.createTextNode("哈哈哈哈，想不到吧");
+            h4.appendChild(text);
+
+            // parentNode.replaceChild(newNode,targetNode);
+            parent.replaceChild(h4,child);
+        }
+    </script>
 </body>
 </html>

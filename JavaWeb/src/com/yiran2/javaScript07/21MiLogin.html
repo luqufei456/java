@@ -1,10 +1,112 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小米登录页</title>
+    <style>
+        *{margin: 0;padding: 0}
+
+        .form{
+            width: 400px;
+            border: 1px solid #eee;
+            text-align: center;
+            margin: 50px auto;
+            box-shadow: 0 0 10px 5px #333;
+        }
+
+        li{
+            list-style: none;
+            display: inline-block;
+        }
+
+        ul{
+            line-height: 50px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .content{
+            position: relative;
+            height: 200px;
+        }
+
+        /* 这里是直系后代，而不是内部的所有div */
+        .content>div{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .saoma{
+            display: none;
+        }
+
+        input{
+            width: 360px;
+            height: 40px;
+            margin-top: 20px;
+        }
+
+        .current{
+            color: orangered;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <div class="form">
+        <ul>
+            <li class="current">账号登录</li>
+            <li>扫码登录</li>
+        </ul>
+        <div class="content">
+            <div class="account child">
+                <div><input type="text" /></div>
+                <div><input type="password" /></div>
+                <div><input type="submit" value="立即登录" /></div>
+            </div>
+
+            <div class="saoma child">
+                <img src="images/01.png" alt="扫码登录">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var lis = document.getElementsByTagName("li");
+        var contents = document.getElementsByClassName("child");
+        /*console.log(lis);
+        console.log(contents);*/
+        // 1.点击li，让正在被点击的className = "current"，其他的className = ""
+        // 对所有的li进行遍历，然后给他们一个点击事件。即使外部循环结束了，点击事件仍然存在。
+        for(var i = 0;i < lis.length;i++){
+            // 自定义一个index属性给lis中的li
+            lis[i].index = i;
+
+            // 给li添加一个点击事件
+            lis[i].onclick = function () {
+
+                // 先将所有li的class清空
+                // 这里不要用 var x in lis 除了索引还会遍历出很多其他的属性，造成报错
+                for(var x = 0;x < lis.length;x++){
+                    lis[x].className = "";
+                }
+                //当前项的li的className = "current"
+                this.className = "current";
+
+                // 可以得到0 1 看出是哪个li
+                console.log(this.index);
+
+                // 先将所有的content隐藏
+                for (var y = 0;y < contents.length;y++){
+                    contents[y].style.display = "none";
+                }
+
+                // 让对应的content出现
+                contents[this.index].style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>

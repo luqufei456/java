@@ -1,10 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>利用js获取标签对象改变其样式</title>
 </head>
 <body>
-$END$
+    <p id="p">hello world</p>
+    <button id="btn">change</button>
+
+    <script>
+        /*
+        * 修改样式：
+        * element.style.attr = value;
+        * margin-top这样的，要写成marginTop
+        * */
+        var btn = document.getElementById("btn");
+        var p = document.getElementById("p");
+        btn.onclick = function () {
+            p.style.backgroundColor="red";
+        }
+    </script>
 </body>
 </html>

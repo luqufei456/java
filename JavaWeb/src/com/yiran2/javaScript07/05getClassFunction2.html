@@ -1,10 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js另一种获取样式的方法，不止是内联样式</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <div id="test"></div>
+    <script>
+        /*
+        * element.style.attr ，有局限性：只能获取内联样式
+        * */
+        var div_test = document.getElementById("test");
+
+        // var value = div_test.style.width;
+        // div_test.style.background = "green";
+        // console.log(value); // 获取不到 为一个空白值
+
+        /* 在chrome下获取内部样式表和外部样式表的方法 */
+        // getComputeStyle(element,null).attr
+        var value = getComputedStyle(div_test,null).width;
+        alert(value);
+    </script>
 </body>
 </html>

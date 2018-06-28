@@ -1,10 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dom事件</title>
 </head>
 <body>
-$END$
+    <input type="text" id="input" />
+    <script>
+        /*
+        * onfocus --> 获取焦点
+        * onblur --> 失去焦点
+        * 在事件中，this指向正在执行事件的对象。
+        * */
+        var input = document.getElementById("input");
+        input.onfocus = function () {
+            this.style.backgroundColor = "red";
+        };
+
+        input.onblur = function () {
+          this.style.backgroundColor = "green";
+        }
+    </script>
 </body>
 </html>
