@@ -1,10 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>字符串方法使用正则</title>
 </head>
 <body>
-$END$
+    <textarea name="" id="txt" cols="30" rows="10"></textarea>
+    <button id="btn">过滤</button>
+
+    <script>
+        // 字符串中，支持正则的方法，search()，match()，replace()，split()
+        // 正则自带的方法 test()
+
+        // str.match(regExp) 返回匹配到的，组成一个数组
+        var str = "hello 13213 121";
+        var RE = /\d+/g; // 这里不用全局g，则后面的121不会被取到
+        var arr = str.match(RE);
+        console.log(arr);
+
+        // replace 将正则匹配的，替换为指定字符串
+        var RE2 = /天猫|淘宝/g;
+        var txt = document.getElementById("txt");
+        var btn = document.getElementById("btn");
+        btn.onclick = function (ev) {
+            var value = txt.value;
+            txt.value = value.replace(RE2,"**");
+        };
+
+        // split 按符合正则匹配的分割字符串，返回数组
+        var str3 = "hello world";
+        var RE3 = /l/;
+        console.log(str3.split(RE3));
+    </script>
 </body>
 </html>

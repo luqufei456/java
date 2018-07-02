@@ -1,10 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>邮箱验证</title>
 </head>
 <body>
-$END$
+    <input type="text" id="txt">
+    <p id="content"></p>
+    <button id="btn">验证</button>
+
+    <script>
+        // 邮箱的规则，一串数字，字母或者下划线@一串数字英文.一串英文
+        var RE = /^\w+@[a-z0-9]+\.[a-z]+/;
+        var txt = document.getElementById("txt");
+        var content = document.getElementById("content");
+        var btn = document.getElementById("btn");
+        btn.onclick = function (ev) {
+            var value = txt.value;
+            var result = RE.test(value);
+            console.log(result);
+            if (result){
+                content.innerHTML = "邮箱正确："+value;
+                content.style.color = "green";
+            }
+            else{
+                content.innerHTML = "邮箱格式不合法："+value;
+                content.style.color = "red";
+            }
+
+        }
+    </script>
 </body>
 </html>

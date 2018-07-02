@@ -1,10 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>concat</title>
 </head>
 <body>
-$END$
+    <script>
+        // --> 没有改变数组的内容，而是产生一个新数组
+        // 参数可以是数字，也可以是数组，在原数组末尾进行添加
+        var arr = [1,2,3];
+        var b = arr.concat(4);
+        console.log(arr);
+        console.log(b);
+    </script>
 </body>
 </html>

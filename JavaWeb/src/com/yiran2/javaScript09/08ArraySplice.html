@@ -1,10 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>splice</title>
 </head>
 <body>
-$END$
+    <script>
+        // splice(index,number,item)
+
+        // 1.利用splice进行数组指定位置添加
+        // number传0，添加的item占据index的位置
+        var arr = [1,2,3,4];
+        arr.splice(2,0,"hello");
+        console.log(arr);
+
+        // 2.利用splice进行数组删除
+        // 删除时，不写item值，只传2个参数，从下标为index的地方开始删number个元素
+        var  arr2 = [1,2,3,4,5];
+        arr2.splice(1,2);
+        console.log(arr2)
+
+
+    </script>
 </body>
 </html>

@@ -1,10 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>split</title>
 </head>
 <body>
-$END$
+    <script>
+        // split() --> 将字符串按分割符分割成数组
+        // 不写参数则为一个长度为1的数组，其中元素为str
+        var str = "hello world";
+        var arr = str.split(" ");
+        console.log(arr);
+        // 如果使用空字符串为分割符，则所有的字符都会被分开
+        var arr1 = str.split("");
+        console.log(arr1);
+    </script>
 </body>
 </html>

@@ -1,10 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>string操作</title>
 </head>
 <body>
-$END$
+    <script>
+        // 基本类型的方法，不会改变原来的值，不同于引用类型
+
+        var str = "hello world";
+        // 1.获取字符串长度
+        var len = str.length;
+        console.log(len); // 11 空格也算字符串
+
+        // 2.字符串合并
+        // concat(str1) --> 将两个字符串合并，参数str1在str末尾拼接
+        var add = str.concat(" add");
+        console.log(add); // hello world add
+
+        // 3.字符串查询
+        // charAt(index) --> 输出对应下标的字符
+        var char = str.charAt(0);
+        console.log(char); // h
+
+        // indexOf(str); --> 返回str在字符串中第一次出现的下标位置的下标，如果不存在于字符串中，则返回-1
+        var index = str.indexOf("world");
+        console.log(index); // 6
+
+        // 4.字符串截取
+        // slice()
+        var a = "hello world";
+        var b = a.slice(1,4);
+        console.log(b); // ell
+
+        // substr(startIndex,len) --> 截取的起始位置，截取的长度
+        var subStr = a.substr(1,4);
+        console.log(subStr); // ello
+
+        // substring(startIndex,endIndex) --> 和slice()一样
+        var subString = a.substring(1,4); // ell
+        console.log(subString);
+    </script>
 </body>
 </html>

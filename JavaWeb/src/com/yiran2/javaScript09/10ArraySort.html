@@ -1,10 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>数组排序</title>
 </head>
 <body>
-$END$
+    <script>
+        var arr = [22,1,32,12,15];
+        var b = arr.sort();
+        console.log(b); // 只排一部分，不要直接这么写
+
+        var arr2= [22,1,32,12,15];
+        var c = arr2.sort(function (a, b2) {
+             return a-b2; // 逆序使用b2-a
+        });
+        console.log(c);
+    </script>
 </body>
 </html>
