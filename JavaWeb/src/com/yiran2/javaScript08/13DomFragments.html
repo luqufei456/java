@@ -1,10 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>文档碎片</title>
 </head>
 <body>
-$END$
+    <ul id="parent">
+
+    </ul>
+    <button id="btn">btn</button>
+
+    <script>
+        // document.createDocumentFragment(); --> 文档碎片，优点：提高渲染效率
+        var btn = document.getElementById("btn");
+        var parent = document.getElementById("parent");
+        // 脱离文档流的碎片，相当于一个缓冲区
+        var frame = document.createDocumentFragment();
+        btn.onclick = function () {
+            for (var i = 0;i < 10;i++){
+                var li = document.createElement("li");
+                // 利用fragment缓冲，可以提升一定性能。
+                frame.appendChild(li);
+            }
+            parent.appendChild(frame);
+        }
+    </script>
 </body>
 </html>

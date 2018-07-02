@@ -1,10 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>函数function</title>
 </head>
 <body>
-$END$
+    <script>
+        // 1.直接定义函数
+        function go() {
+            console.log("hello world");
+        }
+        go(); // 在函数定义前面调用也可以，但是不推荐，还是按顺序式调用
+
+        // 2.变量声明定义函数 -- 会造成声明提前，这样的话就不能在定义函数之前调用
+        var one = function () {
+            console.log("one");
+        };
+        one();
+
+        // 3.构造函数的方式声明 -- 第一个参数为参数，第二个为函数表达式--更加不推荐
+        var two = new Function("two","console.log(two)");
+        two("aaa");
+    </script>
 </body>
 </html>

@@ -1,10 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>表格</title>
+    <style>
+        table,td,th{
+            border: 1px solid #333;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            line-height: 50px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <table id="table">
+        <thead>
+            <tr>
+                <th>商城</th>
+                <th>手机</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>京东商城</td>
+                <td>苹果手机</td>
+            </tr>
+            <tr>
+                <td>天猫</td>
+                <td>华为手机</td>
+            </tr>
+            <tr>
+                <td>拼多多</td>
+                <td>魅族手机</td>
+            </tr>
+            <tr>
+                <td>小米商城</td>
+                <td>小米</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        /*1.标题的背景色变为 #eee
+            2.tbody下奇数行为 #ff2d51 偶数行为 #44cef6*/
+        var table = document.getElementById("table");
+        // table.tHead --> 获取表格的标题部分
+        var thead = table.tHead;
+        // table.tBodies --> 获取表格的主体部分，得到的是一个数组，因为表格可能有多个tbody
+        var tbody = table.tBodies[0];
+        // tbody.rows --> 获取tbody每一行tr，得到的也是一个数组
+        var rows = tbody.rows;
+        // rows[n].cells[n] --> 获取第n行tr的第n个单元格td
+        var firstCell = rows[0].cells[0];
+
+        console.log(thead);
+        thead.style.backgroundColor = "#eee";
+
+        for (var i = 0;i < rows.length;i++){
+            if(i%2 === 0){
+                rows[i].style.backgroundColor = "#ff2d51";
+            }
+            else{
+                rows[i].style.backgroundColor = "#44cef6";
+            }
+        }
+        firstCell.innerHTML = "银泰百货";
+    </script>
 </body>
 </html>

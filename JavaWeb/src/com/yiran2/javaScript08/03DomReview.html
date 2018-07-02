@@ -23,9 +23,9 @@
         add.onclick = function () {
             var value = txt.value;
             // 提交后，将其清空
-            txt.value = "";
+            txt.value = ""; // value是输入框里的值
             var li = document.createElement("li");
-            li.innerHTML = value;
+            li.innerHTML = value; // innerHTML是元素内的内容
             console.log(li);
             parent.appendChild(li);
         }

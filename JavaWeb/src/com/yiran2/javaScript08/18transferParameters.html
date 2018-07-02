@@ -1,10 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js中的传参</title>
 </head>
 <body>
-$END$
+    <script>
+        // js中函数传不定参
+        function go(a,b) {
+            console.log(a);
+            console.log(b);
+        }
+        go(); // 不会报错，输出NaN
+        // 所以js中一般函数不能重载，后面的重名函数会覆盖前面的重名函数
+
+        // js中如何实现重载 使用arguments对象
+        // 函数内部有一个arguments对象来管理函数传入的参数，然后可以根据arguments的长度来执行方法体
+        function test() {
+            console.log(arguments);
+            console.log(arguments.length);
+        }
+
+        // 做一个重载函数的例子 -- 其实就是根据传入参数长度不同进入不同的if判断
+        function testFunc() {
+            if (arguments.length === 1){
+                console.log(arguments[0]);
+            }
+            else if (arguments.length === 2){
+                console.log(arguments[1]);
+            }
+            else{
+                console.log("hello chunjue");
+            }
+        }
+
+    </script>
 </body>
 </html>

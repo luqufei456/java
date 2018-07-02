@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+    <script>
+        var one = function () {
+            console.log("one")
+        };
+
+        // ES6箭头函数
+        var go = ()=>{
+            console.log("hello ES6");
+        }
+        go();
+
+        // 创建一个对象，其中有2个函数。
+        var obj = {
+            say:function () {
+                console.log("say");
+            },eat:()=>{
+                console.log("eat");
+            }
+        }
+        obj.eat();
+    </script>
 </body>
 </html>

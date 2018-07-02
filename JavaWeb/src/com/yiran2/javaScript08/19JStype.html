@@ -1,10 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js基本类型和引用类型的区别</title>
 </head>
 <body>
-$END$
+    <script>
+        // 1.基本类型只传值
+        // 2.引用类型既传值也传址，两者指向同一个地址
+        var a = 10;
+        var b = a;
+        a = 15;
+        console.log(b); // 10
+        // 这时候，b还是10，不会随着a的改变而改变，因为基本类型都在栈里面，占据固定内存大小，是直接使用的。
+
+        // var arr1 = arr的时候，是让arr1指向了arr指向的地址，
+        // 如果修改该地址的引用类型变量，那么指向该地址的变量的值都会改变
+        var arr = [1,2,3];
+        var arr1 = arr;
+        arr[arr.length] = 4;
+        console.log(arr1); // [1,2,3,4]
+
+        // 对象也同理
+        var obj = {name:"依然"};
+        var yiran = obj;
+        obj.age = 21;
+        console.log(yiran.age);
+    </script>
 </body>
 </html>

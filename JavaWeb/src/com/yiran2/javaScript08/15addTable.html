@@ -1,10 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>动态添加表格</title>
+    <style>
+        table{
+            border: 1px solid #333;
+            width: 500px;
+            line-height: 50px;
+            border-collapse: collapse;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        th,td{
+            border: 1px solid #333;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <div>
+        手机品牌<input type="text" id="phone" />
+        价格<input type="text" id="price" />
+        <button id="btn">添加</button>
+    </div>
+
+    <table id="table">
+        <thead>
+        <tr>
+            <th width="60%">品牌</th>
+            <th>价格</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>苹果5</td>
+            <td>3000</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <script>
+        var btn = document.getElementById("btn");
+        var phone = document.getElementById("phone");
+        var price = document.getElementById("price");
+        var tbody = document.getElementById("table").tBodies[0];
+
+        btn.onclick = function ( ) {
+            var tr = document.createElement("tr");
+            var td = document.createElement("td");
+            td.innerHTML = phone.value;
+            tr.appendChild(td);
+
+            var td1 = document.createElement("td");
+            td1.innerHTML = price.value;
+            tr.appendChild(td1);
+
+            console.log(tr);
+
+            tbody.appendChild(tr);
+        }
+    </script>
 </body>
 </html>

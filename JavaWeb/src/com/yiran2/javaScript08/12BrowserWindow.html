@@ -1,10 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>浏览器窗口</title>
+    <style>
+        *{margin: 0;padding: 0}
+        #test{
+            height: 300px;
+            background-color: red;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <div id="test"></div>
+
+    <script>
+        // 浏览器的宽高 -- 由窗口大小决定
+        // window.innerWidth --> 浏览器宽度
+        // window.innerHeight --> 浏览器高度
+        var windowWidth = window.innerWidth;
+        var windowHeight = window.innerHeight;
+        console.log("浏览器宽度为"+windowWidth);
+        console.log("浏览器高度为"+windowHeight);
+
+        // 文档元素的宽高 -- 和浏览器一样
+        var dw = document.documentElement.clientWidth;
+        var dh = document.documentElement.clientHeight;
+        console.log("文档元素的宽度为"+dw);
+        console.log("文档元素的高度为"+dh);
+
+        // 对象body的宽高 -- 由内部元素宽高决定
+        var bw = document.body.clientWidth;
+        var bh = document.body.clientHeight;
+        console.log("body的宽度"+bw);
+        console.log("body的高度"+bh);
+
+        // 获取页面内容的宽高 -- 如果浏览器显示内容小于内部元素宽高，则显示元素的宽高
+        // 如果大于内部元素的宽高，则显示浏览器宽高，不同浏览器显示不一样，不必纠结
+        var dsw = document.documentElement.scrollWidth;
+        var dsh = document.documentElement.scrollHeight;
+        console.log("页面内容的宽为"+dsw);
+        console.log("页面内容的高位"+dsh);
+    </script>
 </body>
 </html>

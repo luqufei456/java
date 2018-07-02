@@ -5,15 +5,27 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>setAttribute</title>
+    <title>Attribute</title>
 </head>
 <body>
-    <p id="test"></p>
+    <p id="test" class="one">hello world</p>
 
     <script>
-        // 使用设置属性的方式来设置样式 --> element.setAttribute("属性名", "属性值");
+        // 设置属性值 --> element.setAttribute("属性名", "属性值");
+        // 使用设置属性值的方式来设置样式值
         var test = document.getElementById("test");
         test.setAttribute("style","color:red");
+
+        // 获取属性值 --> element.getAttribute("属性名");
+        var cValue = test.getAttribute("class");
+        console.log(cValue);
+
+        // 将p标签的class设置为two
+        test.setAttribute("class","two");
+        console.log(test.getAttribute("class"));
+
+        // 移除属性值 --> removeAttribute("属性名");
+        test.removeAttribute("class");
     </script>
 </body>
 </html>
