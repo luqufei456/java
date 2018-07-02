@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>小米登录页</title>
     <link rel="stylesheet" href="css/workCss.css">
+    <script src="js/workJs.js"></script>
 </head>
 <body>
     <div class="nav">
@@ -24,33 +25,49 @@
                 <li class="code-login">扫码登录</li>
             </ul>
 
-            <form action="">
-                <div>
-                    <input type="text" placeholder="邮箱/手机号码/小米ID" />
-                </div>
-                <div>
-                    <input type="text" placeholder="密码" />
-                </div>
-                <div class="btns_bg">
-                    <input type="submit" value="登录" />
-                </div>
-            </form>
+            <div class="login-content">
+                <div class="account child">
+                    <form action="">
+                        <div>
+                            <input type="text" placeholder="邮箱/手机号码/小米ID" />
+                        </div>
+                        <div>
+                            <input type="text" placeholder="密码" />
+                        </div>
+                        <div class="btns_bg">
+                            <input type="submit" value="登录" />
+                        </div>
+                    </form>
 
-            <div class="other_panel">
-                <span><a href="">注册小米账号</a></span> |
-                <span><a href="">忘记密码?</a></span>
+                    <div class="other_panel">
+                        <span><a href="">注册小米账号</a></span> |
+                        <span><a href="">忘记密码?</a></span>
+                    </div>
+
+                    <fieldset class="fieldset">
+                        <legend>其他登录方式</legend>
+                    </fieldset>
+
+                    <div class="footer">
+                        <a href="" class="qq"><span></span></a>
+                        <a href="" class="weibo"><span></span></a>
+                        <a href="" class="zhifu"><span></span></a>
+                        <a href="" class="weixin"><span></span></a>
+                    </div>
+                </div>
+
+                <div class="saoma child">
+                    <div style="text-align: center;padding-top: 78px">
+                        <img src="images/01.png" alt="二维码">
+                    </div>
+                    <div style="font-size: 14px">
+                        <p>使用<span style="color: #ff6700;padding: 0 5px;">小米商城APP</span>扫一扫</p>
+                        <p>小米手机可打开「设置」>「小米帐号」扫码登录</p>
+                    </div>
+                </div>
             </div>
 
-            <fieldset class="fieldset">
-                <legend>其他登录方式</legend>
-            </fieldset>
 
-            <div class="footer">
-                <a href="" class="qq"><span></span></a>
-                <a href="" class="weibo"><span></span></a>
-                <a href="" class="zhifu"><span></span></a>
-                <a href="" class="weixin"><span></span></a>
-            </div>
         </div>
     </div>
 

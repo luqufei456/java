@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>另一种更改样式的方式</title>
+</head>
+<body>
+    <p id="test">hello world</p>
+
+    <script>
+        var p = document.getElementById("test");
+        // test.style.color = "red";
+        // test.style["color"] = "red"; 什么时候使用 --> 当传入的属性是变量时，这个时候原来的方法是无效的
+        function changeStyle(ele,attr,value) {
+            ele.style[attr] = value;
+        }
+        changeStyle(p,"backgroundColor","green");
+    </script>
+</body>
+</html>

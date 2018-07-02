@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{margin: 0;padding: 0}
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 100px;
+            position: absolute;
+            left: 100px;
+            padding: 20px;
+            border: 10px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <div id="test">
+
+    </div>
+
+    <script>
+        // 特点：只读属性，无法修改
+        var test = document.getElementById("test");
+        // element.offsetLeft --> 获取元素的左偏移量
+        // element.offsetTop --> 获取元素的上偏移量
+        var offL = test.offsetLeft;
+        var offT = test.offsetTop;
+
+        // test.offsetLeft = "1000px"; 只读属性，无法修改
+
+        console.log("test.offsetLeft"+offL);
+        console.log("test.offsetTop"+offT);
+
+        // element.offsetWidth --> 获取元素的宽度
+        // element.offsetHeight --> 获取元素的高度
+        var offW = test.offsetWidth;
+        var offH = test.offsetHeight;
+        // test.offsetWidth = "500px"; 只读属性，无法修改
+        console.log("test.offsetWidth"+offW);
+        console.log("test.offsetHeight"+offH);
+    </script>
+</body>
+</html>

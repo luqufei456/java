@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>数组查询</title>
+</head>
+<body>
+    <script>
+        var arr = [1,2,3,4,4];
+        // 1.通过下标查询数组的值
+        console.log(arr[0]); // 1
+
+        // 2.通过值查询数组中对应的下标，只返回该值在数组中第一次出现的位置 --> indexOf()
+        var a = arr.indexOf(4);
+        console.log(a); // 3
+
+        // slice(startIndex,endIndex) --> 不包含endIndex
+        var b = arr.slice(2,4); // [3,4]
+        console.log(b);
+
+        // slice() 只传一个参数 --> 则从startIndex截取到数组最后，包括最后一个元素。
+        // 也可以用slice() 来进行克隆
+        var c = arr.slice(2);
+        console.log(c); // [3,4,4]
+    </script>
+</body>
+</html>

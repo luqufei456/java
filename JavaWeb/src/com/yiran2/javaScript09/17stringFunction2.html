@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // search(value) --> 返回搜索字符的下标，没有搜索到则返回-1
+        var a = "hello hello world";
+        var b = a.search("h");
+        console.log(b); // 0
+
+        // match(value) --> 将匹配的内容返回一个数组，没有匹配的则返回一个null
+        var c = a.match("l");
+        console.log(c); // ["l", index: 2, input: "hello world"]
+
+        // replace(value,newValue) --> 将字符串中第一个value替换为newValue
+        // 如果要替换所有的value，则要使用正则
+        var d = a.replace("hello","good");
+        console.log(d); // good world
+    </script>
+</body>
+</html>

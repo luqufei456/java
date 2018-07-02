@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>数组</title>
+</head>
+<body>
+    <script>
+        // 1.直接量的方式
+        var arr = [1,2,3];
+        // 2.构造函数方式
+        var b = new Array();
+        b[0] = 1;
+        console.log(b);
+
+        // 数组是一个对象 Object
+        console.log(typeof b);
+
+        // 检测一个object是否为数组
+        // 1.使用 instanceof 测试b是否为数组对象的一个实例
+        // instanceof --> 返回boolean值
+        console.log(b instanceof Array); // true
+
+        // 2.Array.isArray() --> 返回boolean值
+        console.log(Array.isArray(b));
+    </script>
+</body>
+</html>
