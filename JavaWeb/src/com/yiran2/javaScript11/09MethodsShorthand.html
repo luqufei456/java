@@ -1,10 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>对象方法简写</title>
 </head>
 <body>
-$END$
+    <script>
+        var obj = {
+            // 对象方法的正常写法
+            go:function () {
+                console.log("go方法");
+            },
+            // ES6中，对象方法的简写
+            eat(){
+                console.log("eat方法");
+            }
+        };
+
+        obj.eat(); // 可以调用
+    </script>
 </body>
 </html>

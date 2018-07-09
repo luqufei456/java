@@ -1,10 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js面向对象</title>
 </head>
 <body>
-$END$
+    <script>
+        // js如何实现面向对象 --> 构造函数模拟类，ES6之前没有类的概念
+        function Person(age,name) {
+            this.age = age;
+            this.name = name;
+        }
+
+        // js的继承是基于原型的继承。原型 --> prototype
+        // 将方法写在原型上，所有实例化的对象，就可以使用该方法
+        Person.prototype.say = function () {
+            console.log(this.name+"在说话");
+        };
+
+        // 使用new关键字实例化对象
+        var yiran = new Person(21,"yiran");
+        console.log(yiran.name+":"+yiran.age); // yiran:21
+        yiran.say(); // yiran在说话
+
+
+        // 尝试给Array数组的原型上定义一个eat方法
+        Array.prototype.eat = function () {
+            console.log("数组也会吃？");
+        };
+
+        // 定义一个数组
+        var a = [1,2,3];
+        // 成功了
+        a.eat(); // 数组也会吃？
+
+
+        // 每个对象都有一个__proto__属性，指向它的原型对象，共享原型上的属性或方法
+        console.log(yiran.__proto__);
+        console.log(yiran.__proto__ === Person.prototype); // true
+
+        // 尝试看一下 Person.prototype.__proto__ --> Object的原型
+        // 原型链，就相当于java中的Object是List的父类，List是ArrayList的父类一样
+        console.log(Person.prototype.__proto__); // obj
+        console.log(Person.prototype.__proto__ === Object.prototype); // true
+    </script>
 </body>
 </html>

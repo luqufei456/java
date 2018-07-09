@@ -1,10 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ES6的继承</title>
 </head>
 <body>
-$END$
+    <script>
+        // js的ES6中，可以定义类，定义语法与java类似
+        // js的ES6中，类里的构造函数无法重载，一个类只能有一个构造函数
+        // 类中无法像java一样定义属性，而是在构造方法中定义
+        class Person{
+            constructor(name,age){
+                this.name = name;
+                this.age = age;
+            }
+            say(){
+                console.log(this.name+"又在哔哔了");
+            }
+        }
+
+        let chunjue = new Person("chunjue",25);
+        chunjue.say();
+
+        // 实现继承，与java基本相同，super()方法同样必须在构造函数的第一行
+        class Teacher extends Person{
+            constructor(name,age,sex){
+                super(name,age);
+                this.sex = sex;
+            }
+            eat(){
+                console.log(this.name+"老师又在吃饭了,性别为"+this.sex);
+            }
+        }
+
+        let zhuyue = new Teacher("zhuyue",22,"女");
+        zhuyue.say();
+        zhuyue.eat();
+    </script>
 </body>
 </html>

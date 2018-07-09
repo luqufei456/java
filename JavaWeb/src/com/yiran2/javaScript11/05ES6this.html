@@ -1,10 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ES6的this，箭头函数</title>
 </head>
 <body>
-$END$
+    <button id="btn">点击</button>
+    <script>
+        var btn = document.getElementById("btn");
+        btn.onclick = function () {
+            // 外部的this则是btn，因为是btn点击后触发的
+            console.log("外部this："+this.id);
+
+            // ES6箭头函数，方法中的所有this都指向同一个，在这里也就是btn
+            setTimeout(() => {
+                console.log("内部this："+this.id); // world
+            },1000)
+        }
+    </script>
 </body>
 </html>

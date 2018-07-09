@@ -8,22 +8,22 @@
     <title>定时器this指向问题</title>
 </head>
 <body>
-<button id="btn">点击</button>
+    <button id="btn">点击</button>
 
-<script>
-    // 函数作为普通函数调用时，this指向window
-    var id = "world";
-    var btn = document.getElementById("btn");
-    btn.onclick = function () {
-        // 外部的this则是btn，因为是btn点击后触发的
-        console.log("外部this："+this.id);
+    <script>
+        // 函数作为普通函数调用时，this指向window
+        var id = "world";
+        var btn = document.getElementById("btn");
+        btn.onclick = function () {
+            // 外部的this则是btn，因为是btn点击后触发的
+            console.log("外部this："+this.id);
 
-        // 实际上这里是window.setTimeout(),所以this指向window，取出window的id属性
-        // 但是如果在setTimeout()方法后绑定bind()，则可以改变指向
-        setTimeout(function () {
-            console.log(this.id); // world
-        }.bind(this),1000)
-    }
-</script>
+            // 实际上这里是window.setTimeout(),所以this指向window，取出window的id属性
+            // 但是如果在setTimeout()方法后绑定bind()，则可以改变指向
+            setTimeout(function () {
+                console.log("内部this："+this.id); // world
+            }.bind(this),1000)
+        }
+    </script>
 </body>
 </html>

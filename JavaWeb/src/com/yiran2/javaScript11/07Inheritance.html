@@ -1,10 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>继承</title>
 </head>
 <body>
-$END$
+    <script>
+        function Person(name,age) {
+            // 这里的属性是自有的，并不是原型的属性
+            this.name = name;
+            this.age = age;
+        }
+
+        // 这种属性才叫原型的属性，只不过这个属性是一个方法
+        Person.prototype.say = function () {
+            console.log(this.name+"开启嘴炮模式");
+        };
+
+        function Teacher(name,age) {
+            // js实现继承
+            console.log(this); // 这里的this是指向Teacher的
+            // 属性的继承：
+            // 通过call或apply改变函数内部this关键字的指向
+            Person.call(this,name,age);
+        }
+
+        // 方法的继承：
+        // 将其原型指向父类的实例即可，就可以得到父类实例中的方法
+        // 因为 Person的实例中有一个__proto__属性指向Person的原型prototype
+        // 其中存储了方法，现在让Teacher的原型指向Person实例指向的地方，相当于让Teacher的__proto__也指向了
+        // Person的原型prototype，这样，就获得了Person的方法
+        Teacher.prototype = new Person();
+
+        var chunjue = new Teacher("chunjue",25);
+        console.log(chunjue.name);
+    </script>
 </body>
 </html>

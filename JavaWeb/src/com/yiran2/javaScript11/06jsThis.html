@@ -1,10 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>使用变量接收this</title>
 </head>
 <body>
-$END$
+    <button id="btn">点击</button>
+
+    <script>
+        // 另一种在里函数中获得外部this的方法
+        // 使用变量接收外部this，在内部使用
+        var btn = document.getElementById("btn");
+        btn.onclick = function () {
+            var self = this;
+            setTimeout(function () {
+                console.log(self.id);
+            },1000)
+        }
+    </script>
 </body>
 </html>
