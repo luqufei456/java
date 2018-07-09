@@ -1,10 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vue介绍</title>
 </head>
 <body>
-$END$
+    <p id="test">
+        <!-- 模板 -->
+        {{msg}}
+    </p>
+
+    <div id="root">
+
+    </div>
+
+    <div id="root2">
+        <!-- v-text和v-html的区别
+         v-text 会把数据所有的内容都当成文本去渲染
+         v-html 把数据当成html标签来渲染
+         -->
+        <div v-text="msg"></div>
+        <!--<div v-html="msg"></div>-->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script>
+
+        // 1.new Vue实例 --> 实例只会渲染挂载点之中的内容
+        new Vue({
+            // 选中挂载点
+            el:"#test",
+            data:{
+                msg:"hello world"
+            }
+        });
+
+
+        // 2.将模板写在实例中
+        new Vue({
+            el:"#root",
+            template:"<div>{{msg}}</div>",
+            data:{
+                msg:"hello chunjue"
+            }
+        });
+
+
+        // 3.v-text和v-html
+        new Vue({
+            el:"#root2",
+            data:{
+                msg:"<h1>hello chunjue</h1>"
+            }
+        })
+    </script>
 </body>
 </html>

@@ -1,10 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>侦听器watch</title>
 </head>
 <body>
-$END$
+    <!-- 对姓名作任意变更,count加一 -->
+    <div id="root">
+        <input type="text" v-model="firstName">
+        <input type="text" v-model="lastName">
+        <div>{{fullName}}</div>
+        <div>count:+{{count}}</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el:"#root",
+            // 这里给一个默认值，但是不能写fullName的默认值，否则无法改变
+            data:{
+                firstName:'',
+                lastName:'',
+                count:0
+            },
+            computed:{
+                fullName:function(){
+                    return this.firstName+" "+this.lastName;
+                }
+            },
+            watch:{
+                firstName:function(){
+                    this.count++;
+                },
+                lastName:function(){
+                    this.count++;
+                }
+            }
+        })
+    </script>
 </body>
 </html>

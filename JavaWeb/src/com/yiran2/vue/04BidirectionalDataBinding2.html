@@ -1,10 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>双向数据绑定应用：computed计算属性</title>
 </head>
 <body>
-$END$
+    <div id="root">
+        <input type="text" v-model="firstName">
+        <input type="text" v-model="lastName">
+        <div>{{sum}}</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el:"#root",
+            data:{
+                firstName:"1",
+                lastName:"2"
+            },
+            // computed计算属性
+            computed:{
+                sum:function () {
+                    // 其中也可以做if判断，来判断是否为数字，然后进行数字加减
+                    return this.firstName + this.lastName
+                }
+            }
+        });
+    </script>
 </body>
 </html>

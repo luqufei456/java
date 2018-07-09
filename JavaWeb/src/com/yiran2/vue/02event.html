@@ -1,10 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vue事件</title>
 </head>
 <body>
-$END$
+    <!-- vue中的事件，事件名自定义 -->
+    <!-- 事件绑定 -- @事件="事件名" -->
+    <!-- 属性绑定 -- :属性="属性值" 属性值中可以使用字符串加减 -->
+    <!-- 这里绑定title属性后，鼠标悬停会有提示信息，然后可以用属性绑定来定义提示信息 -->
+    <div id="root" @click="handleClick" :title="'good! '+title">
+        {{msg}}
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el:"#root",
+            data:{
+                msg:"hello chunjue",
+                title:"I'm yiran"
+            },
+            methods:{
+                handleClick:function () {
+                    this.msg = "change"
+                }
+            }
+        });
+    </script>
 </body>
 </html>
