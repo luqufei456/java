@@ -1,10 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js内置对象</title>
 </head>
 <body>
-$END$
+    <script>
+        var oDate = new Date();
+        console.log(oDate);
+
+        // 年
+        var year = oDate.getFullYear();
+        console.log(year);
+
+        // 月 getMonth() 月份从0开始，所以要加1
+        var month = oDate.getMonth()+1;
+        console.log(month);
+
+        // 日
+        var date = oDate.getDate();
+        console.log(date);
+
+        // 周几
+        var day = oDate.getDay();
+        console.log(day);
+
+        // 小时 分钟 秒
+        var hour = oDate.getHours();
+        var minute = oDate.getMinutes();
+        var second = oDate.getSeconds();
+        console.log(hour+":"+minute+":"+second);
+    </script>
 </body>
 </html>

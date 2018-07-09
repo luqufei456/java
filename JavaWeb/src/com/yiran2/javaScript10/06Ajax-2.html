@@ -1,10 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>post请求</title>
 </head>
 <body>
-$END$
+<script>
+    // 1.创建Ajax核心对象
+    // 使用原生post方式时，要设置一个请求头，在open与send之间
+    var xhr = new XMLHttpRequest();
+    // 2.与服务器建立连接，默认异步 ture
+    var url = "https://www.easy-mock.com/mock/5b3ae0bfd294426e05198b5a/AjaxTest/postTest";
+    xhr.open("post",url);
+    // 2.1设置请求头
+    xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+    // 3.发送请求
+    xhr.send({data:"cnm"});
+    // 4.服务器端响应数据
+    xhr.onreadystatechange = function () {
+        if(xhr.readyState === 4 && xhr.status === 200){
+            console.log(xhr.responseText);
+        }
+        else{
+            document.body.innerHTML = xhr.status;
+        }
+    };
+
+    // get和post的区别：
+    // get方式请求的字段是在url中的
+    // 安全性：post更加安全
+    // 请求的数据量：post请求的数据量更大
+</script>
 </body>
 </html>

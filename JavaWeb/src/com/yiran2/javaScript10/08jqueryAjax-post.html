@@ -1,10 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jquery-ajax-post</title>
+    <script src="../../static/js/jquery-1.12.4.min.js"></script>
 </head>
 <body>
-$END$
+    <script>
+        // post 请求方式，更改type即可
+        $.ajax({
+            url: 'https://www.easy-mock.com/mock/5b3ae0bfd294426e05198b5a/AjaxTest/postTest',
+            type: 'POST',
+            dataType: 'json',
+            data:{'aa':1}
+        })
+            .done(function(data) {
+                alert(JSON.stringify(data));
+            })
+            .fail(function() {
+                alert('服务器超时，请重试！');
+            });
+
+        setTimeout(1000);
+        // 更加简单的简写方式
+        var url = "https://www.easy-mock.com/mock/5b3ae0bfd294426e05198b5a/AjaxTest/postTest";
+        // post请求简写时就写 $.post
+        $.post(url,function (data) {
+            console.log(JSON.stringify(data));
+        }).fail(function (data) {
+            alert("服务器超时，请重试！状态码："+data.status);
+        })
+    </script>
 </body>
 </html>

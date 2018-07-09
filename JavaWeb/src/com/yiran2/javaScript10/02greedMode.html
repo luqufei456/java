@@ -1,10 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>正则贪婪模式</title>
 </head>
 <body>
-$END$
+    <script>
+        var a = "123456abc";
+        var RE = /\d{3,6}/;
+        // 贪婪模式 --> 默认会取量词中最大的值
+        console.log(a.replace(RE,"*")); // *abc 可以看到，123456一起被替换为*
+
+        // 懒惰模式 --> ? 取消贪婪模式 --> 只要符合正则就停下来
+        var noRE = /\d{3,6}?/;
+        console.log(a.replace(noRE,"*")); // *456abc
+    </script>
 </body>
 </html>

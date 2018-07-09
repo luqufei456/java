@@ -1,10 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jquery的跨域</title>
+    <script src="../../static/js/jquery-1.12.4.min.js"></script>
 </head>
 <body>
-$END$
+    <script>
+        // jquery跨域，将dataType的属性改为jsonp即可
+        /**
+         *@dataType (String)
+         *"xml": 返回 XML 文档，可用 jQuery 处理。
+         *"html": 返回纯文本 HTML 信息；包含的script标签会在插入dom时执行。
+         *"script": 返回纯文本 JavaScript 代码。"json": 返回 JSON 数据 。
+         *"jsonp": JSONP 格式。使用 JSONP 形式调用函数时，如 "myurl?callback=?" jQuery 将自动替换 ? 为正确的函数名，以执行回调函数。
+         *"text": 返回纯文本字符串
+         */
+
+        /**
+         *@jsonp (String)在一个jsonp请求中重写回调函数的名字。
+         *这个值用来替代在"callback=?"这种GET或POST请求中URL参数里的"callback"部分，
+         *比如{jsonp:'onJsonPLoad'}会导致将"onJsonPLoad=?"传给服务器。
+         */
+
+
+        /**
+         *@jsonpCallback (String)
+         *为jsonp请求指定一个回调函数名。这个值将用来取代jQuery自动生成的随机函数名。
+         *这主要用来让jQuery生成度独特的函数名，这样管理请求更容易，也能方便地提供回调函数和错误处理。
+         *你也可以在想让浏览器缓存GET请求的时候，指定这个回调函数名。
+         */
+        $.ajax({
+            url:"https://api.douban.com/v2/book/search?q=javascript&count=1",
+            type:"get",
+            dataType:"jsonp",
+            jsonpCallback:"a"
+        })
+            .done(function(data){
+                console.log(JSON.stringify(data));
+            })
+            .fail(function(){
+                console.log('error');
+            })
+    </script>
 </body>
 </html>

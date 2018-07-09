@@ -1,10 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>动态时钟</title>
 </head>
 <body>
-$END$
+    <div>
+        <img src="images/0.png" alt="">
+        <img src="images/0.png" alt="">
+        <img src="images/0.png" alt="">
+        <img src="images/0.png" alt="">
+        <img src="images/0.png" alt="">
+        <img src="images/0.png" alt="">
+    </div>
+
+    <script>
+        function showTime() {
+            var clocks = document.getElementsByTagName("img");
+            var oDate = new Date();
+            var hour = oDate.getHours();
+            var minute = oDate.getMinutes();
+            var second = oDate.getSeconds();
+
+            // 1.将时间变为字符串，拼接起来
+            // 2.将它们分割成数组
+            // 3.让allTime中对应的值显示对应的图片
+
+            // 如果时、分、秒 < 10，则在数字之前补一个0 --> 比如 09
+            function add(time) {
+                if (time < 10){
+                    // 拼接为字符串
+                    return "0"+time;
+                }
+                else{
+                    return time+"";
+                }
+            }
+
+            var allTime = add(hour)+add(minute)+add(second);
+            console.log(allTime);
+            for (var i = 0;i < allTime.length;i++){
+                clocks[i].src = "images/"+allTime[i]+".png";
+            }
+        }
+
+        // 将显示时间整个封装为一个方法，利用定时器，每秒调用一次方法
+        // 在一开始就先调用一次showTime()方法
+        showTime();
+        setInterval(showTime,1000);
+    </script>
 </body>
 </html>

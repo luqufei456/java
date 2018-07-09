@@ -9,33 +9,36 @@
     <script src="../../static/js/jquery-1.12.4.min.js"></script>
 </head>
 <body>
-<script>
-    // jquery -- ajax
-    // url --> 请求地址
-    // type --> 请求方式，默认是'GET'，常用的还有'POST'
-    // dataType --> 设置返回的数据格式，常用的是'json'格式，也可以设置为'html'等
-    // async --> 设置是否异步，默认值是'true'，表示异步
-    // .done(function(data){}) --> 设置请求成功后的回调函数
-    // .fail(function(){}) --> 设置请求失败后的回调函数
+    <script>
+        // jquery -- ajax
+        // url --> 请求地址
+        // type --> 请求方式，默认是'GET'，常用的还有'POST'
+        // dataType --> 设置返回的数据格式，常用的是'json'格式，也可以设置为'html'等
+        // async --> 设置是否异步，默认值是'true'，表示异步
+        // .done(function(data){}) --> 设置请求成功后的回调函数
+        // .fail(function(){}) --> 设置请求失败后的回调函数
 
-    $.ajax({
-        url: 'https://www.easy-mock.com/mock/5b3ae0bfd294426e05198b5a/AjaxTest/getTest',
-        type: 'GET',
-        dataType: 'json',
-        data:{'aa':1}
-    })
-        .done(function(data) {
-            alert(JSON.stringify(data));
+        $.ajax({
+            url: 'https://www.easy-mock.com/mock/5b3ae0bfd294426e05198b5a/AjaxTest/getTest',
+            type: 'GET',
+            dataType: 'json',
+            data:{'aa':1}
         })
-        .fail(function() {
-            alert('服务器超时，请重试！');
-        });
+            .done(function(data) {
+                alert(JSON.stringify(data));
+            })
+            .fail(function() {
+                alert('服务器超时，请重试！');
+            });
 
-    setTimeout(1000);
-    var url = "https://www.easy-mock.com/mock/5b3ae0bfd294426e05198b5a/AjaxTest/getTest";
-    $.get(url,function (data) {
-        console.log(JSON.stringify(data));
-    })
-</script>
+        setTimeout(1000);
+        // 更加简单的简写方式
+        var url = "https://www.easy-mock.com/mock/5b3ae0bfd294426e05198b5a/AjaxTest/getTest";
+        $.get(url,function (data) {
+            console.log(JSON.stringify(data));
+        }).fail(function () {
+            alert("服务器超时，请重试！");
+        })
+    </script>
 </body>
 </html>

@@ -1,10 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ajax-1</title>
 </head>
 <body>
-$END$
+    <div id="text"></div>
+
+    <script>
+        // ajax --> 就是向服务器端取数据的一种技术，能做到页面的局部刷新，是异步的
+        // json数据，就是一种键值对的数据格式，key必须双引号引起来
+        var json = {
+            "name" : "hello world",
+            "arr" : [1,2,3],
+            "age" : 19
+        };
+
+        // 如何使用ajax
+        // 1.创建ajax的核心对象
+        var xhr = new XMLHttpRequest();
+        var text = document.getElementById("text");
+        // 2.建立与服务器的连接
+        // xhr.open(method,url,true) --> 第一个参数为请求方式，第三个参数是是否异步，默认为异步 true
+        var url = "https://www.easy-mock.com/mock/5b3ae0bfd294426e05198b5a/AjaxTest/getTest";
+        xhr.open("get",url,true); // true为默认值
+        // 3.向服务器发送请求 --> xhr.send()
+        xhr.send();
+        // 4.服务器端响应 xhr.onreadystatechange = function (){}
+        // xhr.readyState和xhr.status为其状态码，status就是上网很常见的那些，404就是其中之一
+        xhr.onreadystatechange = function () {
+            if(xhr.readyState === 4 && xhr.status === 200){
+                console.log(xhr.responseText);
+                // JSON.parse();将json格式的字符串转为json对象
+                var response = JSON.parse(xhr.responseText);
+                console.log(typeof response);
+                // 获得key为data的value，然后再从value中获得key为content的value
+                // json可以这样用 --> json.key = value
+                text.innerHTML = response.data.content;
+            }
+        }
+    </script>
 </body>
 </html>

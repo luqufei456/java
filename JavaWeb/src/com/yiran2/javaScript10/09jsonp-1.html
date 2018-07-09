@@ -2,9 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>script实现跨域</title>
 </head>
 <body>
-$END$
+    <input type="text" id="song" name="">
+    <input type="button" id="song_search" value="歌曲搜索" name="">
+    <br />
+    <div style="width:300px;height:300px;background:pink" id="song_list">
+        <ul class="list"></ul>
+    </div>
+
+    <script type="text/javascript" src="../../static/js/jquery-1.12.4.min.js"></script>
+
+    <script type="text/javascript">
+        // <img>的src（获取图片），<link>的href（获取css），<script>的src（获取javascript）这三个都不符合同源策略，它们可以跨域获取数据。
+        // 这里要介绍的JSONP就是利用<script>的src来实现跨域获取数据的。
+        // JSONP实现跨域请求的原理简单的说，就是动态创建<script>标签，然后利用<script>的src 不受同源策略约束来跨域获取数据。
+        // JSONP 由两部分组成：回调函数和数据。回调函数是当响应到来时应该在页面中调用的函数。回调函数的名字一般是在请求中指定的。而数据就是传入回调函数中的 JSON 数据。
+        // script标签，可以跨域请求静态资源等，所以用script实现跨域就是钻这个漏洞
+
+        // handleResponse 用于处理服务器返回数据，回调函数
+        function handleResponse(response){
+            console.log(response.s);
+            for (var i = 0;i < response.s.length;i++){
+                var $li = $('<li>' + response.s[i] + '</li>');
+                $li.insertAfter(".list");
+            }
+        }
+
+
+        $("#song_search").on("click",function(){
+            var keyword=$("#song").val();
+            if(keyword === undefined || keyword === ""){
+                alert("歌曲搜索不能为空");
+                return false;
+            }else{
+                // 动态创建<script>标签，设置其src，回调函数在src中设置
+                // claaback=handleResponse --> 自动调用定义的handleResponse方法对返回的data进行操作
+                // handleResponse即为回调函数
+                var url = "https://sug.so.360.cn/suggest?word="+keyword+"&callback=handleResponse";
+                // 创建script标签，设置其属性
+                var script = document.createElement('script');
+                script.setAttribute('src', url);
+                // 把script标签加入head，此时调用开始
+                document.getElementsByTagName('head')[0].appendChild(script);
+            }
+
+        });
+
+    </script>
 </body>
 </html>
