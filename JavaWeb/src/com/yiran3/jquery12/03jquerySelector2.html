@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>过滤选择器</title>
+    <script src="../../static/js/jquery-1.12.4.min.js"></script>
+    <style>
+        /* 奇数项 标签下标从1开始 */
+        div>P:nth-child(odd){}
+
+        /* 偶数项 */
+        div>p:nth-child(even){}
+    </style>
+</head>
+<body>
+    <div>
+        <p>123</p>
+        <p>123</p>
+        <p>123</p>
+        <p>123</p>
+        <p>123</p>
+        <input type="text">
+    </div>
+
+    <div>chunjue</div>
+
+    <div><h1>haha</h1></div>
+
+    <script>
+        // 注意，在js中，标签对象的下标从1开始，而jquery中是从0开始
+
+        // jquery也支持js中的过滤选择器
+        /*$('div>p:first-child').css({color:"red"});
+        $('div>p:last-child').css({color:"green"});*/
+
+        // 也支持简写，可以去掉后面的child
+        /*$('div>p:first').css({color:"red"});
+        $('div>p:last').css({color:"green"});*/
+
+        // $('div>p:not(:last)').css({color:"red"});
+
+        // 奇偶数项，然而这里的下标是从0开始，所以要注意和css的区别
+        /*$('div>p:odd').css({color:"red"});
+        $('div>p:even').css({color:"green"});*/
+
+        // 由于jquery下标从0开始，所以这里选择的是第二个p标签
+        /*$('div>p:eq(1)').css({color:"red"});
+        // 也有一种eq方法选择
+        $('div>p').eq(0).css({color:"green"});*/
+
+        // gt，lt方法 --> 选中大于或小于该下标的兄弟元素，不包含该下标的元素
+        $('div>p:gt(2)').css({color:"red"});
+        $('div>p:lt(2)').css({color:"green"});
+
+        // $(':focus') 找到获取焦点的元素
+        $('input').focus(function () {
+            $(':focus').css({backgroundColor:"red"})
+        });
+
+        // 内容过滤选择器
+        // contains() --> 包含文本
+        // 选中内容为chunjue的div元素
+        $('div:contains(chunjue)').css({backgroundColor:"#888"});
+        // has() --> 包含标签
+        $('div:has(h1)').css({backgroundColor:"green"});
+    </script>
+</body>
+</html>

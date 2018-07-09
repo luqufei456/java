@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../../static/js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <div>
+        <p class="one">hello yiran</p>
+    </div>
+    <button id="btn">隐藏</button>
+    <button id="btn2">显示</button>
+
+    <script>
+        // is() --> 返回boolean值
+        // hide() --> 将元素隐藏
+        // show() --> 将元素显示
+        var p = $('p').is(".one");
+        console.log(p); // true
+
+        $('#btn').click(function () {
+            // 是否显示
+            console.log($('p').is(':visible'));
+            $('p').hide();
+        });
+
+        $('#btn2').click(function () {
+            $('p').show();
+        });
+    </script>
+</body>
+</html>

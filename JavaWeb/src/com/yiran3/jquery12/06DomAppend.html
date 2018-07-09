@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>创建标签和添加标签</title>
+    <script src="../../static/js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+    </ul>
+
+    <script>
+        // $('<li>2</li>'); --> 创建一个元素节点
+        var $li = $('<li>2</li>');
+        var $li_one = $('<li>0</li>');
+
+        // append() --> 从父元素的末尾添加
+        $('ul').append($li);
+        // prepend() --> 从父元素的首部添加
+        $('ul').prepend($li_one);
+
+        // appendTo() --> 和append()的区别在于appendTo()先选定要添加的元素节点，参数为要添加到的父元素
+    </script>
+</body>
+</html>

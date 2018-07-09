@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>filter和offset</title>
+    <script src="../../static/js/jquery-1.12.4.min.js"></script>
+    <style>
+        *{margin: 0;padding: 0}
+        div{
+            width: 100px;
+            height: 100px;
+            margin: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li class="one">1</li>
+        <li>1</li>
+    </ul>
+
+    <div></div>
+
+    <script>
+        // filter() --> 获取符合条件的元素
+        $('li').filter(".one").css({color:"red"});
+
+        // offset() --> 位移值，拥有left、top属性
+        var Left = $('div').offset().left;
+        console.log(Left);
+        var Top = $('div').offset().top;
+        console.log(Top);
+
+        // top --> 输出top可以查询window属性
+        console.log(top);
+    </script>
+</body>
+</html>

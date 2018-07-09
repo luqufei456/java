@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>操作属性1</title>
+    <script src="../../static/js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <p class="one"> hello chunjue</p>
+
+    <script>
+        // attr(attrName,value) --> 设置属性
+        // $('p').attr("class","two");
+
+        // attr({attrName:value,attrName:value}) 设置多个属性
+        $('p').attr({class:"two",title:"hello"});
+
+        // removeAttr(key) --> 删除属性
+        $('p').removeAttr("class");
+    </script>
+</body>
+</html>

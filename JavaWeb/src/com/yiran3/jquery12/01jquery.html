@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../../static/js/jquery-1.12.4.min.js"></script>
+    <title>jquery</title>
+</head>
+<body>
+    <p id="p" class="one">hello world</p>
+    <p id="p2" class="two">hello chunjue</p>
+
+    <script>
+        // 选择器$('选择器') --> 支持所有的css选择器
+        var p = $('#p');
+        var p2 = $('.two');
+        console.log(p);
+        // 如何修改元素样式
+        p.css({color:"red",backgroundColor:"green"});
+        p2.css({color:"green",backgroundColor:"red"});
+    </script>
+</body>
+</html>

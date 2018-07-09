@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jquery选择器</title>
+    <script src="../../static/js/jquery-1.12.4.min.js"></script>
+    <style>
+        div{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <p>123</p>
+    <p>123</p>
+    <p>123</p>
+    <p>123</p>
+    <!-- visibility：可见度 -->
+    <div>哈哈哈</div>
+
+    <script>
+        // 选中所有的可见元素
+        $(':visible').css({color:"red"});
+        // 选中不可见的div元素，不要选择所有，否则注释，title都会显示出来
+        // :hidden --> 只对display:none起作用，对visibility:hidden不起作用
+        $('div:hidden').css({display:"block"});
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js面向对象</title>
+</head>
+<body>
+<script>
+    var name = "yiran";
+    function show() {
+        console.log(this.name);
+    }
+    show(); // yiran --> 为什么？因为name也属于window，window里定义的name即为yiran
+
+    var yiran = {
+        name:"yiran",
+        age:21
+    };
+
+    // call,apply改变函数内部this关键字的指向
+    show.call(yiran); // yiran --> 改变函数内部this的指向为对象yiran，yiran的name属性值为"yiran"
+    show.apply(yiran); // yiran --> 同理
+
+
+    // call与apply的区别 --> 区别在于对有参函数的传参方式不同
+    function show2(a,b) {
+        console.log(a+b);
+        console.log(this.name);
+    }
+
+    var chunjue = {
+        name:"chunjue"
+    };
+    // call() --> 第一位参数改变this指向，其余正常传参
+    // apply() --> 第一位参数改变this指向，第二位参数为方法参数列表，为一个数组
+    // 个人认为 apply()比较方便理解
+    show2.call(chunjue,1,2);
+    show2.apply(chunjue,[1,2]);
+</script>
+</body>
+</html>

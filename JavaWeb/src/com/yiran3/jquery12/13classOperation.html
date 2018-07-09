@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>样式操作</title>
+    <script src="../../static/js/jquery-1.12.4.min.js"></script>
+    <style>
+        .current{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>hello chunjue</p>
+    <button id="btn">按钮</button>
+
+    <script>
+        // 1.通过设置属性的方式设置样式
+        // $('p').attr("class","current");
+
+        // addClass(className) --> 给某元素添加样式，参数为样式名
+        $('p').addClass("current");
+
+        // removeClass(className) --> 给某元素移除样式，参数为样式名
+        $('#btn').click(function () {
+            $('p').removeClass("current");
+        })
+    </script>
+</body>
+</html>

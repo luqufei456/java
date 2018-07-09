@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>remove删除节点</title>
+    <script src="../../static/js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <button id="btn">删除</button>
+
+    <script>
+        // remove() --> 删除节点
+        var btn = $('#btn');
+        btn.click(function () {
+            $('ul>li:eq(1)').remove();
+        })
+    </script>
+</body>
+</html>

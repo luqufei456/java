@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jquery的DOM操作</title>
+    <script src="../../static/js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <ul>
+        <li class="one">1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <div>
+        <p>hello yiran</p>
+    </div>
+
+    <input type="text" value="hello DNF">
+
+    <script>
+        // text(value)方法 --> 获取元素文本内容，若传参，则会修改元素文本内容
+        // 获取第二个元素的文本内容 --> 下标从0开始
+        var txt = $('li:eq(1)').text();
+        console.log(txt); // 2
+        // 修改第一个元素的文本内容
+        $('li:eq(0)').text("hello chunjue");
+
+
+        // 查找属性节点 attr(key) --> 获取元素某属性的值，也可以用来设置属性，后面会讲
+        // 查找第一个元素的class属性
+        var attr = $('li:eq(0)').attr("class");
+        console.log(attr); // one
+
+
+        // html() --> 获取元素内容，不限于文本，html标签也可以获取
+        var html = $('div').html();
+        console.log(html); //     <p>hello yiran</p>  前面的空格是换行符
+
+
+        // val() --> 获取输入框的值
+        var value = $('input').val();
+        console.log(value); // hello DNF
+    </script>
+</body>
+</html>

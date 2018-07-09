@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap栅格</title>
+
+    <!-- Bootstrap -->
+    <link href="../../static/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* 选中以col开头的样式 */
+        [class^=col] img{
+            /*height: 20px;
+            border: 1px solid #888;*/
+            width: 100%;
+
+        }
+
+        [class^=col]{
+            margin-top: 20px;
+        }
+
+        .product{
+            width: 200px;
+            height: 50px;
+            background-color: #2dae3d;
+            border-radius: 16px 0 16px 0;
+            line-height: 50px;
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<!--<div class="container">
+    <h1>你好，蠢觉！</h1>
+</div>
+
+<div class="row">
+    <div class="col-sm-3 col-xs-6"></div>
+    <div class="col-sm-3 col-xs-6"></div>
+    <div class="col-sm-3 col-xs-6"></div>
+    <div class="col-sm-3 col-xs-6"></div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6"></div>
+    <div class="col-sm-6"></div>
+</div>
+
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4"></div>
+</div>-->
+
+
+<div class="container">
+    <div style="border-bottom: 2px solid #2dae3d">
+        <p class="product">产品展示</p>
+    </div>
+
+    <!-- col-md container>992px -->
+    <div class="row">
+        <!-- hidden-xs 在小屏上隐藏 -->
+        <div class="col-md-4 col-sm-6 hidden-xs">
+            <img src="images/item01.jpg" alt="">
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <img src="images/item02.jpg" alt="">
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <img src="images/item03.jpg" alt="">
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <img src="images/item04.jpg" alt="">
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <img src="images/item05.jpg" alt="">
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <img src="images/item06.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+
+<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<script src="../../static/js/jquery-1.12.4.min.js"></script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="../../static/js/bootstrap.min.js"></script>
+</body>
+</html>

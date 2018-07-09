@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>axios</title>
+</head>
+<body>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script>
+        // post方法同理
+        var url = "https://www.easy-mock.com/mock/5b3ae0bfd294426e05198b5a/AjaxTest/getTest";
+        axios.get(url).then(function (succuss) {
+            console.log(succuss.request.responseText);
+        }).catch(function (err) {
+            console.log(err);
+        })
+    </script>
+</body>
+</html>

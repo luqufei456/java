@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jquery选择器</title>
+    <script src="../../static/js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <p>hello chunjue</p>
+    <div>div</div>
+    <h1>h1</h1>
+
+    <div id="parent" style="background-color: aqua">
+        <p>hello chunjue</p>
+        <div style="background-color: #b8b8b8">
+            <div id="test"></div>
+            <p>hello yiran</p>
+            <p>hello yiran</p>
+            <p>hello yiran</p>
+            <p>hello yiran</p>
+            <p>hello yiran</p>
+            <p>hello yiran</p>
+        </div>
+    </div>
+    <button id="btn">按钮</button>
+
+    <script>
+        // $ --> 找到，在jquery的事件中，不可以直接使用this，要用$找到
+        // 元素选择器，事件
+        /*$('p').click(function () {
+            $(this).css({color:"red"});
+        });*/
+
+        // 选择所有元素
+        // $('*').css({color:"green"});
+
+        // 分组选择器
+        //$('div,h1').css({color:"#888"});
+
+
+        $('#btn').click(function () {
+            // 选择 id为parent的父元素的亲子元素p
+            $("#parent>p").css({color:"red"});
+        });
+
+        // 兄弟选择器
+        // #test之后的第一个子元素
+        $('#test+p').css({color:"red"});
+        console.log($('#test+p'));
+        // #test之后的所有子元素
+        $('#test~p').css({color:"green"});
+    </script>
+</body>
+</html>

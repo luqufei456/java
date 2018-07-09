@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>节点遍历</title>
+    <script src="../../static/js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <div>
+        parent
+        <p>hello yiran</p>
+    </div>
+
+    <script>
+        // children() --> 获得元素的子元素数组
+        // var childs = $('ul').children();
+        // console.log(childs);
+
+        // jquery可以直接对元素数组进行css设置
+        // 注意，这里的childs是一个元素数组
+        // childs.css({color:"red"});
+
+        // prev() --> 找到元素的上一个元素
+        $('li:eq(1)').prev().css({backgroundColor:"green"});
+
+        // next() --> 找到元素的下一个元素
+        $('li:eq(1)').next().css({backgroundColor:"#888"});
+
+        // siblings() --> 找到该元素所有的兄弟元素，不包含该元素
+        var siblings= $('li:eq(0)').siblings();
+        console.log(siblings);
+        siblings.css({color:"red"});
+
+        // parent() --> 获取元素的父节点
+        var parent = $('p').parent();
+        console.log(parent);
+
+
+        // 所有的DOM元素加载完毕后执行代码块中的js
+        // $(document).ready(function () {
+        //
+        // })
+        // 简写
+        // $(function()){}
+    </script>
+</body>
+</html>

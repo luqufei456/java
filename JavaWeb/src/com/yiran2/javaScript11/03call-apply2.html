@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js面向对象</title>
+</head>
+<body>
+<button id="btn">点击</button>
+<p id="p">hello world</p>
+
+<script>
+    // bind() --> 同样改变this的指向，在方法的末尾使用，只是改变上下文的函数副本，不会执行函数
+    // 传参与call()相同，除了第一位更改this指向，其余顺序传参
+    var btn = document.getElementById("btn");
+    var p = document.getElementById("p");
+    btn.onclick = function (a,b) {
+        console.log(a+b);
+        console.log(this.id);
+    }.bind(p,1,2);
+</script>
+</body>
+</html>

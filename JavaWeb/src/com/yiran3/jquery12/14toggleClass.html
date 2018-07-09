@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>toggleClass</title>
+    <script src="../../static/js/jquery-1.12.4.min.js"></script>
+    <style>
+        .current{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>hello chunjue</p>
+    <button id="btn">按钮</button>
+
+    <script>
+        // toggleClass(className) --> 开关，集成removeClass和addClass，实现切换功能
+        /*$('#btn').click(function () {
+            $('p').toggleClass("current");
+        });*/
+
+        // hasClass(className) --> 判断元素是否含有该样式，返回布尔值
+        var one = $('p').hasClass("current");
+        console.log(one);
+
+        // 使用hasClass、removeClass、addClass实现toggleClass
+        $('#btn').click(function () {
+            if ($('p').hasClass('current')){
+                $('p').removeClass("current");
+            }else{
+                $('p').addClass("current");
+            }
+        })
+    </script>
+</body>
+</html>

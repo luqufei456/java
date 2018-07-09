@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>before和after</title>
+    <script src="../../static/js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <div>div</div>
+    <p>end</p>
+
+    <script>
+        // before,after --> 兄弟元素之间，不同于append、prepend的父子之间
+        var $p = $('<p>one</p>');
+        var $h4 = $('<h4>h4</h4>');
+
+        // after() --> 在某元素的后面添加
+        $('div').after($p);
+
+        // before() --> 在某元素的前面添加
+        // 在内容为end的p标签的前面添加h4标签
+        $('p:contains(end)').before($h4);
+    </script>
+</body>
+</html>
