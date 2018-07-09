@@ -1,0 +1,316 @@
+/* reset */
+/* 将标签默认的间距设为0 */
+body,ul,p,h1,h2,h3,h4,h5,h6,dl,dd,input,select,form{
+    margin: 0;
+    padding: 0;
+}
+body{    font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;}
+
+/* 使其继承body里的字体大小 */
+h1,h2,h3,h4,h5,h6{
+    font-size: 100%;
+}
+/* 去掉默认的项目图标 */
+ul{
+    list-style: none;
+}
+/* 去掉默认的文字倾斜 */
+em{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+
+}
+/* 去掉ie下，图片做链接产生的边框 */
+img{
+    border: none;
+}
+
+/* 清除margin-top塌陷和清除浮动 */
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+
+p{
+    margin: 0 0 10px;
+}
+
+
+/* 导航条 */
+.muxi_header{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+
+.muxi_logo{
+    display: inline-block;
+    width: 260px;
+    height: 80px;
+    padding: 8px;
+    background: url("../images/logo0.png") no-repeat center;
+    float: left;
+}
+
+.muxi_nav{
+    height: 100%;
+    font-size: 14px;
+    font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+}
+
+.muxi_nav li a{
+    padding: 15px 8px;
+    line-height: 56px;
+}
+
+.muxi_nav li a:hover{
+    color: #2dae36 !important;
+    border-bottom: 2px solid #2dae36 !important;
+}
+
+.navbar-default{
+    background-color: white;
+    border: none;
+}
+
+.muxi_active{
+    color: #2dae36 !important;
+    border-bottom: 2px solid #2dae36 !important;
+}
+
+.navbar-default .navbar-toggle{
+    border-color: #2dae3d;
+}
+
+.navbar-default .navbar-toggle:hover{
+    background-color: #2dae3d;
+}
+
+.navbar-default .navbar-toggle:active .muxi_nav li a{
+    padding: 10px 8px !important;
+    height: 36px !important;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar{
+    background-color: white !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #2dae3d;
+}
+
+.navbar-toggle{
+    margin: 24px 0;
+}
+
+
+/* 轮播图 */
+/* 幻灯片样式 */
+.slide_con{
+
+    position: relative;
+}
+
+@media (max-width:1920px){
+    .slide_con{height: 500px}
+}
+@media (max-width:1366px){
+    .slide_con{height: 355.73px}
+}
+@media (max-width:992px){
+    .slide_con{height: 258.33px}
+    .contact{text-align: center !important;}
+}
+@media (max-width:768px){
+    .slide_con{height: 200px}
+    .muxi_logo{width: 120px;background-position: 12px 8px}
+    .muxi_nav li a{padding: 10px 8px;line-height: 36px}
+    .muxi_nav li{height: 56px;}
+    .contact{text-align: center !important;}
+}
+
+
+.slide_con .slide li{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.slide li a img{
+    max-width: 100%;
+    height:100%;
+    cursor: default;
+}
+
+.slide li a{
+    display: inline-block;
+    height: 100%;
+
+}
+
+.prev,.next{
+    width: 20px;
+    height: 24px;
+    position: absolute;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+.prev{
+    left: 7%;
+    top: 45%;
+}
+.next{
+    right: 7%;
+    top: 45%;
+}
+.points{
+    position: absolute;
+    width: 100%;
+    height: 12px;
+    left: 0;
+    bottom: 10px;
+    text-align: center;
+    font-size: 0;
+}
+.points li{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.points .active{
+    position: relative;
+    top: 1px;
+    width: 12px;
+    height: 12px;
+    background-color: #2dae3d;
+}
+
+
+/* 企业精神 */
+.home_content{
+    margin-top: 50px;
+    padding: 0 10%;
+}
+
+.home_content .title {
+    font-size: 24px;
+    color: #2dae36;
+}
+
+.characteristic_icon{
+    margin-bottom: 16px;
+}
+
+.sm_title {
+    font-size: 14px;
+    color: #666;
+}
+
+.characteristic_icon img {
+    width: 30%;
+}
+
+
+/* 产品展示 */
+/* 选中以col开头的样式 */
+.mi_container{
+    margin-top: 50px;
+}
+
+.mi_container [class^=col] img{
+    /*height: 20px;
+    border: 1px solid #888;*/
+    width: 100%;
+
+}
+
+.mi_container [class^=col]{
+    padding: 15px;
+}
+
+.mi_container .product{
+    width: 200px;
+    height: 50px;
+    background-color: #2dae3d;
+    border-radius: 16px 0 16px 0;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin: 0;
+}
+
+
+/* footer底部 */
+.footer{
+    padding-top: 24px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+    background-color: #ddd;
+    text-align: center;
+    color: #666;
+    margin-top: 50px;
+}
+
+.footer a{
+    color: #666;
+}
+
+.footer a:hover{
+    text-decoration: none;
+}
+
+.footer_w{
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+
+.center{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer .footer_logo {
+    margin-bottom: 16px;
+}
+
+.footer .footer_logo img {
+    width: 100px;
+}
+
+.footer .changePage {
+    padding-top: 20px;
+}
+
+.copyRight{
+    font-size: 12px;
+    text-align: center;
+    line-height: 2.4em;
+}
+
+.contact{
+    font-size: 10px;
+    line-height: 1.6em;
+    text-align: left;
+}
