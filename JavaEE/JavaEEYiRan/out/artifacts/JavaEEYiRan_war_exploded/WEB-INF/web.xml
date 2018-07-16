@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- 配置主页默认跳转到哪个页面，默认为index.jsp，这里修改成login.jsp -->
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!-- ServletContext容器，全局参数信息，和Attribute属性不同 -->
+    <context-param>
+        <param-name>phoneNumber</param-name>
+        <param-value>17671266824</param-value>
+    </context-param>
+
+    <!-- servlet路径 -->
+    <servlet>
+        <!-- servlet的名称 -->
+        <servlet-name>ServletDemo</servlet-name>
+        <!-- servlet的具体实现类 -->
+        <servlet-class>cn.yiran.web.servlet.ServletDemo</servlet-class>
+        <!-- servletConfig，键值对方式 -->
+        <init-param>
+            <!-- 参数名 -->
+            <param-name>name</param-name>
+            <!-- 参数值 -->
+            <param-value>yiran</param-value>
+        </init-param>
+    </servlet>
+
+    <!-- servlet映射 -->
+    <servlet-mapping>
+        <!-- servlet的名称 -->
+        <servlet-name>ServletDemo</servlet-name>
+        <!-- 访问这个servlet程序的请求路径 -->
+        <!-- 可以定义多个Servlet，这里配置请求路径为，所有的servlet -->
+        <url-pattern>/ServletDemo</url-pattern>
+    </servlet-mapping>
+</web-app>
