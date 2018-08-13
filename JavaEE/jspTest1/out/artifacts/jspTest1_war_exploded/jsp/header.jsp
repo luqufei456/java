@@ -22,7 +22,7 @@
 			window.onload = function () {
 			    var ul = $('.nav');
 			    if(ul.children().length === 0){
-                    window.location="/web/GoodsServlet";
+                    window.location.href="/web/GoodsServlet";
 				}
             }
 		</script>

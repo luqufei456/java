@@ -11,6 +11,8 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <%-- 解决关闭浏览器session还存在的问题 --%>
+  <% session.invalidate(); %>
+  当前人数为：${applicationScope.onlineNum}
   </body>
 </html>

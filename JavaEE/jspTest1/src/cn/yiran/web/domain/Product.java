@@ -1,6 +1,10 @@
 package cn.yiran.web.domain;
 
-public class Product {
+import javax.servlet.ServletContext;
+import javax.servlet.http.HttpSessionBindingEvent;
+import javax.servlet.http.HttpSessionBindingListener;
+
+public class Product implements HttpSessionBindingListener {
     private int pid;
     private String pname;
     private double shop_price;
@@ -36,5 +40,23 @@ public class Product {
 
     public void setPimage(String pimage) {
         this.pimage = pimage;
+    }
+
+    @Override
+    public void valueBound(HttpSessionBindingEvent event) {
+        System.out.println("product bound");
+        ServletContext context = event.getSession().getServletContext();
+        Integer count = (Integer) context.getAttribute("onlineNum");
+        count = count+1;
+        context.setAttribute("onlineNum",count);
+    }
+
+    @Override
+    public void valueUnbound(HttpSessionBindingEvent event) {
+        System.out.println("product unbound");
+        ServletContext context = event.getSession().getServletContext();
+        Integer count = (Integer) context.getAttribute("onlineNum");
+        count = count-1;
+        context.setAttribute("onlineNum",count);
     }
 }
