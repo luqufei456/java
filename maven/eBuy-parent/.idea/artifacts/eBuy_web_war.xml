@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="eBuy-web:war">
+    <output-path>$PROJECT_DIR$/eBuy-web/target</output-path>
+    <root id="archive" name="eBuy-web.war">
+      <element id="artifact" artifact-name="eBuy-web:war exploded" />
+    </root>
+  </artifact>
+</component>

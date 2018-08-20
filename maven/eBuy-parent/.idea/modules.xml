@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eBuy-dao/eBuy-dao.iml" filepath="$PROJECT_DIR$/eBuy-dao/eBuy-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eBuy-parent.iml" filepath="$PROJECT_DIR$/eBuy-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eBuy-pojo/eBuy-pojo.iml" filepath="$PROJECT_DIR$/eBuy-pojo/eBuy-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eBuy-service/eBuy-service.iml" filepath="$PROJECT_DIR$/eBuy-service/eBuy-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eBuy-utils/eBuy-utils.iml" filepath="$PROJECT_DIR$/eBuy-utils/eBuy-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eBuy-web/eBuy-web.iml" filepath="$PROJECT_DIR$/eBuy-web/eBuy-web.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.yiran</groupId>
+    <artifactId>projectTest</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>web</module>
+        <module>service</module>
+        <module>dao</module>
+        <module>utils</module>
+        <module>pojo</module>
+    </modules>
+
+    <!-- 按模块开发，指定jar包使用版本 -->
+    <properties>
+        <servlet-version>3.1.0</servlet-version>
+        <jsp-version>2.0</jsp-version>
+        <jstl-version>1.2</jstl-version>
+        <druid-version>1.1.10</druid-version>
+        <junit-version>4.10</junit-version>
+        <mysql-version>5.1.6</mysql-version>
+    </properties>
+
+    <!-- 公用依赖定义 -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <!-- 这里类似于el表达式 -->
+                <version>${servlet-version}</version>
+            </dependency>
+
+
+        </dependencies>
+    </dependencyManagement>
+</project>

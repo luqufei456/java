@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [14/Aug/2018:13:30:26 +0800] "GET /web HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [14/Aug/2018:13:30:27 +0800] "GET /web/ HTTP/1.1" 200 128 http-bio-8080-exec-2 919
+0:0:0:0:0:0:0:1 - - [14/Aug/2018:13:30:28 +0800] "GET /web/ItemServlet?id=10 HTTP/1.1" 404 981 http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [14/Aug/2018:13:42:03 +0800] "GET /web/index.jsp HTTP/1.1" 200 128 http-bio-8080-exec-1 167
+0:0:0:0:0:0:0:1 - - [14/Aug/2018:13:42:24 +0800] "GET /web/ItemServlet HTTP/1.1" 404 981 http-bio-8080-exec-2 3
+0:0:0:0:0:0:0:1 - - [14/Aug/2018:13:45:47 +0800] "GET /web HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [14/Aug/2018:13:45:47 +0800] "GET /web/ HTTP/1.1" 200 128 http-bio-8080-exec-2 139
+0:0:0:0:0:0:0:1 - - [14/Aug/2018:13:45:48 +0800] "GET /web/ItemServlet?id=10 HTTP/1.1" 200 17 http-bio-8080-exec-3 10
+0:0:0:0:0:0:0:1 - - [14/Aug/2018:15:24:29 +0800] "GET /web HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [14/Aug/2018:15:24:29 +0800] "GET /web/ HTTP/1.1" 200 128 http-bio-8080-exec-2 117
+0:0:0:0:0:0:0:1 - - [14/Aug/2018:15:24:30 +0800] "GET /web/ItemServlet?id=10 HTTP/1.1" 200 17 http-bio-8080-exec-3 8
