@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       					   http://www.springframework.org/schema/beans/spring-beans.xsd
+						   http://www.springframework.org/schema/context
+						   http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!-- 配置注解扫描
+        context:component-scan:专门扫描含有@Component注解的类，自动将其作为bean
+        base-package：要扫描包的路径,包含子包,com.yiran.spring表示子包下的所有类定义注解都有效
+        注解扫描配置的时候，会自动开启注解功能
+-->
+    <!-- 注解对象bean扫描 -->
+    <context:component-scan base-package="com.yiran.spring"/>
+
+    <!-- aop配置切面类 -->
+    <bean id="log" class="com.yiran.spring.aspect.Log">
+    </bean>
+    <bean id="transaction" class="com.yiran.spring.aspect.Transaction">
+    </bean>
+
+    <!-- aop配置切入点 -->
+    <aop:config>
+        <!--
+         pointcut切入点：拦截那些bean方法
+         execution(* 包.类.方法(..))
+                任意返回值类型   任意参数类型
+         -->
+        <aop:pointcut id="pcut" expression="execution(* com.yiran.spring.service.impl.*.*(..))" />
+        <!-- 配置通知 -->
+        <aop:aspect ref="log">
+            <!--
+            AspectJ提供不同的通知类型：
+                Before 前置通知，相当于BeforeAdvice
+                AfterReturning 后置通知，相当于AfterReturningAdvice
+                Around 环绕通知，相当于MethodInterceptor
+                AfterThrowing抛出通知，相当于ThrowAdvice
+                After 最终final通知，不管是否异常，该通知都会执行
+                DeclareParents 引介通知，相当于IntroductionInterceptor (不要求掌握)
+            -->
+            <aop:after-returning method="log" pointcut-ref="pcut" />
+        </aop:aspect>
+    </aop:config>
+
+    <aop:config>
+        <aop:pointcut id="tcut" expression="execution(* com.yiran.spring.service.impl.*.add*(..)) or
+                                            execution(* com.yiran.spring.service.impl.*.update*(..)) or
+                                            execution(* com.yiran.spring.service.impl.*.delete*(..))"
+        />
+        <aop:aspect ref="transaction">
+            <aop:before method="beginTransaction" pointcut-ref="tcut" />
+            <aop:after-returning method="commit" pointcut-ref="tcut" />
+            <aop:after-throwing method="rollBack" pointcut-ref="tcut" />
+        </aop:aspect>
+    </aop:config>
+</beans>

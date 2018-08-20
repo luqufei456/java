@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+    ioc
+        bean:是spring工厂帮你new的一个对象（机制：反射机制）
+	    class:要new的对象的类型的字符串表示形式（一定全类名）
+	    id/name:标识对象的名字，用来获取bean对象用的标识。习惯上，这个名字命名为接口的名字首字母小写
+	 -->
+    <!-- 对象创建
+         scope  - 默认singleton 单例
+                        - 变量数据 - 局部 springMVC
+                  prototype
+                        - 变量数据 - 全局 struts2
+
+         Bean生命周期
+            通过init-method 来初始化对象
+            通过destroy-method 来销毁对象
+     -->
+    <bean id="userAction"  class="com.yiran.spring.action.UserAction" init-method="init" destroy-method="destroy">
+        <!-- di依赖注入属性关联的对象 这个属性引用了id为userService的对象 -->
+        <property name="userService" ref="userService">
+        </property>
+    </bean>
+
+    <bean id="userService" class="com.yiran.spring.service.impl.UserServiceImpl">
+    <!-- di构造器 这里是构造器实现 -->
+        <constructor-arg name="userDAO" ref="userDAO">
+        </constructor-arg>
+    </bean>
+
+    <bean id="userDAO" class="com.yiran.spring.dao.impl.UserDAOImpl" />
+    <!--
+    service
+    di：必须双方都是bean:在创建service的时候，主动将dao的依赖对象注入交给serivce
+     -->
+
+</beans>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       					   http://www.springframework.org/schema/beans/spring-beans.xsd
+						   http://www.springframework.org/schema/context
+						   http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!-- 配置注解扫描
+        context:component-scan:专门扫描含有@Component注解的类，自动将其作为bean
+        base-package：要扫描包的路径,包含子包,com.yiran.spring表示子包下的所有类定义注解都有效
+        注解扫描配置的时候，会自动开启注解功能
+-->
+    <!-- 注解对象bean扫描 -->
+    <context:component-scan base-package="com.yiran.spring"/>
+
+    <!-- 3：配置aop的aspectj的自动代理：
+                自动扫描bean组件中，含有@Aspect的bean，将其作为aop管理，开启动态代理    -->
+    <aop:aspectj-autoproxy/>
+</beans>
