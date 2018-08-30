@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>正则表达式</title>
+</head>
+<body>
+<input type="text" id="txt" />
+<button id="btn">确定</button>
+
+<script>
+    // 正则表达式，又称规则表达式，规则字符串中字符出现规则的表达式
+    // 1.语法： /pattern/attributes
+    // attributes 为g时，代表全局搜索
+
+    var a = "hello world";
+    var RE = /l/g;
+    var b = a.replace(RE,"*");
+    console.log(b); // he**o wor*d
+
+
+    // 2.备选字符集[abc] --> 特点，必须且只能多选一
+    var a2 = "上海，上天，上去，上海都";
+    var RE2 = /上[海天]/g;
+    var b2 = a2.replace(RE2,"**");
+    console.log(b2); // **，**，上去，**都
+
+    var a3 = "1234322dd";
+    var RE3 = /[0-9]/g;
+    var b3 = a3.replace(RE3,"*");
+    console.log(b3); // *******dd
+
+    // [a-z] [A-Z] [0-9] 连续的备选字符，表示范围
+    var a4 = "hello world";
+    var RE4 = /[a-z]/g;
+    var b4 = a4.replace(RE4,"*");
+    console.log(b4); // ***** *****
+
+
+    // 3.预定义字符集
+    // 定义：针对常用的备选字符集提供的简化符号
+    // \d --> [0-9]
+    var a5 = "hello 123123";
+    var RE5 = /\d/g;
+    console.log(a5.replace(RE5,"*")); // hello ******
+
+    // \w --> [0-9a-zA-Z_]
+    var a6 = "Hello_World@123";
+    var RE6 = /\w/g;
+    console.log(a6.replace(RE6,"*")); // ***********@***
+
+    // \s --> 空格，tab，即匹配空白
+    // . --> 除换行符外所有字符
+
+
+    // 4.量词 --> 规定字符出现的次数
+    // regEXp.test(str) --> 正则表达式匹配字符串，返回boolean值
+    var a7 = "hello chunjue";
+    var RE7 = /\d{6}/g;
+    var txt = document.getElementById("txt");
+    var btn = document.getElementById("btn");
+    btn.onclick = function () {
+        var value = txt.input;
+        var result = RE7.test(value);
+        console.log(result);
+    }
+</script>
+</body>
+</html>

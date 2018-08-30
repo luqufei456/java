@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans>
+    <!-- 以下是配置xxx内容 -->
+    <!-- xxxx -->
+    <bean id="u002" className="xx">
+        <property name="name" value="chunjue">
+            1 &lt; 2 &gt; 3 &amp; 4 &quot; 5 &apos;
+        </property>
+    </bean>
+    <bean>
+        <![CDATA[
+            <bean id="xx" className="xx">
+                <property name="xx" value="xx">
+            1 <    2 >    3 &     4 "      5 '
+                <property>
+            </bean>
+        ]]>
+    </bean>
+</beans>

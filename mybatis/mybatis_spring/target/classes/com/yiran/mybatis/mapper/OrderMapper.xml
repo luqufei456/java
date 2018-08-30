@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yiran.mybatis.mapper.OrderMapper">
+    <!-- 发货人填写发货信息 1:1
+            某一订单(编号1) - 用户 - 地址
+     -->
+    <!-- 基于order 将order的属性自动注入order -->
+    <resultMap id="orderUserAddress" type="order" autoMapping="true">
+        <id column="orderId" property="orderId" />
+        <!-- 列名property  autoMapping自动注入 类型javaType -->
+        <association property="user" autoMapping="true" javaType="user" />
+        <association property="address" autoMapping="true" javaType="address" />
+    </resultMap>
+    <select id="queryOrderUserAddress" parameterType="int" resultMap="orderUserAddress">
+        select o.orderId,o.totalNum,o.totalPrice,o.orderTime,
+                u.userName,
+                a.name,a.mobile,a.addressDetail
+            from torder as o, tuser as u,taddress as a
+            where o.userId = u.userId and o.addressId = a.addressId and
+                o.orderId = #{value}
+    </select>
+    
+    <!-- 装货 -->
+    <resultMap id="OrderItemDetail" type="order" autoMapping="true">
+        <!-- 1对多 一个订单对应多个订单详情 -->
+        <collection property="orderDetailList" javaType="list" ofType="OrderDetail" autoMapping="true">
+            <!-- 一个详情对应一个商品信息 1:1 -->
+            <association property="item" javaType="Item" autoMapping="true" />
+        </collection>
+    </resultMap>
+    <select id="queryOrderItemsByOrderId" parameterType="int" resultMap="OrderItemDetail">
+        select o.orderId,o.totalNum,o.orderTime,
+                i.itemId,i.itemName,i.itemPrice,
+                d.itemNum
+            from torder o,item i,orderDetail d
+                where o.orderId = d.orderId and i.itemId = d.itemId and
+            o.orderId = #{value}
+    </select>
+
+    <!-- 继承 extends 因为只能继承一个，所以下面的直接复制过来，这里相当于用了上面两个resultMap的  -->
+    <resultMap id="OrderItemsUserAddress" type="order" extends="orderUserAddress" autoMapping="true">
+        <!-- 1对多 一个订单对应多个订单详情 -->
+        <collection property="orderDetailList" javaType="list" ofType="OrderDetail" autoMapping="true">
+            <!-- 一个详情对应一个商品信息 1:1 -->
+            <association property="item" javaType="Item" autoMapping="true" />
+        </collection>
+    </resultMap>
+    <select id="queryOrderItemsUserAddressByOrderId" parameterType="int" resultMap="OrderItemsUserAddress">
+        select o.orderId,o.totalnum,o.totalprice,o.orderTime,
+                i.itemId,i.itemName,i.itemPrice,
+                d.itemNum,
+                u.userName,
+                a.name,a.mobile,a.addressDetail
+            from torder o,item i,orderdetail d,tuser u,taddress a
+          where o.orderId = d.orderid and i.itemId = d.itemId and
+                o.userId = u.userId and o.addressId = a.addressId and
+                o.orderId = #{value}
+    </select>
+
+    <!-- 懒加载获取数据 -->
+    <resultMap id="OrderItemByOrderIdLazy" type="order" autoMapping="true">
+        <!-- 绑定主键 因为正常情况没有被加入orderId -->
+        <id property="orderId" column="orderId" />
+        <!-- select:指定延迟加载需要执行的statement的id（根据orderId查询的statement）如果不在本文件中，需要加上namespace
+             column:和select查询关联的字段orderId
+             fetchType="lazy" 默认值 使用懒加载  -->
+        <collection property="orderDetailList" javaType="list" ofType="OrderDetail" autoMapping="true"
+                    select="queryOrderIdOrderDetail" column="orderId" >
+
+        </collection>
+    </resultMap>
+    <select id="queryOrderItemByOrderIdLazy" parameterType="int" resultMap="OrderItemByOrderIdLazy">
+        select o.orderId,o.totalNum,o.orderTime,o.totalPrice
+        from torder o
+        where o.orderId = #{value}
+    </select>
+    <resultMap id="detailItem" type="orderDetail" autoMapping="true"> <!-- 订单详情及商品 -->
+        <association property="item" javaType="item" autoMapping="true" />
+    </resultMap>
+    <select id="queryOrderIdOrderDetail" resultMap="detailItem" >
+        select i.itemId, i.itemName, i.itemPrice, d.itemNum
+        from orderDetail d,item i
+        where d.itemId = i.itemId and
+        d.orderId = #{value}
+    </select>
+</mapper>

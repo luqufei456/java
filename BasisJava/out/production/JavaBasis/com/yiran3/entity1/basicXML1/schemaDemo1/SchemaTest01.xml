@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.igeek.com/bean"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.igeek.com/bean bean-schema.xsd"
+>
+    <!--声明根标签
+            1. <element>声明元素(标签)
+            2. 每一个元素必须确定类型：
+                complexType	复杂类型
+                simpleType	简单类型，一般不用，大部分都是复杂类型
+            3. 需要继续明确子标签出差顺序
+                <choice>选择， ()
+                <sequence>顺序，
+                <all>任意
+                    minOccurs最少出现次数
+                    maxOccurs最大出现次数，unbounded不限制(没有边)
+            4. <attribute>用于给元素声明属性的
+                use设置属性使用， optional可选、required必选
+
+    -->
+    <bean id="" className="">
+        <property name="" value=""></property>
+        <property name="" value=""></property>
+    </bean>
+
+    <import resource=""></import>
+    
+</beans>
+

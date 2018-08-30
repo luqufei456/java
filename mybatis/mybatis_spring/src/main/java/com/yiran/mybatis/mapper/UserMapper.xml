@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace：命名空间，用于隔离sql -->
+<!-- 还有一个很重要的作用，使用动态代理开发DAO，1. namespace必须和Mapper接口类路径一致 -->
+<mapper namespace="com.yiran.mybatis.mapper.UserMapper">
+    <!-- 根据用户id查询用户 -->
+    <!-- 2. id必须和Mapper接口方法名一致 -->
+    <!-- 3. parameterType必须和接口方法参数类型一致 -->
+    <!-- 4. resultType必须和接口方法返回值类型一致 -->
+    <!-- 我们在SqlMapConfig定义了 user 指向pojo的User类 这里可以直接用 -->
+    <select id="queryUserById" parameterType="int" resultType="com.yiran.mybatis.pojo.User">
+        select * from tuser where userId = #{userId}
+    </select>
+
+    <!-- 根据用户名查询用户 -->
+    <select id="queryUserByUserName" parameterType="user" resultType="user">
+        select * from tuser where userName like '%${value}%'
+    </select>
+
+    <!-- 保存用户 -->
+    <insert id="saveUser" parameterType="user">
+        <selectKey keyProperty="id" keyColumn="id" order="AFTER" resultType="int">
+            select last_insert_id()
+        </selectKey>
+        insert into tuser(username,birthday,sex,address) values(#{userName},#{birthday},#{sex},#{address})
+    </insert>
+
+    <!-- 修改密码 -->
+    <update id="updatePwd" parameterType="user">
+        update tuser set password = #{password}
+            where userId = #{userId}
+    </update>
+
+    <!-- 查询用户总数 -->
+    <select id="queryCount" resultType="int">
+        select count(*) from tuser
+    </select>
+
+    <!-- 使用id删除用户 -->
+    <delete id="deleteUserById" parameterType="int">
+        <!-- delete from tuser where userId = #{userId} -->
+        delete from tuser where userId = #{value}
+    </delete>
+
+    <!-- 查询所有用户
+            不管返回结果为一条或多条数据，resultType - 一个bean对象
+     -->
+    <select id="queryUsers" resultType="user">
+        select userId,userName,birthday,sex,address,age
+            from tuser
+            order by userId desc
+    </select>
+
+    <!-- 模糊查询 -->
+    <!-- where username like #{userName} - 在service %依% -->
+    <!-- 如果传入的参数是简单数据类型，${}里面必须写value  - 实现字符串拼接
+		#{}和${}
+			#{}表示一个占位符号，通过#{}可以实现preparedStatement向占位符中设置值，自动进行java类型和jdbc类型转换。
+				#{}可以有效防止sql注入。 #{}可以接收简单类型值或pojo属性值。 如果parameterType传输单个简单类型值，
+				#{}括号中可以是value或其它名称。
+			${}表示拼接sql串，通过${}可以将parameterType 传入的内容拼接在sql中且不进行jdbc类型转换，
+				${}可以接收简单类型值或pojo属性值，如果parameterType传输单个简单类型值，${}括号中只能是value
+     -->
+    <!-- 根据名字模糊查询用户
+            为什么我不用 '%${value}%'，因为#{}可以防止sql注入
+     -->
+    <select id="queryUsersByLikeName" parameterType="string" resultType="user">
+        select userId,userName,birthday,sex,address,age
+            from tuser
+            where userName like #{userName}
+    </select>
+
+    <!-- 多条件检索  - 包装对象
+			对象 - 关联对象属性   -  #{属性名.属性}
+     -->
+    <!-- sql片段 可以用include载入，在sql语句中少写部分重复的代码 -->
+    <sql id="selectColumn">
+        userId,userName,birthday,sex,address,age
+    </sql>
+    <select id="queryUserByMutli" parameterType="userVo" resultType="user">
+        select <include refid="selectColumn" />
+            form tuser
+            <!-- where标签可以自动添加where，同时处理sql语句中第一个and关键字
+				 if 单路条件判断
+				 choose-when-otherwise 双多路条件判断
+             -->
+            <where>
+                <if test="user != null">
+                    <if test="user.userName != null and user.userName = ''">
+                        and userName like #{user.userName}
+                    </if>
+                    <if test="user.sex != null and user.sex != ''">
+                        and sex = #{user.sex}
+                        <!--<choose>
+                            &lt;!&ndash; 这里的 男 必须用双引号引起来，否则报错，所以这个test我们用单引号标识 &ndash;&gt;
+                            <when test='user.sex == "男"'>
+                                and sex = '女'
+                            </when>
+                            <otherwise>
+                                and sex = '男'
+                            </otherwise>
+                        </choose>-->
+                    </if>
+                </if>
+                <if test="minAge != null">
+                    and age >= #{minAge}
+                </if>
+                <if test="maxAge != null">
+                    <!-- 这里的小于号被当成标签的一部分，所以用&lt; -->
+                    and age &lt;= #{maxAge}
+                </if>
+            </where>
+    </select>
+
+
+</mapper>

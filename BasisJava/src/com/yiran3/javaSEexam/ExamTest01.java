@@ -7,6 +7,7 @@ package com.yiran3.javaSEexam;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.Timer;
 
 public class ExamTest01 {
     @Test
@@ -326,5 +327,29 @@ public class ExamTest01 {
     @Test
     public void test17(){
         System.out.println("xxx");
+    }
+
+    @Test
+    public void test18(){
+        int i = 1;
+        while (true){
+            if (i > 3){
+                i = 1;
+                String name = i+".sql";
+                System.out.println(name);
+                i++;
+            }
+            else{
+                String name = i+".sql";
+                System.out.println(name);
+                i++;
+            }
+
+            try {
+                Thread.currentThread().sleep(5000);
+            } catch (Exception e){
+                e.printStackTrace();
+            }
+        }
     }
 }

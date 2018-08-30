@@ -7,29 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="JavaSE练习考试更新">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/01cssText.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/02cssFont.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/03cssA.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/04cssList.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/05cssBorder.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/06cssTable.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/07cssTable2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/08profile.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/09opacity.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/10nav.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/11boxSizing.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/12float.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/13float2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/14nav.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/15position.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/16positionTest.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/17search.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/18position2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/19z-index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss03/work.html" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiran3/javaSEexam/ExamTest01.java" afterPath="$PROJECT_DIR$/src/com/yiran3/javaSEexam/ExamTest01.java" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/game2048/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaEE/game2048/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss02/work2.html" afterPath="$PROJECT_DIR$/../JavaWeb/src/com/yiran/htmlCss02/work2.html" />
+      <change beforePath="$PROJECT_DIR$/../spring/spring_aop_annotation/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../spring/spring_aop_annotation/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../spring/spring_aop_xml/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../spring/spring_aop_xml/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../spring/spring_project1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../spring/spring_project1/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../spring/spring_transaction/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../spring/spring_transaction/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,12 +65,12 @@
       <file leaf-file-name="ExamTest01.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yiran3/javaSEexam/ExamTest01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="327" column="34" lean-forward="true" selection-start-line="327" selection-start-column="34" selection-end-line="327" selection-end-column="34" />
+            <state relative-caret-position="295">
+              <caret line="345" column="13" lean-forward="true" selection-start-line="345" selection-start-column="13" selection-end-line="345" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7606#7607#0" expanded="true" />
-                <element signature="e#7647#7648#0" expanded="true" />
+                <element signature="e#7630#7631#0" expanded="true" />
+                <element signature="e#7671#7672#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,8 +194,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="356" />
-    <option name="y" value="67" />
+    <option name="x" value="165" />
+    <option name="y" value="51" />
     <option name="width" value="1232" />
     <option name="height" value="919" />
   </component>
@@ -230,8 +216,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -282,7 +268,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaWeb" />
+    <property name="last_opened_file_path" value="H:/java学习/java/java框架/5 springmvc/springmvc_restful" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -313,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExamTest01.test17">
+  <component name="RunManager" selected="JUnit.ExamTest01.test18">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -373,31 +359,6 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="ExamTest01.test14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yiran3.javaSEexam.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JavaBasis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.yiran3.javaSEexam" />
-      <option name="MAIN_CLASS_NAME" value="com.yiran3.javaSEexam.ExamTest01" />
-      <option name="METHOD_NAME" value="test14" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="ExamTest01.test16" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -436,6 +397,31 @@
       <option name="PACKAGE_NAME" value="com.yiran3.javaSEexam" />
       <option name="MAIN_CLASS_NAME" value="com.yiran3.javaSEexam.ExamTest01" />
       <option name="METHOD_NAME" value="test17" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ExamTest01.test18" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yiran3.javaSEexam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JavaBasis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yiran3.javaSEexam" />
+      <option name="MAIN_CLASS_NAME" value="com.yiran3.javaSEexam.ExamTest01" />
+      <option name="METHOD_NAME" value="test18" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -521,19 +507,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ExamTest01.test14" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AE" />
-      <item index="2" class="java.lang.String" itemvalue="Application.EAA" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ExamTest01.test16" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ExamTest01.test17" />
+      <item index="0" class="java.lang.String" itemvalue="Application.AE" />
+      <item index="1" class="java.lang.String" itemvalue="Application.EAA" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ExamTest01.test16" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ExamTest01.test17" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ExamTest01.test18" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ExamTest01.test17" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ExamTest01.test16" />
-        <item index="2" class="java.lang.String" itemvalue="Application.EAA" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AE" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ExamTest01.test14" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ExamTest01.test18" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ExamTest01.test17" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ExamTest01.test16" />
+        <item index="3" class="java.lang.String" itemvalue="Application.EAA" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AE" />
       </list>
     </recent_temporary>
   </component>
@@ -613,6 +599,7 @@
       <workItem from="1529580070427" duration="2950000" />
       <workItem from="1529583218318" duration="2270000" />
       <workItem from="1529672092782" duration="210000" />
+      <workItem from="1534837216227" duration="1252000" />
     </task>
     <task id="LOCAL-00108" summary="序列化与反序列化初步学习，and序列化版本号了解">
       <created>1526995562977</created>
@@ -961,11 +948,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExamTest01_test16 - 2018.06.22 at 20h 55m 07s.xml">
-      <configuration name="ExamTest01.test16" configurationId="JUnit" />
+    <history-entry file="ExamTest01_test18 - 2018.08.21 at 15h 41m 20s.xml">
+      <configuration name="ExamTest01.test18" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExamTest01_test17 - 2018.06.22 at 20h 57m 13s.xml">
-      <configuration name="ExamTest01.test17" configurationId="JUnit" />
+    <history-entry file="ExamTest01_test18 - 2018.08.21 at 15h 42m 36s.xml">
+      <configuration name="ExamTest01.test18" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ScalarHandlerDemo_scalarHandler - 2018.06.12 at 15h 39m 15s.xml">
       <configuration name="ScalarHandlerDemo.scalarHandler" configurationId="JUnit" />
@@ -993,7 +980,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1000662000" />
+    <option name="totallyTimeSpent" value="1001914000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1005,22 +992,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="356" y="67" width="1232" height="919" extended-state="0" />
+    <frame x="165" y="51" width="1232" height="919" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736573" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736573" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736573" sideWeight="0.49658704" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3196931" sideWeight="0.4880546" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3196931" sideWeight="0.49146757" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3196931" sideWeight="0.51194537" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3196931" sideWeight="0.5085324" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736573" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2634271" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28498295" sideWeight="0.49460918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2901024" sideWeight="0.49460918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24978614" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1447,12 +1435,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/javaSEexam/ExamTest01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="327" column="34" lean-forward="true" selection-start-line="327" selection-start-column="34" selection-end-line="327" selection-end-column="34" />
+        <state relative-caret-position="295">
+          <caret line="345" column="13" lean-forward="true" selection-start-line="345" selection-start-column="13" selection-end-line="345" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7606#7607#0" expanded="true" />
-            <element signature="e#7647#7648#0" expanded="true" />
+            <element signature="e#7630#7631#0" expanded="true" />
+            <element signature="e#7671#7672#0" expanded="true" />
           </folding>
         </state>
       </provider>

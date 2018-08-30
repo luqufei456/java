@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans>
+    <bean id="u001" className="xmlTest03">
+        <property name="name" value="yiran"></property>
+    </bean>
+</beans>

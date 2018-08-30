@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace：命名空间，用于隔离sql -->
+<!-- 还有一个很重要的作用，使用动态代理开发DAO，1. namespace必须和Mapper接口类路径一致 -->
+<mapper namespace="com.yiran.mybatis.mapper.UserMapper">
+    <!-- 根据用户id查询用户 -->
+    <!-- 2. id必须和Mapper接口方法名一致 -->
+    <!-- 3. parameterType必须和接口方法参数类型一致 -->
+    <!-- 4. resultType必须和接口方法返回值类型一致 -->
+    <!-- 我们在SqlMapConfig定义了 user 指向pojo的User类 这里可以直接用 -->
+    <select id="queryUserById" parameterType="user" resultType="user">
+        select * from tuser where userId = #{userId}
+    </select>
+
+    <!-- 根据用户名查询用户 -->
+    <select id="queryUserByUserName" parameterType="String" resultType="user">
+        select * from tuser where userName like '%${value}%'
+    </select>
+
+    <!-- 保存用户 -->
+    <insert id="saveUser" parameterType="user">
+        <!-- selectKey 标签实现主键返回 -->
+        <!-- keyColumn:主键对应的表中的哪一列 -->
+        <!-- keyProperty：主键对应的pojo中的哪一个属性 -->
+        <!-- order：设置在执行insert语句前执行查询id的sql，还是在执行insert语句之后执行查询id的sql -->
+        <!-- resultType：设置返回的id的类型 -->
+        <selectKey keyProperty="userId" keyColumn="userId" order="AFTER" resultType="int">
+            select last_insert_id()
+        </selectKey>
+        insert into tuser(userName,birthday,sex,address) values(#{userName},#{birthday},#{sex},#{address});
+    </insert>
+</mapper>

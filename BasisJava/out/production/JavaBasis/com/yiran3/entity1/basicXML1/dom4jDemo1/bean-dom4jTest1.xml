@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans>
+    <bean id="userId01" className="bean-dom4j.User">
+        <property name="uid" value="u001"></property>
+        <property name="userName" value="yiran"></property>
+        <property name="password" value="12345"></property>
+    </bean>
+
+    <bean id="bookId01" className="bean-dom4j.Book">
+        <property name="bid" value="b001"></property>
+        <property name="title" value="标题"></property>
+        <property name="price" value="98"></property>
+        <!-- 价格  98 -->
+    </bean>
+</beans>

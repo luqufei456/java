@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE beans SYSTEM "H:\StudyJava\BasisJava\src\com\yiran3\entity1\basicXML1\dtdDemo1\bean01.dtd">
+<beans>
+    <bean id="b001" className="name001">
+        <property name="name01" value="value01">1</property>
+        <property name="name02" value="value02">2</property>
+        <property name="name03" value="value03">3</property>
+        <property name="name04" value="value04">4</property>
+    </bean>
+    <bean id="b002" className="name002"></bean>
+    <bean id="b003" className="name003"></bean>
+    <bean id="b004" className="name004"></bean>
+
+    <!-- 不按dtd规则写，会报错 -->
+
+    <import></import>
+    <import resource="import001"></import>
+</beans>
+

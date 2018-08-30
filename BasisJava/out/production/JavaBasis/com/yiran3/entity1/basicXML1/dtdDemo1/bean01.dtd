@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    DTD实例文档。
+	模拟spring规范，如果开发人员需要在xml使用当前DTD约束，必须包括DOCTYPE。
+	格式如下：
+	<!DOCTYPE beans SYSTEM "bean.dtd">
+
+	需要掌握基本符号
+        ,  表示两个元素之间关系，为顺序
+        |  表示两个元素之间关系，为选中
+        *  表示当前修饰出现次数，为任意
+        +  表示当前修饰出现次数，为至少有一个（>=0）
+        ?  表示当前修饰出现次数，为0或1
+        () 用来给元素分组 (红白白|蠢觉),依然
+
+
+    属性的语法：（attribute）
+	<!ATTLIST 元素名
+		属性名 属性类型 约束
+		属性名 属性类型 约束
+		...
+	>
+
+	元素名：属性必须是给元素添加，所有必须先确定元素名
+	属性名：自定义
+	属性类型：ID、CDATA、枚举 …
+		ID : ID类型的属性用来标识元素的唯一性
+		CDATA：文本类型
+		枚举：(e1 | e2 | ...) 多选一
+	约束：
+		#REQUIRED：说明属性是必须的；required
+		#IMPLIED：说明属性是可选的；implied
+-->
+<!ELEMENT beans (bean*,import*)>
+<!-- 表示beans标签可以有多个bean和import标签 bean在前import在后 -->
+<!ELEMENT bean (property*)>
+<!ELEMENT property (#PCDATA)>
+<!-- #PCDATA表示内容是文本，不能是子标签 -->
+<!ELEMENT import (#PCDATA)>
+
+<!-- bean有id和className属性，必须有，属性类型为文本类型 -->
+<!ATTLIST bean
+    id CDATA #REQUIRED
+    className CDATA #REQUIRED
+>
+
+<!ATTLIST property
+    name CDATA #REQUIRED
+    value CDATA #REQUIRED
+>
+
+<!-- import可以有resource属性，属性类型为文本类型 -->
+<!ATTLIST import
+    resource CDATA #IMPLIED
+>

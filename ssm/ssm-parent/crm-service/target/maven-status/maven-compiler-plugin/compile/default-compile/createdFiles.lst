@@ -1,0 +1,9 @@
+com\yiran\crm\service\UserService.class
+com\yiran\crm\service\impl\CustomerServiceImpl.class
+com\yiran\crm\service\RoleService.class
+com\yiran\crm\service\impl\RoleServiceImpl.class
+com\yiran\App.class
+com\yiran\crm\service\BaseDictService.class
+com\yiran\crm\service\impl\BaseDictServiceImpl.class
+com\yiran\crm\service\CustomerService.class
+com\yiran\crm\service\impl\UserServiceImpl.class

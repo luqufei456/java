@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yiran.crm.mapper.SaleVisitMapper" >
+  <resultMap id="BaseResultMap" type="com.yiran.crm.pojo.SaleVisit" >
+    <id column="visit_id" property="visitId" jdbcType="VARCHAR" />
+    <result column="visit_cust_id" property="visitCustId" jdbcType="BIGINT" />
+    <result column="visit_user_id" property="visitUserId" jdbcType="BIGINT" />
+    <result column="visit_time" property="visitTime" jdbcType="DATE" />
+    <result column="visit_interviewee" property="visitInterviewee" jdbcType="VARCHAR" />
+    <result column="visit_addr" property="visitAddr" jdbcType="VARCHAR" />
+    <result column="visit_detail" property="visitDetail" jdbcType="VARCHAR" />
+    <result column="visit_nexttime" property="visitNexttime" jdbcType="DATE" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    visit_id, visit_cust_id, visit_user_id, visit_time, visit_interviewee, visit_addr, 
+    visit_detail, visit_nexttime
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.yiran.crm.pojo.SaleVisitExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from sale_visit
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from sale_visit
+    where visit_id = #{visitId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from sale_visit
+    where visit_id = #{visitId,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.yiran.crm.pojo.SaleVisitExample" >
+    delete from sale_visit
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.yiran.crm.pojo.SaleVisit" >
+    insert into sale_visit (visit_id, visit_cust_id, visit_user_id, 
+      visit_time, visit_interviewee, visit_addr, 
+      visit_detail, visit_nexttime)
+    values (#{visitId,jdbcType=VARCHAR}, #{visitCustId,jdbcType=BIGINT}, #{visitUserId,jdbcType=BIGINT}, 
+      #{visitTime,jdbcType=DATE}, #{visitInterviewee,jdbcType=VARCHAR}, #{visitAddr,jdbcType=VARCHAR}, 
+      #{visitDetail,jdbcType=VARCHAR}, #{visitNexttime,jdbcType=DATE})
+  </insert>
+  <insert id="insertSelective" parameterType="com.yiran.crm.pojo.SaleVisit" >
+    insert into sale_visit
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="visitId != null" >
+        visit_id,
+      </if>
+      <if test="visitCustId != null" >
+        visit_cust_id,
+      </if>
+      <if test="visitUserId != null" >
+        visit_user_id,
+      </if>
+      <if test="visitTime != null" >
+        visit_time,
+      </if>
+      <if test="visitInterviewee != null" >
+        visit_interviewee,
+      </if>
+      <if test="visitAddr != null" >
+        visit_addr,
+      </if>
+      <if test="visitDetail != null" >
+        visit_detail,
+      </if>
+      <if test="visitNexttime != null" >
+        visit_nexttime,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="visitId != null" >
+        #{visitId,jdbcType=VARCHAR},
+      </if>
+      <if test="visitCustId != null" >
+        #{visitCustId,jdbcType=BIGINT},
+      </if>
+      <if test="visitUserId != null" >
+        #{visitUserId,jdbcType=BIGINT},
+      </if>
+      <if test="visitTime != null" >
+        #{visitTime,jdbcType=DATE},
+      </if>
+      <if test="visitInterviewee != null" >
+        #{visitInterviewee,jdbcType=VARCHAR},
+      </if>
+      <if test="visitAddr != null" >
+        #{visitAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="visitDetail != null" >
+        #{visitDetail,jdbcType=VARCHAR},
+      </if>
+      <if test="visitNexttime != null" >
+        #{visitNexttime,jdbcType=DATE},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.yiran.crm.pojo.SaleVisitExample" resultType="java.lang.Integer" >
+    select count(*) from sale_visit
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update sale_visit
+    <set >
+      <if test="record.visitId != null" >
+        visit_id = #{record.visitId,jdbcType=VARCHAR},
+      </if>
+      <if test="record.visitCustId != null" >
+        visit_cust_id = #{record.visitCustId,jdbcType=BIGINT},
+      </if>
+      <if test="record.visitUserId != null" >
+        visit_user_id = #{record.visitUserId,jdbcType=BIGINT},
+      </if>
+      <if test="record.visitTime != null" >
+        visit_time = #{record.visitTime,jdbcType=DATE},
+      </if>
+      <if test="record.visitInterviewee != null" >
+        visit_interviewee = #{record.visitInterviewee,jdbcType=VARCHAR},
+      </if>
+      <if test="record.visitAddr != null" >
+        visit_addr = #{record.visitAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="record.visitDetail != null" >
+        visit_detail = #{record.visitDetail,jdbcType=VARCHAR},
+      </if>
+      <if test="record.visitNexttime != null" >
+        visit_nexttime = #{record.visitNexttime,jdbcType=DATE},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update sale_visit
+    set visit_id = #{record.visitId,jdbcType=VARCHAR},
+      visit_cust_id = #{record.visitCustId,jdbcType=BIGINT},
+      visit_user_id = #{record.visitUserId,jdbcType=BIGINT},
+      visit_time = #{record.visitTime,jdbcType=DATE},
+      visit_interviewee = #{record.visitInterviewee,jdbcType=VARCHAR},
+      visit_addr = #{record.visitAddr,jdbcType=VARCHAR},
+      visit_detail = #{record.visitDetail,jdbcType=VARCHAR},
+      visit_nexttime = #{record.visitNexttime,jdbcType=DATE}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.yiran.crm.pojo.SaleVisit" >
+    update sale_visit
+    <set >
+      <if test="visitCustId != null" >
+        visit_cust_id = #{visitCustId,jdbcType=BIGINT},
+      </if>
+      <if test="visitUserId != null" >
+        visit_user_id = #{visitUserId,jdbcType=BIGINT},
+      </if>
+      <if test="visitTime != null" >
+        visit_time = #{visitTime,jdbcType=DATE},
+      </if>
+      <if test="visitInterviewee != null" >
+        visit_interviewee = #{visitInterviewee,jdbcType=VARCHAR},
+      </if>
+      <if test="visitAddr != null" >
+        visit_addr = #{visitAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="visitDetail != null" >
+        visit_detail = #{visitDetail,jdbcType=VARCHAR},
+      </if>
+      <if test="visitNexttime != null" >
+        visit_nexttime = #{visitNexttime,jdbcType=DATE},
+      </if>
+    </set>
+    where visit_id = #{visitId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.yiran.crm.pojo.SaleVisit" >
+    update sale_visit
+    set visit_cust_id = #{visitCustId,jdbcType=BIGINT},
+      visit_user_id = #{visitUserId,jdbcType=BIGINT},
+      visit_time = #{visitTime,jdbcType=DATE},
+      visit_interviewee = #{visitInterviewee,jdbcType=VARCHAR},
+      visit_addr = #{visitAddr,jdbcType=VARCHAR},
+      visit_detail = #{visitDetail,jdbcType=VARCHAR},
+      visit_nexttime = #{visitNexttime,jdbcType=DATE}
+    where visit_id = #{visitId,jdbcType=VARCHAR}
+  </update>
+</mapper>
