@@ -46,4 +46,13 @@ public class CustomerServiceImpl implements CustomerService {
         // 将数据封装进pageInfo
         return new PageInfo<>(list);
     }
+
+    /*
+    * 根据id删除customer
+    * */
+
+    @Override
+    public void delCustomer(Long custId) {
+        customerMapper.deleteByPrimaryKey(custId);
+    }
 }

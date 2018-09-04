@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:19:32:50 +0800] "POST /crm/user/login.action HTTP/1.1" 200 838 http-bio-8080-exec-1 1524
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:19:32:51 +0800] "GET /crm/href/menu/welcome.action HTTP/1.1" 200 1876 http-bio-8080-exec-4 387
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:19:32:51 +0800] "GET /crm/href/menu/top.action HTTP/1.1" 200 2003 http-bio-8080-exec-2 566
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:19:32:52 +0800] "GET /crm/href/menu/menu.action HTTP/1.1" 200 7650 http-bio-8080-exec-3 1118
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:19:32:54 +0800] "GET /crm/customer/list.action HTTP/1.1" 200 7902 http-bio-8080-exec-7 441
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:19:32:59 +0800] "GET /crm/customer/del/11.action HTTP/1.1" 302 - http-bio-8080-exec-8 24
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:19:32:59 +0800] "GET /crm/customer/list.action HTTP/1.1" 200 7901 http-bio-8080-exec-9 31
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:19:33:06 +0800] "GET /crm/customer/del/10.action HTTP/1.1" 302 - http-bio-8080-exec-10 16
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:19:33:06 +0800] "GET /crm/customer/list.action HTTP/1.1" 200 7899 http-bio-8080-exec-10 36

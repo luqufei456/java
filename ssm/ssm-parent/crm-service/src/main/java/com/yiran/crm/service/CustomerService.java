@@ -9,4 +9,6 @@ public interface CustomerService {
     void addCustomer(CstCustomer customer);
 
     PageInfo<CstCustomer> queryCustomers(PageInfo<CstCustomer> pageInfo, CstCustomer customer);
+
+    void delCustomer(Long custId);
 }

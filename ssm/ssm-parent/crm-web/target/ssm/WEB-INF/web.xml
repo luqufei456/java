@@ -17,6 +17,8 @@
       <param-name>contextConfigLocation</param-name>
       <param-value>classpath:spring-web.xml</param-value>
     </init-param>
+    <!-- web容器启动时就加载servlet，而不是用户访问才加载 -->
+    <load-on-startup>1</load-on-startup>
   </servlet>
 
   <servlet-mapping>

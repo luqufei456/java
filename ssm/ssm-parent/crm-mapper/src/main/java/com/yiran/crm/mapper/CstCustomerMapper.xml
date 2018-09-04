@@ -48,6 +48,10 @@
               inner join base_dict source on c.cust_source = source.dict_id
               inner join base_dict industry on c.cust_industry = industry.dict_id
               inner join base_dict levels on c.cust_level = levels.dict_id
+        <if test="custName != null and custName != ''">
+          and c.cust_name like concat('%',#{custName},'%')
+        </if>
+          order by cust_id desc
   </select>
 
 

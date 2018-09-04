@@ -22,6 +22,11 @@
 		<package name="com.yiran.crm.pojo"/>
 	</typeAliases>
 
+	<!-- 配置使用mybatis分页插件 -->
+	<plugins>
+		<plugin interceptor="com.github.pagehelper.PageInterceptor"/>
+	</plugins>
+
 	<mappers>
 		<!-- 加载package包下所有mapper映射xml文件 -->
 		<package name="com.yiran.crm.mapper"/>
