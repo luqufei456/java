@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>用户列表</title>
+</head>
+<body>
+
+    <table border="0">
+        <thead>
+        <tr>
+            <td>ID</td>
+            <td>UserCode</td>
+            <td>Name</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:if="${userList.size()} eq 0">
+            <td colspan="3">没有用户信息！！</td>
+        </tr>
+        <tr th:each="user : ${userList}">
+            <td th:text="${user.userId}"></td>
+            <td th:text="${user.userCode}"></td>
+            <td th:text="${user.name}"></td>
+            <td>
+                <a th:href="@{'/users/update/' + ${user.userId}}">修改</a>
+                <a th:href="@{'/users/del/' + ${user.userId}}">删除</a>
+            </td>
+        </tr>
+        </tbody>
+
+    </table>
+
+</body>
+</html>

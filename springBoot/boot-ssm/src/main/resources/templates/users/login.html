@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>用户登录</title>
+</head>
+<body>
+    <!-- 引入header -->
+    <div th:replace="fragments/header :: header">...</div>
+
+    <form th:action="@{/login}" method="post">
+        <span th:text="${info}"></span> <br />
+        <!-- 使用thymeleaf模板 - 完全遵循xml规范  有开始必须有结束 -->
+        用户名：<input type="text" name="userCode" /> <br />
+        密码：<input type="password" name="userPassword" /> <br />
+        <input type="submit" value="login" />
+    </form>
+
+    <!-- 引入footer -->
+    <div th:replace="fragments/footer :: footer">...</div>
+</body>
+</html>

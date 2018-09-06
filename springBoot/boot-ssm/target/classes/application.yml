@@ -1,0 +1,54 @@
+#webӦ��
+server:
+  port: 8080
+  # contextPath: /boot-ssm
+spring:
+    #ģ��
+    thymeleaf:
+       prefix: classpath:/templates/
+       suffix: .html
+       mode: HTML5
+       encoding: UTF-8
+       cache: false
+    #���ӳ�
+    datasource:
+        name: test
+        url: jdbc:mysql://192.168.13.25:3306/crm?characterEncoding=utf-8
+        username: root
+        password: woaiex008
+        # ʹ��druid����Դ
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        filters: stat
+        maxActive: 20
+        initialSize: 1
+        maxWait: 60000
+        minIdle: 1
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: select 'x'
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        maxOpenPreparedStatements: 20
+
+## �����ýڵ�Ϊ�����Ľڵ㣬�кܶ�ͬѧ���׽�������÷���spring�Ľڵ��£����������޷���ʶ��
+mybatis:
+  mapper-locations: classpath:com/yiran/ssm/mapper/*.xml  #ע�⣺һ��Ҫ��Ӧmapperӳ��xml�ļ�������·��
+  type-aliases-package: com.yiran.ssm.pojo  # ע�⣺��Ӧʵ�����·��
+
+#pagehelper��ҳ���
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+
+#log��־
+logging:
+  level:
+    com:
+      yiran:
+         ssm:
+            mapper: debug

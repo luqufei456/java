@@ -1,0 +1,3 @@
+com\yiran\thymeleaf\pojo\User.class
+com\yiran\thymeleaf\controller\UserController.class
+com\yiran\thymeleaf\SpringBootWebApplication.class

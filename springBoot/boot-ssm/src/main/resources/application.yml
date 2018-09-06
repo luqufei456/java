@@ -1,0 +1,54 @@
+#web应用
+server:
+  port: 8080
+  # contextPath: /boot-ssm
+spring:
+    #模板
+    thymeleaf:
+       prefix: classpath:/templates/
+       suffix: .html
+       mode: HTML5
+       encoding: UTF-8
+       cache: false
+    #连接池
+    datasource:
+        name: test
+        url: jdbc:mysql://192.168.13.25:3306/crm?characterEncoding=utf-8
+        username: root
+        password: woaiex008
+        # 使用druid数据源
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        filters: stat
+        maxActive: 20
+        initialSize: 1
+        maxWait: 60000
+        minIdle: 1
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: select 'x'
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        maxOpenPreparedStatements: 20
+
+## 该配置节点为独立的节点，有很多同学容易将这个配置放在spring的节点下，导致配置无法被识别
+mybatis:
+  mapper-locations: classpath:com/yiran/ssm/mapper/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
+  type-aliases-package: com.yiran.ssm.pojo  # 注意：对应实体类的路径
+
+#pagehelper分页插件
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+
+#log日志
+logging:
+  level:
+    com:
+      yiran:
+         ssm:
+            mapper: debug
