@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="openjaw-utils-99.99.99-INTEGRATION">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/openjaw-utils-99.99.99-INTEGRATION.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ebuild-HU-0.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/ebuild-HU-0.3.0.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+     http://www.springframework.org/schema/rabbit
+     http://www.springframework.org/schema/rabbit/spring-rabbit-1.2.xsd">
+
+    <!-- 配置connection-factory，指定连接rabbit server参数 -->
+    <rabbit:connection-factory id="connectionFactory" virtual-host="vhostSJJ"
+                               username="admin" password="admin" host="localhost" port="5672" />
+
+    <!-- 通过指定下面的admin信息，当前producer中的exchange和queue会在rabbitmq服务器上自动生成 -->
+    <rabbit:admin id="connectAdmin" connection-factory="connectionFactory" />
+
+    <!-- 定义queue，设置为持久队列，不被使用时自动删除为false，不是独有队列，由connectAdmin声明 -->
+    <rabbit:queue name="queueTest" durable="true" auto-delete="false"
+                  exclusive="false" declared-by="connectAdmin" />
+
+    <!-- 定义第二个queue，也是绑定直连交换机 -->
+    <rabbit:queue name="queueChris" durable="true" auto-delete="false"
+                  exclusive="false" declared-by="connectAdmin" />
+
+    <!-- 定义direct exchange，绑定queueTest，持久交换机，自动删除false，由connectAdmin声明 -->
+    <rabbit:direct-exchange name="exchangeTest" durable="true" auto-delete="false" declared-by="connectAdmin">
+        <!-- 绑定 -->
+        <rabbit:bindings>
+            <!-- 和queue绑定，设置路由关键字 -->
+            <rabbit:binding queue="queueTest" key="queueTestKey" />
+            <rabbit:binding queue="queueChris" key="queueTestChris" />
+        </rabbit:bindings>
+    </rabbit:direct-exchange>
+
+    <!-- 定义rabbit template用于数据的接收和发送 -->
+    <rabbit:template id="amqpTemplate" connection-factory="connectionFactory" exchange="exchangeTest" />
+
+    <!-- 消息接收者 -->
+    <bean id="messageReceiver" class="com.travelsky.yiran.consumer.MessageConsumer" />
+
+    <!-- 第二个消息接收者 -->
+    <bean id="receiverChris" class="com.travelsky.yiran.consumer.ChrisConsumer" />
+
+    <!-- queue listener 观察 监听模式 当有消息到达时会通知监听在对应的队列上的监听对象，注意，这里监听只能写一个，写多个会报错 -->
+    <rabbit:listener-container connection-factory="connectionFactory">
+        <rabbit:listener queues="queueTest" ref="messageReceiver" />
+    </rabbit:listener-container>
+
+    <rabbit:listener-container connection-factory="connectionFactory">
+        <rabbit:listener queues="queueChris" ref="receiverChris" />
+    </rabbit:listener-container>
+
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~分割线~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- 配置connection-factory，指定连接rabbit server参数 -->
+    <rabbit:connection-factory id="connectionFactory2" virtual-host="vhostSJJ"
+                               username="admin" password="admin" host="localhost" port="5672" />
+
+    <!-- 通过指定下面的admin信息，当前producer中的exchange和queue会在rabbitmq服务器上自动生成 -->
+    <rabbit:admin id="connectAdmin2" connection-factory="connectionFactory2" />
+
+    <!-- 定义queue -->
+    <rabbit:queue name="queueShijj" durable="true" auto-delete="false"
+                  exclusive="false" declared-by="connectAdmin2" />
+
+    <!-- 定义topic exchange，绑定queueShijj -->
+    <rabbit:topic-exchange name="exchangeTest2" durable="true" auto-delete="false" declared-by="connectAdmin2">
+        <rabbit:bindings>
+            <rabbit:binding queue="queueShijj" pattern="shijj.#" />
+        </rabbit:bindings>
+    </rabbit:topic-exchange>
+
+    <!-- 定义rabbit template用于数据的接收和发送 这里的id 在外面的 Resource 中用到 -->
+    <rabbit:template id="amqpTemplate2" connection-factory="connectionFactory2" exchange="exchangeTest2" />
+
+    <!-- 消息接收者 -->
+    <bean id="receiverShijj" class="com.travelsky.yiran.consumer.ShijjConsumer" />
+
+    <!-- queue listener 观察 监听模式 当有消息到达时会通知监听在对应的队列上的监听对象 -->
+    <rabbit:listener-container connection-factory="connectionFactory2">
+        <rabbit:listener queues="queueShijj" ref="receiverShijj" />
+    </rabbit:listener-container>
+</beans>

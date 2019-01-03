@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><OTA_AirLowFareSearchRQ>
+<OriginDestinationInformation>
+  <DepartureDateTime>2018-12-20T14:43:59</DepartureDateTime>
+    <OriginLocation CodeContext="IATA" LocationCode="PEK"/>
+    <DestinationLocation CodeContext="IATA" LocationCode="HAK"/>
+    </OriginDestinationInformation>
+  <OriginDestinationInformation>
+    <DepartureDateTime>2018-12-20T18:10:59</DepartureDateTime>
+    <OriginLocation CodeContext="IATA" LocationCode="HAK"/>
+    <DestinationLocation CodeContext="IATA" LocationCode="PEK"/>
+  </OriginDestinationInformation>
+  <SpecificFlightInfo>
+    <BookingClassPref ResBookDesigCode="RT"/>
+  </SpecificFlightInfo>
+  <TravelPreferences ETicketDesired="true"/>
+  <TravelerInfoSummary>
+    <SeatsRequested infantsOnLaps="true">0</SeatsRequested>
+    <AirTravelerAvail>
+      <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+      <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+    </AirTravelerAvail>
+  </TravelerInfoSummary>
+</OTA_AirLowFareSearchRQ>
