@@ -2,19 +2,607 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a7da077-9123-4765-be8b-d1f9eac7e9d6" name="Default" comment="javaSE练习考试">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/.idea/workspace.xml" afterPath="$PROJECT_DIR$/JavaWeb/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/com/yiran3/01jquery.html" afterPath="" />
+      <change afterPath="$PROJECT_DIR$/BasisJava/src/com/yiran3/entity1/javaThread/blockingQueue/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasisJava/src/com/yiran3/entity1/javaThread/blockingQueue/ConsumerProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasisJava/src/com/yiran3/entity1/javaThread/blockingQueue/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasisJava/src/com/yiran3/entity1/javaThread/geekTest/ThreadSafeSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasisJava/src/com/yiran3/entity1/javaThread/jdkUtils/countDownLatch/FirstBatchWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasisJava/src/com/yiran3/entity1/javaThread/jdkUtils/countDownLatch/LatchSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasisJava/src/com/yiran3/entity1/javaThread/jdkUtils/countDownLatch/SecondBatchWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasisJava/src/com/yiran3/entity1/javaThread/jdkUtils/cyclicBarrier/CyclicBarrierSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasisJava/src/com/yiran3/entity1/javaThread/jdkUtils/cyclicBarrier/CyclicWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasisJava/src/com/yiran3/entity1/javaThread/jdkUtils/semaphore/SemaphoreWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasisJava/src/com/yiran3/entity1/javaThread/jdkUtils/semaphore/UsualSemaphoreSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/.idea/libraries/openjaw_utils_99_99_99_INTEGRATION.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BasisJava/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/JavaBasis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BasisJava/JavaBasis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/abc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/lib/ebuild-HU-0.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/lib/openjaw-utils-99.99.99-INTEGRATION.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/Yiran/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/Arithmetic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/ArraySort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/ArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/CirculationWork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/DataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/JavaClass$Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/JavaClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/JavaMethodsOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/JavaMethodsTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/JavaSeExam$Test10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/JavaSeExam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/JavaSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/LogicControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/TestJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/TestRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/ClassPrivateDefine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/ClassPrivateUse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/ConstructorDefine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/ConstructorUse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/EncapsulationDefine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/EncapsulationUse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/PhoneClassDefine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/PhoneClassUse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/StudentClassDefine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/StudentClassUse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/VariableDifference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/classParameter/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/classParameter/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/classParameter/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/classReturn/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/classReturn/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/classReturn/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/encapsulation/employee/EmployeeEncapsulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/encapsulation/employee/EmployeeUse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/encapsulation/pack1/getPackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaInheritance/subclass/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaInheritance/subclass/PolymorphicTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaInheritance/superclass/PersonClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaInheritance/superclass/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaStatic/Methods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaStatic/StaticMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaStatic/StaticVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaStatic/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/StringConversion1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/StringConversion2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/StringDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/StringDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/StringDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/StringDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/StringGet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/StringJudgement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/StringOther.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/StringReplace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/StringReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/setNewString/SetNewFileName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/stringBuilder/ConversionDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/stringBuilder/JoinStringDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/stringBuilder/JudgeSymmetryDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/stringBuilder/MethodsDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/javaString/stringBuilder/StringReverseDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/polymorphism/PolymorphismTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/polymorphism/SubClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/polymorphism/SubClass2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity/polymorphism/SuperClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/arrayList/ArrayListAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/arrayList/ArrayListDelChangeGet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/arrayList/ArrayListDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/arrayList/ArrayListDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/arrayList/ArrayListDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/arrayList/Traverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/buffered/BufferedCopyDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/buffered/BufferedDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/buffered/BufferedDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/buffered/BufferedDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/fileReader/FileReaderDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/fileReader/FileReaderDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/ioCase/arrayIoDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/ioCase/arrayIoDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/ioCase/ioCopyMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/stuManageIO/Manage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/stuManageIO/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/useMethods/CopyDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/javaIO/useMethods/CopyDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/objectArray/ObjectArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/objectArray/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/objectArray/StudentDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/stuManage/Manage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/entity2/stuManage/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran/javaSEwork/ArrayWork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/apiDemo/CalendarDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/apiDemo/DateDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/apiDemo/DateFormatDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/apiDemo/MathDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/apiDemo/SystemDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/arrayListReview/ArrayListDelete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/arrayListReview/ArrayListReviewDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/fightTheLandlord/CardDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/anonymousObjects/ObjectDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/anonymousObjects/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo1/Coder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo1/ExtendsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo1/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo1/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo2/Coder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo2/ExtendsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo2/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo3/ExtendsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo3/GrandsonClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo3/SubClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo3/SuperClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo3/SuperClass2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/classRewrite1/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/classRewrite1/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/classRewrite1/TestDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/group/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/group/Pet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/group/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/homework/TheCook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/homework/TheEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/homework/TheManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/homework/TheTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/homework/TheWaiter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/memoryDemo/ThePerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/memoryDemo/TheYiran.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/memoryDemo/YiranTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/superFunction/TheSubClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/superFunction/TheSuperClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/superFunction/TheTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaAbstract/AbstractEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaAbstract/AbstractTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaAbstract/AbstractWaiter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaInterface/DrivingCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaInterface/InterfaceDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaInterface/InterfaceEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaInterface/InterfaceManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaInterface/InterfaceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaInterface/InterfaceWaiter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/NestedClass1$InnerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/NestedClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/NestedClass2$1InnerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/NestedClass2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/NestedClassDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/NestedClassDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/hiddenInner/AnonymousInnerClass$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/hiddenInner/AnonymousInnerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/hiddenInner/InnerAnimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/hiddenInner/InnerDog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/polymorphism/test1/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/polymorphism/test1/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/polymorphism/test1/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/polymorphism/test1/Test1Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/polymorphism/test2/Better.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaClass/polymorphism/test2/Good.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/ExceptionInheritance1/SubClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/ExceptionInheritance1/SuperClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/ExceptionInheritance2/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/FinallyDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/RunTimeMoreDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/RunTimeOneDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/ThrowsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/TryCatchDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/TryCatchMoreDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/customException/U18Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/customException/U18Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaException/firstException/FirstException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaGenerics/classType/MyClassType1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaGenerics/classType/MyClassTypeDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaGenerics/generic/GenericDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaGenerics/goodPlace/GenericDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaGenerics/interType/MyClassInter1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaGenerics/interType/MyClassInter2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaGenerics/interType/MyClassInterDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaGenerics/interType/MyInterType1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaIterator/IteratorDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaIterator/avgAgeAndException/ArrayListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaIterator/avgAgeAndException/ConcurrentModificationExceptionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaIterator/avgAgeAndException/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/javaIterator/forUp/ForUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/receiptsWork/GoodsClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/receiptsWork/ShoppingReceipt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/regexDemo/RegexDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/twoModified/finalDemo/FinalClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/twoModified/finalDemo/FinalMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/twoModified/finalDemo/FinalMethodsSub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/twoModified/finalDemo/FinalPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/twoModified/finalDemo/FinalPersonDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/twoModified/staticDemo/Chinese.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/twoModified/staticDemo/StaticDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/twoModified/staticDemo/StaticDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/wrapperClass/PrimaryDataTypeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity1/wrapperClass/PrimaryDataTypeDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/arrayOrList/ArrayListToArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/arrayOrList/ArrayToList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/arrayOrList/ArraysToStringDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/fileClass/FileClassDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/fileClass/FileClassDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/fileClass/FileClassDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/fileClass/FileClassDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/fileClass/FileClassDemo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/fileClass/FileClassDemo6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/fileClass/RemoveFileDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/CharsetDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/bufferedByteStream/BufferedStreamDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/bufferedCharacterStream/BufferedWriterReaderDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/bufferedCharacterStream/BufferedWriterReaderDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/bufferedCharacterStream/BufferedWriterReaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/byteStream/CharStreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/byteStream/CopyFileDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/byteStream/InputStreamDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/byteStream/OutputStreamDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/byteStreamCharacter/InputStreamReaderDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/byteStreamCharacter/OutputStreamWriterDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/characterStream/ReaderDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/characterStream/WriterDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/commonsIoDemo/FileUtilsDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/objectStream/ObjectInputStreamDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/objectStream/ObjectOutputStreamDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/objectStream/PersonStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/objectStream/WhileObjectInputStreamDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/iO/printStreamPrintWriter/PrintStreamPrintWriterDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaCollections/ArgsDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaCollections/BinarySearchDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaCollections/ShuffleDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaCollections/SortDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaHashSet/HashSetDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaHashSet/HashSetDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaHashSet/containsDemo/ArrayListContainsDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaHashSet/containsDemo/HashSetAddDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaHashSet/containsDemo/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaLinkedList/LinkedListDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaLinkedList/QueueDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaLinkedList/StackDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaMap/LinkedHashMapDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaMap/MapDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaMap/fightTheLandlordMap/CardDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaRecursion/RecursionByteCopy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaRecursion/RecursionDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaRecursion/RecursionDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaRecursion/RecursionTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/javaRecursion/RecursionTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/review1/reAPI/StringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/review1/reListMap/ListClassRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/review1/reListMap/ListMapTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/review1/reListMap/ListStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/review1/reOOP/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/review1/reOOP/ComputerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/review1/reOOP/Hardware.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/review1/reOOP/Keyboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/review1/reOOP/Mouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/review1/reOOP/Screen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/review1/reOOP/USB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran2/entity2/review1/reRecursionIO/CopyDirectoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/basicXML1/dom4jDemo1/Dom4jTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/basicXML1/xmlCaseTest1/BeanConfigCase1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/basicXML1/xmlCaseTest1/BeanFactoryCase1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/basicXML1/xmlCaseTest1/XMLBook1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/basicXML1/xmlCaseTest1/XMLCaseTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/basicXML1/xmlCaseTest1/XMLUser1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/beanUtils/BeanUtilsDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/beanUtils/BeanUtilsDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/beanUtils/BeanUtilsUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/beanUtils/customizedDemo1/MyBeanUtils1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/beanUtils/customizedDemo1/MyBeanUtilsTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/beanUtils/customizedDemo2/MyBeanUtils2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/beanUtils/customizedDemo2/MyBeanUtilsTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaReflect/Constructors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaReflect/Fields.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaReflect/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaReflect/MethodClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaReflect/ReflectTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaReflect/StudentReflect1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaReflect/useReflectDemo1/StudentReflect2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaReflect/useReflectDemo1/StudentReflect3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaReflect/useReflectDemo1/UseDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaReflect/useReflectDemo2/UseDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/anonymousThread/AnonymousThreadDemo1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/anonymousThread/AnonymousThreadDemo1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/anonymousThread/AnonymousThreadDemo1$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/anonymousThread/AnonymousThreadDemo1$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/anonymousThread/AnonymousThreadDemo1$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/anonymousThread/AnonymousThreadDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/deadLock/DeadLockTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/deadLock/DeadLockTest2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/deadLock/DeadLockTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/deadLock/DeadLockThread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/deadLock/DeadLockThread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/runnable/MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/runnable/ThreadDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadClass/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadClass/ThreadDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadPool/MyCallable1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadPool/ThreadPoolDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadPool/ThreadPoolDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadSafe/SafeTestDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadSafe/TicketSafeDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/ticket/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/ticket/TicketDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo1/ThreadGetOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo1/ThreadPerson1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo1/ThreadPutIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo1/WaitNotifyDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo2/NewGetOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo2/NewPutIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo2/WaitNotifyDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo3/NewGetOut2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo3/NewPutIn2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo3/WaitNotifyDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/junitTest/JunitTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/properties/PropertiesDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/properties/PropertiesDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/properties/PropertiesDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/properties/testDemo1/ConfigTest01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/properties/testDemo1/ProStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/properties/testDemo1/ProTeacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/IpDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo1/ClientDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo1/ServerDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo2/ClientDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo2/ServerDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo3/ClientDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo3/ServerDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo4/ClientDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo4/ServerDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/udp/udpDemo1/UdpReceive1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/udp/udpDemo1/UdpSend1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/udp/udpDemo2/UdpReceive2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/udp/udpDemo2/UdpSend2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/LiftOff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/MainThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/callableReturn/CallableDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/callableReturn/TaskWithResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/callableReturn/workEx5/Ex5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/callableReturn/workEx5/Ex5Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/BasicThreads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/MoreBasicThreads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx1/Ex1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx1/Ex1RunnerA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx1/Ex1RunnerB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx1/Ex1RunnerC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/CachedThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/FixedThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/SingleThreadExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx3/Ex3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx3/Ex3RunnerA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx3/Ex3RunnerB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx3/Ex3RunnerC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/c3p0Demo/C3P0Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/c3p0Demo/C3P0Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/UpdateDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/ArrayHandlerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/ArrayListHandlerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/BeanHandlerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/BeanListHandlerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/ColumnListHandlerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/KeyedHandlerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/MapHandlerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/MapListHandlerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/ScalarHandlerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/dbcpDemo/DBCPDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/dbcpDemo/DBCPDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/jdbcDemo/JdbcAPIDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/jdbcDemo/JdbcAPIDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/jdbcDemo/JdbcAPIDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/jdbcDemo/JdbcAPIDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/jdbcDemo/JdbcAPIDemo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/jdbcDemo/JdbcDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/jdbcDemo/transaction/DbUtilsTransactionDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/jdbcDemo/transaction/JdbcTransactionDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/PrepareDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/PrepareDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/JdbcConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/JdbcStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/JdbcStudentsManagerSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/SqlHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/StudentsManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/listStuManagerSystem/ListStudent1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/listStuManagerSystem/ListStudentsManagerSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/listStuManagerSystem/StudentsMangerList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/transactionTest1/dao/AccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/transactionTest1/domain/AccountMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/transactionTest1/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/entity2/transactionTest1/utils/YiRanJdbcUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/out/production/JavaBasis/com/yiran3/javaSEexam/ExamTest01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/src/com/yiran/entity2/javaIO/nio/DemoServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/src/com/yiran/entity2/javaIO/nio/NIOServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/src/com/yiran/entity2/javaIO/nio/RequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/src/com/yiran3/entity2/ipTest/IpTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/src/com/yiran3/entity2/xmlWork/EbuildTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/src/com/yiran3/entity2/xmlWork/XmlWork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/src/com/yiran3/entity2/xmlWork/XmlWork2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/src/com/yiran4/exam/HasStatic2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/src/com/yiran4/exam/StaticStuff1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/src/com/yiran4/exam/Test3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasisJava/src/com/yiran4/exam/Test4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/artifacts/test01_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/artifacts/test01_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__antlr_antlr_2_7_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__asm_asm_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__cglib_cglib_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__javassist_javassist_3_12_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__jstl_jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_2_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_hibernate_hibernate_core_3_6_9_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_3_6_9_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_springframework_spring_aop_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_springframework_spring_beans_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_springframework_spring_context_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_springframework_spring_core_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_springframework_spring_expression_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_springframework_spring_orm_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_springframework_spring_tx_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_springframework_spring_web_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/src/main/java/com/yiran/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/src/main/java/com/yiran/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/src/main/java/com/yiran/dao/impl/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/src/main/java/com/yiran/pojo/User.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/src/main/java/com/yiran/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/src/main/java/com/yiran/service/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/src/main/java/com/yiran/service/impl/LoginServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/src/main/resources/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/src/main/resources/spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/src/main/webapp/WEB-INF/view/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/src/main/webapp/WEB-INF/view/login_success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/classes/com/yiran/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/classes/com/yiran/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/classes/com/yiran/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/classes/com/yiran/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/classes/com/yiran/pojo/User.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/classes/com/yiran/service/LoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/classes/com/yiran/service/impl/LoginServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/classes/spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/tomcat/logs/access_log.2018-09-30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/tomcat/work/Tomcat/localhost/testSSH/org/apache/jsp/WEB_002dINF/view/login_005fsuccess_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/tomcat/work/Tomcat/localhost/testSSH/org/apache/jsp/WEB_002dINF/view/login_005fsuccess_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/tomcat/work/Tomcat/localhost/testSSH/org/apache/jsp/WEB_002dINF/view/login_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/tomcat/work/Tomcat/localhost/testSSH/org/apache/jsp/WEB_002dINF/view/login_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/tomcat/work/Tomcat/localhost/testSSH/org/apache/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/target/tomcat/work/Tomcat/localhost/testSSH/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hibernate/test01/test01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__com_alibaba_fastjson_1_2_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__io_netty_netty_all_4_0_42_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_1_1_33_Fork26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__io_openmessaging_openmessaging_api_0_1_0_alpha.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_client_4_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_common_4_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_logging_4_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_openmessaging_4_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_remoting_4_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_springframework_spring_aop_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_springframework_spring_beans_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_springframework_spring_context_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_springframework_spring_core_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_springframework_spring_expression_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_springframework_spring_orm_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_springframework_spring_tx_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_springframework_spring_web_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/roketmqTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/LinkedHashMapSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/Scheduled/ScheduledMessageConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/Scheduled/ScheduledMessageProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/broadcasting/BroadcastConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/broadcasting/BroadcastProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/msgType/common/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/msgType/common/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/msgType/order/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/msgType/order/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/openMessaging/OMSProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/openMessaging/OMSPullConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/orderDemo/OrderedConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/orderDemo/OrderedProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/simpleDemo/async/AsyncProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/simpleDemo/consume/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/simpleDemo/oneWay/OnewayProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/simpleDemo/sync/SyncProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/sql92/SQL92Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/main/java/com/yiran/sql92/SQL92Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/src/test/java/com/yiran/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roketmqTest/target/test-classes/com/yiran/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/demo1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/demo1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/demo1/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/demo1/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/demo1/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/demo1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/demo1/src/main/java/com/example/demo1/Demo1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/demo1/src/main/java/com/example/demo1/controller/GirlController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/demo1/src/main/java/com/example/demo1/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/demo1/src/main/java/com/example/demo1/dao/GirlRep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/demo1/src/main/java/com/example/demo1/pojo/Girl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/demo1/src/main/java/com/example/demo1/pojo/GirlProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/demo1/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot/demo1/src/test/java/com/example/demo1/Demo1ApplicationTests.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BasisJava/src/com/yiran3/entity1/javaThread/blockingQueue/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,11 +613,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -42,17 +625,11 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -62,29 +639,18 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="379" />
-    <option name="y" value="98" />
-    <option name="width" value="1229" />
-    <option name="height" value="877" />
+    <option name="x" value="130" />
+    <option name="y" value="11" />
+    <option name="width" value="1571" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,23 +658,79 @@
               <item name="java" type="b2602c69:ProjectViewProjectNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran3" type="462c0819:PsiDirectoryNode" />
+              <item name="entity1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran3" type="462c0819:PsiDirectoryNode" />
+              <item name="entity1" type="462c0819:PsiDirectoryNode" />
+              <item name="javaThread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yiran3" type="462c0819:PsiDirectoryNode" />
+              <item name="entity1" type="462c0819:PsiDirectoryNode" />
+              <item name="javaThread" type="462c0819:PsiDirectoryNode" />
+              <item name="blockingQueue" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548491716122" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -123,81 +745,34 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="03Test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/StudyJava/java学习/JavaWeb/src/com.yiran/htmlDemo/03Test.html" />
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+    <configuration name="03Test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/StudyJava/java学习/JavaWeb/src/com.yiran/htmlDemo/03Test.html">
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\ruanjian\java\jdk-8\jre">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -205,12 +780,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_java" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="56220" />
       </RunnerSettings>
@@ -259,25 +833,28 @@
           <option name="PROGRAM_PARAMETERS" value="stop" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.03Test.html" />
+    <list>
+      <item itemvalue="JavaScript Debug.03Test.html" />
+      <item itemvalue="Tomcat Server.tomcat" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.03Test.html" />
+      <list>
+        <item itemvalue="JavaScript Debug.03Test.html" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -300,43 +877,48 @@
       <workItem from="1529462399785" duration="430000" />
       <workItem from="1531106178361" duration="1680000" />
       <workItem from="1531108539410" duration="2091000" />
+      <workItem from="1548491243908" duration="591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10336000" />
+    <option name="totallyTimeSpent" value="10927000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="379" y="98" width="1229" height="877" extended-state="0" />
+    <frame x="105" y="9" width="1267" height="821" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29597947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23325062" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="1.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32972974" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32972974" />
+      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32972974" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,74 +934,28 @@
       </list>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="javaSE练习考试" />
     <option name="LAST_COMMIT_MESSAGE" value="javaSE练习考试" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasisJava/src/com/yiran3/javaSEexam/ExamTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaWeb/src/com.yiran/01Test.html" />
-    <entry file="file://$PROJECT_DIR$/BasisJava/src/com/yiran3/javaSEexam/ExamTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2652">
-          <caret line="156" column="42" lean-forward="true" selection-start-line="156" selection-start-column="42" selection-end-line="156" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaWeb/src/com.yiran/01Test.html" />
-    <entry file="file://$PROJECT_DIR$/BasisJava/src/com/yiran3/javaSEexam/ExamTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2652">
-          <caret line="156" column="42" lean-forward="false" selection-start-line="156" selection-start-column="42" selection-end-line="156" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaWeb/src/com.yiran/01Test.html" />
-    <entry file="file://$PROJECT_DIR$/BasisJava/src/com/yiran3/javaSEexam/ExamTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="139" column="29" lean-forward="true" selection-start-line="139" selection-start-column="29" selection-end-line="139" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaWeb/src/com.yiran/HtmlTest01.html" />
     <entry file="file://$PROJECT_DIR$/JavaWeb/src/com.yiran/02Test.html" />
     <entry file="file://$PROJECT_DIR$/JavaWeb/src/com.yiran/01Test.html" />
     <entry file="file://$PROJECT_DIR$/BasisJava/src/com/yiran3/javaSEexam/ExamTest01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="155" column="20" lean-forward="false" selection-start-line="155" selection-start-column="20" selection-end-line="155" selection-end-column="20" />
+          <caret line="155" column="20" selection-start-line="155" selection-start-column="20" selection-end-line="155" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaWeb/src/com.yiran/htmlDemo/04css.html" />
     <entry file="file://$PROJECT_DIR$/JavaWeb/src/com.yiran/htmlDemo/03Test.html" />
-    <entry file="file://$PROJECT_DIR$/hello.html">
+    <entry file="file://$PROJECT_DIR$/hello.html" />
+    <entry file="file://$PROJECT_DIR$/BasisJava/src/com/yiran3/entity1/javaThread/blockingQueue/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
