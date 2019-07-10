@@ -7,588 +7,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52f89764-4035-4d1f-a727-c9679a2ba001" name="Default" comment="JavaSE练习考试更新">
-      <change afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/blockingQueue/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/blockingQueue/ConsumerProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/blockingQueue/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/geekTest/ThreadSafeSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/jdkUtils/countDownLatch/FirstBatchWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/jdkUtils/countDownLatch/LatchSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/jdkUtils/countDownLatch/SecondBatchWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/jdkUtils/cyclicBarrier/CyclicBarrierSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/jdkUtils/cyclicBarrier/CyclicWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/jdkUtils/semaphore/SemaphoreWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/jdkUtils/semaphore/UsualSemaphoreSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yiran3/geekDemo/Demo_07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yiran3/geekDemo/jvmDemo1/TestAPI4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yiran3/geekDemo/overrideAndHide/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yiran3/geekDemo/overrideAndHide/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yiran3/lockDemo/CLHLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yiran3/lockDemo/CLHLock2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yiran3/lockDemo/MCSLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yiran3/lockDemo/SpinLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot/jdbc-demo/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot/jdbc-demo/src/main/resources/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/openjaw_utils_99_99_99_INTEGRATION.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ebuild-HU-0.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/openjaw-utils-99.99.99-INTEGRATION.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/Yiran/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/Arithmetic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/ArraySort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/ArrayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/CirculationWork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/DataType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/JavaClass$Phone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/JavaClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/JavaMethodsOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/JavaMethodsTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/JavaSeExam$Test10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/JavaSeExam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/JavaSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/LogicControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/TestJava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/TestRandom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/ClassPrivateDefine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/ClassPrivateUse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/ConstructorDefine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/ConstructorUse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/EncapsulationDefine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/EncapsulationUse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/PhoneClassDefine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/PhoneClassUse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/StudentClassDefine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/StudentClassUse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/VariableDifference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/classParameter/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/classParameter/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/classParameter/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/classReturn/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/classReturn/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/classReturn/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/encapsulation/employee/EmployeeEncapsulation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/encapsulation/employee/EmployeeUse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/encapsulation/pack1/getPackage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaInheritance/subclass/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaInheritance/subclass/PolymorphicTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaInheritance/superclass/PersonClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaInheritance/superclass/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaStatic/Methods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaStatic/StaticMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaStatic/StaticVariable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaStatic/Variable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/StringConversion1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/StringConversion2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/StringDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/StringDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/StringDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/StringDemo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/StringGet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/StringJudgement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/StringOther.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/StringReplace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/StringReverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/setNewString/SetNewFileName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/stringBuilder/ConversionDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/stringBuilder/JoinStringDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/stringBuilder/JudgeSymmetryDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/stringBuilder/MethodsDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/javaString/stringBuilder/StringReverseDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/polymorphism/PolymorphismTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/polymorphism/SubClass1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/polymorphism/SubClass2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity/polymorphism/SuperClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/arrayList/ArrayListAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/arrayList/ArrayListDelChangeGet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/arrayList/ArrayListDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/arrayList/ArrayListDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/arrayList/ArrayListDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/arrayList/Traverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/buffered/BufferedCopyDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/buffered/BufferedDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/buffered/BufferedDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/buffered/BufferedDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/fileReader/FileReaderDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/fileReader/FileReaderDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/fileWriter/FileWriterDemo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/ioCase/arrayIoDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/ioCase/arrayIoDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/ioCase/ioCopyMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/stuManageIO/Manage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/stuManageIO/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/useMethods/CopyDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/useMethods/CopyDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/objectArray/ObjectArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/objectArray/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/objectArray/StudentDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/stuManage/Manage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/stuManage/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/javaSEwork/ArrayWork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/apiDemo/CalendarDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/apiDemo/DateDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/apiDemo/DateFormatDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/apiDemo/MathDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/apiDemo/SystemDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/arrayListReview/ArrayListDelete.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/arrayListReview/ArrayListReviewDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/fightTheLandlord/CardDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/anonymousObjects/ObjectDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/anonymousObjects/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo1/Coder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo1/ExtendsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo1/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo1/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo2/Coder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo2/ExtendsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo2/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo3/ExtendsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo3/GrandsonClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo3/SubClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo3/SuperClass1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/Demo3/SuperClass2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/classRewrite1/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/classRewrite1/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/classRewrite1/TestDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/group/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/group/Pet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/group/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/homework/TheCook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/homework/TheEmployee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/homework/TheManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/homework/TheTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/homework/TheWaiter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/memoryDemo/ThePerson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/memoryDemo/TheYiran.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/memoryDemo/YiranTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/superFunction/TheSubClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/superFunction/TheSuperClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/inheritance/superFunction/TheTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaAbstract/AbstractEmployee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaAbstract/AbstractTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaAbstract/AbstractWaiter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaInterface/DrivingCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaInterface/InterfaceDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaInterface/InterfaceEmployee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaInterface/InterfaceManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaInterface/InterfaceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/javaInterface/InterfaceWaiter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/NestedClass1$InnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/NestedClass1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/NestedClass2$1InnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/NestedClass2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/NestedClassDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/NestedClassDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/hiddenInner/AnonymousInnerClass$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/hiddenInner/AnonymousInnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/hiddenInner/InnerAnimal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/nestedClass/hiddenInner/InnerDog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/polymorphism/test1/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/polymorphism/test1/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/polymorphism/test1/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/polymorphism/test1/Test1Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/polymorphism/test2/Better.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaClass/polymorphism/test2/Good.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/ExceptionInheritance1/SubClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/ExceptionInheritance1/SuperClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/ExceptionInheritance2/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/FinallyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/RunTimeMoreDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/RunTimeOneDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/ThrowsDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/TryCatchDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/TryCatchMoreDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/customException/U18Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaException/disposal/customException/U18Exception.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaException/firstException/FirstException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaGenerics/classType/MyClassType1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaGenerics/classType/MyClassTypeDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaGenerics/generic/GenericDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaGenerics/goodPlace/GenericDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaGenerics/interType/MyClassInter1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaGenerics/interType/MyClassInter2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaGenerics/interType/MyClassInterDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaGenerics/interType/MyInterType1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaIterator/IteratorDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaIterator/avgAgeAndException/ArrayListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaIterator/avgAgeAndException/ConcurrentModificationExceptionDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaIterator/avgAgeAndException/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/javaIterator/forUp/ForUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/receiptsWork/GoodsClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/receiptsWork/ShoppingReceipt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/regexDemo/RegexDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/twoModified/finalDemo/FinalClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/twoModified/finalDemo/FinalMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/twoModified/finalDemo/FinalMethodsSub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/twoModified/finalDemo/FinalPerson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/twoModified/finalDemo/FinalPersonDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/twoModified/staticDemo/Chinese.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/twoModified/staticDemo/StaticDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/twoModified/staticDemo/StaticDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/wrapperClass/PrimaryDataTypeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity1/wrapperClass/PrimaryDataTypeDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/arrayOrList/ArrayListToArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/arrayOrList/ArrayToList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/arrayOrList/ArraysToStringDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/fileClass/FileClassDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/fileClass/FileClassDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/fileClass/FileClassDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/fileClass/FileClassDemo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/fileClass/FileClassDemo5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/fileClass/FileClassDemo6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/fileClass/RemoveFileDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/CharsetDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/bufferedByteStream/BufferedStreamDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/bufferedCharacterStream/BufferedWriterReaderDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/bufferedCharacterStream/BufferedWriterReaderDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/bufferedCharacterStream/BufferedWriterReaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/byteStream/CharStreamDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/byteStream/CopyFileDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/byteStream/InputStreamDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/byteStream/OutputStreamDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/byteStreamCharacter/InputStreamReaderDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/byteStreamCharacter/OutputStreamWriterDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/characterStream/ReaderDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/characterStream/WriterDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/commonsIoDemo/FileUtilsDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/objectStream/ObjectInputStreamDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/objectStream/ObjectOutputStreamDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/objectStream/PersonStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/objectStream/WhileObjectInputStreamDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/iO/printStreamPrintWriter/PrintStreamPrintWriterDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaCollections/ArgsDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaCollections/BinarySearchDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaCollections/ShuffleDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaCollections/SortDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaHashSet/HashSetDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaHashSet/HashSetDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaHashSet/containsDemo/ArrayListContainsDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaHashSet/containsDemo/HashSetAddDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaHashSet/containsDemo/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaLinkedList/LinkedListDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaLinkedList/QueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaLinkedList/StackDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaMap/LinkedHashMapDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaMap/MapDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaMap/fightTheLandlordMap/CardDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaRecursion/RecursionByteCopy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaRecursion/RecursionDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaRecursion/RecursionDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaRecursion/RecursionTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/javaRecursion/RecursionTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/review1/reAPI/StringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/review1/reListMap/ListClassRoom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/review1/reListMap/ListMapTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/review1/reListMap/ListStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/review1/reOOP/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/review1/reOOP/ComputerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/review1/reOOP/Hardware.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/review1/reOOP/Keyboard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/review1/reOOP/Mouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/review1/reOOP/Screen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/review1/reOOP/USB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran2/entity2/review1/reRecursionIO/CopyDirectoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/basicXML1/dom4jDemo1/Dom4jTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/basicXML1/xmlCaseTest1/BeanConfigCase1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/basicXML1/xmlCaseTest1/BeanFactoryCase1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/basicXML1/xmlCaseTest1/XMLBook1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/basicXML1/xmlCaseTest1/XMLCaseTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/basicXML1/xmlCaseTest1/XMLUser1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/beanUtils/BeanUtilsDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/beanUtils/BeanUtilsDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/beanUtils/BeanUtilsUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/beanUtils/customizedDemo1/MyBeanUtils1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/beanUtils/customizedDemo1/MyBeanUtilsTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/beanUtils/customizedDemo2/MyBeanUtils2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/beanUtils/customizedDemo2/MyBeanUtilsTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaReflect/Constructors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaReflect/Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaReflect/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaReflect/MethodClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaReflect/ReflectTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaReflect/StudentReflect1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaReflect/useReflectDemo1/StudentReflect2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaReflect/useReflectDemo1/StudentReflect3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaReflect/useReflectDemo1/UseDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaReflect/useReflectDemo2/UseDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/anonymousThread/AnonymousThreadDemo1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/anonymousThread/AnonymousThreadDemo1$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/anonymousThread/AnonymousThreadDemo1$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/anonymousThread/AnonymousThreadDemo1$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/anonymousThread/AnonymousThreadDemo1$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/anonymousThread/AnonymousThreadDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/deadLock/DeadLockTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/deadLock/DeadLockTest2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/deadLock/DeadLockTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/deadLock/DeadLockThread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/deadLock/DeadLockThread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/runnable/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/runnable/ThreadDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadClass/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadClass/ThreadDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadPool/MyCallable1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadPool/ThreadPoolDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadPool/ThreadPoolDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadSafe/SafeSolutionDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadSafe/SafeTestDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/threadSafe/TicketSafeDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/ticket/Ticket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/ticket/TicketDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo1/ThreadGetOut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo1/ThreadPerson1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo1/ThreadPutIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo1/WaitNotifyDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo2/NewGetOut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo2/NewPutIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo2/WaitNotifyDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo3/NewGetOut2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo3/NewPutIn2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/javaThread/waitNotify/Demo3/WaitNotifyDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/junitTest/JunitTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/properties/PropertiesDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/properties/PropertiesDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/properties/PropertiesDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/properties/testDemo1/ConfigTest01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/properties/testDemo1/ProStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/properties/testDemo1/ProTeacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/IpDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo1/ClientDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo1/ServerDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo2/ClientDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo2/ServerDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo3/ClientDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo3/ServerDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo4/ClientDemo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo4/ServerDemo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/udp/udpDemo1/UdpReceive1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/udp/udpDemo1/UdpSend1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/udp/udpDemo2/UdpReceive2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/tcpAndUdp/udp/udpDemo2/UdpSend2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/LiftOff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/MainThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/callableReturn/CallableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/callableReturn/TaskWithResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/callableReturn/workEx5/Ex5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/callableReturn/workEx5/Ex5Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/BasicThreads.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/MoreBasicThreads.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx1/Ex1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx1/Ex1RunnerA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx1/Ex1RunnerB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx1/Ex1RunnerC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/CachedThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/FixedThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/SingleThreadExecutor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx3/Ex3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx3/Ex3RunnerA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx3/Ex3RunnerB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx3/Ex3RunnerC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity1/thinkThread/useExecutor/workEx4/Ex4FibonacciD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/c3p0Demo/C3P0Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/c3p0Demo/C3P0Demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/UpdateDemo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/ArrayHandlerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/ArrayListHandlerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/BeanHandlerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/BeanListHandlerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/ColumnListHandlerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/KeyedHandlerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/MapHandlerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/MapListHandlerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/dbUtilsDemo/queryDemo/ScalarHandlerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/dbcpDemo/DBCPDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/dbcpDemo/DBCPDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/jdbcDemo/JdbcAPIDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/jdbcDemo/JdbcAPIDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/jdbcDemo/JdbcAPIDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/jdbcDemo/JdbcAPIDemo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/jdbcDemo/JdbcAPIDemo5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/jdbcDemo/JdbcDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/jdbcDemo/transaction/DbUtilsTransactionDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/jdbcDemo/transaction/JdbcTransactionDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/PrepareDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/PrepareDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/JdbcConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/JdbcStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/JdbcStudentsManagerSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/SqlHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/jdbcStuManagerSystem/StudentsManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/listStuManagerSystem/ListStudent1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/listStuManagerSystem/ListStudentsManagerSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/prepareDemo/listStuManagerSystem/StudentsMangerList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/transactionTest1/dao/AccountDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/transactionTest1/domain/AccountMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/transactionTest1/service/AccountService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/transactionTest1/utils/YiRanJdbcUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/javaSEexam/ExamTest01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/nio/DemoServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/nio/NIOServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran/entity2/javaIO/nio/RequestHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity2/ipTest/IpTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity2/xmlWork/EbuildTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity2/xmlWork/XmlWork.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran3/entity2/xmlWork/XmlWork2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran4/exam/HasStatic2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran4/exam/StaticStuff1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran4/exam/Test3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yiran4/exam/Test4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/artifacts/test01_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/artifacts/test01_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__antlr_antlr_2_7_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__asm_asm_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__cglib_cglib_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__javassist_javassist_3_12_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__jstl_jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_2_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_hibernate_hibernate_core_3_6_9_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_3_6_9_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_springframework_spring_aop_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_springframework_spring_beans_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_springframework_spring_context_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_springframework_spring_core_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_springframework_spring_expression_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_springframework_spring_orm_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_springframework_spring_tx_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_springframework_spring_web_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/src/main/java/com/yiran/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/src/main/java/com/yiran/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/src/main/java/com/yiran/dao/impl/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/src/main/java/com/yiran/pojo/User.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/src/main/java/com/yiran/pojo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/src/main/java/com/yiran/service/LoginService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/src/main/java/com/yiran/service/impl/LoginServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/src/main/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/src/main/resources/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/src/main/resources/spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/src/main/webapp/WEB-INF/view/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/src/main/webapp/WEB-INF/view/login_success.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/classes/com/yiran/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/classes/com/yiran/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/classes/com/yiran/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/classes/com/yiran/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/classes/com/yiran/pojo/User.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/classes/com/yiran/service/LoginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/classes/com/yiran/service/impl/LoginServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/classes/spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/tomcat/logs/access_log.2018-09-30" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/tomcat/work/Tomcat/localhost/testSSH/org/apache/jsp/WEB_002dINF/view/login_005fsuccess_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/tomcat/work/Tomcat/localhost/testSSH/org/apache/jsp/WEB_002dINF/view/login_005fsuccess_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/tomcat/work/Tomcat/localhost/testSSH/org/apache/jsp/WEB_002dINF/view/login_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/tomcat/work/Tomcat/localhost/testSSH/org/apache/jsp/WEB_002dINF/view/login_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/tomcat/work/Tomcat/localhost/testSSH/org/apache/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/target/tomcat/work/Tomcat/localhost/testSSH/org/apache/jsp/index_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate/test01/test01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__com_alibaba_fastjson_1_2_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__io_netty_netty_all_4_0_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_1_1_33_Fork26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__io_openmessaging_openmessaging_api_0_1_0_alpha.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_client_4_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_common_4_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_logging_4_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_openmessaging_4_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_remoting_4_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_springframework_spring_aop_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_springframework_spring_beans_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_springframework_spring_context_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_springframework_spring_core_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_springframework_spring_expression_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_springframework_spring_orm_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_springframework_spring_tx_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_springframework_spring_web_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/roketmqTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/LinkedHashMapSample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/Scheduled/ScheduledMessageConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/Scheduled/ScheduledMessageProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/broadcasting/BroadcastConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/broadcasting/BroadcastProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/msgType/common/Consumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/msgType/common/Producer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/msgType/order/Consumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/msgType/order/Producer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/openMessaging/OMSProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/openMessaging/OMSPullConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/orderDemo/OrderedConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/orderDemo/OrderedProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/simpleDemo/async/AsyncProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/simpleDemo/consume/Consumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/simpleDemo/oneWay/OnewayProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/simpleDemo/sync/SyncProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/sql92/SQL92Consumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/main/java/com/yiran/sql92/SQL92Producer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/src/test/java/com/yiran/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../roketmqTest/target/test-classes/com/yiran/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBoot/demo1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBoot/demo1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBoot/demo1/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBoot/demo1/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBoot/demo1/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBoot/demo1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBoot/demo1/src/main/java/com/example/demo1/Demo1Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBoot/demo1/src/main/java/com/example/demo1/controller/GirlController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBoot/demo1/src/main/java/com/example/demo1/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBoot/demo1/src/main/java/com/example/demo1/dao/GirlRep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBoot/demo1/src/main/java/com/example/demo1/pojo/Girl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBoot/demo1/src/main/java/com/example/demo1/pojo/GirlProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBoot/demo1/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBoot/demo1/src/test/java/com/example/demo1/Demo1ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/nio/DemoServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/nio/NIOServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran/entity2/javaIO/nio/RequestHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/ipTest/IpTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/xmlWork/EbuildTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/xmlWork/XmlWork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran3/entity2/xmlWork/XmlWork2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran4/exam/HasStatic2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran4/exam/StaticStuff1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran4/exam/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/com/yiran4/exam/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/mybatis_spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/mybatis_spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq/rabbitmqTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq/rabbitmqTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis/redisTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../redis/redisTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm/ssm-parent/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-parent/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm/ssm-parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-parent/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -613,12 +59,105 @@
     <favorites_list name="java基础day01" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/geekDemo/jvmDemo1/TestAPI4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/geekDemo/Demo_07.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/lockDemo/SpinLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/lockDemo/CLHLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-153">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="30" />
+              <folding>
+                <element signature="e#418#601#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/lockDemo/CLHLock2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/lockDemo/MCSLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/geekDemo/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/geekDemo/overrideAndHide/Animal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#91#92#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yiran3/geekDemo/overrideAndHide/Cat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -647,16 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/resultSetHandlerDemo/Product.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/QueryRunnerDemo01.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/resultSetHandlerDemo/BeanHandlerDemo1.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/Product.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/BeanFunctionTest01.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/BeanHandlerDemo1.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/ScalarHanderDemo.java" />
-        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/BeanHandlerDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/BeanListHandlerDemo.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/MapHandlerDemo.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/MapListHandlerDemo.java" />
         <option value="$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/ArrayHandlerDemo.java" />
@@ -698,6 +227,16 @@
         <option value="$PROJECT_DIR$/src/com/yiran4/exam/HasStatic2.java" />
         <option value="$PROJECT_DIR$/src/com/yiran4/exam/Test3.java" />
         <option value="$PROJECT_DIR$/src/com/yiran4/exam/Test4.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/test111.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/geekDemo/jvmDemo1/TestAPI4.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/geekDemo/overrideAndHide/Cat.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/geekDemo/overrideAndHide/Animal.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/geekDemo/test.html" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/geekDemo/Demo_07.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/lockDemo/SpinLock.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/lockDemo/CLHLock.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/lockDemo/CLHLock2.java" />
+        <option value="$PROJECT_DIR$/src/com/yiran3/lockDemo/MCSLock.java" />
       </list>
     </option>
   </component>
@@ -707,11 +246,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="302" />
-    <option name="y" value="84" />
-    <option name="width" value="1354" />
-    <option name="height" value="952" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="295" />
+    <option name="y" value="110" />
+    <option name="width" value="1617" />
+    <option name="height" value="986" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -751,15 +290,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yiran3" type="462c0819:PsiDirectoryNode" />
-              <item name="entity1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasisJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yiran3" type="462c0819:PsiDirectoryNode" />
-              <item name="entity2" type="462c0819:PsiDirectoryNode" />
+              <item name="lockDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java基础day01" type="b2602c69:ProjectViewProjectNode" />
@@ -773,9 +304,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562766026437" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -805,20 +338,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test4">
+  <component name="RunManager" selected="JavaScript Debug.test.html">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EbuildTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yiran3.entity2.xmlWork.EbuildTest" />
+    <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yiran3.geekDemo.overrideAndHide.Cat" />
       <module name="JavaBasis" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yiran3.entity2.xmlWork.*" />
+          <option name="PATTERN" value="com.yiran3.geekDemo.overrideAndHide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -826,27 +359,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HasStatic2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yiran4.exam.HasStatic2" />
+    <configuration name="Demo_07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yiran3.geekDemo.Demo_07" />
       <module name="JavaBasis" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yiran4.exam.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticStuff1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yiran4.exam.StaticStuff1" />
-      <module name="JavaBasis" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yiran4.exam.*" />
+          <option name="PATTERN" value="com.yiran3.geekDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -894,6 +413,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/java基础day01/JavaBasis/com/yiran3/geekDemo/test.html">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="java基础day01" />
       <option name="VM_PARAMETERS" />
@@ -925,19 +447,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.EbuildTest" />
-      <item itemvalue="Application.StaticStuff1" />
-      <item itemvalue="Application.HasStatic2" />
       <item itemvalue="Application.Test3" />
       <item itemvalue="Application.Test4" />
+      <item itemvalue="Application.Cat" />
+      <item itemvalue="Application.Demo_07" />
+      <item itemvalue="JavaScript Debug.test.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.test.html" />
+        <item itemvalue="Application.Demo_07" />
+        <item itemvalue="Application.Cat" />
         <item itemvalue="Application.Test4" />
         <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.HasStatic2" />
-        <item itemvalue="Application.StaticStuff1" />
-        <item itemvalue="Application.EbuildTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1025,28 +547,16 @@
       <workItem from="1545283800102" duration="7632000" />
       <workItem from="1545361042916" duration="6693000" />
       <workItem from="1545620865977" duration="61000" />
-      <workItem from="1548490410197" duration="1424000" />
-    </task>
-    <task id="LOCAL-00108" summary="序列化与反序列化初步学习，and序列化版本号了解">
-      <created>1526995562977</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1526995562978</updated>
-    </task>
-    <task id="LOCAL-00109" summary="递归删除不为空的文件夹">
-      <created>1527038239739</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1527038239739</updated>
-    </task>
-    <task id="LOCAL-00110" summary="打印流了解">
-      <created>1527054518957</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1527054518957</updated>
+      <workItem from="1548490410197" duration="1432000" />
+      <workItem from="1548492690199" duration="311000" />
+      <workItem from="1552743920958" duration="892000" />
+      <workItem from="1552797380496" duration="20000" />
+      <workItem from="1558156213580" duration="4299000" />
+      <workItem from="1558871683139" duration="3060000" />
+      <workItem from="1559649225294" duration="3391000" />
+      <workItem from="1561189696155" duration="1389000" />
+      <workItem from="1562152271835" duration="33000" />
+      <workItem from="1562590631159" duration="7140000" />
     </task>
     <task id="LOCAL-00111" summary="FileUtils工具类，第三方jar了解">
       <created>1527061446627</created>
@@ -1370,7 +880,28 @@
       <option name="project" value="LOCAL" />
       <updated>1529672247508</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="测试">
+      <created>1548492799407</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1548492799407</updated>
+    </task>
+    <task id="LOCAL-00158" summary="test">
+      <created>1548492880297</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1548492880297</updated>
+    </task>
+    <task id="LOCAL-00159" summary="test">
+      <created>1552744193956</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1552744193957</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1406,7 +937,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1030482000" />
+    <option name="totallyTimeSpent" value="1051025000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1418,30 +949,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="244" y="68" width="1092" height="768" extended-state="0" />
+    <frame x="238" y="89" width="1304" height="795" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49460918" visible="true" weight="0.31431335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49460918" visible="true" weight="0.1589085" />
       <window_info id="Structure" order="1" weight="0.24978614" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.5053908" side_tool="true" weight="0.2662116" />
       <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.398773" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.5085324" weight="0.3190184" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.50759876" weight="0.3177305" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32736573" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.49146757" side_tool="true" weight="0.3196931" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32704404" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.49354595" side_tool="true" weight="0.3177305" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.29671898" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.2634271" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49658704" weight="0.32638037" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49620062" weight="0.3252841" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1451,6 +981,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1497,8 +1028,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="服务器等待客户端连接补充" />
-    <MESSAGE value="Properties一般方法" />
     <MESSAGE value="Properties加深印象" />
     <MESSAGE value="BeanUtils工具类初步使用" />
     <MESSAGE value="xml的两种约束与xml了解" />
@@ -1522,133 +1051,15 @@
     <MESSAGE value="ScalarHandler 修正" />
     <MESSAGE value="JavaSE练习考试" />
     <MESSAGE value="JavaSE练习考试更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaSE练习考试更新" />
+    <MESSAGE value="测试" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/transactionTest1/utils/YiRanJdbcUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/transactionTest1/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="69" column="36" lean-forward="true" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/MapHandlerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" column="61" lean-forward="true" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/KeyedHandlerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/commons-dbutils-1.6.jar!/org/apache/commons/dbutils/handlers/ScalarHandler.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/ScalarHandlerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/dbUtilsDemo/queryDemo/MapListHandlerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo4/ServerDemo4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/jdbcDemo/JdbcDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo3/ClientDemo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/tcpAndUdp/tcp/tcpDemo3/ServerDemo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/threadClass/workEx2/Ex2FibonacciB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/workEx3/Ex3RunnerA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/TestJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/MainThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/LiftOff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/FixedThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/thinkThread/useExecutor/SingleThreadExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1735,13 +1146,7 @@
       </provider>
     </entry>
     <entry file="jar://C:/ruanjian/java/jdk-8/src.zip!/java/net/InetAddress.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/ipTest/IpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/ipTest/IpTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/yiran3/javaSEexam/ExamTest01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="619">
@@ -1750,89 +1155,149 @@
       </provider>
     </entry>
     <entry file="jar://C:/ruanjian/java/jdk-8/src.zip!/java/util/concurrent/Executors.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/nio/DemoServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/nio/RequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/nio/NIOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/xmlWork/XmlWork2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/xmlWork/XmlWork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="118" column="52" lean-forward="true" selection-start-line="118" selection-start-column="52" selection-end-line="118" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/nio/DemoServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/nio/RequestHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yiran/entity2/javaIO/nio/NIOServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/xmlWork/XmlWork2.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/xmlWork/XmlWork.java" />
+    <entry file="file://$PROJECT_DIR$/abc.xml" />
     <entry file="file://H:/工作资料/真题集/nettest/netTest/src/netTest/EbuildTest.java" />
     <entry file="file://$USER_HOME$/Desktop/t1.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/XmlWork (2).java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/XmlWork2.java" />
     <entry file="file://$USER_HOME$/Desktop/t2.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/xmlWork/EbuildTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity2/xmlWork/EbuildTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yiran4/exam/StaticStuff1.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yiran4/exam/HasStatic2.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yiran4/exam/Test3.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yiran4/exam/Test4.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo1/ThreadPerson1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran4/exam/StaticStuff1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/waitNotify/Demo1/ThreadGetOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="48">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran4/exam/HasStatic2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/jdkUtils/countDownLatch/FirstBatchWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="221">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran4/exam/Test3.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/test111.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/D/Java/jdk1.8.0_191/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="457" column="47" lean-forward="true" selection-start-line="457" selection-start-column="47" selection-end-line="457" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/ticket/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/entity1/javaThread/ticket/TicketDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/geekDemo/jvmDemo1/TestAPI4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/geekDemo/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/geekDemo/overrideAndHide/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#82#83#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yiran4/exam/Test4.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/geekDemo/overrideAndHide/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="255">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/geekDemo/Demo_07.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/lockDemo/SpinLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/lockDemo/CLHLock2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/lockDemo/CLHLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#418#601#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/D/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicReferenceFieldUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="187" column="13" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yiran3/lockDemo/MCSLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
         </state>
       </provider>
     </entry>

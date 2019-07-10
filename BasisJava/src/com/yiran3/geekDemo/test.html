@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script
+            src="http://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous"></script>
+    <script type = "text/javascript">
+        $(document).ready(function(){
+            var str = 'aaa\nbbb\nccc\nddd';
+            console.log(JSON.stringify(str));
+            console.log(str);
+            $("#text").text(str);
+        });
+        function f() {
+            console.log($("#text").val());
+        }
+    </script>
+</head>
+<body>
+<form action="">
+    <textarea id="text">
+
+    </textarea>
+    <button type="button" onclick="f()">按钮</button>
+</form>
+
+</body>
+</html>
