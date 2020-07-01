@@ -27,7 +27,7 @@
         <jstl-version>1.2</jstl-version>
         <druid-version>1.1.10</druid-version>
         <junit-version>4.10</junit-version>
-        <mysql-version>5.1.6</mysql-version>
+        <mysql-version>8.0.16</mysql-version>
     </properties>
 
     <!-- 公用依赖定义 -->
